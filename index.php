@@ -5,16 +5,21 @@
 <main id="content">
 
     <section class="header-style-1 animated-row">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row align-items-center">
-                <div class="col-12 col-lg-5 offset-lg-2 text-right order-lg-2 mt-5 mb-5 animate" data-animate="fadeInRight">
-                    <img src="assets/img/main-image.jpg" alt="" />
+                <div class="col-12 col-lg-5 offset-lg-2 text-right order-lg-2 mt-5  mb-5 animate" data-animate="fadeInRight">
+                    <img src="assets/img/new-images/mobile.png" alt="" />
                 </div>
                 <div class="col-12 col-lg-5 order-lg-1 animate" data-animate="fadeInUp">
                     <hgroup class="header__title">
                         <h1>Make Customer Retention Your Intention</h1>
                         <!--h3>Lorem ipsum Dolor</h3-->
                     </hgroup>
+                    <p class="header__desc">
+                        Lorem Ipsum is simply dummy text
+                        of the printing and typesetting
+                        industry.
+                    </p>
                     <p class="header__description"><a href="#" class="button">Schedule a Demo</a></p>
                 </div>
             </div>
