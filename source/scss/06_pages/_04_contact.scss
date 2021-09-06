@@ -1,0 +1,27 @@
+.contact-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  background: url(../img/contact-bg.png) left center no-repeat;
+}
+
+.technical-section {
+  padding: 200px 50px;
+  background: url(../img/technical-bg.png) right center no-repeat;
+  text-align: right;
+
+  h5 {
+    margin-bottom: 30px;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #000;
+  }
+
+  p {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #686868;
+  }
+}

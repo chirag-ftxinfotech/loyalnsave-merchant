@@ -1,0 +1,48 @@
+//////// Custom Colors
+$color-black: #000000;
+$color-white: #ffffff;
+$color-overlay1: rgba(236,128,27,0.9);
+$color-overlay2: rgba(236,116,4,0.9);
+
+$bg-light1: #efefef;
+$bg-light2: #e5e5e5;
+$bg-btn-hover: #505050;
+
+$border-link: #a0a0a0;
+$border-reviews: #dcdcdc;
+
+//////// Typography
+
+$font-family-roboto: 'Roboto', sans-serif;
+
+$h1-size: 56px;
+$h2-size: 36px;
+$h3-size: 22px;
+
+$h1-size-tablet: 40px;
+$h2-size-tablet: 30px;
+$h3-size-tablet: 20px;
+
+$h1-size-mobile: 30px;
+$h2-size-mobile: 28px;
+$h3-size-mobile: 20px;
+
+$h1-line-height: 68px;
+$h2-line-height: 36px;
+$h3-line-height: 28px;
+
+$h1-line-height-tablet: 46px;
+$h2-line-height-tablet: 36px;
+$h3-line-height-tablet: 26px;
+
+$h1-line-height-mobile: 36px;
+$h2-line-height-mobile: 34px;
+$h3-line-height-mobile: 26px;
+
+
+// Grid columns
+//
+// Set the number of columns and specify the width of the gutters.
+
+$grid-columns: 12;
+$grid-gutter-width: 40px;

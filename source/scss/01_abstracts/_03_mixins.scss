@@ -1,0 +1,97 @@
+//FONTS
+
+@mixin clearfix {
+  &::after {
+    clear: both;
+    content: "";
+    display: block;
+  }
+}
+
+
+@mixin placeholder-text($color){
+	&::-webkit-input-placeholder {
+	   color: $color; opacity: 1;
+	}
+	&:-moz-placeholder { /* Firefox 18- */
+	color: $color; opacity: 1;
+	}
+	&::-moz-placeholder {  /* Firefox 19+ */
+	   color: $color; opacity: 1;
+	}
+	&:-ms-input-placeholder {  
+	   color: $color; opacity: 1;
+	}
+}
+
+$grid-bp: (
+       xs: 0,
+       sm: 576px,
+       md: 768px,
+       lg: 992px,
+       xl: 1200px,
+	   xxl: 1400px
+ ) !default;
+
+@mixin media($breakpoint) {
+    @if $breakpoint == xs {
+		@media( max-width: map-get($grid-bp , sm) - 1px ) { @content };
+	}
+	@if $breakpoint == sm {
+		@media( max-width: map-get($grid-bp , md) - 1px ) { @content };
+	}	
+	@if $breakpoint == md {
+		@media( max-width: map-get($grid-bp , lg) - 1px ) { @content };
+	}
+	@if $breakpoint == lg {
+		@media( max-width: map-get($grid-bp , xl) - 1px ) { @content };
+	}
+	@if $breakpoint == xl {
+		@media( max-width: map-get($grid-bp , xxl) - 1px ) { @content };
+	}
+}
+
+
+@mixin media_min($breakpoint) {
+	@if $breakpoint == sm {
+		@media( min-width: map-get($grid-breakpoints , sm) ) { @content };
+	}	
+	@if $breakpoint == md {
+		@media( min-width: map-get($grid-breakpoints , md) ) { @content };
+	}
+	@if $breakpoint == lg {
+		@media( min-width: map-get($grid-breakpoints , lg) ) { @content };
+	}
+	@if $breakpoint == xl {
+		@media( min-width: map-get($grid-breakpoints , xl) ) { @content };
+	}
+	@if $breakpoint == xxl {
+		@media( min-width: map-get($grid-bp , xxl) ) { @content };
+	}
+}
+
+@mixin border-radius($r) {
+  -webkit-border-radius: $r;
+  border-radius: $r;
+}
+
+@mixin gradient($start, $end) {
+  background: $start;
+  background: -moz-linear-gradient(top,  $start 0%, $end 100%);
+  background: -webkit-linear-gradient(top,  $start 0%,$end 100%);
+  background: linear-gradient(to bottom,  $start 0%,$end 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$start', endColorstr='$end',GradientType=0 );
+}
+
+@mixin gradientv($start, $end) {
+	background: $start;
+    background: -moz-linear-gradient(left,  $start 0%, $end 100%);
+    background: -webkit-linear-gradient(left,  $start 0%,$end 100%);
+    background: linear-gradient(to right,  $start 0%,$end 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$start', endColorstr='$end',GradientType=1 );
+}
+
+@mixin animateEaseIn($time) {
+	-webkit-transition: all $time ease-in-out;
+	transition: all $time ease-in-out;
+}

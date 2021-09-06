@@ -1,0 +1,48 @@
+/* 
+ * Body Font Style 
+ */
+body { 
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-family: $font-family-roboto;
+	font-size: 15px; line-height: 1.3;
+	letter-spacing: .25px;
+}
+
+/* 
+ * Main Font Sizes 
+ */
+
+h1, .h1,
+h2, .h2,
+h3, .h3 {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-family: $font-family-roboto;
+	font-weight: 700;
+}
+p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+/*
+ * list Style
+ */
+
+ul,
+ol {
+	list-style: none;
+}
+
+ol { 
+	list-style-type: upper-roman;
+	list-style-position: inside;
+}
+
+a:hover,
+a:focus,
+a:active{
+	text-decoration: none;
+	outline: none;
+}
