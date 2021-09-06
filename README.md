@@ -1,2 +1,2 @@
 # loyalnsave-merchant
-Loyal~N~Save Merchant Projects
+Loyal-N-Save Merchant Projects
