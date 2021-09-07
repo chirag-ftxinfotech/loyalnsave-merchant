@@ -15,7 +15,7 @@
   }
 
   @include media_min(xxl){
-    padding-top: 90px;
+    padding-top: 250px;
     padding-bottom: 100px;
   }
 
@@ -29,7 +29,7 @@
       background: url(../img/about-bg.png) center top no-repeat;
       background-size: 150%;
       position: absolute;
-      top: -149px;
+      top: 0;
       left: 0;
       right: 0;
       height: 100%;
@@ -38,7 +38,7 @@
         background-size: 110%;
       }
       @include media_min(lg){
-        background-size: 100%;        
+        background-size: 100%;
       }
       @include media(xs){
         background-size: 300%;
@@ -75,7 +75,6 @@
 }
 
 .about-section {
-  overflow: hidden;
 
   .facts-content {
     padding-top: 25px;
@@ -137,10 +136,6 @@
     &:nth-child(4n) {
       animation-delay: 0.20s;
     }
-	  
-	@include media(lg){
-		margin-bottom: 69px;
-	}
 
     @include media_min(md){
       width: 50%;
@@ -154,10 +149,7 @@
       transform: translateY(-10%);
 
       .facts-img {
-
-        span {
-          background: #9c2fe9;
-        }
+        background: #9c2fe9;
 
         svg {
           color: #fff;
@@ -179,41 +171,29 @@
     display: block;
     width: 175px;
     height: 175px;
-    text-align: center;    
+    line-height: 175px;    
+    text-align: center;
+    padding: 42px;
     margin: 0 auto;
-    position: relative;        
-    
-    span {
-      position: relative;
-      z-index: 1;
-      background: #fff;
-      padding: 42px;
-      display: block;
-      @include border-radius(50%);
-    }
+    position: relative;
+    background: #fff;
+    @include border-radius(50%);
 
     @include media(md){
       width: 100px;
       height: 100px;
-      
-      span {
-        padding: 22px;
-      }
+      line-height: 100px; 
+      padding: 22px;
     }
 
     img,
     svg {
-      width: 90px;
-      height: 90px;
+      width: 100%;
+      height: 100%;
       position: relative;
       z-index: 2;
       color: #9c2fe9;
       fill: currentColor;
-      
-      @include media(md){
-        width: 56px;
-        height: 56px;
-      }
     }
 
     &:before,
@@ -228,13 +208,13 @@
       bottom: 0;      
       background: #fff;
       opacity: 0.16;
-      transform: scale(1);
+      transform: scale(1.4);
       @include border-radius(50%);      
       animation: sonarWave 2s linear infinite;
     }
 
     &:before {
-      transform: scale(1);
+      transform: scale(1.8);
       animation: sonarWave2 2s linear infinite;
     }
 
@@ -302,10 +282,6 @@
     @include media_min(md){
       flex-direction: row;     
     }
-	  
-	   @include media(md){
-      	flex-direction: column;   
-    }
   }
 
   .client-item__desc {
@@ -317,10 +293,6 @@
       flex-basis: 1;
       order: 1;
     }
-	  
-	@include media(md){
-		padding-right: 0;
-	}
 
     h4 {
       margin: 0;
@@ -328,8 +300,6 @@
       font-size: 24px;
       font-weight: 500;
       color: #000;
-		
-		
     }
 
     p {
@@ -338,10 +308,6 @@
       font-size: 24px;
       font-weight: 300;
       color: #5e5a71;
-		
-	   @include media(md){
-			    font-size: 16px;  
-		}
 
       &.author {
         padding: 0 0 20px;
@@ -394,10 +360,6 @@
       flex-basis: 550px;
       order: 2;
     }
-	  
-	  @include media(md){
-		flex-basis: 425px;
-	}
   }
 }
 

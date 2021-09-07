@@ -73,17 +73,9 @@
   flex-wrap: wrap;
 
   li {
-    display: none;
-    opacity: 0;
     padding: 20px;
     width: 100%;
     flex-basis: 100%;
-    @include animateEaseIn(.3s);
-
-    &.show {
-      display: list-item;
-      opacity: 1;
-    }
 
     .blog-item {
       background: #fff;

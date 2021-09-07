@@ -1,99 +1,105 @@
-var gulp = require('gulp');
-var sass = require('gulp-sass');
-var autoprefixer = require('gulp-autoprefixer');
-var sourcemaps = require('gulp-sourcemaps');
+// Initialize modules
+// Importing specific gulp API functions lets us write them below as series() instead of gulp.series()
+const { src, dest, watch, series, parallel } = require('gulp');
+// Importing all the Gulp-related packages we want to use
+const sass = require('gulp-sass')(require('sass'));
+const concat = require('gulp-concat');
+const terser = require('gulp-terser');
+const postcss = require('gulp-postcss');
+const autoprefixer = require('autoprefixer');
+const cssnano = require('cssnano');
+const replace = require('gulp-replace');
+const browsersync = require('browser-sync').create();
 
-var jsImport = require('gulp-js-import');
-var uglify = require('gulp-uglify');
-var concat = require('gulp-concat');
+// File paths
+const files = {
+	scssPath: 'source/scss/**/*.scss',
+	jsPath: 'source/js/**/*.js',
+};
 
-var notify = require('gulp-notify');
-var rename = require('gulp-rename');
-var replace = require('gulp-replace');
-var runSequence = require('run-sequence');
+// Sass task: compiles the style.scss file into style.css
+function scssTask() {
+	return src(files.scssPath, { sourcemaps: true }) // set source and turn on sourcemaps
+		.pipe(sass()) // compile SCSS to CSS
+		.pipe(postcss([autoprefixer(), cssnano()])) // PostCSS plugins
+		.pipe(dest('assets/css', { sourcemaps: '.' })); // put final CSS in assets folder with sourcemap
+}
 
-var gulps = require("gulp-series");
+// JS task: concatenates and uglifies JS files to script.js
+function jsTask() {
+	return src(
+		[
+			files.jsPath,
+			//,'!' + 'includes/js/jquery.min.js', // to exclude any specific files
+		],
+		{ sourcemaps: true }
+	)
+		.pipe(concat('all.js'))
+		.pipe(terser())
+		.pipe(dest('assets/js', { sourcemaps: '.' }));
+}
 
+// Cachebust
+/* function cacheBustTask() {
+	var cbString = new Date().getTime();
+	return src(['index.html'])
+		.pipe(replace(/cb=\d+/g, 'cb=' + cbString))
+		.pipe(dest('.'));
+} */
 
+// Browsersync to spin up a local server
+function browserSyncServe(cb) {
+	// initializes browsersync server
+	browsersync.init({
+		server: {
+			baseDir: '.',
+		},
+		notify: {
+			styles: {
+				top: 'auto',
+				bottom: '0',
+			},
+		},
+	});
+	cb();
+}
+function browserSyncReload(cb) {
+	// reloads browsersync server
+	browsersync.reload();
+	cb();
+}
 
-var styleSRC = 'source/scss/style.scss';
-var styleURL = 'assets/css';
-var mapURL = '';
+// Watch task: watch SCSS and JS files for changes
+// If any change, run scss and js tasks simultaneously
+function watchTask() {
+	watch(
+		[files.scssPath, files.jsPath],
+		{ interval: 1000, usePolling: true }, //Makes docker work
+		series(parallel(scssTask, jsTask))
+	);
+}
 
+// Browsersync Watch task
+// Watch HTML file for change and reload browsersync server
+// watch SCSS and JS files for changes, run scss and js tasks simultaneously and update browsersync
+function bsWatchTask() {
+	//watch('index.html', browserSyncReload);
+	watch(
+		[files.scssPath, files.jsPath],
+		{ interval: 1000, usePolling: true }, //Makes docker work
+		series(parallel(scssTask, jsTask), browserSyncReload)
+	);
+}
 
-//-------------------------------------                                  
-// Styles for Development
-//
-gulp.task('styles-dev', function () {
-    gulp.src([styleSRC])
-        .pipe(sourcemaps.init())
-        .pipe(sass({
-            errLogToConsole: true,
-            outputStyle: 'expanded'
-        }))
-        .on('error', console.error.bind(console))
-        .pipe(autoprefixer(['> 0.000001%']))
-        .pipe(sourcemaps.write(mapURL))
-        .pipe(gulp.dest(styleURL))
-        .pipe(notify({
-            message: 'SCSS COMPILED',
-            onLast: true
-        }))
-});
+// Export the default Gulp task so it can be run
+// Runs the scss and js tasks simultaneously
+// then runs cacheBust, then watch task
+exports.default = series(parallel(scssTask, jsTask), watchTask);
 
-
-//-------------------------------------                                  
-// Styles for Production          
-//
-gulp.task('styles-prod', function () {
-    gulp.src([styleSRC])
-        .pipe(sass({
-            errLogToConsole: true,
-            outputStyle: 'compressed'
-        }))
-        .on('error', console.error.bind(console))
-        .pipe(autoprefixer(['> 0.000001%']))
-        .pipe(rename({ suffix: '.min' }))
-        .pipe(sourcemaps.write(mapURL))
-        .pipe(gulp.dest(styleURL))
-        .pipe(notify({
-            message: 'SCSS COMPILED PROD',
-            onLast: true
-        }))
-});
-
-//-------------------------------------                                  
-// Concatenate JS for Development
-//
-gulp.task('scripts-dev', function () {
-    return gulp.src('source/js/main.js')
-        .pipe(jsImport({ hideConsole: true }))
-        .pipe(concat('app.js'))
-        .pipe(gulp.dest('assets/js'))
-});
-
-//-------------------------------------                                  
-// Concatenate & Minify JS for Production
-//
-gulp.task('scripts-prod', function () {
-    return gulp.src('assets/js/app.js')
-        .pipe(concat('app.js'))
-        .pipe(rename('app.min.js'))
-        .pipe(uglify())
-        .pipe(gulp.dest('assets/js'))
-});
-
-//-------------------------------------                                  
-// Watch
-//
-gulp.task('watch', function () {
-
-    // Watch .scss files
-    gulp.watch('source/scss/**/*.scss', ['styles-dev']);
-
-    // Watch .js files
-    gulp.watch('source/js/**/*.js', ['scripts-dev']);
-
-});
-
-gulp.task('build', ['watch', 'styles-prod', 'scripts-prod']);
+// Runs all of the above but also spins up a local Browsersync server
+// Run by typing in "gulp bs" on the command line
+exports.bs = series(
+	parallel(scssTask, jsTask),
+	browserSyncServe,
+	bsWatchTask
+);
