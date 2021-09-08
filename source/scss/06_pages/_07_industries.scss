@@ -153,7 +153,7 @@
       width: 42px;
       height: 30px;
       text-indent: -10000px;
-      background: url(../../images/merchant_website/industries-arrow.png) left top no-repeat;
+      background: url(../img/industries-arrow.png) left top no-repeat;
     }
 
     .industries-item:hover .links {
@@ -296,7 +296,7 @@
 
   &:after {
       content: '';
-      background: url(../../images/merchant_website/api-bg1.png) center top no-repeat;
+      background: url(../img/api-bg1.png) center top no-repeat;
       background-size: 100%;
       position: absolute;
       top: 0;
@@ -308,7 +308,7 @@
 
   &:before {
     content: '';
-    background: url(../../images/merchant_website/api-bg2.png) center bottom no-repeat;
+    background: url(../img/api-bg2.png) center bottom no-repeat;
     background-size: 100%;
     position: absolute;
     bottom: -1px;
@@ -336,7 +336,7 @@
 	}
 	.industries-steps:before {
 		content: '';
-		background: url(../../images/merchant_website/svg/footer-wave-3.svg) center top no-repeat;
+		background: url(../img/svg/footer-wave-3.svg) center top no-repeat;
 		background-size: 100%;
 		position: absolute;
 		top: -1px;
@@ -482,19 +482,26 @@
         display: block;
         text-align: center;
         margin: 0 auto;
-        padding: 25px;
-        background: #fff;
         @include border-radius(50%);
-		
-		img,
-		svg {
-		  width: 100%;
-		  height: 100%;
-		  position: relative;
-		  z-index: 2;
-		  color: #9c2fe9;
-		  fill: currentColor;
-		}
+
+        span {
+          position: relative;
+          z-index: 1;
+          background: #fff;
+          padding: 25px;
+          display: block;
+          @include border-radius(50%);
+        }
+
+        img,
+        svg {
+          width: 50px;
+          height: 50px;
+          position: relative;
+          z-index: 2;
+          color: #9c2fe9;
+          fill: currentColor;
+        }
 
         &:before,
         &:after {

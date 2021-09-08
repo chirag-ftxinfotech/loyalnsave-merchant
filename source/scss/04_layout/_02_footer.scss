@@ -72,7 +72,7 @@ textarea.form-control {
             padding: 0;
             width: 48px;
             height: 48px;
-            background: url(../../images/merchant_website/search.png) center center no-repeat;
+            background: url(../img/search.png) center center no-repeat;
             box-shadow: none;
             text-indent: -100000px;
         }
@@ -100,7 +100,7 @@ footer {
 
     &:before {
         content: '';
-        background: url(../../images/merchant_website/svg/fshape.svg) center top no-repeat;
+        background: url(../img/svg/fshape.svg) center top no-repeat;
         background-size: 100%;
         position: absolute;
         top: -1px;
@@ -111,13 +111,13 @@ footer {
     }
 
     &.fcontact:before {
-        background: url(../../images/merchant_website/svg/footer-wave-3.svg) center top no-repeat;
+        background: url(../img/svg/footer-wave-3.svg) center top no-repeat;
     }
 
 
     &:after {
         content: '';
-        background: url(../../images/merchant_website/svg/fwave.svg) center bottom no-repeat;
+        background: url(../img/svg/fwave.svg) center bottom no-repeat;
         background-size: 100%;
         position: absolute;
         bottom: 0;
@@ -139,10 +139,10 @@ footer {
 	   }
     }
     .copyright {
-        font-size: 14px;
-        line-height: 1.4;        
-        color: rgba(0,0,0,.6);
-		
+		font-size: 12px;
+		line-height: 1.4;
+		color: rgba(0, 0, 0, 0.4);
+
 		@include media(md){
 			text-align: center;
 			font-size: 12px;
@@ -150,7 +150,7 @@ footer {
 		}
 
         a {
-            color: rgba(0,0,0,.6);
+            color: rgba(255, 255, 255, 0.5);
 
             &:hover {
                 color: #000;
@@ -321,7 +321,7 @@ footer {
     z-index: 98;
     bottom: 20px;
     right: 20px;
-    background: url(../../images/merchant_website/chat.png) center center no-repeat #ffffff;
+    background: url(../img/chat.png) center center no-repeat #ffffff;
     width: 75px;
     height: 75px;
     text-indent: -10000px;
