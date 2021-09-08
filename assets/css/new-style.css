@@ -508,7 +508,7 @@
     position: relative;
     z-index: 1;
   }
-  
+
   .feature-section .feature-items .feature-item .thumb {
     display: block;
     width: 110px;
@@ -782,6 +782,12 @@
     margin-top: 100px;
     padding-bottom:100px;
 }
+section{
+  padding-top:100px;
+}
+.container.container-large {
+  max-width: 1600px;
+}
 .bubble {
     position: relative;
     font-size: 14px;
@@ -948,4 +954,13 @@
 }
 .bubble.bubble-bottom-left:hover:after{
   border-top-color:#32bfea ;
+}
+.ce-list{
+  list-style-type:none;
+}
+.ce-list-no{
+  background: -webkit-linear-gradient( #7c73f2 , #e877ae );
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 5px transparent;
+  color: #ffffff;
 }

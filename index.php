@@ -229,22 +229,29 @@
 
     <section class="animated-row  ">
        
-            <div class="container">
+            <div class="container container-large">
                 <div class="row align-items-center">
                     <div class="col-md-6 header-style-2 section-two-left animate" >
-                                <h3>Lorem Ipsum</h3>
-                                <p>Lorem Ipsum is simply dummy text of the printing
-                                    and typesetting industry. Lorem Ipsum has been the
-                                    industry's standard dummy text ever since the 1500
-                                    when an unknown printer took a galley of type and
-                                    scrambled it to make a type specimen book. </p>
-                                <p>
+                        <h3>Customer Experience</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing
+                            and typesetting industry. Lorem Ipsum has been the
+                            industry's standard dummy text ever since the 1500
+                            when an unknown printer took a galley of type and
+                            scrambled it to make a type specimen book. </p>
+                        <p>
 
-                                    Lorem Ipsum is simply dummy text of the printing
-                                    and typesetting industry. Lorem Ipsum has been
-                                    the industry'.</p>
-
-                                    <a href="#" class="button">Start Earning Today!</a>
+                            Lorem Ipsum is simply dummy text of the printing
+                            and typesetting industry. Lorem Ipsum has been
+                            the industry'.</p>
+                        <ol class="ce-list">
+                            <li>
+                                
+                                <span class="ce-list-no">01</span>
+                                <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has been the industry's standard dummy.</span>
+                            </li>
+                        </ol>
+                                    
 
                     </div>
                     <div class="col-md-6 section-two-right animate" >
