@@ -1,22 +1,16 @@
 .about-section {
   position: relative;
-  padding-top: 25px;
-  padding-bottom: 50px;
-  @include gradientv(#c7afe3, #e788de);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /*@include gradientv(#c7afe3, #e788de);*/
 
   @include media_min(md){
     padding-top: 50px;
-    padding-bottom: 100px;
-  }
-
-  @include media_min(xl){
-    padding-top: 50px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
   }
 
   @include media_min(xxl){
     padding-top: 90px;
-    padding-bottom: 100px;
   }
 
   .container {
@@ -24,30 +18,31 @@
     z-index: 2;
   }
 
-  &:after {
+  /*&:after {
       content: '';
-      background: url(../img/about-bg.png) center top no-repeat;
+      background: url(../../images/merchant_website/about-bg.png) center top no-repeat;
       background-size: 150%;
       position: absolute;
       top: -149px;
       left: 0;
       right: 0;
       height: 100%;
-      z-index: 1;      
+      z-index: 1;
       @include media_min(md){
         background-size: 110%;
       }
       @include media_min(lg){
-        background-size: 100%;        
+        background-size: 100%;
       }
       @include media(xs){
         background-size: 300%;
       }
-  }
+  }*/
 
   .about-thumb {
     position: relative;
-    
+    text-align: center;
+
     img {
       position: relative;
       z-index: 2;
@@ -56,50 +51,77 @@
     .scene {
       position: absolute;
       right: 0;
-      top: -20%;
-      max-width: 1200px;
-      height: 800px;
+      top: 50%;
+      left: 50%;
+      width: 150%;
+      transform: translateY(-50%) translateX(-50%);
+      display: none;
+
+      @include media_min(md){
+        display: block;
+      }
     }
   }
 }
 
-.about-content {
-  padding-bottom: 25px;
+.facts-section {
+  padding-top: 50%;
+  padding-bottom: 20px;
+  position: relative;
+  @include gradientv(#c7afe3, #e788de);
+
+  @include media_min(sm){
+    padding-top: 40%;
+  }
 
   @include media_min(md){
-    padding-bottom: 150px;
+    padding-bottom: 20px;
   }
+  @include media_min(lg){
+    padding-bottom: 0px;
+  }
+
   @include media_min(xl){
-    padding-bottom: 350px;
+    padding-top: 37%;
+    padding-bottom: 70px;
+  }
+
+  .container {
+    position: relative;
+    z-index: 2;
+  }
+
+  &:after {
+    content: '';
+    background: url(../../images/merchant_website/about-bg-2.png) center top no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    z-index: 1;
   }
 }
 
 .about-section {
   overflow: hidden;
+}
 
-  .facts-content {
-    padding-top: 25px;
+.facts-content {
 
-    @include media_min(md){
-      padding-top: 50px;
+  h3 {
+    font-weight: 500;
+    color: #fff;
+
+    &:after {
+      background: #68586d;
+      opacity: .9;
     }
-    @include media_min(lg){
-      padding-top: 175px;
-    }
+  }
 
-    h3 {
-      font-weight: 500;
-      color: #fff;
-
-      &:after {
-        background: #68586d;
-        opacity: .9;
-      }
-    }
-
-    p {
-      color: #68586d;
-    }
+  p {
+    color: #68586d;
   }
 }
 
@@ -109,18 +131,26 @@
   flex-direction: row;
   flex-wrap: wrap;
 
-  .about-section & {
+  .facts-section & {
     margin-top: 50px;
 
     @include media_min(lg){
+      margin-top: 100px;
+    }
+
+    @include media_min(xl){
       margin-top: 200px;
     }
   }
 
   .facts-item {
     width: 100%;
+    margin-bottom: 50px;
     text-align: center;
     @include animateEaseIn(0.2s);
+    @include media(md){
+        margin-bottom: 40px;
+    }
 
     &:nth-child(1n) {
       animation-delay: 0.05s;
@@ -137,12 +167,17 @@
     &:nth-child(4n) {
       animation-delay: 0.20s;
     }
-	  
-	@include media(lg){
-		margin-bottom: 69px;
-	}
 
-    @include media_min(md){
+	@include media_min(xl){
+		margin-bottom: 0;
+  }
+  @include media(sm){
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+    @include media_min(sm){
       width: 50%;
     }
 
@@ -179,10 +214,10 @@
     display: block;
     width: 175px;
     height: 175px;
-    text-align: center;    
+    text-align: center;
     margin: 0 auto;
-    position: relative;        
-    
+    position: relative;
+
     span {
       position: relative;
       z-index: 1;
@@ -192,10 +227,10 @@
       @include border-radius(50%);
     }
 
-    @include media(md){
+    @media (max-width: 1469px){
       width: 100px;
       height: 100px;
-      
+
       span {
         padding: 22px;
       }
@@ -209,8 +244,8 @@
       z-index: 2;
       color: #9c2fe9;
       fill: currentColor;
-      
-      @include media(md){
+
+      @media (max-width: 1469px){
         width: 56px;
         height: 56px;
       }
@@ -225,11 +260,11 @@
       left: 0;
       right: 0;
       top: 0;
-      bottom: 0;      
+      bottom: 0;
       background: #fff;
       opacity: 0.16;
       transform: scale(1);
-      @include border-radius(50%);      
+      @include border-radius(50%);
       animation: sonarWave 2s linear infinite;
     }
 
@@ -250,30 +285,36 @@
   }
 
   .facts-number {
-    margin-top: 100px;
-    font-size: 24px;    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
 
-    .about-section & {
+    .facts-section & {
       font-weight: 500;
       color: rgba(0, 0, 0, .5);
+    }
+
+    @include media_min(lg){
+      font-size: 24px;
+      margin-top: 50px;
     }
 
     @include media_min(xl){
       margin-top: 100px;
     }
 
-    @include media(xl){
-      margin-top: 25px;
-      margin-bottom: 50px;
-    }
-
-    strong {      
-      display: block;      
+    strong {
+      display: block;
       color: #fff;
       text-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
 
-      .about-section & {
-        font-size: 40px;
+      .facts-section & {
+        font-size: 30px;
+
+        @include media_min(lg){
+          font-size: 40px;
+        }
+
       }
     }
   }
@@ -281,30 +322,38 @@
 
 .company-section {
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
+
+  @include media_min(sm){
+    padding-bottom: 50px;
+  }
 
   @include media_min(lg){
     padding-top: 50px;
-    padding-bottom: 50px;    
+    padding-bottom: 50px;
   }
 
   @include media_min(xl){
     padding-top: 150px;
-    padding-bottom: 150px;    
+    padding-bottom: 150px;
   }
 
   .client-item {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 75px 40px;
+    margin: 25px 0px;
 
     @include media_min(md){
-      flex-direction: row;     
+      flex-direction: row;
+      margin: 15px 0 50px;
     }
-	  
+    @include media_min(lg){
+      margin: 75px 40px;
+    }
+
 	   @include media(md){
-      	flex-direction: column;   
+      	flex-direction: column;
     }
   }
 
@@ -317,7 +366,7 @@
       flex-basis: 1;
       order: 1;
     }
-	  
+
 	@include media(md){
 		padding-right: 0;
 	}
@@ -328,8 +377,8 @@
       font-size: 24px;
       font-weight: 500;
       color: #000;
-		
-		
+
+
     }
 
     p {
@@ -338,9 +387,10 @@
       font-size: 24px;
       font-weight: 300;
       color: #5e5a71;
-		
+
 	   @include media(md){
-			    font-size: 16px;  
+        font-size: 16px;
+        line-height: 1.5;
 		}
 
       &.author {
@@ -375,10 +425,10 @@
       left: 0;
       top: 0;
       width: 100%;
-      height: 100%;      
+      height: 100%;
       z-index: 2;
     }
-    
+
     &:before {
       opacity: .4;
       @include gradient(#5f72bd, #9b23ea);
@@ -390,22 +440,26 @@
       transform: translate3d(30px, 40px, 0);
     }
 
-    @include media_min(md){      
+    @include media_min(md){
       flex-basis: 550px;
       order: 2;
     }
-	  
+
 	  @include media(md){
-		flex-basis: 425px;
+		flex-basis: auto;
 	}
   }
 }
 
 .lns-section {
   display: flex;
-  flex-direction: column;  
+  flex-direction: column;
   align-items: center;
   position: relative;
+
+  @include media(md){
+    margin-bottom: 30px;
+  }
 
   &:before {
     content: '';
@@ -413,11 +467,11 @@
     z-index: 0;
     left: 0;
     right: 0;
-    bottom: 0;    
+    bottom: 0;
     @include gradient(#885bfc, #c67aea);
 
     @include media_min(lg){
-      height: 650px;      
+      height: 650px;
     }
     @include media(lg){
       top: 0;
@@ -435,16 +489,16 @@
   }
 
   .lns-text {
-    padding: 50px;    
+    padding: 50px 20px 0;
     flex-basis: 100%;
 
     @include media_min(md){
-      padding: 100px 100px 100px;
-      padding-right: 250px;
+      padding: 100px 50px 100px;
       flex-basis: 1;
     }
     @include media_min(xl){
-      padding-top: 200px
+      padding-top: 200px;
+      padding-right: 250px;
     }
 
     h3 {
@@ -454,7 +508,7 @@
       color: #fff;
 
       @include media_min(md){
-        font-size: 32px;                
+        font-size: 32px;
       }
 
       @include media_min(lg){
@@ -466,10 +520,11 @@
       margin-bottom: 20px;
       font-size: 16px;
       font-weight: normal;
-      color: #aaa6c0;
+      /*color: #aaa6c0;*/
+      color: rgba(255,255,255,.5);
 
       @include media_min(md){
-        font-size: 20px;                
+        font-size: 20px;
       }
 
       @include media_min(lg){
@@ -479,39 +534,51 @@
     }
   }
 
-  .lns-img {    
+  .lns-img {
     flex-basis: 100%;
 
     span {
       display: inline-block;
       position: relative;
 
+      @include media(sm){
+        padding: 50px;
+      }
+
       img {
         position: relative;
         z-index: 3;
       }
-  
+
       &:after,
       &:before {
         content: '';
-        position: absolute;      
+        position: absolute;
         left: 0;
         top: 0;
         bottom: 0;
         right: 0;
         @include border-radius(50%);
       }
-  
+
       &:before {
         z-index: 2;
         @include gradient(#aa55eb, #8587ce);
         transform: scale(0.9);
+
+        @include media(sm){
+          transform: scale(0.7);
+        }
       }
-  
+
       &:after {
         z-index: 1;
         @include gradient(#9b24ea, #6668c2);
         transform: scale(1.2);
+
+        @include media(sm){
+          transform: scale(0.9);
+        }
       }
     }
 

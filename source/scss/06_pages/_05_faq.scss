@@ -1,7 +1,7 @@
 .faq-section {
   padding-top: 100px;
   padding-bottom: 100px;
-  background: url(../img/contact-bg.png) left bottom no-repeat;
+  background: url(../../images/merchant_website/contact-bg.png) left bottom no-repeat;
 
   @include media(md){
     padding-top: 50px;
@@ -34,14 +34,20 @@
 }
 
 .accordion {
-  padding-top: 25px;
-  padding-bottom: 100px;
+  padding-top: 10px;
+  padding-bottom: 25px;
+
+  @include media_min(md){
+    padding-top: 25px;
+    padding-bottom: 100px;
+  }
 
   .accordion-item {
-    margin: 20px 0;    
+    margin: 20px 0;
     background: #fefefe;
     box-shadow: 0px 0px 10px rgba(119,133,141, .5);
-    @include border-radius(10px);    
+    overflow: hidden;
+    @include border-radius(10px);
 
     h5 {
       margin: 0;
@@ -52,7 +58,7 @@
       cursor: pointer;
 
       @include media(md){
-        font-size: 16px;        
+        font-size: 16px;
       }
 
       &:after {
@@ -64,7 +70,8 @@
         width: 20px;
         height: 20px;
         display: block;
-        background: url(../img/toggle-arrow.png) bottom center no-repeat;
+        background: url(../../images/merchant_website/toggle-arrow.png) bottom center no-repeat;
+        transform: rotate(180deg);
         -moz-transition: all .3s ease-in-out;
         -webkit-transition: all .3s ease-in-out;
         transition: all .3s ease-in-out;
@@ -76,12 +83,12 @@
       max-height: 0;
       overflow: hidden;
       font-size: 16px;
-      opacity: .6;
-      -moz-transition: all .6s ease-in-out;
-      -webkit-transition: all .6s ease-in-out;
-      transition: all .6s ease-in-out;
+      opacity: 0;
+      -moz-transition: all .4s ease-in-out;
+      -webkit-transition: all .4s ease-in-out;
+      transition: all .4s ease-in-out;
     }
-  
+
     &.active {
       background: #c0d0fe;
       background: -moz-linear-gradient(-45deg,  #c0d0fe 0%, #eac0fe 100%);
@@ -94,19 +101,19 @@
         color: #452e6c;
 
         &:after {
-          transform: rotate(180deg);
+          transform: rotate(0deg);
         }
     }
 
       .accordion-desc {
         max-height: 55rem;
         overflow: visible;
-                 
+        opacity: .6;
       }
     }
 
     .accordion-inner {
       padding: 0px 30px 20px;
     }
-  }  
+  }
 }
