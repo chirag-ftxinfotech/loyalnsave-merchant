@@ -1,6 +1,6 @@
-textarea {
+textarea.form-control {
     resize: none;
-    min-height: 120px;
+    height: 120px;
 }
 
 .form-control {
@@ -17,7 +17,7 @@ textarea {
 
     .select-field & {
         padding: 0 15px;
-        border: 1px solid #ebebeb;        
+        border: 1px solid #ebebeb;
         height: 45px!important;
         @include border-radius(7px);
         box-shadow: 0 0 6px rgba(0, 0, 0, .2);
@@ -54,7 +54,7 @@ textarea {
     .form-field {
         width: 100%;
     }
-    
+
     .form-control {
         box-shadow: 0px 0px 15px rgba(0, 0, 0, .2);
         @include border-radius(10px);
@@ -72,7 +72,7 @@ textarea {
             padding: 0;
             width: 48px;
             height: 48px;
-            background: url(../img/search.png) center center no-repeat;
+            background: url(../../images/merchant_website/search.png) center center no-repeat;
             box-shadow: none;
             text-indent: -100000px;
         }
@@ -92,7 +92,7 @@ footer {
     padding: 100px 0 25px;
     font-size: 16px;
     @include gradientv(#db76b6, #7873f5);
-    
+
     .container {
         position: relative;
         z-index: 1;
@@ -100,7 +100,7 @@ footer {
 
     &:before {
         content: '';
-        background: url(../img/svg/fshape.svg) center top no-repeat;
+        background: url(../../images/merchant_website/svg/fshape.svg) center top no-repeat;
         background-size: 100%;
         position: absolute;
         top: -1px;
@@ -109,9 +109,15 @@ footer {
         height: 100%;
         z-index: 0;
     }
+
+    &.fcontact:before {
+        background: url(../../images/merchant_website/svg/footer-wave-3.svg) center top no-repeat;
+    }
+
+
     &:after {
         content: '';
-        background: url(../img/svg/fwave.svg) center bottom no-repeat;
+        background: url(../../images/merchant_website/svg/fwave.svg) center bottom no-repeat;
         background-size: 100%;
         position: absolute;
         bottom: 0;
@@ -120,12 +126,12 @@ footer {
         height: 100%;
         opacity: .1;
         z-index: 0;
-    }    
+    }
 
     .f-logo {
-       padding-top: 50px;
-       padding-bottom: 50px;
-	   
+    //    padding-top: 50px;
+       padding-bottom: 20px;
+
 	   @include media(md){
 		   	padding-top: 25px;
 			padding-bottom: 25px;
@@ -157,17 +163,17 @@ footer {
     padding: 25px;
     background: #fff;
     @include border-radius(10px);
-	
+
 	.form-control {
 		background: none;
 	}
-	
+
 	@include media(md){
 		margin-top: 25px;
-		
+
 		.header-style-2 {
 			text-align: center;
-			
+
 			h3 {
 				&:after {
 					margin: 0 auto;
@@ -175,29 +181,29 @@ footer {
 				}
 			}
 		}
-		
+
 		.form-action {
 			text-align: center;
 		}
 	}
 }
 
-.f-middle {    
+.f-middle {
 	padding-top: 50px;
 	padding-bottom: 25px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-	
-	@include media_min(md){
+
+	@include media_min(xl){
 		padding-top: 200px;
 		padding-bottom: 250px;
 	}
-    
+
     .f-request {
         width: 60%;
         flex-basis: 60%;
-		
+
 		@include media(md){
 			width: 100%;
 			flex-basis: 100%;
@@ -209,7 +215,7 @@ footer {
             color: #fff;
             text-shadow: 0px 1px 5px rgba(0,0,0,.2);
             margin-bottom: 30px;
-			
+
 			@include media(md){
 				font-size: 22px;
 			}
@@ -249,11 +255,14 @@ footer {
         &:nth-child(5n) {
             animation-delay: 0.25s;
         }
-    }    
+    }
 }
 
 .f-block {
     padding: 20px 0;
+    @include media(md){
+        padding: 15px 0;
+    }
 
     h5 {
         margin: 0;
@@ -266,12 +275,15 @@ footer {
 
     .f-content {
         padding-top: 15px;
+        @include media(md){
+            padding-top: 0;
+        }
     }
 
     ul {
         padding: 0;
         margin: 0;
-        
+
         li {
             margin: 15px 0;
             padding: 0;
@@ -291,7 +303,7 @@ footer {
     a {
         display: inline-block;
         margin-top: 15px;
-        margin-right: 8px;
+        margin-right: 12px;
     }
 
     @include media(sm){
@@ -309,10 +321,18 @@ footer {
     z-index: 98;
     bottom: 20px;
     right: 20px;
-    background: url(../img/chat.png) center center no-repeat #ffffff;
+    background: url(../../images/merchant_website/chat.png) center center no-repeat #ffffff;
     width: 75px;
     height: 75px;
     text-indent: -10000px;
     box-shadow: 0px 5px 15px rgba(0,0,0,.35);
     @include border-radius(50%);
+}
+
+.fcontact {
+    @media (min-width: 1921px){
+        .f-middle {
+            padding-top: 25%;
+        }
+    }
 }

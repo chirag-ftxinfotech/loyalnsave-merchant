@@ -13,7 +13,7 @@
       color: #000;
 
       @include media(md){
-        font-size: 18px;        
+        font-size: 18px;
       }
 
     }
@@ -22,15 +22,16 @@
 
 .pricing-tabs {
   max-width: 380px;
-  margin: 50px auto 100px;
+  margin: 50px auto 75px;
   padding: 1px;
-  display: flex;
-  flex-direction: row;
+  display: none;
   border: 2px solid #dee0e2;
   @include border-radius(35px);
 
   @include media(md){
-    margin: 25px auto 25px;
+    margin: 25px auto 0;
+    display: flex;
+    flex-direction: row;
   }
 
   a {
@@ -57,23 +58,65 @@
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6c8f6', endColorstr='#f1f4f9',GradientType=1 );
     }
   }
+
+  .ptabs {
+    padding: 12px 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #787c83;
+    text-align: center;
+    width: 50%;
+    border: 1px solid #fff;
+    @include border-radius(30px);
+
+    @include media(md){
+      font-size: 14px;
+    }
+
+    &.active {
+      color: #000000;
+      border: 1px solid #dee0e2;
+      background: #f6c8f6;
+      background: -moz-linear-gradient(45deg,  #f6c8f6 1%, #dadffa 51%, #f1f4f9 100%);
+      background: -webkit-linear-gradient(45deg,  #f6c8f6 1%,#dadffa 51%,#f1f4f9 100%);
+      background: linear-gradient(45deg,  #f6c8f6 1%,#dadffa 51%,#f1f4f9 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6c8f6', endColorstr='#f1f4f9',GradientType=1 );
+    }
+  }
 }
 
 .pricing-plan {
   margin: 0;
   padding: 0;
-  display: flex;
-  flex-direction: column;
+  padding-top: 25px;
+  /*flex-direction: column;*/
 
   @include media_min(md){
+    display: flex;
     flex-direction: row;
   }
 
+  .slick-track {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+  }
 
-  li {
+  .pricing-plan-item {
     margin: 0;
     padding: 0 5px;
     width: 33.33%;
+    height: auto;
+    display: none;
+
+    &.active {
+      display: block;
+    }
+
+    @include media_min(lg){
+      display: block;
+    }
 
     &:nth-child(1n){
       animation-delay: 0.05s;
@@ -96,14 +139,48 @@
   .plan-inner {
     height: 100%;
     background: #fff;
-    padding: 8px;    
+    padding: 8px;
     text-align: center;
     @include border-radius(10px);
+    position: relative;
+
+    &:before,
+    &:after {
+      content: '';
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      z-index: 0;
+      opacity: 0;
+      visibility: hidden;
+      @include animateEaseIn(0.3s);
+    }
+    &:before {
+      @include border-radius(10px);
+      @include gradient(#bfd9fe, #df89b5);
+    }
+    &:after {
+      left: 8px;
+      right: 8px;
+      top: 8px;
+      bottom: 8px;
+      border: 1px solid #aac4f0;
+      background: #f6c8f6;
+      background: -moz-linear-gradient(45deg,  #f6c8f6 0%, #daddfa 50%, #f1f4f9 100%);
+      background: -webkit-linear-gradient(45deg,  #f6c8f6 0%,#daddfa 50%,#f1f4f9 100%);
+      background: linear-gradient(45deg,  #f6c8f6 0%,#daddfa 50%,#f1f4f9 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6c8f6', endColorstr='#f1f4f9',GradientType=1 );
+    }
 
     .inner-border {
+      position: relative;
+      z-index: 2;
+      height: 100%;
       padding: 50px;
-      border: 1px solid #fff;
-      background: #fff;
+      /*border: 1px solid #fff;
+      background: #fff;*/
 
       @include media(md){
         padding-left: 15px;
@@ -113,6 +190,11 @@
 
     .thumb {
       padding: 20px 0 50px;
+      text-align: center;
+
+      img {
+        margin: 0 auto;
+      }
     }
 
     .price {
@@ -138,9 +220,20 @@
       opacity: .7;
     }
 
+    .action {
+      padding-top: 15px;
+    }
+
+
     &:hover,
     &.active {
-      @include gradient(#bfd9fe, #df89b5);
+
+      &:before,
+      &:after {
+        opacity: 1;
+        visibility: visible;
+      }
+      /*@include gradient(#bfd9fe, #df89b5);
 
       .inner-border {
         border-color: #aac4f0;
@@ -149,6 +242,14 @@
         background: -webkit-linear-gradient(45deg,  #f6c8f6 0%,#daddfa 50%,#f1f4f9 100%);
         background: linear-gradient(45deg,  #f6c8f6 0%,#daddfa 50%,#f1f4f9 100%);
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6c8f6', endColorstr='#f1f4f9',GradientType=1 );
+      }*/
+    }
+
+    @include media(lg){
+      &:before,
+      &:after {
+        opacity: 1;
+        visibility: visible;
       }
     }
   }
@@ -161,7 +262,7 @@
   background: #eae9ef;
 
   @include media(md){
-    padding-top: 100px;
+    padding-top: 20%;
     padding-bottom: 50px;
   }
 
@@ -172,7 +273,7 @@
 
   &:after {
       content: '';
-      background: url(../img/pricing-wave.png) center top no-repeat;
+      background: url(../../images/merchant_website/pricing-wave.png) center top no-repeat;
       background-size: 100%;
       position: absolute;
       top: 0;
@@ -180,7 +281,7 @@
       right: 0;
       height: 100%;
       z-index: 1;
-  }  
+  }
 }
 
 .ready-subscription {
@@ -211,77 +312,29 @@
     &.button {
       color: #fff;
       @include border-radius(30px);
-    }
+
+      @include media(sm){
+        @include border-radius(50px);
+      }
+    }    
   }
 }
 
 .help-section {
-  padding-top: 100px;
-  padding-bottom: 150px;
-
-  .accordion {
-    padding-bottom: 25px;
-  }
-}
-/*
-.lns-section {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  position: relative;
-
-  &:before {
-    content: '';
-    position: absolute;
-    z-index: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: 550px;
-    @include gradient(#885bfc, #c67aea);
-  }
+  padding-top: 50px;
+  padding-bottom: 25px;
 
   @include media_min(md){
-    flex-direction: row;
+    padding-top: 100px;
+    padding-bottom: 150px;
   }
 
-  .lns-text,
-  .lns-img {
-    position: relative;
-    z-index: 1;
-  }
-
-  .lns-text {
-    padding: 50px;    
-    flex-basis: 100%;
-
-    h3 {
-      margin-bottom: 25px;
-      font-size: 40px;
-      font-weight: bold;
-      color: #fff;
-    }
-
-    p {
-      margin-bottom: 40px;
-      font-size: 22px;
-      font-weight: normal;
-      color: #aaa6c0;
-    }
+  .accordion {
+    padding-top: 0;
+    padding-bottom: 25px;
 
     @include media_min(md){
-      padding: 200px 100px 100px;
-      padding-right: 250px;
-      flex-basis: 1;
+      padding-top: 25px;
     }
   }
-
-  .lns-img {    
-    flex-basis: 100%;
-
-    @include media_min(md){
-      padding-right: 50px;
-      flex-basis: 2;
-    }
-  }
-}*/
+}
