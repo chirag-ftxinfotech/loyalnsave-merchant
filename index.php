@@ -227,6 +227,35 @@
         </div>
     </section>
 
+    <section class="animated-row  ">
+       
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 header-style-2 section-two-left animate" >
+                                <h3>Lorem Ipsum</h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing
+                                    and typesetting industry. Lorem Ipsum has been the
+                                    industry's standard dummy text ever since the 1500
+                                    when an unknown printer took a galley of type and
+                                    scrambled it to make a type specimen book. </p>
+                                <p>
+
+                                    Lorem Ipsum is simply dummy text of the printing
+                                    and typesetting industry. Lorem Ipsum has been
+                                    the industry'.</p>
+
+                                    <a href="#" class="button">Start Earning Today!</a>
+
+                    </div>
+                    <div class="col-md-6 section-two-right animate" >
+                        <div class="section-two-right-img"><img src="assets/img/new-images/dummy-img.jpg" width="605" height="427" class="img-fluid" alt=""></div>
+                        
+                    </div>
+                </div>
+            </div>
+        
+    </section>
+
     <section class="feature-section animated-row">
         <svg class="scene" preserveAspectRatio="none" viewBox="0 0 1440 800">
             <defs><linearGradient id="MyGradient" x2="0" y2="1"><stop offset="0%" stop-color="#e3eeff" /><stop offset="100%" stop-color="#f3e7e9" /></linearGradient></defs>
