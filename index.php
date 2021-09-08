@@ -7,10 +7,10 @@
     <section class="header-style-1 animated-row">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-12 col-lg-5 offset-lg-2 text-right order-lg-2 mt-5  mb-5 animate" data-animate="fadeInRight">
+                <div class="col-12 col-lg-5 offset-lg-2 text-right order-lg-2 mt-5  mb-5 animate" >
                     <img src="assets/img/new-images/mobile.png" alt="" />
                 </div>
-                <div class="col-12 col-lg-5 order-lg-1 animate" data-animate="fadeInUp">
+                <div class="col-12 col-lg-5 order-lg-1 animate" >
                     <hgroup class="header__title">
                         <h1>Make Customer Retention Your Intention</h1>
                         <!--h3>Lorem ipsum Dolor</h3-->
@@ -29,7 +29,7 @@
     <section class="animated-row  section-one">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 section-one-left animate" data-animate="fadeInLeft">
+                <div class="col-md-6 section-one-left animate" >
                     <img src="assets/img/new-images/line-shape.png" width="542" height="717"class="img-fluid bg-svg-path" alt="">
                     <ul class="section-card pl-0 d-flex flex-wrap">
                         <li>
@@ -50,7 +50,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-6 header-style-2 mt-5 pt-4 section-one-right animate" data-animate="fadeInRight">
+                <div class="col-md-6 header-style-2 mt-5 pt-4 section-one-right animate" >
                         <h3>Lorem Ipsum</h3>
                         <p>Lorem Ipsum is simply dummy text of the printing
                             and typesetting industry. Lorem Ipsum has been the
@@ -75,7 +75,7 @@
         <div class="section-two-inner">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-md-6 header-style-2 section-two-left animate" data-animate="fadeInRight">
+                    <div class="col-md-6 header-style-2 section-two-left animate" >
                                 <h3>Lorem Ipsum</h3>
                                 <p>Lorem Ipsum is simply dummy text of the printing
                                     and typesetting industry. Lorem Ipsum has been the
@@ -91,7 +91,7 @@
                                     <a href="#" class="button">Start Earning Today!</a>
 
                     </div>
-                    <div class="col-md-6 section-two-right animate" data-animate="fadeInLeft">
+                    <div class="col-md-6 section-two-right animate" >
                         <div class="section-two-right-img"><img src="assets/img/new-images/dummy-img.jpg" width="605" height="427" class="img-fluid" alt=""></div>
                         
                     </div>
@@ -102,7 +102,7 @@
     <section class="animated-row  section-three">
         <div class="container">
             <div class="row">
-                <div class="header-style-2 text-center animate" data-animate="fadeInUp">
+                <div class="header-style-2 text-center animate" >
                     <h3>Fully Customizable Loyalty Program</span></h3>
                     <h5 class="mb-4">Your Business. Your Customers. Your Plan.</h5>
                     <p>Loyal~n~Save has several beneficial features that your business can utilize to increase customer retention and ROI. Create customized campaigns, send mobile push notifications and emails, and drive healthy competition between members with the gamified mobile app.</p>
@@ -111,13 +111,13 @@
             <div class="row lns-parts">
                 
                 <div class="col-3 d-flex flex-column justify-content-between lns-parts-left" > 
-                    <div class="bubble bubble-bottom-left">
+                    <div class="bubble bubble-bottom-right">
                         <div class="bubble-icon">
                              <img src="assets/img/new-images/team-icon.png" width="51" height="51" class="img-fluid" alt=""> </div>
                         <div class="bubble-title">Team Rewards</div>
                         Type any text here and the bubble will grow to fit the text no matter how many lines.  Isn't that nifty?
                     </div>      
-                    <div class="bubble bubble-bottom-left">
+                    <div class="bubble bubble-bottom-right">
                         <div class="bubble-icon"> 
                             <img src="assets/img/new-images/swag-shop-icon.png" width="51" height="51" class="img-fluid" alt=""> </div>
                         <div class="bubble-title">Swag shop</div>
@@ -130,13 +130,13 @@
                 </div>
 
                 <div class="col-3 d-flex flex-column justify-content-between">
-                    <div class="bubble bubble-bottom-right">
+                    <div class="bubble bubble-bottom-left">
                         <div class="bubble-icon">
                              <img src="assets/img/new-images/gamification-icon.png" width="51" height="51" class="img-fluid" alt=""> </div>
                         <div class="bubble-title">Team Rewards</div>
                         Type any text here and the bubble will grow to fit the text no matter how many lines.  Isn't that nifty?
                     </div>
-                    <div class="bubble bubble-bottom-right">
+                    <div class="bubble bubble-bottom-left">
                         <div class="bubble-icon"> 
                             <img src="assets/img/new-images/manufacturer-icon.png" width="51" height="51" class="img-fluid" alt=""> </div>
                         <div class="bubble-title">Swag shop</div>
@@ -145,7 +145,7 @@
                 </div>
             </div>
             <div class="row mt-5">
-                <div class="header-style-2 text-center animate" data-animate="fadeInUp">
+                <div class="header-style-2 text-center animate" >
                     <h5>Your Business. Your Customers. Your Plan.</h5>
                     <p>Loyal~n~Save has several beneficial features that your business can utilize to increase customer retention and ROI. Create customized campaigns, send mobile push notifications and emails, and drive healthy competition between members with the gamified mobile app.</p>
                     <a href="#" class="button">View Features</a>
@@ -158,7 +158,7 @@
         <div class="section-four-inner">
             <div class="container">
                 <div class="row">
-                    <div class="header-style-2 text-center animate" data-animate="fadeInUp">
+                    <div class="header-style-2 text-center animate" >
                         <h3>Fully Customizable Loyalty Program</span></h3>
                         <h5 class="mb-4">Your Business. Your Customers. Your Plan.</h5>
                         <p>Loyal~n~Save has several beneficial features that your business can utilize to increase customer retention and ROI. Create customized campaigns, send mobile push notifications and emails, and drive healthy competition between members with the gamified mobile app.</p>
@@ -169,7 +169,7 @@
                 <div class="feature-items mt-5">
                 <div class="row">
                     <div class="col-12 col-sm-6 col-xl-3 mb-4">
-                        <div class="feature-item animate" data-animate="fadeInUp">
+                        <div class="feature-item animate" >
                             <div class="thumb-container">
                                 <p class="thumb">
                                     <img src="assets/img/new-images/industry1.png" width="50" height="50" alt="" />
@@ -181,7 +181,7 @@
                         </div>
                     </div>
                     <div class="col-12 col-sm-6 col-xl-3 mb-4">
-                        <div class="feature-item animate" data-animate="fadeInUp">
+                        <div class="feature-item animate">
                             <div class="thumb-container">
                                 <p class="thumb">
                                     <img src="assets/img/new-images/industry2.png" width="50" height="50" alt="" />
@@ -193,7 +193,7 @@
                         </div>
                     </div>
                     <div class="col-12 col-sm-6 col-xl-3 mb-4">
-                        <div class="feature-item animate" data-animate="fadeInUp">
+                        <div class="feature-item animate" >
                             <div class="thumb-container">
                                 <p class="thumb">
                                     <img src="assets/img/new-images/industry3.png" width="50" height="50" alt="" />
@@ -205,7 +205,7 @@
                         </div>
                     </div>
                     <div class="col-12 col-sm-6 col-xl-3 mb-4">
-                        <div class="feature-item animate" data-animate="fadeInUp">
+                        <div class="feature-item animate" >
                             <div class="thumb-container">
                                 <p class="thumb">
                                     <img src="assets/img/new-images/industry4.png" width="50" height="50" alt="" /> 
@@ -215,7 +215,12 @@
                             <p>Give customers physical branded loyalty cards that can double as gift cards and let them use the virtual punch card on their mobile app.</p>
                         </div>
                     </div>
+                    
                 </div>
+                <div class="col-12 text-center mt-5">
+                    <a href="#" class="button">Explore all industries</a>
+                </div>
+                
             </div>
 
             </div>
@@ -232,7 +237,7 @@
         
 
 
-            <div class="header-style-2 text-center animate" data-animate="fadeInUp">
+            <div class="header-style-2 text-center animate" >
                 <h3>Fully Customizable Loyalty Program</span></h3>
 				<h5>Your Business. Your Customers. Your Plan.</h5>
                 <p>Loyal~n~Save has several beneficial features that your business can utilize to increase customer retention and ROI. Create customized campaigns, send mobile push notifications and emails, and drive healthy competition between members with the gamified mobile app.</p>
@@ -241,7 +246,7 @@
             <div class="feature-items">
                 <div class="row">
                     <div class="col-12 col-sm-6 col-xl-3 mb-4">
-                        <div class="feature-item animate" data-animate="fadeInUp">
+                        <div class="feature-item animate" >
                             <p class="thumb">
                                 <img src="assets/img/home-marketing-portal.png" alt="" />
                             </p>
@@ -250,7 +255,7 @@
                         </div>
                     </div>
                     <div class="col-12 col-sm-6 col-xl-3 mb-4">
-                        <div class="feature-item animate" data-animate="fadeInUp">
+                        <div class="feature-item animate" >
                             <p class="thumb">
                                 <img src="assets/img/home-swag-shop.png" alt="" />
                             </p>
@@ -259,7 +264,7 @@
                         </div>
                     </div>
                     <div class="col-12 col-sm-6 col-xl-3 mb-4">
-                        <div class="feature-item animate" data-animate="fadeInUp">
+                        <div class="feature-item animate" >
                             <p class="thumb">
                                 <img src="assets/img/home-mobile-app.png" alt="" />
                             </p>
@@ -268,7 +273,7 @@
                         </div>
                     </div>
                     <div class="col-12 col-sm-6 col-xl-3 mb-4">
-                        <div class="feature-item animate" data-animate="fadeInUp">
+                        <div class="feature-item animate" >
                             <p class="thumb"><svg class="svg svg-customer-facing" aria-hidden="true" role="img"><use href="#svg-customer-facing" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-customer-facing"></use></svg></p>
                             <h4>Branded Keytags</h4>
                             <p>Give customers physical branded loyalty cards that can double as gift cards and let them use the virtual punch card on their mobile app.</p>
@@ -283,7 +288,7 @@
         <div class="container container-1600">
             <div class="row">
                 <div class="col-md-7">
-                    <div class="header-style-2 animate" data-animate="fadeInUp">
+                    <div class="header-style-2 animate" >
                         <h3>Customer Experience</h3>
                         <p>Create a personal connection with your customers and enhance their overall expereince at your business with Loyal~n~Save. With exclusive insight into your customers shopping behaviors, you have the ability to personalize each custome'rs experience with your store and make them feel special. In return, they will feel more obligated to tell their family and friends about your business.</p>
                     </div>
@@ -293,21 +298,21 @@
             <div class="experience-items">
                 <div class="row">
                     <div class="col-12 col-lg-6 col-xl-4">
-                        <div class="experience-item animate" data-animate="fadeInUp">
+                        <div class="experience-item animate" >
                             <p class="thumb"><img src="assets/img/experience-1.png" alt="" /></p>
                             <h4>New Customer <strong>ACQUISTION</strong></h4>
                             <p>Loyal~n~Save not only engages your existing customer, but its unique marketing approach also introduces hundreds of new customers to your store through qualified word-of-mouth referrals.</p>
                         </div>
                     </div>
                     <div class="col-12 col-lg-6 col-xl-4">
-                        <div class="experience-item animate" data-animate="fadeInUp">
+                        <div class="experience-item animate" >
                             <p class="thumb"><img src="assets/img/experience-2.png" alt="" /></p>
                             <h4>Customer <strong>RETENTION</strong></h4>
                             <p>With Loyal~n~Save, you can easily keep track of your customers and campaigns through reports that track what product/service and customer group is generating more profit for your business and when it's happening. </p>
                         </div>
                     </div>
                     <div class="col-12 col-lg-6 col-xl-4">
-                        <div class="experience-item animate" data-animate="fadeInUp">
+                        <div class="experience-item animate" >
                             <p class="thumb"><img src="assets/img/experience-2.png" alt="" /></p>
                             <h4>Customer <strong>Engagement</strong></h4>
                             <p> Loyal~n~Save gives you the ability to manage and target personalized offers and notifications accross all channels: including mobile, web, email, and social media for optimal customer and community engagement.</p>
@@ -324,7 +329,7 @@
             <div class="row">
 
                 <div class="col-12 col-xl-7 order-xl-2">
-                    <div class="header-style-2 text-right animate" data-animate="fadeInUp">
+                    <div class="header-style-2 text-right animate" >
                         <h3>POS Integration</h3>
                         <p>Lorem ipsu ces gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.  Lorem ipsu ces gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
                         <p class="pos-logo"><a href="#"><img src="assets/img/ftxadpro.png" alt="" /></a><a href="#"><img src="assets/img/ftxsolutions.png" alt="" /></a></p>
@@ -332,7 +337,7 @@
                 </div>
 
                 <div class="col-12 col-xl-5 order-xl-1">
-                    <div class="pos-text animate" data-animate="fadeInUp">
+                    <div class="pos-text animate" >
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices...</p>
                     </div>
                 </div>
@@ -344,12 +349,12 @@
 
     <section class="client-section animated-row">
         <div class="container">
-            <div class="header-style-2 text-center animate" data-animate="fadeInUp">
+            <div class="header-style-2 text-center animate" >
                 <h3>What our Client say’s</h3>
                 <p>Loyal~n~Save takes customer loyalty to a whole new level. Not only does it engage your existing customers, but it attracks new customers through a unique marketing approach. But don't just take it from us, see what businesses who use Loyal~n~Save have to say...</p>
             </div>
 
-            <div class="client-slider animate" data-animate="fadeInUp">
+            <div class="client-slider animate" >
                 <div>
                     <div class="client-item">
                         <div class="client-item__desc">
