@@ -3,7 +3,7 @@
   padding-bottom: 100px;
 
   @include media(md){
-    padding-top: 50px;
+    padding-top: 30px;
     padding-bottom: 50px;
   }
 
@@ -50,17 +50,5 @@
 
   a {
     color: #0287f2;
-  }
-
-  ul {
-    margin: 0 0 25px 25px;
-    padding: 0;
-    list-style: disc;
-
-    li {
-      margin: 0;
-      padding: 5px 0;
-      color: #728391;
-    }
   }
 }

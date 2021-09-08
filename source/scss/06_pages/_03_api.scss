@@ -4,9 +4,12 @@
   padding-bottom: 100px;
   @include gradientv(#63e6fe, #8e8fca);
 
+  @include media(sm) {
+    padding-top: 30px;
+  }
   @include media_min(lg){
     padding-top: 100px;
-    padding-bottom: 200px;    
+    padding-bottom: 200px;
   }
 
   @include media_min(xl){
@@ -16,7 +19,7 @@
 
   @include media_min(xxl){
     padding-top: 250px;
-    padding-bottom: 300px;    
+    padding-bottom: 300px;
   }
 
   .container {
@@ -26,7 +29,7 @@
 
   &:after {
       content: '';
-      background: url(../img/api-bg1.png) center top no-repeat;
+      background: url(../../images/merchant_website/api-bg1.png) center top no-repeat;
       background-size: 150%;
       position: absolute;
       top: 0;
@@ -47,7 +50,7 @@
 
   &:before {
     content: '';
-    background: url(../img/api-bg2.png) center bottom no-repeat;
+    background: url(../../images/merchant_website/api-bg2.png) center bottom no-repeat;
     background-size: 100%;
     position: absolute;
     bottom: -1px;
@@ -60,13 +63,23 @@
 
 .api-content {
   padding-bottom: 100px;
+  @include media(sm) {
+    padding-bottom: 40px;
+  }
 }
 .api-section {
   .facts-content {
     padding-top: 50px;
 
+    @include media(sm) {
+      padding-top: 0;
+    }
     @include media_min(md){
       padding-top: 150px;
+    }
+
+    @media (min-width: 1921px){
+      padding-top: 25%;
     }
 
     h3 {
@@ -99,7 +112,7 @@
 
           @include media_min(lg){
             font-size: 32px;
-          }          
+          }
         }
       }
 
@@ -118,11 +131,11 @@
     position: absolute;
     z-index: 0;
     left: 0;
-    right: 0;    
+    right: 0;
     @include gradientv(#7440fb, #bd64e7);
-    
+
     @include media_min(lg){
-      top: 50%;        
+      top: 50%;
       height: 550px;
       transform: translateY(-50%);
     }
@@ -143,7 +156,7 @@
   }
 
   .apiwork-text {
-    padding: 50px;    
+    padding: 50px;
     flex-basis: 100%;
 
     h3 {
@@ -169,13 +182,19 @@
     }
 
     @include media_min(md){
+      padding: 100px 50px;
+      padding-right: 70px;
+      flex-basis: 1;
+    }
+
+    @include media_min(lg){
       padding: 100px;
       padding-right: 250px;
       flex-basis: 1;
     }
   }
 
-  .apiwork-img {    
+  .apiwork-img {
     flex-basis: 100%;
 
     span {
@@ -186,24 +205,24 @@
         position: relative;
         z-index: 3;
       }
-  
+
       &:after,
       &:before {
         content: '';
-        position: absolute;      
+        position: absolute;
         left: 0;
         top: 0;
         bottom: 0;
         right: 0;
         @include border-radius(50%);
       }
-  
+
       &:before {
         z-index: 2;
         @include gradient(#aa55eb, #8587ce);
         transform: scale(0.9);
       }
-  
+
       &:after {
         z-index: 1;
         @include gradient(#9b24ea, #6668c2);
@@ -218,10 +237,10 @@
 }
 
 .developer-content {
-    padding-top: 50px;  
-    
+    padding-top: 50px;
+
     @include media_min(md){
-      padding-top: 150px;  
+      padding-top: 150px;
     }
 
     h3 {
@@ -245,12 +264,24 @@
         font-size: 18px;
       }
     }
+
+    @media (min-width: 1921px){
+      h3 {
+        font-size: 50px;
+      }
+      p {
+        font-size: 24px;
+      }
+    }
 }
 
 .apicon-section {
     padding-top: 50px;
     padding-bottom: 50px;
 
+    @include media(sm) {
+      padding-top: 30px;
+    }
     @include media_min(md){
       padding-top: 100px;
       padding-bottom: 100px;
@@ -273,7 +304,7 @@
     padding-bottom: 50px;
 
     @include media_min(lg){
-      padding-bottom: 200px;      
+      padding-bottom: 200px;
     }
 
     h4 {
@@ -320,6 +351,10 @@
           padding: 25px;
           @include gradient(#fbfbff, #f4f5fe);
           @include border-radius(50%);
+          @include media(sm) {
+              height: auto;
+              padding: 0 25px;
+          }
         }
 
         h5 {
@@ -328,13 +363,16 @@
           font-weight: 500;
           color: #2d2e52;
 
+          @include media(sm) {
+            padding: 15px 0 15px;
+          }
           @include media_min(lg){
             font-size: 28px;
           }
         }
 
         p {
-          font-size: 20px;          
+          font-size: 14px;
           font-weight: normal;
           color: #686868;
 
