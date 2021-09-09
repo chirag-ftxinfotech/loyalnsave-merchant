@@ -51,7 +51,7 @@
                     </ul>
                 </div>
                 <div class="col-md-6 header-style-2 mt-5 pt-4 section-one-right animate" >
-                        <h3>Lorem Ipsum</h3>
+                        <h3 class="sub-title">Lorem Ipsum</h3>
                         <p>Lorem Ipsum is simply dummy text of the printing
                             and typesetting industry. Lorem Ipsum has been the
                             industry's standard dummy text ever since the 1500
@@ -71,12 +71,12 @@
     </section>
 
 
-    <section class="animated-row  section-two">
+    <section class="animated-row  curved-section section-two">
         <div class="section-two-inner">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-md-6 header-style-2 section-two-left animate" >
-                                <h3>Lorem Ipsum</h3>
+                                <h3 class="sub-title">Lorem Ipsum</h3>
                                 <p>Lorem Ipsum is simply dummy text of the printing
                                     and typesetting industry. Lorem Ipsum has been the
                                     industry's standard dummy text ever since the 1500
@@ -103,7 +103,7 @@
         <div class="container">
             <div class="row">
                 <div class="header-style-2 text-center animate" >
-                    <h3>Fully Customizable Loyalty Program</span></h3>
+                    <h3 class="sub-title">Fully Customizable Loyalty Program</span></h3>
                     <h5 class="mb-4">Your Business. Your Customers. Your Plan.</h5>
                     <p>Loyal~n~Save has several beneficial features that your business can utilize to increase customer retention and ROI. Create customized campaigns, send mobile push notifications and emails, and drive healthy competition between members with the gamified mobile app.</p>
                 </div>
@@ -154,12 +154,12 @@
         </div>
     </section>
 
-    <section class="animated-row feature-section  section-two section-four">
+    <section class="animated-row feature-section  curved-section section-four">
         <div class="section-four-inner">
             <div class="container">
                 <div class="row">
                     <div class="header-style-2 text-center animate" >
-                        <h3>Fully Customizable Loyalty Program</span></h3>
+                        <h3 class="sub-title">Fully Customizable Loyalty Program</span></h3>
                         <h5 class="mb-4">Your Business. Your Customers. Your Plan.</h5>
                         <p>Loyal~n~Save has several beneficial features that your business can utilize to increase customer retention and ROI. Create customized campaigns, send mobile push notifications and emails, and drive healthy competition between members with the gamified mobile app.</p>
                         
@@ -227,12 +227,11 @@
         </div>
     </section>
 
-    <section class="animated-row  ">
-       
+    <section class="animated-row  customer-experice-section">       
             <div class="container container-large">
-                <div class="row align-items-center">
+                <div class="row ">
                     <div class="col-md-6 header-style-2 section-two-left animate" >
-                        <h3>Customer Experience</h3>
+                        <h3 class="sub-title">Customer Experience</h3>
                         <p>Lorem Ipsum is simply dummy text of the printing
                             and typesetting industry. Lorem Ipsum has been the
                             industry's standard dummy text ever since the 1500
@@ -244,21 +243,180 @@
                             and typesetting industry. Lorem Ipsum has been
                             the industry'.</p>
                         <ol class="ce-list">
-                            <li>
-                                
-                                <span class="ce-list-no">01</span>
+                            <li>                                
+                                <div class="d-flex align-items-center mb-3">
+                                    <span class="ce-list-no mr-3">01</span>
+                                    <span class="ce-list-title">New Customer <strong> ACQUISITION </strong> </span>
+                                </div>
                                 <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy.</span>
+                                    Lorem Ipsum has been the industry's standard dummy.</span>
+                            </li>
+                            <li>                                
+                                <div class="d-flex align-items-center mb-3">
+                                    <span class="ce-list-no mr-3">02</span>
+                                    <span class="ce-list-title">Customer <strong> RETENTION </strong> </span>
+                                </div>
+                                <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Lorem Ipsum has been the industry's standard dummy.</span>
+                            </li>
+                            <li>                                
+                                <div class="d-flex align-items-center mb-3">
+                                    <span class="ce-list-no mr-3">03</span>
+                                    <span class="ce-list-title">Customer  <strong> ENGAGEMENT </strong> </span>
+                                </div>
+                                <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Lorem Ipsum has been the industry's standard dummy.</span>
                             </li>
                         </ol>
                                     
 
                     </div>
-                    <div class="col-md-6 section-two-right animate" >
-                        <div class="section-two-right-img"><img src="assets/img/new-images/dummy-img.jpg" width="605" height="427" class="img-fluid" alt=""></div>
+                    <div class="col-md-6 section-two-right animate customer-experience-right" >
+                            <ul class="ce-list-right">
+                                <li>
+                                    <div class="ce-list-right-thumb">
+                                        <img src="assets/img/new-images/customer-acquisition-icon.png" alt="">
+                                    </div>
+                                    <div class="ce-list-right-text mt-4">
+                                        New Customer <span>acquisition</span>
+                                    </div>
+                                </li>
+                                <li class="align-self-start flex-row">
+                                    <div class="ce-list-right-thumb">
+                                        <img src="assets/img/new-images/customer-retention-icon.png" alt="">
+                                    </div>
+                                    <div class="ce-list-right-text ml-4">
+                                        Customer <span>Retention</span>
+                                    </div>
+                                </li>
+                                <li>
+                                <div class="ce-list-right-text mb-4">
+                                        Customer <span>Engagement</span>
+                                    </div>
+                                    <div class="ce-list-right-thumb">
+                                        <img src="assets/img/new-images/customer-engagement-icon.png" alt="">
+                                    </div>
+                                   
+                                </li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+        
+    </section>
+
+
+    <section class="animated-row curved-section  section-pos">
+        <div class="section-pos-inner">
+            <div class="container">
+                <div class="row align-items-center">
+                <div class="col-md-6 section-two-right animated">
+                    <div class="pos-slick">
+                        <div>
+                            <img src="assets/img/new-images/pos-img.png" width="516" height="478" class="img-fluid" alt="">
+                        </div>
+                        <div>
+                            <img src="assets/img/new-images/pos-img.png" width="516" height="478" class="img-fluid" alt="">
+                        </div>
+                        <div>
+                            <img src="assets/img/new-images/pos-img.png" width="516" height="478" class="img-fluid" alt="">
+                        </div>
+                        <div>
+                            <img src="assets/img/new-images/pos-img.png" width="516" height="478" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                        
+                        
+                    </div>
+                    <div class="col-md-6 header-style-2 section-two-left text-right animated undefined">
+                                <h3 class="sub-title">POS Integration</h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing and
+                                typesetting industry.  standard dummy text ever since the 1500s,
+                                when an unknown printer took  it to make a type
+                                specimen book. It has survived not only five centuries, but</p>
+                               
+                        <ul class="pi-list d-flex">
+                            <li>
+                                <div class="pi-list-thumb">
+                                    <img src="assets/img/new-images/setting-icon.png" width="42" heigh="42" alt="">
+                                </div>
+                                <div class="pi-list-title">Lorem Ipsum</div>                                
+                            </li>
+                            <li>
+                                <div class="pi-list-thumb">
+                                    <img src="assets/img/new-images/setting-icon.png" width="42" heigh="42" alt="">
+                                </div>
+                                <div class="pi-list-title">Lorem Ipsum</div>                                
+                            </li>
+                            <li>
+                                <div class="pi-list-thumb">
+                                    <img src="assets/img/new-images/setting-icon.png" width="42" heigh="42" alt="">
+                                </div>
+                                <div class="pi-list-title">Lorem Ipsum</div>                                
+                            </li>
+                            <li>
+                                <div class="pi-list-thumb">
+                                    <img src="assets/img/new-images/setting-icon.png" width="42" heigh="42" alt="">
+                                </div>
+                                <div class="pi-list-title">Lorem Ipsum</div>                                
+                            </li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="animated-row clientsay-section">
+
+            <div class="container">
+                <div class="row">
+                    <div class="header-style-2 text-center animate" >
+                        <h3 class="sub-title">What Our Clients Say</span></h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                            standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
+                            it to make a type specimen book. It has survived not only five centuries, but also the leap into
+                            electronic typesetting, remaining essentially unchanged.</p>
                         
                     </div>
                 </div>
+                <div class="client-slick">
+                    <div class="row align-items-center d-flex">
+                        <div class="col-md-6 text-center">
+                            <div class="client-thumb">
+                                <img src="assets/img/new-images/client-logo.png" width="155" height="113" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-6 client-slick-right">
+                                <p>We knew that opening a restaurant meant we needed to have
+                                a loyalty program. Loyal~n~Save gave us the tools to get people
+                                into our place during those slow week nights. Plus, the detail
+                                view of our customer analytics is super helpful when identifying
+                                top customers.</p>
+                                <div class="client-slick-title">MUNCHIES</div>
+                               
+                        </div>
+                    </div>
+                    <div class="row align-items-center d-flex">
+                        <div class="col-md-6 text-center">
+                            <div class="client-thumb">
+                                <img src="assets/img/new-images/client-logo.png" width="155" height="113" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-6 client-slick-right">
+                                <p>We knew that opening a restaurant meant we needed to have
+                                a loyalty program. Loyal~n~Save gave us the tools to get people
+                                into our place during those slow week nights. Plus, the detail
+                                view of our customer analytics is super helpful when identifying
+                                top customers.</p>
+                                <div class="client-slick-title">MUNCHIES</div>
+                               
+                        </div>
+                    </div>
+                    
+                </div>
+             
             </div>
         
     </section>
@@ -435,4 +593,19 @@
 </main>
 <?php include('footer.php'); ?>
 </body>
+<script>
+    $(document).ready(function(){
+        $('.pos-slick').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots: true,
+            arrows:false,
+        });
+
+        $('.client-slick').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+        });
+    })
+</script>
 </html>
