@@ -670,7 +670,7 @@
 
 
 // New home page CSS start
-section{
+section,footer{
   h3.sub-title{
     font-size: 36px;
     line-height: 1.3;
@@ -812,4 +812,78 @@ section{
     top: 40%;
   }
 }
+
+
+// ==feature section start
+.feature-section{
+  .feature-slick{
+    padding-bottom: 105px;
+    margin-bottom: 75px;
+    .slick-list{
+      margin: 0 -15px;
+      .slick-track{
+        display: flex;
+        .slick-slide{
+          height: auto;
+          margin: 0 15px 15px;
+          min-height: 100%;
+        }
+      }
+    }
+    .slick-arrow{
+      background: transparent;
+      border: none;
+      font-size: 0;
+      outline: none;
+      position: absolute;
+      right: 44.6%;
+      bottom: 0;
+      &.slick-prev{
+        right: 51.6%;
+        transform: rotate(
+    -180deg);
+      }
+      &::before{
+        background: url(../img/new-images/right-double-arrow.png);
+        content: "";
+        display: block;
+        height: 26px;
+        width: 27px;
+        background-repeat: no-repeat;
+      }
+    }
+  }
+}
+// ==feature section end
+
+// ==lns part section start
+  // .bubble{    
+  //   .bubble-icon{
+  //     &:before{
+  //       background: url(../img/svg/fround.svg);
+  //       content: "";
+  //       height: 100%;
+  //       left: 0;
+  //       position: absolute;
+  //       top: 0;
+  //       transform: scale(0);
+  //       transition: all .4s ease-in-out;
+  //       width: 100%;
+  //       z-index: 1;
+  //     }
+  //   }
+  //   &:hover{
+  //     .bubble-icon{
+  //       &:before{
+  //         left: -50px;
+  //         opacity: .3;
+  //         top: -30%;
+  //         transform: scale(1.2);  
+  //       }
+  //     }
+  //   }
+  // }
+// ==lns part section end
 // New home page CSS end
+
+

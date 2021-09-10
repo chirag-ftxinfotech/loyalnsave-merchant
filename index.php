@@ -6,11 +6,11 @@
 
     <section class="header-style-1 animated-row">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-12 col-lg-5 offset-lg-2 text-right order-lg-2 mt-5  mb-5 animate" >
+            <div class="row align-items-center" >
+                <div class="col-12 col-lg-5 offset-lg-2 text-right order-lg-2 mt-5  mb-5 animate fadeInRight" data-animate="fadeInRight">
                     <img src="assets/img/new-images/mobile.png" alt="" />
                 </div>
-                <div class="col-12 col-lg-5 order-lg-1 animate" >
+                <div class="col-12 col-lg-5 order-lg-1 animate fadeInUp" data-animate="fadeInUp">
                     <hgroup class="header__title">
                         <h1>Make Customer Retention Your Intention</h1>
                         <!--h3>Lorem ipsum Dolor</h3-->
@@ -25,13 +25,13 @@
             </div>
         </div>
     </section>
-
+<!-- section one start -->
     <section class="animated-row  section-one">
         <div class="container">
-            <div class="row">
-                <div class="col-md-6 section-one-left animate" >
+            <div class="row animated-row">
+                <div class="col-md-6 section-one-left animate fadeInRight" data-animate="fadeInRight">
                     <img src="assets/img/new-images/line-shape.png" width="542" height="717"class="img-fluid bg-svg-path" alt="">
-                    <ul class="section-card pl-0 d-flex flex-wrap">
+                    <ul class="section-card pl-0 d-flex flex-wrap animate fadeInUp" data-animate="fadeInUp">
                         <li>
                             <img src="assets/img/new-images/icon-1.png" width="64" height="64" alt="">
                             <span class="section-card-title">Lorem Ipsum</span>
@@ -50,7 +50,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-6 header-style-2 mt-5 pt-4 section-one-right animate" >
+                <div class="col-md-6 header-style-2 mt-5 pt-4 section-one-right animate fadeInLeft" data-animate="fadeInLeft">
                         <h3 class="sub-title">Lorem Ipsum</h3>
                         <p>Lorem Ipsum is simply dummy text of the printing
                             and typesetting industry. Lorem Ipsum has been the
@@ -69,13 +69,14 @@
             </div>
         </div>
     </section>
+<!-- section one end -->
 
-
+<!-- section two start -->
     <section class="animated-row  curved-section section-two">
         <div class="section-two-inner">
             <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-md-6 header-style-2 section-two-left animate" >
+                <div class="row align-items-center animated-row ">
+                    <div class="col-md-6 header-style-2 section-two-left animate fadeInLeft" data-animate="fadeInLeft">
                                 <h3 class="sub-title">Lorem Ipsum</h3>
                                 <p>Lorem Ipsum is simply dummy text of the printing
                                     and typesetting industry. Lorem Ipsum has been the
@@ -91,7 +92,7 @@
                                     <a href="#" class="button">Start Earning Today!</a>
 
                     </div>
-                    <div class="col-md-6 section-two-right animate" >
+                    <div class="col-md-6 section-two-right animate fadeInRight" data-animate="fadeInRight">
                         <div class="section-two-right-img"><img src="assets/img/new-images/dummy-img.jpg" width="605" height="427" class="img-fluid" alt=""></div>
                         
                     </div>
@@ -99,10 +100,13 @@
             </div>
         </div>
     </section>
+<!-- section two end -->
+
+<!-- section three start -->
     <section class="animated-row  section-three">
         <div class="container">
             <div class="row">
-                <div class="header-style-2 text-center animate" >
+                <div class="header-style-2 text-center animate fadeInUp" data-animate="fadeInUp">
                     <h3 class="sub-title">Fully Customizable Loyalty Program</span></h3>
                     <h5 class="mb-4">Your Business. Your Customers. Your Plan.</h5>
                     <p>Loyal~n~Save has several beneficial features that your business can utilize to increase customer retention and ROI. Create customized campaigns, send mobile push notifications and emails, and drive healthy competition between members with the gamified mobile app.</p>
@@ -112,6 +116,7 @@
                 
                 <div class="col-3 d-flex flex-column justify-content-between lns-parts-left" > 
                     <div class="bubble bubble-bottom-right">
+                        
                         <div class="bubble-icon">
                              <img src="assets/img/new-images/team-icon.png" width="51" height="51" class="img-fluid" alt=""> </div>
                         <div class="bubble-title">Team Rewards</div>
@@ -153,7 +158,9 @@
             </div>
         </div>
     </section>
+<!-- section three end -->
 
+<!-- Feature section start -->
     <section class="animated-row feature-section  curved-section section-four">
         <div class="section-four-inner">
             <div class="container">
@@ -167,8 +174,8 @@
                 </div>
 
                 <div class="feature-items mt-5">
-                <div class="row">
-                    <div class="col-12 col-sm-6 col-xl-3 mb-4">
+                <div class="row feature-slick">
+                    <div class="">
                         <div class="feature-item animate" >
                             <div class="thumb-container">
                                 <p class="thumb">
@@ -180,7 +187,7 @@
                           
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-xl-3 mb-4">
+                    <div class="">
                         <div class="feature-item animate">
                             <div class="thumb-container">
                                 <p class="thumb">
@@ -192,7 +199,7 @@
                             
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-xl-3 mb-4">
+                    <div class="">
                         <div class="feature-item animate" >
                             <div class="thumb-container">
                                 <p class="thumb">
@@ -204,7 +211,54 @@
                             
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-xl-3 mb-4">
+                    <div class="">
+                        <div class="feature-item animate" >
+                            <div class="thumb-container">
+                                <p class="thumb">
+                                    <img src="assets/img/new-images/industry4.png" width="50" height="50" alt="" /> 
+                                </p>
+                            </div>
+                            <h4>Branded Keytags</h4>
+                            <p>Give customers physical branded loyalty cards that can double as gift cards and let them use the virtual punch card on their mobile app.</p>
+                        </div>
+                    </div>
+                    <div class="">
+                        <div class="feature-item animate" >
+                            <div class="thumb-container">
+                                <p class="thumb">
+                                    <img src="assets/img/new-images/industry1.png" width="50" height="50" alt="" />
+                                </p>
+                            </div>
+                            <h4>Maketing Portal</h4>
+                            <p>Manage your campaigns, customers, swag shop, and more through our user-friendly back-end portal.</p>
+                          
+                        </div>
+                    </div>
+                    <div class="">
+                        <div class="feature-item animate">
+                            <div class="thumb-container">
+                                <p class="thumb">
+                                    <img src="assets/img/new-images/industry2.png" width="50" height="50" alt="" />
+                                </p>
+                            </div>
+                            <h4>Swag Shop</h4>
+                            <p>Upload exclusive merchandise such as t-shirts or hats for customers to redeem their points for right in the app!</p>
+                            
+                        </div>
+                    </div>
+                    <div class="">
+                        <div class="feature-item animate" >
+                            <div class="thumb-container">
+                                <p class="thumb">
+                                    <img src="assets/img/new-images/industry3.png" width="50" height="50" alt="" />
+                                </p>
+                            </div>
+                            <h4>Mobile App</h4>
+                            <p>Meet your customers where they are: their phones. Customers can join stores and campaigns, view their points, and much more..</p>
+                            
+                        </div>
+                    </div>
+                    <div class="">
                         <div class="feature-item animate" >
                             <div class="thumb-container">
                                 <p class="thumb">
@@ -226,7 +280,9 @@
             </div>
         </div>
     </section>
+<!-- Feature section end -->
 
+<!-- Customer Experience section start -->
     <section class="animated-row  customer-experice-section">       
             <div class="container container-large">
                 <div class="row ">
@@ -304,8 +360,9 @@
             </div>
         
     </section>
+<!-- Customer Experience section end -->
 
-
+<!-- pos section start -->
     <section class="animated-row curved-section  section-pos">
         <div class="section-pos-inner">
             <div class="container">
@@ -367,7 +424,9 @@
             </div>
         </div>
     </section>
+<!-- pos section end -->
 
+<!-- client section start -->
     <section class="animated-row clientsay-section">
 
             <div class="container">
@@ -420,8 +479,9 @@
             </div>
         
     </section>
+<!-- client section end -->
 
-    <section class="feature-section animated-row">
+    <!--<section class="feature-section animated-row">
         <svg class="scene" preserveAspectRatio="none" viewBox="0 0 1440 800">
             <defs><linearGradient id="MyGradient" x2="0" y2="1"><stop offset="0%" stop-color="#e3eeff" /><stop offset="100%" stop-color="#f3e7e9" /></linearGradient></defs>
             <path style="fill:url(#MyGradient);" d="M 1066,436 C 1051,543.8 973.2,656.2 873.6,700.1 756.6,751.7 600.9,725 492.4,657.4 431.5,619.5 387.5,546.9 376.7,476 360.3,368.3 377.9,229.2 462.5,160.5 589.5,57.34 815.4,42.24 952.4,131.7 1044,190.8 1081,328.8 1066,436 Z" pathdata:id="M 1041,450.4 C 1023,547.7 992.8,667.7 905.7,714.5 793.1,775 639,728.7 524.5,671.8 453.3,636.4 382.2,575.4 360.2,499 329.7,393 344.6,249.2 426,174.9 568.6,44.66 851.1,-8.71 1002,111.8 1091,182.7 1061,338.6 1041,450.4 Z;M 1066,436 C 1051,543.8 976.5,664.5 873.6,700.1 761,739.1 636.4,655.8 529.5,603.1 441.6,559.8 325.8,520.1 293.8,427.5 263.1,338.4 294.5,213.4 368.2,154.8 520.7,33.48 790.1,23.76 952.4,131.7 1043,191.7 1081,328.8 1066,436 Z;M 1066,436 C 1053,531.1 930.7,580.1 842.2,617.2 734,662.7 598.4,707.8 492.4,657.4 427.6,626.6 387.5,546.9 376.7,476 360.3,368.3 376.9,227.9 462.5,160.5 567.6,77.69 749.9,37.5 863.8,148.8 947.6,230.7 1082,320.1 1066,436 Z"/>
@@ -588,7 +648,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
 </main>
 <?php include('footer.php'); ?>
@@ -605,6 +665,10 @@
         $('.client-slick').slick({
             slidesToShow: 1,
             slidesToScroll: 1,
+        });
+        $('.feature-slick').slick({
+            slidesToShow: 4,
+            slidesToScroll: 4,
         });
     })
 </script>

@@ -581,7 +581,8 @@
   
   .feature-section .feature-items .feature-item p {
     padding: 15px 0;
-    font-size: 18px;
+    font-size: 16px;
+    line-height: 1.4;
     font-weight: 300;
     color: #686868;
   }
@@ -626,7 +627,7 @@
   }
 /* old css end */
 
-
+/* New CSS start */
 .title_heading,.h1{
     font-size: 66px;
     line-height: 1.2;
@@ -660,8 +661,12 @@
     box-shadow: 0px 3px 8px rgb(0 0 0 / 12%);
 
 }
+.button:focus{
+  outline: none;
+}
 .button:hover{
     background: #521e92;
+    outline: none;
 }
 .header-style-1 .header__title h1{
     color:#fff;
@@ -706,7 +711,7 @@
 }
 .bg-svg-path{
     position: absolute; 
-    z-index: 1;
+    z-index: 0;
     left:115px;
     max-width: 90%;
     top: -50px;
@@ -715,6 +720,7 @@
     padding-top: 110px;
     margin-top: 110px;
     position: relative;
+    z-index: 1;
 }
 .section-one:after,.section-one:before{
     background: url(../img/new-images/bg-dot.png);
@@ -733,7 +739,7 @@
     position: absolute;
     content: "";
     top: auto;
-    bottom: -80px;
+    bottom: -95px;
     right: auto;
     left: -144px;
     width: 220px;
@@ -749,6 +755,7 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
+.section-two{margin-top: -100px; }
 .section-two-inner{    
     background-image: -webkit-gradient(linear, left top, left bottom, from(#e2f6ff), to(white));    
     background-image: -o-linear-gradient(#e2f6ff, white);    
@@ -773,7 +780,7 @@
     overflow: hidden;
 }
 .lns-parts{
-    background: url(../img/new-images/divya-chakra.png) no-repeat center/cover;
+    background: url(../img/new-images/divya-chakra.png) no-repeat center/87%;
     padding-top:100px;
     margin-top: 100px;
     padding-bottom:100px;
@@ -860,6 +867,8 @@ section{
     background-image: -o-linear-gradient(#fff1e6, white);    
     background-image: linear-gradient(#fff1e6, white);
 }
+
+/* feature section start */
 .feature-section .feature-items{
     padding: 0;
 }
@@ -908,6 +917,9 @@ section{
 .feature-section .feature-items .feature-item .thumb:after{
     background: url(../img/svg/fround.svg);
 }
+
+/* Feature section CSS end  */
+
 .bubble.bubble-bottom-right:after, .bubble.bubble-bottom-right:before,
 .bubble.bubble-bottom-left:after, .bubble.bubble-bottom-left:before {
   width: 0;
@@ -1055,3 +1067,4 @@ section{
   background-image: -o-linear-gradient(#f0ffe1, white);
   background-image: linear-gradient(#f0ffe1, white);
 }
+/* New CSS End */
