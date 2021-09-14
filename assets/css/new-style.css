@@ -88,7 +88,7 @@
   
   .header-style-1:before {
     content: '';
-    background: url(../../images/merchant_website/svg/hshape.svg) center bottom no-repeat;
+    background: url(../img/svg/hshape.svg) center bottom no-repeat;
     background-size: 100%;
     position: absolute;
     bottom: -5px;
@@ -192,7 +192,7 @@
   }
   
   .header-style-1.inner-title:before {
-    background: url(../../images/merchant_website/svg/hwave.svg) center bottom no-repeat;
+    background: url(../img/svg/hwave.svg) center bottom no-repeat;
   }
   
   @media (max-width: 767px) {
@@ -560,7 +560,7 @@
     z-index: 1;
     width: 100%;
     height: 100%;
-    background: url(../../images/merchant_website/svg/fround.svg) center no-repeat;
+    background: url(../img/svg/fround.svg) center no-repeat;
     transform: scale(1.4);
     transition: all 0.4s ease-in-out;
   }

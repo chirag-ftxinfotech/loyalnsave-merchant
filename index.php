@@ -7,7 +7,7 @@
     <section class="header-style-1 animated-row">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-12 col-lg-5 offset-lg-2 text-right order-lg-2 mt-5  mb-5 animate" >
+                <div class="col-12 col-lg-5 offset-lg-2 text-right order-lg-2 mt-5  mb-5 animate">
                     <img src="assets/img/new-images/mobile.png" alt="" />
                 </div>
                 <div class="col-12 col-lg-5 order-lg-1 animate" >
