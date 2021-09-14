@@ -508,7 +508,7 @@
     position: relative;
     z-index: 1;
   }
-  
+
   .feature-section .feature-items .feature-item .thumb {
     display: block;
     width: 110px;
@@ -581,7 +581,8 @@
   
   .feature-section .feature-items .feature-item p {
     padding: 15px 0;
-    font-size: 18px;
+    font-size: 16px;
+    line-height: 1.4;
     font-weight: 300;
     color: #686868;
   }
@@ -626,17 +627,13 @@
   }
 /* old css end */
 
-
+/* New CSS start */
 .title_heading,.h1{
     font-size: 66px;
     line-height: 1.2;
     color:#fefefe;
 }
-.title_desc{
-    font-size: 32px;
-    line-height: 1.2;
-    color:#fff;
-}
+
 .header-style-1{
     background: url(../img/new-images/top.png) no-repeat center / cover;
     min-height: 103vh;
@@ -664,8 +661,12 @@
     box-shadow: 0px 3px 8px rgb(0 0 0 / 12%);
 
 }
+.button:focus{
+  outline: none;
+}
 .button:hover{
     background: #521e92;
+    outline: none;
 }
 .header-style-1 .header__title h1{
     color:#fff;
@@ -710,7 +711,7 @@
 }
 .bg-svg-path{
     position: absolute; 
-    z-index: 1;
+    z-index: 0;
     left:115px;
     max-width: 90%;
     top: -50px;
@@ -719,6 +720,7 @@
     padding-top: 110px;
     margin-top: 110px;
     position: relative;
+    z-index: 1;
 }
 .section-one:after,.section-one:before{
     background: url(../img/new-images/bg-dot.png);
@@ -737,14 +739,14 @@
     position: absolute;
     content: "";
     top: auto;
-    bottom: -80px;
+    bottom: -95px;
     right: auto;
     left: -144px;
     width: 220px;
     height: 440px;
     background-size: contain;
 }
-.section-two:before{
+.curved-section:before{
     background: url(../img/new-images/curve-bg.png);
     width: 100%;
     height: 470px;
@@ -753,6 +755,7 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
+.section-two{margin-top: -100px; }
 .section-two-inner{    
     background-image: -webkit-gradient(linear, left top, left bottom, from(#e2f6ff), to(white));    
     background-image: -o-linear-gradient(#e2f6ff, white);    
@@ -777,10 +780,16 @@
     overflow: hidden;
 }
 .lns-parts{
-    background: url(../img/new-images/divya-chakra.png) no-repeat center/cover;
+    background: url(../img/new-images/divya-chakra.png) no-repeat center/87%;
     padding-top:100px;
     margin-top: 100px;
     padding-bottom:100px;
+}
+section{
+  padding-top:100px;
+}
+.container.container-large {
+  max-width: 1600px;
 }
 .bubble {
     position: relative;
@@ -858,6 +867,8 @@
     background-image: -o-linear-gradient(#fff1e6, white);    
     background-image: linear-gradient(#fff1e6, white);
 }
+
+/* feature section start */
 .feature-section .feature-items{
     padding: 0;
 }
@@ -906,6 +917,9 @@
 .feature-section .feature-items .feature-item .thumb:after{
     background: url(../img/svg/fround.svg);
 }
+
+/* Feature section CSS end  */
+
 .bubble.bubble-bottom-right:after, .bubble.bubble-bottom-right:before,
 .bubble.bubble-bottom-left:after, .bubble.bubble-bottom-left:before {
   width: 0;
@@ -949,3 +963,108 @@
 .bubble.bubble-bottom-left:hover:after{
   border-top-color:#32bfea ;
 }
+.ce-list{
+  list-style-type:none;
+  padding-left: 0;
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 60px;
+  color: #8783a2;
+}
+.ce-list li+li{
+  margin-top: 30px;
+}
+.ce-list-no{
+  background: -webkit-linear-gradient( #7c73f2 , #e877ae );
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 5px transparent;
+  color: #ffffff;
+  font-size: 50px;
+  line-height: 1;
+}
+.ce-list-title{
+  font-size: 24px;
+  color:#212529;
+  text-transform: uppercase;
+}
+
+.customer-experice-section {
+  position: relative;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.customer-experice-section:after {
+  content: "";
+  position: absolute;
+  width: calc(50% - 110px);
+  height: calc(100% - 110px);
+  right: -10%;
+  top: 110px;
+  background: linear-gradient(#fff, #fff) padding-box, linear-gradient(to right, #ffebdb 5%,#fffaf6 40%, white 100%) border-box;
+  border-radius: 100%;
+  border: 60px solid transparent;
+  max-width: 900px;
+  max-height: 900px;
+}
+
+.ce-list-right {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  position: relative;
+  z-index: 2;
+  padding-left: 26%;
+}
+.ce-list-right li{
+  display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.ce-list-right li:first-child{
+  margin-top: -50px;
+}
+.ce-list-right li:last-child{
+  margin-bottom: -50px;
+}
+.ce-list-right-thumb {
+  width: 200px;
+  height: 200px;
+  background-image: linear-gradient(
+-25deg, #b87cd6 30%, #648afa );
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 35px;
+  position: relative;
+}
+.ce-list-right-thumb:before {
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  content: "";
+  border: 3px solid #fff;
+  border-radius: 100%;
+}
+.ce-list-right-text {
+  font-size: 24px;
+  line-height: 1.3;
+  text-align: center;
+  text-transform: uppercase;
+}
+.ce-list-right-text>span{
+  font-weight: bold;
+  display: block;
+}
+.section-pos:before{
+  background-image: url(../img/new-images/curve-bg-light-green.png);
+}
+.section-pos-inner{
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f0ffe1), to(white));
+  background-image: -o-linear-gradient(#f0ffe1, white);
+  background-image: linear-gradient(#f0ffe1, white);
+}
+/* New CSS End */

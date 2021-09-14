@@ -1,48 +1,71 @@
 <footer id="footer" class="animated-row">    
-    <div class="container">
-        <div class="f-top">
-            <div class="row">
-                <div class="col-12 col-lg-6 col-xl-7 text-center animate" data-animate="fadeInUp"><img src="assets/img/fperson.png" alt="" /></div>
-                <div class="col-12 col-lg-6 col-xl-5">
-                    <div class="f-form animate" data-animate="fadeInUp">
-                        <div class="header-style-2">
-                            <h3>Get in Touch</h3>
-                            <p>We have some of the best loyalty strategists in the country who are eager to help your business thrive with the use of a customized loyalty program. </p>
-                        </div>
+    <div class="footer-container">
+        <div class="container">
+            <div class="f-top">
+                <div class="row align-items-center">                    
+                    <div class="col-12 col-lg-6 col-xl-5">
+                        <div class="f-form animate" data-animate="fadeInUp">
+                            <div class="header-style-2">
+                                <h3 class="sub-title">Get in Touch</h3>
+                                <p>We have some of the best loyalty strategists in the country who are eager to help your business thrive with the use of a customized loyalty program. </p>
+                            </div>
 
-                        <form class="form" action="#" method="post">
-							 <div class="form-field select-field">
-								<label>Please Select the Concern Area given below.</label>
-								<select class="form-control">
-									<option>Sales & Marketing</option>
-									<option>Sales Team</option>                                        
-								</select>
-							</div>
-                            <div class="form-field">
-                                <input type="text" class="form-control" placeholder="Name *" />
-                            </div>
-                            <div class="form-field">
-                                <input type="text" class="form-control" placeholder="Email *" />
-                            </div>
-                            <div class="form-field">
-                                <textarea class="form-control" placeholder="Message *"></textarea>
-                            </div>
-                            <div class="form-action">
-                                <button class="button">Submit Now</button>
-                            </div>
-                        </form>
+                            <form class="form" action="#" method="post">
+                                <div class="form-field select-field">
+                                    <!-- <label>Please Select the Concern Area given below.</label> -->
+                                    <select class="form-control">
+                                        <option>Sales & Marketing</option>
+                                        <option>Sales Team</option>                                        
+                                    </select>
+                                </div>
+                                <div class="form-field">
+                                    <input type="text" class="form-control" placeholder="Name *" />
+                                </div>
+                                <div class="form-field">
+                                    <input type="text" class="form-control" placeholder="Email *" />
+                                </div>
+                                <div class="form-field">
+                                    <textarea class="form-control" rows="8" placeholder="Message *"></textarea>
+                                </div>
+                                <div class="form-action">
+                                    <button class="button">Submit Now</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 col-xl-7 text-center animate" data-animate="fadeInUp">
+                        <img src="assets/img/fperson.png" alt="" class="img-fluid" />
                     </div>
                 </div>
             </div>
         </div>
-
-        <div class="f-middle">
-            <div class="f-request text-center animate" data-animate="fadeInUp">
-                <h3>Ready To Get Started?</h3>
-                <p>Find out more about how Loyal~n~Save can benefit your business and have you converting more loyal customers than ever before!</p>
-                <p><a href="#!" class="button" data-toggle="modal" data-target="#requestQuote">Schedule a Demo</a></p>
+    </div>
+    <div class="container ">
+        <div class="row">
+            <div class="col-md-7">
+                <div class="f-middle">
+                    <div class="f-request animate" data-animate="fadeInUp">
+                        <h3 class="sub-title">Ready To Get Started?</h3>
+                        <p>Find out more about how Loyal~n~Save can benefit your business and have you converting more loyal customers than ever before!</p>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <div class="input-group-append">
+                                <button class="button">Subscribe</button>
+                            </div>
+                        </div>
+                        <!-- <p><a href="#!" class="button" data-toggle="modal" data-target="#requestQuote">Schedule a Demo</a></p> -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 d-flex align-items-center justify-content-center ready-to">
+                <div class="ready-to-start">
+                    <div class="ready-to-start-arrow">
+                        <img src="assets/img/new-images/send-icon.png" width="75" height="75" alt="">
+                    </div>
+                </div>
             </div>
         </div>
+        
 
         <div class="f-bottom">
             <div class="row">
@@ -103,10 +126,24 @@
                     <div class="f-block f-social animate" data-animate="fadeInUp">
                         <h5>Follow us</h5>
                         <div class="f-content">
-                            <a href="https://www.facebook.com/LoyalNSave/" target="_blank"><img src="assets/img/facebook.png" alt="" /></a>
-                            <a href="https://www.instagram.com/loyalnsave/" target="_blank"><img src="assets/img/instagram.png" alt="" /></a>
-                            <a href="https://www.linkedin.com/company/loyal-n-save/" target="_blank"><img src="assets/img/linkedin.png" alt="" /></a>
-                            <a href="https://twitter.com/LoyalNSave" target="_blank"><img src="assets/img/twitter.png" alt="" /></a>
+                            <ul class="">
+                                <li>
+                                    <a href="https://www.facebook.com/LoyalNSave/" target="_blank"><img src="assets/img/facebook.png" alt="" /></a>
+                                </li>
+                                <li>
+                                <a href="https://www.instagram.com/loyalnsave/" target="_blank"><img src="assets/img/instagram.png" alt="" /></a>
+                                </li>
+                                <li>
+                                <a href="https://www.linkedin.com/company/loyal-n-save/" target="_blank"><img src="assets/img/linkedin.png" alt="" /></a>
+                                </li>
+                                <li>
+                                <a href="https://twitter.com/LoyalNSave" target="_blank"><img src="assets/img/twitter.png" alt="" /></a>
+                                </li>
+                            </ul>
+                            
+                            
+                            
+                            
                         </div>
                     </div>
                 

@@ -335,3 +335,184 @@ footer {
         }
     }
 }
+
+// footer new CSS start
+#footer{
+    background: linear-gradient(75deg ,#e900cf -30%, #40298b 70%);
+    margin-top: 165px;
+    padding-top: 0;
+    &:before{
+        background: url(../img/new-images/curve-bg-white.png) no-repeat;
+        height: 650px;
+        border-top: 390px solid #fff;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: -1px;
+        z-index: 0;
+        content: "";
+    }
+    &:after{
+        background: url(../img/new-images/footer-bottom-bg.png) bottom no-repeat;
+        height: 590px;
+        opacity: 1;
+        background-size: 100%;        
+    }
+    >.footer-container{
+        background: linear-gradient(to left, #ec77ab, #7873f5);        
+        border-radius: 10px;
+        padding: 3px;
+        max-width: 1360px;
+        margin: 0 auto;
+        z-index: 2;
+        position: relative;
+        &:before{
+            background: url(../img/new-images/bg-dot.png);
+            background-size: contain;
+            top: -133px;
+            content: "";
+            display: block;
+            height: 350px;
+            position: absolute;
+            right: -80px;
+            width: 170px;
+            z-index: 2;
+        }
+        >.container{
+            background-color: #fff;
+            max-width: none;
+            border-radius: 10px;
+            padding: 50px 170px;
+            position: relative;
+            z-index: 3;
+            .f-top{
+                margin-top: 0;
+            }
+        }
+        .f-form{
+            padding:0;
+            .select-field .form-control,.form-control {
+                border: none;
+                border-radius: 7px;
+                box-shadow: 3px 0 13px rgb(0 0 0 / 12%);                
+                padding:15px;
+                height: 160px!important;
+                font-size:18px;
+                color: #8783a2;
+                &:not(textarea){
+                    height: 63px!important;
+                }
+            }
+          
+            .form-field{
+                &+.form-field{
+                    margin-top: 40px;
+                }
+            }
+        }
+    }
+    .f-middle{
+        .f-request{
+            flex-basis: 100%;
+            width: 100%;
+            .input-group{
+                position: relative;
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+                -webkit-box-align: stretch;
+                -ms-flex-align: stretch;
+                align-items: stretch;
+                width: 100%;
+                background-color: #fff;
+                border-radius: 60px;
+                max-width: 500px;
+                >.form-control{
+                    position: relative;
+                    -webkit-box-flex: 1;
+                    -ms-flex: 1 1 auto;
+                    flex: 1 1 auto;
+                    width: 1%;
+                    margin-bottom: 0;
+                    border-radius: 60px;
+                }
+                .input-group-append{
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: flex;
+                }
+            }
+        }
+    }
+    .ready-to{
+        &:before{
+            background: url(../img/new-images/curve-line.png);
+            background-size: cover;
+            bottom: 111px;
+            content: "";
+            display: block;
+            height: 205px;
+            left: -194px;
+            position: absolute;
+            width: 370px;
+            z-index: 2;
+            transform: rotate(6deg);
+        }
+        .ready-to-start {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &:before,&:after {
+                content: "";
+                position: absolute;
+                height: 240px;
+                width: 240px;
+                background: #6d3da2;
+                z-index: -3;
+                border-radius: 100%;
+            }
+            &:after {
+                height: 270px;
+                width: 270px;
+                background: #63329b;
+                z-index: -4;
+            }
+            .ready-to-start-arrow {
+                width: 130px;
+                height: 130px;
+                display: flex;  
+                justify-content: center;
+                align-items: center;
+                background: #8052ad;
+                border-radius: 100%;
+                &:before,&:after {
+                    content: "";
+                    position: absolute;
+                    height: 180px;
+                    width: 180px;
+                    background: #7a4daa;
+                    z-index: -1;
+                    border-radius: 100%;
+                }
+                &:after {
+                    height: 210px;
+                    width: 210px;
+                    background: #7446a6;
+                    z-index: -2;
+                }
+            }
+        }
+    }
+    .f-social{
+        ul{
+            li{
+                display: inline-block;
+                width: 32%;
+                margin:0;
+            }
+        }
+    }
+}
+// footer new CSS end
