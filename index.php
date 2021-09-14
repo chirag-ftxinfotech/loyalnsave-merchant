@@ -33,19 +33,19 @@
                     <img src="assets/img/new-images/line-shape.png" width="542" height="717"class="img-fluid bg-svg-path" alt="">
                     <ul class="section-card pl-0 d-flex flex-wrap animate fadeInUp" data-animate="fadeInUp">
                         <li>
-                            <img src="assets/img/new-images/icon-1.png" width="64" height="64" alt="">
+                            <img src="assets/img/new-images/icon-1.png" class="section-card-icon" width="64" height="64" alt="">
                             <span class="section-card-title">Lorem Ipsum</span>
                         </li>
                         <li>
-                        <img src="assets/img/new-images/icon-1.png" width="64" height="64" alt="">
+                        <img src="assets/img/new-images/icon-1.png" class="section-card-icon" width="64" height="64" alt="">
                             <span class="section-card-title">Lorem Ipsum</span>
                         </li>
                         <li>
-                        <img src="assets/img/new-images/icon-1.png" width="64" height="64" alt="">
+                        <img src="assets/img/new-images/icon-1.png" class="section-card-icon" width="64" height="64" alt="">
                             <span class="section-card-title">Lorem Ipsum</span>
                         </li>
                         <li>
-                        <img src="assets/img/new-images/icon-1.png" width="64" height="64" alt="">
+                        <img src="assets/img/new-images/icon-1.png" class="section-card-icon" width="64" height="64" alt="">
                             <span class="section-card-title">Lorem Ipsum</span>
                         </li>
                     </ul>
@@ -114,7 +114,7 @@
             </div>
             <div class="row lns-parts">
                 
-                <div class="col-3 d-flex flex-column justify-content-between lns-parts-left" > 
+                <div class="col-md-4 col-xl-3 d-flex flex-column justify-content-between lns-parts-left" > 
                     <div class="bubble bubble-bottom-right">
                         
                         <div class="bubble-icon">
@@ -130,11 +130,11 @@
                     </div>                    
                 </div>      
 
-                <div class="col-6 text-center">
+                <div class="col-md-4 col-xl-6 text-center">
                     <img src="assets/img/new-images/mobile-front.png" width="416" height="755" class="img-fluid" alt="">
                 </div>
 
-                <div class="col-3 d-flex flex-column justify-content-between">
+                <div class="col-md-4 col-xl-3 d-flex flex-column justify-content-between">
                     <div class="bubble bubble-bottom-left">
                         <div class="bubble-icon">
                              <img src="assets/img/new-images/gamification-icon.png" width="51" height="51" class="img-fluid" alt=""> </div>
@@ -162,7 +162,7 @@
 
 <!-- Feature section start -->
     <section class="animated-row feature-section  curved-section section-four">
-        <div class="section-four-inner">
+        <div class="section-feature-inner">
             <div class="container">
                 <div class="row">
                     <div class="header-style-2 text-center animate" >
@@ -331,7 +331,7 @@
                             <ul class="ce-list-right">
                                 <li>
                                     <div class="ce-list-right-thumb">
-                                        <img src="assets/img/new-images/customer-acquisition-icon.png" alt="">
+                                        <img src="assets/img/new-images/customer-acquisition-icon.png" width="130" height="85" class="img-fluid" alt="">
                                     </div>
                                     <div class="ce-list-right-text mt-4">
                                         New Customer <span>acquisition</span>
@@ -339,7 +339,7 @@
                                 </li>
                                 <li class="align-self-start flex-row">
                                     <div class="ce-list-right-thumb">
-                                        <img src="assets/img/new-images/customer-retention-icon.png" alt="">
+                                        <img src="assets/img/new-images/customer-retention-icon.png" width="130" height="85" class="img-fluid" alt="">
                                     </div>
                                     <div class="ce-list-right-text ml-4">
                                         Customer <span>Retention</span>
@@ -350,7 +350,7 @@
                                         Customer <span>Engagement</span>
                                     </div>
                                     <div class="ce-list-right-thumb">
-                                        <img src="assets/img/new-images/customer-engagement-icon.png" alt="">
+                                        <img src="assets/img/new-images/customer-engagement-icon.png" width="130" height="85" class="img-fluid" alt="">
                                     </div>
                                    
                                 </li>
@@ -669,6 +669,15 @@
         $('.feature-slick').slick({
             slidesToShow: 4,
             slidesToScroll: 4,
+            responsive: [
+                {
+                breakpoint: 991,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                }
+                },
+            ]
         });
     })
 </script>

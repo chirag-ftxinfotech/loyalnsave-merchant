@@ -48,7 +48,7 @@
                         <h3 class="sub-title">Ready To Get Started?</h3>
                         <p>Find out more about how Loyal~n~Save can benefit your business and have you converting more loyal customers than ever before!</p>
                         <div class="input-group mb-3">
-                            <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <input type="email" class="form-control" placeholder="Enter your email" aria-label="Recipient's username" aria-describedby="basic-addon2">
                             <div class="input-group-append">
                                 <button class="button">Subscribe</button>
                             </div>

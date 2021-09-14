@@ -112,6 +112,7 @@ button {
         h1 {
             margin-bottom: 40px;
             font-size: 50px;
+            line-height: 1.2;
             font-weight: 500;
             color: #000000;
         }
@@ -120,6 +121,7 @@ button {
             top: 0;
             left: 0;
             font-size: 20px;
+            line-height: 1.2;
             font-weight: bold;
             color: #3e58b7;
             opacity: .5;
@@ -127,6 +129,7 @@ button {
         @include media(lg) {
             h1 {
                 font-size: 34px;
+                
             }
             h3 {
                 font-size: 22px;
@@ -208,6 +211,7 @@ button {
         }
         .header__desc {
             font-size: 22px;
+            
             font-weight: 400;
             color: #000;
             opacity: .7;
