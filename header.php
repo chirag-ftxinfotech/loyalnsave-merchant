@@ -48,7 +48,7 @@
                 </div>
             </li>
                 <li><a href="pricing.php">Pricing</a></li>
-                <li><a href="industries.php">Industries</a></li>
+                <li><a href="how-it-works.php">How it works</a></li>
                 <li><a href="blog.php">Blog</a></li>
                 <li><a href="contact-us.php">Contact</a></li>                        
             </ul>
