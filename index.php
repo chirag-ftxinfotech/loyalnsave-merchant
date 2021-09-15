@@ -50,7 +50,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-6 header-style-2 mt-5 pt-4 section-one-right animate fadeInLeft" data-animate="fadeInLeft">
+                <div class="col-md-6 header-style-2 mt-md-5 pt-md-4 section-one-right animate fadeInLeft" data-animate="fadeInLeft">
                         <h3 class="sub-title">Lorem Ipsum</h3>
                         <p>Lorem Ipsum is simply dummy text of the printing
                             and typesetting industry. Lorem Ipsum has been the
@@ -76,7 +76,11 @@
         <div class="section-two-inner">
             <div class="container">
                 <div class="row align-items-center animated-row ">
-                    <div class="col-md-6 header-style-2 section-two-left animate fadeInLeft" data-animate="fadeInLeft">
+                <div class="col-md-6 section-two-right animate fadeInRight order-md-2 mb-4 mb-mb-0" data-animate="fadeInRight">
+                        <div class="section-two-right-img"><img src="assets/img/new-images/dummy-img.jpg" width="605" height="427" class="img-fluid" alt=""></div>
+                        
+                    </div>
+                    <div class="col-md-6 header-style-2 section-two-left animate fadeInLeft order-md-1" data-animate="fadeInLeft">
                                 <h3 class="sub-title">Lorem Ipsum</h3>
                                 <p>Lorem Ipsum is simply dummy text of the printing
                                     and typesetting industry. Lorem Ipsum has been the
@@ -92,10 +96,7 @@
                                     <a href="#" class="button">Start Earning Today!</a>
 
                     </div>
-                    <div class="col-md-6 section-two-right animate fadeInRight" data-animate="fadeInRight">
-                        <div class="section-two-right-img"><img src="assets/img/new-images/dummy-img.jpg" width="605" height="427" class="img-fluid" alt=""></div>
-                        
-                    </div>
+                   
                 </div>
             </div>
         </div>
@@ -106,7 +107,7 @@
     <section class="animated-row  section-three">
         <div class="container">
             <div class="row">
-                <div class="header-style-2 text-center animate fadeInUp" data-animate="fadeInUp">
+                <div class="header-style-2 text-center animate fadeInUp col" data-animate="fadeInUp">
                     <h3 class="sub-title">Fully Customizable Loyalty Program</span></h3>
                     <h5 class="mb-4">Your Business. Your Customers. Your Plan.</h5>
                     <p>Loyal~n~Save has several beneficial features that your business can utilize to increase customer retention and ROI. Create customized campaigns, send mobile push notifications and emails, and drive healthy competition between members with the gamified mobile app.</p>
@@ -114,7 +115,7 @@
             </div>
             <div class="row lns-parts">
                 
-                <div class="col-md-4 col-xl-3 d-flex flex-column justify-content-between lns-parts-left" > 
+                <div class="col-md-4 col-xl-3 d-flex flex-wrap flex-md-column justify-content-between lns-parts-left" > 
                     <div class="bubble bubble-bottom-right">
                         
                         <div class="bubble-icon">
@@ -130,11 +131,11 @@
                     </div>                    
                 </div>      
 
-                <div class="col-md-4 col-xl-6 text-center">
+                <div class="col-md-4 col-xl-6 text-center d-none d-md-block">
                     <img src="assets/img/new-images/mobile-front.png" width="416" height="755" class="img-fluid" alt="">
                 </div>
 
-                <div class="col-md-4 col-xl-3 d-flex flex-column justify-content-between">
+                <div class="col-md-4 col-xl-3 d-flex flex-wrap flex-md-column justify-content-between">
                     <div class="bubble bubble-bottom-left">
                         <div class="bubble-icon">
                              <img src="assets/img/new-images/gamification-icon.png" width="51" height="51" class="img-fluid" alt=""> </div>
@@ -150,7 +151,7 @@
                 </div>
             </div>
             <div class="row mt-5">
-                <div class="header-style-2 text-center animate" >
+                <div class="header-style-2 text-center animate col" >
                     <h5>Your Business. Your Customers. Your Plan.</h5>
                     <p>Loyal~n~Save has several beneficial features that your business can utilize to increase customer retention and ROI. Create customized campaigns, send mobile push notifications and emails, and drive healthy competition between members with the gamified mobile app.</p>
                     <a href="#" class="button">View Features</a>
@@ -165,7 +166,7 @@
         <div class="section-feature-inner">
             <div class="container">
                 <div class="row">
-                    <div class="header-style-2 text-center animate" >
+                    <div class="header-style-2 text-center animate col">
                         <h3 class="sub-title">Fully Customizable Loyalty Program</span></h3>
                         <h5 class="mb-4">Your Business. Your Customers. Your Plan.</h5>
                         <p>Loyal~n~Save has several beneficial features that your business can utilize to increase customer retention and ROI. Create customized campaigns, send mobile push notifications and emails, and drive healthy competition between members with the gamified mobile app.</p>
@@ -173,7 +174,7 @@
                     </div>
                 </div>
 
-                <div class="feature-items mt-5">
+                <div class="feature-items mt-lg-5">
                 <div class="row feature-slick">
                     <div class="">
                         <div class="feature-item animate" >
@@ -286,7 +287,36 @@
     <section class="animated-row  customer-experice-section">       
             <div class="container container-large">
                 <div class="row ">
-                    <div class="col-md-6 header-style-2 section-two-left animate" >
+                        <div class="col-md-6 section-two-right animate customer-experience-right order-md-2" >
+                            <ul class="ce-list-right">
+                                <li>
+                                    <div class="ce-list-right-thumb">
+                                        <img src="assets/img/new-images/customer-acquisition-icon.png" width="130" height="85" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="ce-list-right-text mt-4">
+                                        New Customer <span>acquisition</span>
+                                    </div>
+                                </li>
+                                <li class="align-self-start flex-md-row">
+                                    <div class="ce-list-right-thumb">
+                                        <img src="assets/img/new-images/customer-retention-icon.png" width="130" height="85" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="ce-list-right-text ml-md-4">
+                                        Customer <span>Retention</span>
+                                    </div>
+                                </li>
+                                <li>
+                                <div class="ce-list-right-text mb-4">
+                                        Customer <span>Engagement</span>
+                                    </div>
+                                    <div class="ce-list-right-thumb">
+                                        <img src="assets/img/new-images/customer-engagement-icon.png" width="130" height="85" class="img-fluid" alt="">
+                                    </div>
+                                   
+                                </li>
+                            </ul>
+                        </div>
+                    <div class="col-md-6 header-style-2 section-two-left animate order-md-1" >
                         <h3 class="sub-title">Customer Experience</h3>
                         <p>Lorem Ipsum is simply dummy text of the printing
                             and typesetting industry. Lorem Ipsum has been the
@@ -327,35 +357,7 @@
                                     
 
                     </div>
-                    <div class="col-md-6 section-two-right animate customer-experience-right" >
-                            <ul class="ce-list-right">
-                                <li>
-                                    <div class="ce-list-right-thumb">
-                                        <img src="assets/img/new-images/customer-acquisition-icon.png" width="130" height="85" class="img-fluid" alt="">
-                                    </div>
-                                    <div class="ce-list-right-text mt-4">
-                                        New Customer <span>acquisition</span>
-                                    </div>
-                                </li>
-                                <li class="align-self-start flex-row">
-                                    <div class="ce-list-right-thumb">
-                                        <img src="assets/img/new-images/customer-retention-icon.png" width="130" height="85" class="img-fluid" alt="">
-                                    </div>
-                                    <div class="ce-list-right-text ml-4">
-                                        Customer <span>Retention</span>
-                                    </div>
-                                </li>
-                                <li>
-                                <div class="ce-list-right-text mb-4">
-                                        Customer <span>Engagement</span>
-                                    </div>
-                                    <div class="ce-list-right-thumb">
-                                        <img src="assets/img/new-images/customer-engagement-icon.png" width="130" height="85" class="img-fluid" alt="">
-                                    </div>
-                                   
-                                </li>
-                            </ul>
-                    </div>
+                   
                 </div>
             </div>
         
@@ -367,7 +369,7 @@
         <div class="section-pos-inner">
             <div class="container">
                 <div class="row align-items-center">
-                <div class="col-md-6 section-two-right animated">
+                <div class="col-md-6 pos-left animated">
                     <div class="pos-slick">
                         <div>
                             <img src="assets/img/new-images/pos-img.png" width="516" height="478" class="img-fluid" alt="">
@@ -385,7 +387,7 @@
                         
                         
                     </div>
-                    <div class="col-md-6 header-style-2 section-two-left text-right animated undefined">
+                    <div class="col-md-6 header-style-2  pos-right animated">
                                 <h3 class="sub-title">POS Integration</h3>
                                 <p>Lorem Ipsum is simply dummy text of the printing and
                                 typesetting industry.  standard dummy text ever since the 1500s,
@@ -431,7 +433,7 @@
 
             <div class="container">
                 <div class="row">
-                    <div class="header-style-2 text-center animate" >
+                    <div class="header-style-2 text-center animate col" >
                         <h3 class="sub-title">What Our Clients Say</span></h3>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
                             standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
@@ -672,10 +674,24 @@
             responsive: [
                 {
                 breakpoint: 991,
-                settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 3,
-                }
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                    }
+                },
+                {
+                breakpoint: 767,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2,
+                    }
+                },
+                {
+                breakpoint: 575,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                    }
                 },
             ]
         });

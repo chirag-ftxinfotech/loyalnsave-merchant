@@ -2,8 +2,11 @@
     <div class="footer-container">
         <div class="container">
             <div class="f-top">
-                <div class="row align-items-center">                    
-                    <div class="col-12 col-lg-6 col-xl-5">
+                <div class="row align-items-center"> 
+                    <div class="col-12 col-lg-6 col-xl-7 text-center animate order-lg-2" data-animate="fadeInUp">
+                        <img src="assets/img/fperson.png" width="500" height="510" alt="" class="img-fluid" />
+                    </div>                   
+                    <div class="col-12 col-lg-6 col-xl-5 order-lg-1">
                         <div class="f-form animate" data-animate="fadeInUp">
                             <div class="header-style-2">
                                 <h3 class="sub-title">Get in Touch</h3>
@@ -33,9 +36,7 @@
                             </form>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-6 col-xl-7 text-center animate" data-animate="fadeInUp">
-                        <img src="assets/img/fperson.png" alt="" class="img-fluid" />
-                    </div>
+                    
                 </div>
             </div>
         </div>

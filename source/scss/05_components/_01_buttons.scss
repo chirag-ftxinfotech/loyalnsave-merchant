@@ -29,5 +29,9 @@
     background: -webkit-linear-gradient(45deg,  #68e0cf 0%,#209cff 100%);
     background: linear-gradient(45deg,  #68e0cf 0%,#209cff 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#68e0cf', endColorstr='#209cff',GradientType=1 );
-  }  
+  } 
+  @include media(xs) {
+    font-size: 12px;
+    padding: 12px 15px;
+  } 
 }

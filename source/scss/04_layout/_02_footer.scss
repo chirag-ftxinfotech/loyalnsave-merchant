@@ -219,6 +219,10 @@ footer {
 			@include media(md){
 				font-size: 22px;
 			}
+			@include media(xs){
+				margin-bottom: 15px;
+                padding-bottom: 0;
+			}
         }
 
         p {
@@ -342,6 +346,9 @@ footer {
     background: linear-gradient(75deg ,#e900cf -30%, #40298b 70%);
     margin-top: 165px;
     padding-top: 0;
+    @include media(sm) {
+        margin-top: 65px;
+    }
     &:before{
         background: url(../img/new-images/curve-bg-white.png) no-repeat;
         height: 650px;
@@ -379,6 +386,9 @@ footer {
             right: -80px;
             width: 170px;
             z-index: 2;
+            @include media(xs) {
+                display: none;
+              }
         }
         >.container{
             background-color: #fff;
@@ -387,6 +397,9 @@ footer {
             padding: 50px 170px;
             position: relative;
             z-index: 3;
+            @include media(sm) {
+                padding:15px;
+            }
             .f-top{
                 margin-top: 0;
             }
@@ -404,7 +417,12 @@ footer {
                 &:not(textarea){
                     height: 63px!important;
                 }
-               
+                @include media(md) {
+                    font-size: 16px;
+                }
+                @include media(xs) {
+                    font-size: 14px;
+                }               
             }
           
             .form-field{
@@ -458,6 +476,9 @@ footer {
         }
     }
     .ready-to{
+        @include media(sm) {
+            display: none!important;
+        }
         &:before{
             background: url(../img/new-images/curve-line.png);
             background-size: cover;
