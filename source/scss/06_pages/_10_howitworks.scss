@@ -7,6 +7,7 @@
 }
 .hiw-top{
   position: relative; 
+  z-index: 5;
 }
 .bg-dot-right-top{
   &:before{
@@ -67,6 +68,19 @@
 .curved-section.curved-theme{
   &:before{
     background-image: url(../img/new-images/curve-bg-theme.png);
+    height: 470px;
+    @include media(xl) {
+      height: 300px;
+    }
+    @include media(lg) {
+      height: 200px;
+    }
+    @include media(sm) {
+      height:100px;
+    }
+    @include media(xs) {
+      height:60px;
+    }
   }
   .curved-inner{
     background-image: linear-gradient(#ebe8f2,#fff);
