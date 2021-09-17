@@ -37,8 +37,8 @@
                 <span class="darrow"></span>
                 <div class="dropdown">
                     <ul>
-                        <li><a href="">Pet Retailer</a></li>
-                        <li><a href="">Salon &amp; Barbershop</a></li>
+                        <li><a href="swagshop.php">Swag Shop</a></li>
+                        <li><a href="features.php">Features</a></li>
                         <li><a href="">Restaurants</a></li>
                         <li><a href="">Automotive</a></li>
                         <li><a href="">Tattoo/Piercing</a></li>
@@ -47,7 +47,7 @@
                     </ul>
                 </div>
             </li>
-                <li><a href="pricing.php">Pricing</a></li>
+                <li><a href="deals.php">Deals</a></li>
                 <li><a href="how-it-works.php">How it works</a></li>
                 <li><a href="blog.php">Blog</a></li>
                 <li><a href="contact-us.php">Contact</a></li>                        

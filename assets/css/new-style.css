@@ -1,5 +1,7 @@
-/* old css  start*/
-@media (min-width: 1470px) {
+
+/* New CSS start */
+
+@media (min-width: 1470px){
   .container {
     max-width: 1430px;
   }

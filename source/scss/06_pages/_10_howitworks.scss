@@ -6,12 +6,95 @@
   margin-bottom: 35px;
 }
 .hiw-top{
+  position: relative; 
+  z-index: 5;
+}
+.bg-dot-right-top{
   &:before{
-    background: url(../img/new-images/laptop.png);
+    background: url(../img/new-images/bg-dot.png);
+    background-size: contain;
+    content: "";
+    display: block;
+    height: 320px;
+    position: absolute;
+    right: -10px;
+    top: 0;
+    width: 160px;
+    @include media(lg) {
+      width: 70px;
+    }
+    @include media(sm) {
+      display: none;
+    }
+  }
+}
+.bg-dot-left-top{
+  &:after{
+    background: url(../img/new-images/bg-dot.png);
+    background-size: contain;
     content: "";
     display: block;
     position: absolute;
-    left:0;
-    top:0;
+    left: 5%;
+    height: 100px;
+    width: 100px;
+    top: 24px;
+    z-index: -1; 
+    @include media(lg) {
+      height: 80px;
+      top: 4px;
+      width: 70px;
+    }
+    @include media(sm) {
+      display: none;
+    }
+  }  
+}
+.cruved-dot-left-top{
+  position: relative;
+  &:after{
+    background: url(../img/new-images/bg-dot.png);
+    background-size: contain;
+    content: "";
+    display: block;
+    height: 230px;
+    position: absolute;
+    left: 10%;
+    top: 110px;
+    width: 160px;
+    z-index: -1;
+    @include media(xl) {
+      top: 40px;
+    }
+    @include media(lg) {
+      width: 50px;
+    }
   }
+}
+.curved-section.curved-theme{
+  &:before{
+    background-image: url(../img/new-images/curve-bg-theme.png);
+    height: 470px;
+    @include media(xl) {
+      height: 300px;
+    }
+    @include media(lg) {
+      height: 200px;
+    }
+    @include media(sm) {
+      height:100px;
+    }
+    @include media(xs) {
+      height:60px;
+    }
+  }
+  .curved-inner{
+    background-image: linear-gradient(#ebe8f2,#fff);
+  }
+}
+section.curved-theme{
+  padding-top: 0;
+}
+.header-inner-content{
+  min-height: 70vh;
 }
