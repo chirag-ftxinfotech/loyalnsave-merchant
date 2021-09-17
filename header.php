@@ -37,8 +37,8 @@
                 <span class="darrow"></span>
                 <div class="dropdown">
                     <ul>
-                        <li><a href="">Pet Retailer</a></li>
-                        <li><a href="">Salon &amp; Barbershop</a></li>
+                        <li><a href="swagshop.php">Swag Shop</a></li>
+                        <li><a href="features.php">Features</a></li>
                         <li><a href="">Restaurants</a></li>
                         <li><a href="">Automotive</a></li>
                         <li><a href="">Tattoo/Piercing</a></li>

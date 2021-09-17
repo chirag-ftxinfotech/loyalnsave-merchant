@@ -23,6 +23,9 @@
     @include media(lg) {
       width: 70px;
     }
+    @include media(sm) {
+      display: none;
+    }
   }
 }
 .bg-dot-left-top{
@@ -41,6 +44,9 @@
       height: 80px;
       top: 4px;
       width: 70px;
+    }
+    @include media(sm) {
+      display: none;
     }
   }  
 }
