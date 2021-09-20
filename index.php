@@ -77,7 +77,7 @@
             <div class="container">
                 <div class="row align-items-center animated-row ">
                 <div class="col-md-6 section-two-right animate fadeInRight order-md-2 mb-4 mb-mb-0" data-animate="fadeInRight">
-                        <div class="section-two-right-img"><img src="assets/img/new-images/dummy-img.jpg" width="605" height="427" class="img-fluid" alt=""></div>
+                        <div class="section-two-right-img"><img src="assets/img/new-images/dummy-img.jpg" width="675" height="427" class="img-fluid" alt=""></div>
                         
                     </div>
                     <div class="col-md-6 header-style-2 section-two-left animate fadeInLeft order-md-1" data-animate="fadeInLeft">

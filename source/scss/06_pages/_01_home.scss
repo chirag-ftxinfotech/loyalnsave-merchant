@@ -877,6 +877,11 @@ section{
       }
       }
     }
+    .slick-slide{
+      >img{
+        margin:0 auto;
+      }
+    }
   }
   .pi-list{        
     @include justify-content(space-between);

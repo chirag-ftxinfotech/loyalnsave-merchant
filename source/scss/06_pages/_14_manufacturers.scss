@@ -1,0 +1,92 @@
+.gradiant-border-dashed{
+    width: 130px;
+    height: 130px;
+    border: 3px dashed $gradient-bottom;
+    border-radius: 100%;
+    @include flexbox;
+    @include justify-content(center);
+    @include align-items(center);
+    margin:0 auto;
+    box-shadow: 0px 0px 25px rgb(103 36 148 / 21%);
+}
+.manufacturer-logo{    
+    height: 680px;
+    width: 680px;    
+    border:2px solid $gradient-bottom;
+    border-radius: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;   
+    position: relative;
+    .manufacturer-logo-item{    
+        height: 560px;
+        width: 560px;    
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        align-items: center;   
+        border-radius: 100%;
+        border:30px solid $gradient-bottom;
+        &::before{
+            position: absolute;
+            height: 360px;
+            width: 360px;
+            border-radius: 100%;
+            content: "";
+            border:2px solid $gradient-bottom;
+        }
+        &::after{
+            position: absolute;
+            height: 220px;
+            width: 220px;
+            border-radius: 100%;
+            content: "";
+            box-shadow: 0px 0px 30px #8080801a;
+            display: block;
+        }
+    }
+    .manufacturer-caption{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top:-45px;
+        margin: auto;
+        width: 260px;
+        padding: 10px;
+        background-color: $gradient-top;
+        color:#fff;
+        font-size: 24px;
+        line-height: 1.3;
+        border-radius: 7px;
+        &--right--top{
+            right: -150px;
+            top: 180px;
+            left: auto;
+        }
+        &--right--bottom{
+            right: -70px;
+            top: auto;
+            left: auto;
+            bottom:100px
+        }
+        &--left--top{
+            left: -150px;
+            top: 180px;
+            right: auto;
+        }
+        &--left--bottom{
+            left: -70px;
+            bottom: 100px;
+            top:auto;
+            right: auto;
+        }
+    }
+}
+.manufacturer-card{
+    width: 400px;
+    background: #fff;
+    padding: 35px;
+    box-shadow: 0 0 45px rgb(159 52 153 / 19%);
+    border-radius: 10px;
+}

@@ -36,24 +36,24 @@
                     </div>
                 </div>
                 <div class="nav-tabs-theme-container">
-                <ul class="nav nav-tabs nav-tabs-theme" id="myTab" role="tablist">
-                    <li class="nav-item">
-                        <a class="nav-link active" id="TeamRewards-tab" data-toggle="tab" href="#TeamRewards" role="tab"
-                            aria-controls="TeamRewards" aria-selected="true">Team Rewards</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="Gamifications-tab" data-toggle="tab" href="#Gamifications" role="tab"
-                            aria-controls="Gamifications" aria-selected="false">Gamifications</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="SwagShop-tab" data-toggle="tab" href="#SwagShop" role="tab"
-                            aria-controls="SwagShop" aria-selected="false">Swag Shop</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="Manufacturers-tab" data-toggle="tab" href="#Manufacturers" role="tab"
-                            aria-controls="Manufacturers" aria-selected="false">Manufacturers</a>
-                    </li>
-                </ul>
+                    <ul class="nav nav-tabs nav-tabs-theme" id="myTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="TeamRewards-tab" data-toggle="tab" href="#TeamRewards"
+                                role="tab" aria-controls="TeamRewards" aria-selected="true">Team Rewards</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="Gamifications-tab" data-toggle="tab" href="#Gamifications"
+                                role="tab" aria-controls="Gamifications" aria-selected="false">Gamifications</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="SwagShop-tab" data-toggle="tab" href="#SwagShop" role="tab"
+                                aria-controls="SwagShop" aria-selected="false">Swag Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="Manufacturers-tab" data-toggle="tab" href="#Manufacturers"
+                                role="tab" aria-controls="Manufacturers" aria-selected="false">Manufacturers</a>
+                        </li>
+                    </ul>
                 </div>
                 <div class="tab-content" id="myTabContent">
                     <div class="tab-pane fade show active" id="TeamRewards" role="tabpanel"
