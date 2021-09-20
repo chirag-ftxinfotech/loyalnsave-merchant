@@ -6,7 +6,7 @@
 <main id="content">
     
     <section class="header-style-1 inner-title animated-row">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
                 <div class="col-10 col-md-7 col-lg-7 col-xl-5 animate" data-animate="fadeInUp">
                     <hgroup class="header__title">
