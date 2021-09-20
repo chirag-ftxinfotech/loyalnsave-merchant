@@ -35,7 +35,7 @@
 
                     </div>
                 </div>
-
+                <div class="nav-tabs-theme-container">
                 <ul class="nav nav-tabs nav-tabs-theme" id="myTab" role="tablist">
                     <li class="nav-item">
                         <a class="nav-link active" id="TeamRewards-tab" data-toggle="tab" href="#TeamRewards" role="tab"
@@ -54,10 +54,11 @@
                             aria-controls="Manufacturers" aria-selected="false">Manufacturers</a>
                     </li>
                 </ul>
+                </div>
                 <div class="tab-content" id="myTabContent">
                     <div class="tab-pane fade show active" id="TeamRewards" role="tabpanel"
                         aria-labelledby="TeamRewards-tab">
-                        <div class="row mt-md-5 pt-lg-5">
+                        <div class="row mt-4 mt-md-5 pt-lg-5">
                             <div class="col-md-6 order-md-2">
                                 <div class="img-tooltip mt-md-5">
                                     <img src="assets/img/new-images/team-reward-phone.png" class="img-fluid" width="583"
@@ -76,7 +77,7 @@
                             </div>
                             <div class="col-md-5  header-style-2 mt-4 mt-md-0 order-md-1 mr-md-auto">
                                 <div class="section-thumb d-flex justify-content-center align-items-center">
-                                    <img src="assets/img/new-images/icon-2.png" width="48" height="48" alt="">
+                                    <img src="assets/img/new-images/deal-icon1.png" width="48" height="48" alt="">
                                 </div>
                                 <h3 class="sub-title">01. Lorem Ipsum</h3>
                                 <p>Lorem Ipsum is simply dummy text of the printing
@@ -179,7 +180,7 @@
                     </div>
                     <div class="col-md-5 mr-md-auto header-style-2 mt-4 mt-md-0 order-md-1">
                         <div class="section-thumb d-flex justify-content-center align-items-center">
-                            <img src="assets/img/new-images/icon-2.png" width="48" height="48" alt="">
+                            <img src="assets/img/new-images/deal-icon3.png" width="48" height="48" alt="">
                         </div>
                         <h3 class="sub-title">03. Lorem Ipsum</h3>
                         <p>Lorem Ipsum is simply dummy text of the printing
@@ -228,7 +229,7 @@
                         </div>
                         <div class="col-md-5 ml-md-auto header-style-2 mt-4 mt-md-0">
                             <div class="section-thumb d-flex justify-content-center align-items-center">
-                                <img src="assets/img/new-images/icon-2.png" width="48" height="48" alt="">
+                                <img src="assets/img/new-images/deal-icon4.png" width="48" height="48" alt="">
                             </div>
                             <h3 class="sub-title">04. Lorem Ipsum</h3>
                             <p>Lorem Ipsum is simply dummy text of the printing

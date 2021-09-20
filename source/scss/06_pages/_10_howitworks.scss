@@ -4,6 +4,15 @@
   border-radius: 100%;
   box-shadow: 0 0 30px rgb(184 124 214 / 48%);
   margin-bottom: 35px;
+  padding: 16px;
+  @include media(md) {
+    height:75px;
+    width:75px;
+  }
+  >img{
+    height: auto;
+    max-width: 100%;
+  }
 }
 .hiw-top{
   position: relative; 
