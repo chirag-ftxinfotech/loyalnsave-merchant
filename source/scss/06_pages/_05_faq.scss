@@ -39,22 +39,22 @@
 
   @include media_min(md){
     padding-top: 25px;
-    padding-bottom: 100px;
+    padding-bottom: 25px;
   }
 
-  .accordion-item {
-    margin: 20px 0;
-    background: #fefefe;
-    box-shadow: 0px 0px 10px rgba(119,133,141, .5);
+  .accordion-item {    
+    margin: 30px 0;
+    background: #fff;
+    box-shadow: 0 0 25px rgb(255 95 168 / 15%);
     overflow: hidden;
-    @include border-radius(10px);
+    @include border-radius(5px);
 
     h5 {
       margin: 0;
       padding: 25px 30px;
       padding-right: 50px;
       position: relative;
-      font-size: 22px;
+      font-size: 18px;
       cursor: pointer;
 
       @include media(md){
@@ -90,16 +90,8 @@
     }
 
     &.active {
-      background: #c0d0fe;
-      background: -moz-linear-gradient(-45deg,  #c0d0fe 0%, #eac0fe 100%);
-      background: -webkit-linear-gradient(-45deg,  #c0d0fe 0%,#eac0fe 100%);
-      background: linear-gradient(135deg,  #c0d0fe 0%,#eac0fe 100%);
-      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c0d0fe', endColorstr='#eac0fe',GradientType=1 );
-      box-shadow: 0px 0px 10px rgba(119,133,141, .7);
-
+      background: #fff;
       h5 {
-        color: #452e6c;
-
         &:after {
           transform: rotate(0deg);
         }
