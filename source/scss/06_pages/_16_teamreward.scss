@@ -1,0 +1,102 @@
+.team-chat-popup{
+    border: 2px solid $gradient-bottom;
+    border-radius: 20px;
+    left: 0;
+    padding: 25px;
+    position: absolute;
+    width: 250px;
+    color:$gradient-bottom;
+    background: #fff;
+    .team-chat-popup-thumb {
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        top: -26px;
+        left: 10px;
+    }
+    &::before,&::after{
+        border-left: 16px solid transparent;
+        border-right: 20px solid transparent;
+        border-top: 55px solid  $gradient-bottom;
+        bottom: -46px;
+        content: "";
+        height: 0;
+        position: absolute;
+        right: 25px;
+        transform: rotate(-25deg);
+        width: 0;
+    }
+    &::before{        
+        border-top-color: #fff;
+        bottom: -41px;
+        right: 27px;
+        z-index: 1;
+    }
+    &-left{
+        left: 90px;
+        top: 90px;
+    }
+    &-right{
+        left: auto;
+        right: 70px;
+        top: 90px;
+        &::before,&::after{
+            transform: rotate(24deg);
+            left: 30px;
+        }
+        &::before{ 
+            bottom: -40px;
+            left: 33px;
+          }
+    }
+}
+.team-chat {
+    max-width: 1140px;
+    margin: 50px auto;
+    
+}
+.col-thumb{
+    @include flexbox;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 60px;
+    &-icon{
+        width: 150px;
+        min-width: 150px;
+        height: 150px;
+        min-height: 150px;
+        background: #fff;
+        border: 2px dashed  $gradient-bottom;
+        border-radius: 100%;
+        box-shadow: 0 0 20px rgba($gradient-bottom, 26%);
+        @include flexbox;
+        @include align-items(center);
+        @include justify-content(center);
+        margin-right: 155px;
+        &::before{
+            border-top: 2px dashed $gradient-bottom;
+            content: "";
+            display: inline-block;
+            height: 1px;
+            width: 100px;
+            left: 170px;
+            position: absolute;
+        }
+        &::after{     
+            border: 2px solid $gradient-bottom;
+            border-radius: 100%;
+            content: "";
+            height: 15px;
+            left: 270px;
+            position: absolute;
+            width: 15px;
+            background: #fff;
+        }
+    }
+    &:nth-child(even){
+        margin-left: 150px;
+    }
+    .col-thumb-title{
+        font-size: 18px;
+    }
+}

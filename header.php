@@ -40,6 +40,7 @@
                         <li><a href="swagshop.php">Swag Shop</a></li>
                         <li><a href="features.php">Features</a></li>
                         <li><a href="manufacturers.php">manufacturers</a></li>
+                        <li><a href="team-reward.php">Team Reward</a></li>
                         <li><a href="">Automotive</a></li>
                         <li><a href="">Tattoo/Piercing</a></li>
                         <li><a href="">Office Supply Store</a></li>

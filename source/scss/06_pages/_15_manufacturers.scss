@@ -1,0 +1,337 @@
+.gradiant-border-dashed{
+    width: 130px;
+    height: 130px;
+    border: 3px dashed $gradient-bottom;
+    border-radius: 100%;
+    @include flexbox;
+    @include justify-content(center);
+    @include align-items(center);
+    margin:0 auto;
+    box-shadow: 0px 0px 25px rgb(103 36 148 / 21%);
+}
+.manufacturer-logo{    
+    height: 680px;
+    width: 680px;    
+    border:3px solid $gradient-bottom;
+    border-radius: 100%;    
+    @include flexbox;
+    margin: auto;
+    @include justify-content(center);
+    @include align-items(center);    
+    position: relative;
+    @include media(md) {
+        height: 500px;
+        width: 500px;   
+    }
+    @include media(sm) {
+        height: 340px;
+        width: 340px;
+    }
+    @include media(xs) {
+        height: 240px;
+        width: 240px;
+    }
+    .manufacturer-logo-item{    
+        height: 560px;
+        width: 560px;    
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        align-items: center;   
+        border-radius: 100%;
+        border:30px solid $gradient-bottom;
+        @include media(md) {
+            height: 450px;
+            width: 450px;   
+        }
+        @include media(sm) {
+            height: 300px; 
+            width: 300px;
+            border-width: 20px; 
+        }
+        @include media(sm) {
+            border-width: 10px;
+            height: 220px;
+            width: 220px;
+        }
+        &::before{
+            position: absolute;
+            height: 360px;
+            width: 360px;
+            border-radius: 100%;
+            content: "";
+            border:3px solid $gradient-bottom;
+            @include media(md) {
+                height: 300px;
+                width: 300px;   
+            }
+            @include media(sm) {
+                height: 230px;
+                width: 230px; 
+            }
+            @include media(xs) {
+                height: 170px;
+                width: 170px; 
+            }
+        }
+        &::after{
+            position: absolute;
+            height: 220px;
+            width: 220px;
+            border-radius: 100%;
+            content: "";
+            box-shadow: 0px 0px 30px #8080801a;
+            display: block;
+            @include media(md) {
+                height: 180px;
+                width: 180px;   
+            }
+            @include media(xs) {
+                height: 120px;
+                width: 120px;   
+            }
+        }
+        >img{
+            @include media(md) {
+                max-width: 100px;
+            }
+            @include media(xs) {
+                max-width: 70px;
+            }
+        }
+    }
+    .manufacturer-caption{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top:-45px;
+        margin: auto;
+        width: 260px;
+        padding: 10px;
+        background-color: $gradient-top;
+        color:#fff;
+        font-size: 24px;
+        line-height: 1.3;
+        border-radius: 7px;
+        @include media(md) {
+            font-size: 14px;
+            width: 180px;
+        }
+        @include media(xs) {
+            font-size: 10px;
+            width: 110px;
+            padding: 5px;
+        }
+        &--right--top{
+            right: -150px;
+            top: 180px;
+            left: auto;
+            @include media(md) {
+                right: -100px;
+            }
+            @include media(sm) {
+                top:60px;
+            }
+            @include media(xs) {
+                top: 30px;
+                right:-40px;
+            }
+        }
+        &--right--bottom{
+            right: -70px;
+            top: auto;
+            left: auto;
+            bottom:100px;
+            @include media(sm) {
+                bottom:40px;
+            }
+            @include media(xs) {
+                right: -20px;
+            }
+        }
+        &--left--top{
+            left: -150px;
+            top: 180px;
+            right: auto;
+            @include media(md) {
+                left: -100px;
+            }
+            @include media(sm) {
+                top:60px;
+            }
+            @include media(xs) {
+                top: 30px;
+                left: -40px;
+            }
+            
+        }
+        &--left--bottom{
+            left: -70px;
+            bottom: 100px;
+            top:auto;
+            right: auto;
+            @include media(sm) {
+                bottom:40px;
+            }
+            @include media(xs) {
+                left: -20px;
+            }
+        }
+    }
+}
+.mc-container{
+    padding-top: 50px;    
+    @include media(sm) {
+        padding-top: 15px;    
+    }
+
+    .manufacturer-card{
+        width: 350px;
+        background: #fff;
+        padding: 35px;
+        box-shadow: 0 0 35px rgb(159 52 153 / 9%);
+        border-radius: 10px;
+        color: #8783a2;
+        font-size: 16px;
+        line-height: 1.6;
+        position: relative;
+        @include media(md) {
+            width: 290px;
+            font-size: 16px;
+        }
+        @include media(sm) {
+            width: 100%;
+            // margin-top: 25px;
+        }
+        +.manufacturer-card{
+            margin-top: 50px;
+            @include media(sm) {
+                margin-top: 25px;
+            }
+        }
+        .mc-card-title{
+            font-size: 20px;
+            line-height: 1.3;
+            color:$text-secondary;
+        }
+        .mc-card-no{
+            display: inline-block;
+            width: 35px;
+            height: 35px;
+            border-radius: 100%;
+            box-shadow: 0 0 15px rgb(70 26 130 / 38%);
+            text-align: center;
+            line-height: 35px;
+            color: #a5359a;
+            position: absolute;
+            left: 30px;
+            top: -15px;
+            background: #fff;
+            font-weight: 500;
+        }
+    }
+    .mc-container-left{
+        .manufacturer-card:first-child{           
+            margin-left: -50px;
+            @include media(sm) {
+                margin-left: 0px;
+            }
+        }
+    }    
+    .mc-container-right{
+        padding-top: 120px;
+        @include media(sm) {
+            padding-top: 25px;
+        }
+        .manufacturer-card:last-child{           
+            margin-left: 50px;
+            @include media(sm) {
+                margin-left: 0px;
+            }
+        }
+    }    
+}
+.mc-quotes{
+    max-width: 910px;
+    margin:0 auto;
+}
+.manufacturer-icons-circle{
+    text-align: center;
+    margin-top: 100px;
+    color: $text-primary;
+    font-size: 16px;
+    line-height: 1.6;
+    position: relative;
+    @include media(sm) {
+        margin-top: 30px;
+       }
+    &::before{
+        content: "";
+        display: block;
+        width: 70%;
+        border-top: 4px dashed #99349a;
+        height: 360px;
+        position: absolute;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 76px;
+        border-radius: 100%;
+        border-left: 4px solid transparent;
+        border-right: 4px solid transparent;
+        @include media(sm) {
+         display: none;
+        }
+    }
+    .mic-thumb{
+        width: 150px;
+        height: 150px;
+        @include flexbox;
+        @include justify-content(center);
+        @include align-items(center);
+        margin:0 auto;
+        background: linear-gradient($gradient-top,$gradient-bottom);
+        margin-bottom: 100px;
+        @include media(sm) {
+            margin-bottom: 15px;
+        }
+    }
+    .mic-title{
+        color: $text-secondary;
+        margin-bottom: 25px;
+        @include media(sm) {
+            margin-bottom: 15px;
+        }
+    }
+    >div:first-child,>div:last-child{
+        margin-top: 110px;
+        @include media(sm) {
+            margin-top: 0px;
+        }
+    }
+    >div+div,>div:last-child{
+        @include media(sm) {
+            margin-top: 25px;
+        }
+    }
+}
+.manufacturer-logo-section{
+    position: relative;
+    &::before{
+        background: url(../img/new-images/bg-dot.png);
+        background-size: contain;
+        content: "";
+        display: block;
+        height: 240px;
+        left: 5%;
+        position: absolute;
+        top: -110px;
+        width: 100px;
+        z-index: -1;
+        @include media(md) {
+            height: 200px;
+            left: 1%;
+            width: 60px;
+        }
+    }
+}
