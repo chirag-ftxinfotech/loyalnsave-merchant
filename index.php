@@ -5,6 +5,21 @@
 <main id="content">
 
     <section class="header-style-1 animated-row">
+        <div class="anim-circle anim-circle--one">
+            <img src="assets/img/new-images/header-circle.svg" width="150" height="150"/>
+        </div>
+        <div class="anim-circle anim-circle--two">
+            <img src="assets/img/new-images/header-circle.svg" width="150" height="150"/>
+        </div>
+        <div class="anim-circle anim-circle--three">
+            <img src="assets/img/new-images/header-circle.svg" width="150" height="150"/>
+        </div>
+        <div class="anim-circle anim-circle--four">
+            <img src="assets/img/new-images/header-circle.svg" width="150" height="150"/>
+        </div>
+        <div class="anim-circle anim-circle--five">
+            <img src="assets/img/new-images/header-circle.svg" width="150" height="150"/>
+        </div>
         <div class="container">
             <div class="row align-items-center" >
                 <div class="col-12 col-lg-5 offset-lg-2 text-right order-lg-2 mt-5  mb-5 animate fadeInRight" data-animate="fadeInRight">
