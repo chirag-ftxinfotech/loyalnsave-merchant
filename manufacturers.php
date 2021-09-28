@@ -6,6 +6,21 @@
     <main id="content">
 
         <section class="header-style-1 header-style-1-inner">
+            <div class="anim-circle anim-circle--one">
+                <img src="assets/img/new-images/header-circle.svg" width="150" height="150" />
+            </div>
+            <div class="anim-circle anim-circle--two">
+                <img src="assets/img/new-images/header-circle.svg" width="150" height="150" />
+            </div>
+            <div class="anim-circle anim-circle--three">
+                <img src="assets/img/new-images/header-circle.svg" width="150" height="150" />
+            </div>
+            <div class="anim-circle anim-circle--four">
+                <img src="assets/img/new-images/header-circle.svg" width="150" height="150" />
+            </div>
+            <div class="anim-circle anim-circle--five">
+                <img src="assets/img/new-images/header-circle.svg" width="150" height="150" />
+            </div>
             <div class="container">
                 <div class="row align-items-center header-inner-content">
                     <div class="col-12 col-lg-5">
@@ -193,11 +208,12 @@
         <section class="curved-section curved-theme mt-md-5">
             <div class="curved-inner">
                 <div class="container-fluid">
-                    <div class="row align-items-center">     
-                        <div class="d-none d-lg-block col-lg-1 col-xl-2"></div>     
+                    <div class="row align-items-center">
+                        <div class="d-none d-lg-block col-lg-1 col-xl-2"></div>
                         <div class="col-md-6 pr-0 pl-md-5 text-right order-md-2">
-                            <img src="assets/img/new-images/laptop-right.png" width="946" height="693" alt="" class="img-fluid" />
-                        </div>             
+                            <img src="assets/img/new-images/laptop-right.png" width="946" height="693" alt=""
+                                class="img-fluid" />
+                        </div>
                         <div class="col-md-6 col-lg-5 col-xl-4 order-md-1 mt-4 mt-md-0">
                             <div class="header-style-2">
                                 <h3>Find An Answer</h3>
@@ -274,7 +290,7 @@
 
 
                         </div>
-                        
+
 
                     </div>
                 </div>

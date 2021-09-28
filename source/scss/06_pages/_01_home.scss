@@ -18,6 +18,9 @@
 // ================
 // used in new HTML
 // ================
+
+html{scroll-behavior:smooth}
+
 .feature-section {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -196,9 +199,10 @@
 
       p {
         padding: 15px 0;
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 300;
-        color: #686868;
+        // color: #686868;
+        color: #8783a2;
 
         @include media(lg) {
           padding-top: 0px;
@@ -219,7 +223,7 @@
           &:after {
             left: 100%;
             top: -100%;
-            transform: scale(6);
+            transform: scale(8);
             opacity: 0.5;
           }
 
@@ -689,9 +693,12 @@
   }
   position: relative;
   background: linear-gradient(315deg, #a2349a 0, #521e92);
-  min-height: 100vh;
+  // min-height: 100vh;
+  height: 100vh;
+  // min-height: 500px;
   padding-left: 0;
   padding-right: 0;
+  overflow: hidden;
   .row {
     > * {
       position: relative;
@@ -702,6 +709,8 @@
   @include media(md) {
     background-image: linear-gradient(#aa379f, #5c2193 50%);
     padding-bottom: 340px;
+    @include flexbox;
+    @include align-items(center);
   }
   @include media(sm) {
     padding-bottom: 240px;
@@ -727,6 +736,10 @@
   //     display: block;
   //   }
   // }
+  &.header-style-1-inner{
+    @include flexbox;
+    @include align-items(center);
+  }
 }
 @media (min-width: 992px) {
   .header-style-1 {
@@ -1325,14 +1338,14 @@ section {
 .section-one {
   &:before {
     background: url(../img/new-images/bg-dot.png);
-    display: block;
-    position: absolute;
-    content: "";
-    width: 260px;
-    height: 520px;
-    top: -150px;
-    right: 30px;
     background-size: contain;
+    content: "";
+    display: block;
+    height: 260px;
+    position: absolute;
+    right: 30px;
+    top: -50px;
+    width: 130px;
     @include media(xxl) {
       height: 240px;
       position: absolute;
