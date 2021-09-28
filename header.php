@@ -32,26 +32,25 @@
         <nav class="navigation" id="desktop-nav">
             <ul>
              
-                <li class="sub">
-                <a href="about-us.php">About Us</a>
-                <span class="darrow"></span>
-                <div class="dropdown">
-                    <ul>
-                        <li><a href="swagshop.php">Swag Shop</a></li>
-                        <li><a href="features.php">Features</a></li>
-                        <li><a href="manufacturers.php">manufacturers</a></li>
-                        <li><a href="team-reward.php">Team Reward</a></li>
-                        <li><a href="">Automotive</a></li>
-                        <li><a href="">Tattoo/Piercing</a></li>
-                        <li><a href="">Office Supply Store</a></li>
-                        <li><a href="">See All</a></li>
-                    </ul>
-                </div>
-            </li>
+                <li><a href="about-us.php">About Us</a></li>
                 <li><a href="deals.php">Deals</a></li>
                 <li><a href="how-it-works.php">How it works</a></li>
-                <li><a href="blog.php">Blog</a></li>
-                <li><a href="contact-us.php">Contact</a></li>                        
+                <li class="sub">
+                    <a href="features.php">Features</a>
+                    <span class="darrow"></span>
+                    <div class="dropdown">
+                        <ul>
+                            <li><a href="team-reward.php">Team Reward</a></li>    
+                            <li><a href="team-reward.php">Gamification</a></li>    
+                            <li><a href="swagshop.php">Swag Shop</a></li>
+                            <li><hr /></li>                            
+                            <li><a href="manufacturers.php">Manufacturers</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="pricing.php">Pricing</a></li>
+                <!-- <li><a href="blog.php">Blog</a></li> -->
+                <!-- <li><a href="contact-us.php">Contact</a></li> -->
             </ul>
         </nav>
         <a href="contact-us.php" class="button btn-get-quote"><img src="assets/img/quote.png" alt="" /><span>Get in Touch</span></a>
