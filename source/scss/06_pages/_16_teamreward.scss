@@ -1,5 +1,5 @@
 .team-chat-popup{
-    border: 2px solid $gradient-bottom;
+    border: 3px solid $gradient-bottom;
     border-radius: 20px;
     left: 0;
     padding: 24px;
@@ -117,7 +117,7 @@
         height: 150px;
         min-height: 150px;
         background: #fff;
-        border: 2px dashed  $gradient-bottom;
+        border: 3px dashed  $gradient-bottom;
         border-radius: 100%;
         box-shadow: 0 0 20px rgba($gradient-bottom, 26%);
         @include flexbox;
@@ -129,7 +129,7 @@
             margin-bottom: 15px;
         }
         &::before{
-            border-top: 2px dashed $gradient-bottom;
+            border-top: 3px dashed $gradient-bottom;
             content: "";
             display: inline-block;
             height: 1px;
@@ -141,7 +141,7 @@
             }
         }
         &::after{     
-            border: 2px solid $gradient-bottom;
+            border: 3px solid $gradient-bottom;
             border-radius: 100%;
             content: "";
             height: 15px;
@@ -185,7 +185,7 @@
     @include flexbox;
     @include align-items(center);
     @include justify-content(center);
-    border: 2px dashed #9d3399;
+    border: 3px dashed #9d3399;
     border-radius: 100%;
     width: 550px;
     height: 550px;
@@ -234,7 +234,7 @@
         }       
     }
     &-one{
-        border: 2px dashed #9d3399;
+        border: 3px dashed #9d3399;
         border-radius: 100%;
         width: 420px;
         height: 420px;
@@ -289,7 +289,7 @@
         }
     }
     &-two{
-        border: 2px dashed #9d3399;
+        border: 3px dashed #9d3399;
         border-radius: 100%;
         width: 300px;
         height: 300px;

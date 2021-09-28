@@ -6,6 +6,21 @@
     <main id="content">
 
         <section class="header-style-1 header-style-1-inner">
+            <div class="anim-circle anim-circle--one">
+                <img src="assets/img/new-images/header-circle.svg" width="150" height="150" />
+            </div>
+            <div class="anim-circle anim-circle--two">
+                <img src="assets/img/new-images/header-circle.svg" width="150" height="150" />
+            </div>
+            <div class="anim-circle anim-circle--three">
+                <img src="assets/img/new-images/header-circle.svg" width="150" height="150" />
+            </div>
+            <div class="anim-circle anim-circle--four">
+                <img src="assets/img/new-images/header-circle.svg" width="150" height="150" />
+            </div>
+            <div class="anim-circle anim-circle--five">
+                <img src="assets/img/new-images/header-circle.svg" width="150" height="150" />
+            </div>
             <div class="container">
                 <div class="row align-items-center header-inner-content">
                     <div class="col-12 col-lg-5">
@@ -145,7 +160,7 @@
                             <div class="tr-logo-item-one">
                                 <div class="tr-logo-item-two">
                                     <div class="tr-logo-img">
-                                    <img src="assets/img/new-images/lns-logo.png" alt="" width="100" height="100">
+                                        <img src="assets/img/new-images/lns-logo.png" alt="" width="100" height="100">
                                     </div>
                                 </div>
 
@@ -154,7 +169,8 @@
                     </div>
                     <div class="col-md-4 tr-logo-right">
                         <h6 class="mb-3">Lorem ipsum is simply Dummy Text</h6>
-                        <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus eligendi quo quod
+                        <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus
+                            eligendi quo quod
                             doloribus ad, amet pariatur facilis. Natus voluptate eum mollitia voluptatum unde, eius
                             atque ducimus omnis nesciunt incidunt tenetur?</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus eligendi quo quod
@@ -176,7 +192,7 @@
                                 Loyal~n~Save has several beneficial features that your business can utilize to increase
                             </p>
 
-                        </div>     
+                        </div>
                         <div class="col-md-8"></div>
                     </div>
                     <div class="row tr-card-row">
@@ -240,7 +256,7 @@
                                 Loyal~n~Save has several beneficial features that your business can utilize to increase
                             </p>
 
-                        </div>     
+                        </div>
                         <div class="col-md-8"></div>
                     </div>
                 </div>

@@ -5,6 +5,21 @@
     <?php include('header.php'); ?>
     <main id="content">
         <section class="header-style-1 header-style-1-inner">
+            <div class="anim-circle anim-circle--one">
+                <img src="assets/img/new-images/header-circle.svg" width="150" height="150" />
+            </div>
+            <div class="anim-circle anim-circle--two">
+                <img src="assets/img/new-images/header-circle.svg" width="150" height="150" />
+            </div>
+            <div class="anim-circle anim-circle--three">
+                <img src="assets/img/new-images/header-circle.svg" width="150" height="150" />
+            </div>
+            <div class="anim-circle anim-circle--four">
+                <img src="assets/img/new-images/header-circle.svg" width="150" height="150" />
+            </div>
+            <div class="anim-circle anim-circle--five">
+                <img src="assets/img/new-images/header-circle.svg" width="150" height="150" />
+            </div>
             <div class="container">
                 <div class="row align-items-center header-inner-content">
                     <div class="col-12 col-lg-5">

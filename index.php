@@ -21,8 +21,8 @@
             <img src="assets/img/new-images/header-circle.svg" width="150" height="150"/>
         </div>
         <div class="container">
-            <div class="row align-items-center" >
-                <div class="col-12 col-lg-5 offset-lg-2 text-right order-lg-2 mt-5  mb-5 animate fadeInRight" data-animate="fadeInRight">
+            <div class="row align-items-center header-inner-content" >
+                <div class="col-12 col-lg-5 d-none d-lg-block offset-lg-2 text-right order-lg-2 mt-5  mb-5 animate fadeInRight" data-animate="fadeInRight">
                     <img src="assets/img/new-images/mobile.png" alt="" />
                 </div>
                 <div class="col-12 col-lg-5 order-lg-1 animate fadeInUp" data-animate="fadeInUp">
@@ -443,60 +443,7 @@
     </section>
 <!-- pos section end -->
 
-<!-- client section start -->
-    <section class="animated-row clientsay-section">
 
-            <div class="container">
-                <div class="row">
-                    <div class="header-style-2 text-center animate col" >
-                        <h3 class="sub-title">What Our Clients Say</span></h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-                            standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
-                            it to make a type specimen book. It has survived not only five centuries, but also the leap into
-                            electronic typesetting, remaining essentially unchanged.</p>
-                        
-                    </div>
-                </div>
-                <div class="client-slick">
-                    <div class="row align-items-center d-flex">
-                        <div class="col-md-6 text-center">
-                            <div class="client-thumb">
-                                <img src="assets/img/new-images/client-logo.png" width="155" height="113" class="img-fluid" alt="">
-                            </div>
-                        </div>
-                        <div class="col-md-6 client-slick-right">
-                                <p>We knew that opening a restaurant meant we needed to have
-                                a loyalty program. Loyal~n~Save gave us the tools to get people
-                                into our place during those slow week nights. Plus, the detail
-                                view of our customer analytics is super helpful when identifying
-                                top customers.</p>
-                                <div class="client-slick-title">MUNCHIES</div>
-                               
-                        </div>
-                    </div>
-                    <div class="row align-items-center d-flex">
-                        <div class="col-md-6 text-center">
-                            <div class="client-thumb">
-                                <img src="assets/img/new-images/client-logo.png" width="155" height="113" class="img-fluid" alt="">
-                            </div>
-                        </div>
-                        <div class="col-md-6 client-slick-right">
-                                <p>We knew that opening a restaurant meant we needed to have
-                                a loyalty program. Loyal~n~Save gave us the tools to get people
-                                into our place during those slow week nights. Plus, the detail
-                                view of our customer analytics is super helpful when identifying
-                                top customers.</p>
-                                <div class="client-slick-title">MUNCHIES</div>
-                               
-                        </div>
-                    </div>
-                    
-                </div>
-             
-            </div>
-        
-    </section>
-<!-- client section end -->
 
     <!--<section class="feature-section animated-row">
         <svg class="scene" preserveAspectRatio="none" viewBox="0 0 1440 800">
@@ -677,12 +624,7 @@
             slidesToScroll: 1,
             dots: true,
             arrows:false,
-        });
-
-        $('.client-slick').slick({
-            slidesToShow: 1,
-            slidesToScroll: 1,
-        });
+        });        
         $('.feature-slick').slick({
             slidesToShow: 4,
             slidesToScroll: 4,

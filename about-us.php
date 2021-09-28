@@ -323,7 +323,6 @@
         </section>
 
         <section class="animated-row clientsay-section">
-
             <div class="container">
                 <div class="row">
                     <div class="header-style-2 text-center animate col-12">
@@ -373,11 +372,8 @@
 
                         </div>
                     </div>
-
                 </div>
-
             </div>
-
         </section>
 
         <section class="section curved-section curved-theme">
