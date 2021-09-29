@@ -35,11 +35,11 @@
                 </div>
             </div>
         </section>
-        <section class="hiw-top bg-dot-right-top">
+        <section class="bg-dot-right-top position-relative">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-6 pl-0">
-                        <img src="assets/img/new-images/deals-phone.png" class="img-fluid" width="960" height="693"
+                    <div class="col-md-6 pl-md-5 deal-top-left">
+                        <img src="assets/img/new-images/deals-phone.png" class="img-fluid theme-anim" width="500" height="629"
                             alt="">
                     </div>
                     <div class="col-md-6 col-lg-5 col-xl-4 header-style-2 mt-4 mt-md-0">

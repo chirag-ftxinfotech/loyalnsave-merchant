@@ -7,6 +7,21 @@
     <main id="content">
 
         <section class="header-style-1 header-style-1-inner">
+            <div class="anim-circle anim-circle--one">
+                <img src="assets/img/new-images/header-circle.svg" width="150" height="150" />
+            </div>
+            <div class="anim-circle anim-circle--two">
+                <img src="assets/img/new-images/header-circle.svg" width="150" height="150" />
+            </div>
+            <div class="anim-circle anim-circle--three">
+                <img src="assets/img/new-images/header-circle.svg" width="150" height="150" />
+            </div>
+            <div class="anim-circle anim-circle--four">
+                <img src="assets/img/new-images/header-circle.svg" width="150" height="150" />
+            </div>
+            <div class="anim-circle anim-circle--five">
+                <img src="assets/img/new-images/header-circle.svg" width="150" height="150" />
+            </div>
             <div class="container">
                 <div class="row align-items-center header-inner-content">
                     <div class="col-12 col-lg-5">
@@ -23,8 +38,8 @@
             </div>
         </section>
 
-        <section class="section">
-            <div class="container container-1600">
+        <section class="section bg-dot-right-top bg-dot-left-top">
+            <div class="container container-1600 bg-dot-left-bottom">
 
                 <div class="header-style-2 text-center">
                     <h3 class="sub-title">Pricing Plan</h3>
@@ -80,9 +95,9 @@
                     </div>
 
                     <div class="section-content">
-                        <div class="row align-items-center">
-                        <div class="col-12 col-lg-5 text-center order-lg-2">
-                                <img src="assets/img/new-images/faq.png" class="img-fluid" alt="" />
+                        <div class="row">
+                            <div class="col-12 col-lg-5 text-center order-lg-2">
+                                <img src="assets/img/new-images/faq.png" width="260" height="550" class="img-fluid" alt="" />
                             </div>
                             <div class="col-12 col-lg-5 offset-lg-1 order-lg-1">
 
@@ -139,7 +154,7 @@
                                 </div>
 
                             </div>
-                            
+
                         </div>
                     </div>
 

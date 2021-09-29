@@ -6,6 +6,21 @@
 
     <main id="content">
         <section class="header-style-1 header-style-1-inner">
+            <div class="anim-circle anim-circle--one">
+                <img src="assets/img/new-images/header-circle.svg" width="150" height="150" />
+            </div>
+            <div class="anim-circle anim-circle--two">
+                <img src="assets/img/new-images/header-circle.svg" width="150" height="150" />
+            </div>
+            <div class="anim-circle anim-circle--three">
+                <img src="assets/img/new-images/header-circle.svg" width="150" height="150" />
+            </div>
+            <div class="anim-circle anim-circle--four">
+                <img src="assets/img/new-images/header-circle.svg" width="150" height="150" />
+            </div>
+            <div class="anim-circle anim-circle--five">
+                <img src="assets/img/new-images/header-circle.svg" width="150" height="150" />
+            </div>
             <div class="container">
                 <div class="row align-items-center header-inner-content">
                     <div class="col-12 col-lg-5">
@@ -23,9 +38,8 @@
         </section>
 
 
-        <section class="section">
-            <div class="container">
-
+        <section class="section bg-dot-right-top bg-dot-left-top gamification-top">
+            <div class="container bg-dot-left-bottom">
                 <div class="header-style-2">
                     <h3 class="sub-title">Lorem Ipsum</h3>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
@@ -153,17 +167,17 @@
                                     industry'.<br /><br />Lorem Ipsum is simply dummy text of the printing.</p>
                             </div>
 
-                            
+
                         </div>
                         <div class="section-content col-12 d-flex pl-lg-5">
-                                <div class="quote-image position-relative ml-lg-5">
-                                    <img src="assets/img/new-images/gamfication-image.png" class="img-fluid" alt="" />
-                                    <div class="quote-text">
-                                        <div class="quote-inner">“Lorem ipsum dolor sit amet,consectetur adipiscing
-                                            elit, sed do eiusmod.”</div>
-                                    </div>
+                            <div class="quote-image position-relative ml-lg-5">
+                                <img src="assets/img/new-images/gamfication-image.png" class="img-fluid" alt="" />
+                                <div class="quote-text">
+                                    <div class="quote-inner">“Lorem ipsum dolor sit amet,consectetur adipiscing
+                                        elit, sed do eiusmod.”</div>
                                 </div>
                             </div>
+                        </div>
                     </div>
                 </div>
 
@@ -199,7 +213,6 @@
         </section>
 
         <section class="clientsay-section animated-row">
-
             <div class="container">
                 <div class="row">
                     <div class="header-style-2 text-center animate col-12">
@@ -249,11 +262,8 @@
 
                         </div>
                     </div>
-
                 </div>
-
             </div>
-
         </section>
 
     </main>

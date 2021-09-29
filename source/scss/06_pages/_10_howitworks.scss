@@ -1,4 +1,4 @@
-.section-thumb{
+.section-thumb {
   height: 95px;
   width: 95px;
   border-radius: 100%;
@@ -7,20 +7,20 @@
   padding: 16px;
   background-color: #fff;
   @include media(md) {
-    height:75px;
-    width:75px;
+    height: 75px;
+    width: 75px;
   }
-  >img{
+  > img {
     height: auto;
     max-width: 100%;
   }
 }
-.hiw-top{
-  position: relative; 
+.hiw-top {
+  position: relative;
   z-index: 5;
 }
-.bg-dot-right-top{
-  &:before{
+.bg-dot-right-top {
+  &:before {
     background: url(../img/new-images/bg-dot.png);
     background-size: contain;
     content: "";
@@ -38,8 +38,8 @@
     }
   }
 }
-.bg-dot-left-top{
-  &:after{
+.bg-dot-left-top {
+  &:after {
     background: url(../img/new-images/bg-dot.png);
     background-size: contain;
     content: "";
@@ -49,7 +49,7 @@
     height: 100px;
     width: 100px;
     top: 24px;
-    z-index: -1; 
+    z-index: -1;
     @include media(lg) {
       height: 80px;
       top: 4px;
@@ -58,11 +58,33 @@
     @include media(sm) {
       display: none;
     }
-  }  
+  }
 }
-.cruved-dot-left-top{
+.bg-dot-left-bottom {
+  &:after {
+    background: url(../img/new-images/bg-dot.png);
+    background-size: contain;
+    bottom: 24px;
+    content: "";
+    display: block;
+    height: 210px;
+    left: -70px;
+    position: absolute;
+    width: 140px;
+    z-index: -1;
+    @include media(lg) {
+      height: 80px;
+      bottom: 4px;
+      width: 70px;
+    }
+    @include media(sm) {
+      display: none;
+    }
+  }
+}
+.cruved-dot-left-top {
   position: relative;
-  &:after{
+  &:after {
     background: url(../img/new-images/bg-dot.png);
     background-size: contain;
     content: "";
@@ -81,8 +103,8 @@
     }
   }
 }
-.curved-section.curved-theme{
-  &:before{
+.curved-section.curved-theme {
+  &:before {
     background-image: url(../img/new-images/curve-bg-theme.png);
     height: 470px;
     @include media(xl) {
@@ -92,17 +114,17 @@
       height: 200px;
     }
     @include media(sm) {
-      height:100px;
+      height: 100px;
     }
     @include media(xs) {
-      height:60px;
+      height: 60px;
     }
   }
-  .curved-inner{
-    background-image: linear-gradient(#eee7ec,#fff);
+  .curved-inner {
+    background-image: linear-gradient(#eee7ec, #fff);
   }
 }
-section.curved-theme{
+section.curved-theme {
   padding-top: 0;
 }
 // .header-inner-content{
