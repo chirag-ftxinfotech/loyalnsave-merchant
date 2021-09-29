@@ -52,3 +52,17 @@
     margin-top: 0;
   }
 }
+
+.deal-top-left:before {
+  content: "";
+  border: 50px solid #521e92;
+  position: absolute;
+  border-radius: 100%;
+  z-index: -1;
+  left: -120px;
+  width: 500px;
+  height: 500px;
+  @include media(lg) {
+   display: none;
+  }
+}

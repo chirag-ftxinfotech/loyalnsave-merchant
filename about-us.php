@@ -38,8 +38,8 @@
             </div>
         </section>
 
-        <section class="section">
-            <div class="container container-1600">
+        <section class="section bg-dot-right-top bg-dot-left-top ">
+            <div class="container container-1600 bg-dot-left-bottom">
 
                 <div class="header-style-2 text-center">
                     <h3 class="sub-title">Who We Are</h3>
