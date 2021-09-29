@@ -46,7 +46,7 @@
     position: relative;
     @include media(lg) {
       display: flex;
-      border: 1px dashed #5c2193 ;
+      border: 1px dashed $priamary ;
       border-radius: 10px;
       width: 100%;
       flex: 0 0 100%;
@@ -61,9 +61,9 @@
       width: 258px;
       height: 258px;
       background: #ff78ae;
-      background: -moz-linear-gradient(left,  #ff78ae 0%, #7c74f8 100%);
-      background: -webkit-linear-gradient(left,  #ff78ae 0%,#7c74f8 100%);
-      background: linear-gradient(to right,  #ff78ae 0%,#7c74f8 100%);
+      background: -moz-linear-gradient(left,  $gradient-bottom 0%, $gradient-top 100%);
+      background: -webkit-linear-gradient(left,  $gradient-bottom 0%,$gradient-top 100%);
+      background: linear-gradient(to right,  $gradient-bottom 0%,$gradient-top 100%);
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff78ae', endColorstr='#7c74f8',GradientType=1 );
       -webkit-border-radius: 30px;
       border-radius: 30px;
@@ -115,7 +115,7 @@
           bottom: initial;
           right: initial;
           border-radius: 0;
-          border-left: 1px dashed #5c2193 ;
+          border-left: 1px dashed $priamary ;
 
         }
         &:before {
@@ -155,7 +155,7 @@
           left: initial;
           text-align: left;
           border-radius: 0;
-          border-left: 1px dashed #5c2193 ;
+          border-left: 1px dashed $priamary;
         }
         &:before {
           right: -8px;
@@ -194,7 +194,7 @@
           bottom: initial;
           right: initial;
           border-radius: 0;
-          border-left: 1px dashed #5c2193 ;
+          border-left: 1px dashed $priamary ;
         }
         &:before {
           left: -8px;
@@ -235,7 +235,7 @@
           left: initial;
           text-align: left;
           border-radius: 0;
-          border-left: 1px dashed #5c2193 ;
+          border-left: 1px dashed $priamary ;
         }
         &:before {
           right: -8px;
@@ -321,7 +321,7 @@
   .si1i-box2 {
     width: 250px;
     padding: 25px;
-    border: 3px dashed #ff78ae;
+    border: 3px dashed $secondary;
     position: absolute;
     @include media(lg) {
       position: relative;
@@ -329,7 +329,7 @@
       right: auto;
       width: auto;
       border:0;
-      border-left: 2px dashed #5c2193 ;
+      border-left: 2px dashed $priamary ;
       border-radius: 0;
       font-size: 12px;
       padding: 15px;
@@ -344,7 +344,7 @@
       display: block;
       position: absolute;      
       top: -15px;     
-      border: 3px solid #ff78ae;
+      border: 3px solid $secondary;
       -webkit-border-radius: 25px;
       border-radius: 25px;
       @include media(lg) {
@@ -368,7 +368,8 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    background: linear-gradient(#fff,#fff) padding-box, linear-gradient(to right, #ff78ae, #7c74f8) border-box;
+    background: linear-gradient(#fff,#fff) padding-box, 
+    linear-gradient(to right, $gradient-bottom, $gradient-top) border-box;
     border: 2px dashed #fff;
     box-shadow: 0px 0px 15px rgba(295, 95, 168, .35);
     -webkit-border-radius: 50%;
@@ -376,7 +377,7 @@
     span {
       padding-top: 15px;
       font-size: 22px;
-      color: #ec77ab;
+      color: $secondary;
       @include media(lg) {
         font-size:16px;
       }     
@@ -423,7 +424,7 @@
       width: 3px;
       height: 120px;
       display: block;
-      border-left: 3px dashed #ec77ab;
+      border-left: 3px dashed $secondary;
       position: absolute;
       top: calc(100% + 5px);
       @include media(lg) {
@@ -572,7 +573,7 @@
       width: 18px;
       height: 18px;
       position: absolute;
-      border: 3px solid #ec77ab;
+      border: 3px solid $secondary;
       -webkit-border-radius: 50%;
       border-radius: 50%;
       @include media(lg) {
@@ -588,7 +589,7 @@
     top: -10px;
     @include media(lg) {
       font-size: 18px;
-      border: 1px solid #5c2193;
+      border: 1px solid $priamary;
       width: 30px;
       height: 30px;
       left: 0;
@@ -625,8 +626,8 @@
       top: 50px;
       left: -280px;
       border-top-left-radius: 15px;
-      border-top: 3px dashed #ec77ab;
-      border-left: 3px dashed #ec77ab;
+      border-top: 3px dashed $secondary;
+      border-left: 3px dashed $secondary;
       @media (max-width: 1469px) {
         left: -200px;
       }
@@ -653,8 +654,8 @@
       top: 50px;
       left: -155px;
       border-top-left-radius: 15px;
-      border-top: 3px dashed #ec77ab;
-      border-left: 3px dashed #ec77ab;
+      border-top: 3px dashed $secondary;
+      border-left: 3px dashed $secondary;
       @media (max-width: 1469px) {
         left: -75px;
         width: 30px;
@@ -678,8 +679,8 @@
       top: 50px;
       left: -155px;
       border-top-left-radius: 15px;
-      border-top: 3px dashed #ec77ab;
-      border-left: 3px dashed #ec77ab;
+      border-top: 3px dashed $secondary;
+      border-left: 3px dashed $secondary;
       @media (max-width: 1469px) {
         left: -75px;
         width: 30px;
@@ -702,8 +703,8 @@
       top: 23px;
       left: -280px;
       border-bottom-left-radius: 15px;
-      border-bottom: 3px dashed #ec77ab;
-      border-left: 3px dashed #ec77ab;
+      border-bottom: 3px dashed $secondary;
+      border-left: 3px dashed $secondary;
       @media (max-width: 1469px) {
         left: -190px;
       }
@@ -734,8 +735,8 @@
       top: 23px;
       right: -280px;
       border-bottom-right-radius: 15px;
-      border-bottom: 3px dashed #ec77ab;
-      border-right: 3px dashed #ec77ab;
+      border-bottom: 3px dashed $secondary;
+      border-right: 3px dashed $secondary;
       @media (max-width: 1469px) {
         right: -194px;
       }
@@ -767,8 +768,8 @@
       top: 50px;
       right: -150px;
       border-top-right-radius: 15px;
-      border-top: 3px dashed #ec77ab;
-      border-right: 3px dashed #ec77ab;
+      border-top: 3px dashed $secondary;
+      border-right: 3px dashed $secondary;
       @media (max-width: 1469px) {
         right: -66px;
         width: 26px;
