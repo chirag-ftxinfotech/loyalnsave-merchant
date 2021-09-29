@@ -1,19 +1,3 @@
-// .border-radius-1 {
-//   @include border-radius(1px);
-//   @include animateEaseIn(0.2s);
-// }
-// .gradient-1 {
-//   @include gradient(#fff, #000);
-// }
-
-// .g-recaptcha {
-//   @media (max-width: 480px) {
-//     transform:scale(0.77);
-//     -webkit-transform:scale(0.77);
-//     transform-origin:0 0;
-//     -webkit-transform-origin:0 0;
-//   }
-// }
 
 // ================
 // used in new HTML
@@ -155,7 +139,7 @@ html{scroll-behavior:smooth}
           height: 100%;
           position: relative;
           z-index: 3;
-          color: #9c2fe9;
+          color: $priamary;
           fill: currentColor;
           @include animateEaseIn(0.4s);
         }
@@ -244,429 +228,6 @@ html{scroll-behavior:smooth}
   }
 }
 
-// .experience-section {
-//   padding-top: 20px;
-//   padding-bottom: 20px;
-
-//   @include media_min(lg){
-//     padding-top: 50px;
-//     padding-bottom: 50px;
-//   }
-
-//   @include media_min(md){
-// 	  .col-12 {
-//       &:nth-child(1n) {
-//         transform: translateY(100px);
-//         animation-delay: 0.05s;
-
-//       }
-
-//       &:nth-child(2n) {
-//         transform: translateY(0);
-//         animation-delay: 0.10s;
-//       }
-
-//       &:nth-child(3n) {
-//         transform: translateY(-200px);
-//         animation-delay: 0.15s;
-//       }
-// 	  }
-//   }
-
-//   @include media(lg){
-// 	  .col-12 {
-//       &:nth-child(1n) {
-//         transform: translateY(0);
-//         animation-delay: 0.05s;
-
-//       }
-
-//       &:nth-child(2n) {
-//         transform: translateY(0);
-//         animation-delay: 0.10s;
-//       }
-
-//       &:nth-child(3n) {
-//         transform: translateY(0);
-//         animation-delay: 0.15s;
-//       }
-// 	  }
-//   }
-
-//   .experience-items {
-
-// 	  .row {
-// 		  @include media_min(md){
-// 			  justify-content: center;
-// 		  }
-
-// 		  .experience-item {
-// 			  padding: 20px 40px 20px;
-// 			  background: #fff;
-// 			  color: #000;
-// 			  @include animateEaseIn(0.2s);
-// 			  position: relative;
-//         @include media(md){
-//           padding-bottom: 0;
-//         }
-// 			  @include media_min(lg){
-//           padding: 100px 70px 100px;
-//           min-height: 700px;
-//           height: 100%;
-// 			  }
-
-// 			  @include media_min(xl){
-//           padding: 100px 55px 100px;
-//           min-height: 700px;
-//           height: 100%;
-//         }
-
-//         @include media(sm){
-//           padding-left: 20px;
-//           padding-right: 20px;
-//         }
-
-// 			  &:before {
-// 				content: '';
-// 				position: absolute;
-// 				left: 0;
-// 				top: 0;
-// 				z-index: 0;
-// 				width: 100%;
-// 				height: 100%;
-//         /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e3eeff+0,f3e7e9+100 */
-//         background: #e3eeff; /* Old browsers */
-//         background: -moz-linear-gradient(top,  #e3eeff 0%, #f3e7e9 100%); /* FF3.6-15 */
-//         background: -webkit-linear-gradient(top,  #e3eeff 0%,#f3e7e9 100%); /* Chrome10-25,Safari5.1-6 */
-//         background: linear-gradient(to bottom,  #e3eeff 0%,#f3e7e9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-//         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e3eeff', endColorstr='#f3e7e9',GradientType=0 ); /* IE6-9 */
-// 				opacity: 0;
-// 				overflow: hidden;
-// 				-webkit-transition: background, 2s;
-//         transition: background, 2s;
-//           @include media_min(lg){
-//             background: url(../img/features-bg-1.png) center no-repeat;
-//             background-size: 100%;
-//           }
-// 			  }
-
-// 			  h4 {
-// 				padding: 5px 0 5px;
-// 				font-size: 28px;
-// 				font-weight: 300;
-// 				position: relative;
-// 				z-index: 1;
-
-// 				@include media(md){
-// 					font-size: 18px;
-// 				}
-
-// 				strong {
-// 				  font-weight: 500;
-// 				  text-transform: uppercase;
-// 				}
-// 			  }
-
-// 			  p {
-// 				padding: 10px 0 20px;
-// 				font-size: 18px;
-// 				line-height: 1.5;
-// 				font-weight: normal;
-// 				color: #827d9e;
-// 				position: relative;
-// 				z-index: 1;
-
-// 				@include media(md){
-// 					font-size: 14px;
-// 				}
-
-// 				&.thumb {
-// 				  border: none;
-// 				}
-// 			  }
-
-// 			  &:hover {
-
-// 				&:before {
-// 				  opacity: 1;
-// 				  overflow: visible;
-// 				}
-
-// 			  }
-
-// 			  @include media(md){
-// 				  text-align: center;
-// 			  }
-
-// 			}
-// 	  }
-//   }
-// }
-
-// .integration-section {
-//   background: url(../img/pos-integration-bg.jpg) right top no-repeat #f7f8fa;
-//   padding-top: 300px;
-//   padding-bottom: 50px;
-
-//   @include media(md) {
-// 	  background-size: 100%;
-// 	  padding-top: 50px;
-//   }
-
-//   @media (min-width: 1921px){
-//     background-size: 100%;
-//     padding-top: 15%;
-//   }
-
-//   .pos-text {
-//     margin: 75px auto 75px;
-//     padding: 150px 120px;
-//     background: url(../img/pos-text-bg.png) center center no-repeat;
-//     max-width: 462px;
-//     font-size: 18px;
-//     line-height: 1.5;
-//     color: #fff;
-//     background-size: 100%;
-
-//     @include media(lg){
-//       margin:0 auto;
-//     }
-
-//     @include media(md){
-//       max-width: 320px;
-//       padding: 110px 50px;
-//       font-size: 13px;
-//       background-size: cover;
-//     }
-//     @include media(sm){
-//       max-width: 312px;
-//       padding: 100px 65px;
-//       margin: 0 auto;
-//       background-size: 100%;
-//     }
-//   }
-
-//   .pos-logo {
-//     padding-top: 25px;
-
-// 	@include media(lg) {
-// 		text-align: center;
-
-// 		img {
-// 			max-width: 130px;
-// 		}
-// 	}
-
-//     a {
-//       img {
-//         -webkit-filter: grayscale(1);
-//         filter: grayscale(1);
-//         @include animateEaseIn(0.2s);
-//       }
-
-//       &:hover img {
-//         -webkit-filter: grayscale(0);
-//         filter: grayscale(0);
-//       }
-//     }
-
-//     @media (min-width: 768px) {
-//       padding-top: 25px;
-//       padding-bottom: 25px;
-//     }
-//     @include media_min(md){
-//       padding-top: 75px;
-//       padding-bottom: 75px;
-//     }
-//   }
-// }
-
-// .client-slider {
-//   .slick-dots {
-//     margin: 0 0 0 40px;
-//     padding: 0;
-
-// 	@include media(md){
-// 		margin: 15px;
-// 		text-align: center;
-// 	}
-
-//     li {
-//       background: #ecdee8;
-//       border: 1px solid #b680be;
-//       width: 12px;
-//       height: 12px;
-//       display: inline-block;
-//       margin-right: 13px;
-//       overflow: hidden;
-//       border-radius: 50%;
-
-//       button {
-//         display: none;
-//         width: 12px;
-//         height: 12px;
-//         border: none;
-//         text-indent: -10000px;
-//         outline: none;
-//       }
-
-//       &.slick-active {
-//         background: #b57dbd;
-//       }
-//     }
-//   }
-// }
-
-// .client-section {
-//   padding-top: 25px;
-//   padding-bottom: 25px;
-//   @include gradient(#e3eeff, #f3e7e9);
-
-//   @include media_min(md){
-//     padding-top: 50px;
-//     padding-bottom: 50px;
-//   }
-
-//   @include media_min(lg){
-//     padding-top: 100px;
-//     padding-bottom: 100px;
-//   }
-
-//   .client-item {
-//     display: flex;
-//     flex-direction: column;
-//     align-items: center;
-//     margin: 25px 0px;
-
-//     @include media_min(lg){
-//       flex-direction: row;
-// 	    margin: 75px 40px;
-//     }
-//     @include media(sm){
-//       margin-bottom: 0px;
-//     }
-//   }
-
-//   .client-item__desc {
-//     flex-basis: 100%;
-//     order: 1;
-
-//     @include media_min(md){
-//       padding-right: 150px;
-//       flex-basis: 1;
-//       order: 1;
-//     }
-
-//     h4 {
-//       margin: 0;
-//       padding: 0 0 20px;
-//       font-size: 24px;
-//       font-weight: 500;
-//       color: #000;
-
-// 	  @include media(md){
-// 		  font-size: 16px;
-// 	  }
-//     }
-
-//     p {
-//       margin: 0;
-//       padding: 0 0 50px;
-//       font-size: 24px;
-//       font-weight: 300;
-//       color: #5e5a71;
-
-//       @include media(md){
-//       font-size: 16px;
-//       }
-
-//       @include media(sm){
-//         padding-bottom: 20px;
-//       }
-
-//       &.author {
-//         padding: 0 0 20px;
-//         font-size: 14px;
-//         font-weight: 600;
-//         color: #9f98c6;
-
-//         strong {
-//           font-size: 16px;
-//           color: #6445ba;
-//         }
-//       }
-//     }
-//   }
-
-//   .client-item__thumb {
-//     flex-basis: 100%;
-//     order: 2;
-//     position: relative;
-
-// 	@include media(md){
-// 		margin: 30px;
-// 		flex-basis: auto !important;
-//   }
-//   @include media(sm){
-//     margin: 0;
-//   }
-
-//     img {
-//       width: 100%;
-//       -webkit-filter: contrast(120%) saturate(125%);
-//       filter: contrast(120%) saturate(125%);
-//     }
-
-//     &:before,
-//     &:after {
-//       content: '';
-//       position: absolute;
-//       left: 0;
-//       top: 0;
-//       width: 100%;
-//       height: 100%;
-//       z-index: 2;
-//     }
-
-//     &:before {
-//       opacity: .4;
-//       @include gradient(#5f72bd, #9b23ea);
-//     }
-
-//     &:after {
-//       border: 5px solid #ffffff;
-//       transform: translate3d(30px, 40px, 0);
-//       @include media(sm){
-//         content: none;
-//       }
-//     }
-
-//     @include media_min(md){
-//       flex-basis: 550px;
-//       order: 2;
-//     }
-//   }
-
-// }
-
-// /* Media Max-Width */
-// @include media(xs) { }
-// @include media(sm) { }
-// @include media(md) { }
-// @include media(lg) { }
-
-// /* Media Min-Width */
-// @include media_min(xs) { }
-// @include media_min(sm) { }
-// @include media_min(md) { }
-// @include media_min(lg) { }
-
-// New home page CSS start
-// .title_heading,.h1{
-//   font-size: 66px;
-//   line-height: 1.2;
-//   color:$bannerheading;
-// }
 
 .header-style-1 {
   // &:before{
@@ -692,7 +253,7 @@ html{scroll-behavior:smooth}
     background-position: bottom;
   }
   position: relative;
-  background: linear-gradient(315deg, #a2349a 0, #521e92);
+  background: linear-gradient(315deg, $gradient-bottom 0, $gradient-top);
   // min-height: 100vh;
   height: 100vh;
   // min-height: 500px;
@@ -707,7 +268,7 @@ html{scroll-behavior:smooth}
   }
   // background: url(../img/new-images/top.png) no-repeat center / cover;
   @include media(md) {
-    background-image: linear-gradient(#aa379f, #5c2193 50%);
+    background-image: linear-gradient($gradient-bottom, $gradient-top 50%);
     padding-bottom: 340px;
     @include flexbox;
     @include align-items(center);
@@ -1424,7 +985,7 @@ section {
     background-image: linear-gradient(#e2f6ff, white);
   }
   .section-two-right-img {
-    background: linear-gradient(to top, #ec77ab, #7873f5);
+    background: linear-gradient(to top, $gradient-bottom, $gradient-top);
     padding: 3px;
     @include border-radius(10px);
     overflow: hidden;
@@ -1631,11 +1192,11 @@ section {
     linear,
     left top,
     left bottom,
-    from(#7c73f2),
-    to(#e877ae)
+    from($gradient-top),
+    to($gradient-bottom)
   );
-  background-image: -o-linear-gradient(#7c73f2, #e877ae);
-  background-image: linear-gradient(#7c73f2, #e877ae);
+  background-image: -o-linear-gradient($gradient-top, $gradient-bottom);
+  background-image: linear-gradient($gradient-top, $gradient-bottom);
   -webkit-background-clip: text;
   -webkit-text-stroke: 5px transparent;
   -webkit-background-clip: text;
@@ -1700,7 +1261,7 @@ section {
 .ce-list-right-thumb {
   width: 200px;
   height: 200px;
-  background-image: linear-gradient(-25deg, #b87cd6 30%, #648afa);
+  background-image: linear-gradient(-25deg, $gradient-bottom 30%, $gradient-top);
   // border-radius: 100%;
   @include border-radius(100%);
   @include flexbox;

@@ -1,5 +1,5 @@
 .nav-tabs-theme {
-  background-image: linear-gradient(to left, #521e92, #a6359a);
+  background-image: linear-gradient(to left, $gradient-top, $gradient-bottom);
   padding: 25px 40px;
   border-radius: 10px;
   @include media(md) {
@@ -70,7 +70,7 @@
     .media-body {
       width: 250px;
       height: 80px;
-      background: #821277;
+      background: $priamary;
       flex: inherit;
       color: #fff;
       font-size: 18px;

@@ -222,7 +222,7 @@
             box-shadow: 0 0 15px rgb(70 26 130 / 38%);
             text-align: center;
             line-height: 35px;
-            color: #a5359a;
+            color: $priamary;
             position: absolute;
             left: 30px;
             top: -15px;
@@ -269,7 +269,7 @@
         content: "";
         display: block;
         width: 70%;
-        border-top: 4px dashed #99349a;
+        border-top: 4px dashed $priamary;
         height: 360px;
         position: absolute;
         margin: 0 auto;

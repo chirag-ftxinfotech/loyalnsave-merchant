@@ -185,7 +185,7 @@
     @include flexbox;
     @include align-items(center);
     @include justify-content(center);
-    border: 3px dashed #9d3399;
+    border: 3px dashed $priamary;
     border-radius: 100%;
     width: 550px;
     height: 550px;
@@ -234,7 +234,7 @@
         }       
     }
     &-one{
-        border: 3px dashed #9d3399;
+        border: 3px dashed $priamary;
         border-radius: 100%;
         width: 420px;
         height: 420px;
@@ -289,7 +289,7 @@
         }
     }
     &-two{
-        border: 3px dashed #9d3399;
+        border: 3px dashed $priamary;
         border-radius: 100%;
         width: 300px;
         height: 300px;
@@ -370,7 +370,7 @@
     }
 }
 .tr-card{   
-    background-image: linear-gradient(#521e92, #a3359a);
+    background-image: linear-gradient($gradient-top, $gradient-bottom);
     border-radius: 7px;
     height: 240px;
     padding: 3px;
