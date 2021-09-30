@@ -191,7 +191,7 @@
                     <div class="section-content">
                         <div class="row align-items-center">
                             <div class="col-12 col-xl-6">
-                                <img src="assets/img/new-images/ipad.png" class="img-fluid" width="600" height="666"
+                                <img src="assets/img/new-images/ipad.png" class="img-fluid theme-anim" width="600" height="666"
                                     alt="">
                             </div>
                             <div class="col-12 col-xl-5">

@@ -180,7 +180,7 @@
             <div class="container mt-lg-5">
                 <div class="row">
                     <div class="col-md-6 pl-0 order-md-2">
-                        <img src="assets/img/new-images/deals-girl.png" class="img-fluid" width="960" height="693"
+                        <img src="assets/img/new-images/deals-girl.png" class="img-fluid theme-anim" width="960" height="693"
                             alt="">
                     </div>
                     <div class="col-md-6 order-md-1 header-style-2 mt-4 mt-md-0">

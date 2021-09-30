@@ -88,7 +88,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6 order-md-2">
-                            <img src="assets/img/new-images/ipad.png" class="img-fluid" width="600" height="666" alt="">
+                            <img src="assets/img/new-images/ipad.png" class="img-fluid theme-anim" width="600" height="666" alt="">
                         </div>
                         <div class="col-md-6 header-style-2 order-md-1 mt-4 mt-md-0">
                             <div class="section-thumb d-flex justify-content-center align-items-center">
@@ -119,7 +119,7 @@
             <div class="container mt-lg-5 pt-lg-5">
                 <div class="row">
                     <div class="col-md-6">
-                        <img src="assets/img/new-images/ipad.png" class="img-fluid" width="600" height="666" alt="">
+                        <img src="assets/img/new-images/ipad.png" class="img-fluid theme-anim" width="600" height="666" alt="">
                     </div>
                     <div class="col-md-6 header-style-2 mt-4 mt-md-0">
                         <div class="section-thumb d-flex justify-content-center align-items-center">
@@ -161,7 +161,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6 order-md-2">
-                            <img src="assets/img/new-images/ipad.png" class="img-fluid" width="600" height="666" alt="">
+                            <img src="assets/img/new-images/ipad.png" class="img-fluid theme-anim" width="600" height="666" alt="">
                         </div>
                         <div class="col-md-6 header-style-2 order-md-1 mt-4 mt-md-0">
                             <div class="section-thumb d-flex justify-content-center align-items-center">
@@ -192,7 +192,7 @@
             <div class="container mt-lg-5 pt-lg-5">
                 <div class="row">
                     <div class="col-md-6">
-                        <img src="assets/img/new-images/ipad.png" class="img-fluid" width="600" height="666" alt="">
+                        <img src="assets/img/new-images/ipad.png" class="img-fluid theme-anim" width="600" height="666" alt="">
                     </div>
                     <div class="col-md-6 header-style-2 mt-4 mt-md-0">
                         <div class="section-thumb d-flex justify-content-center align-items-center">
@@ -221,7 +221,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6 order-md-2">
-                            <img src="assets/img/new-images/ipad.png" class="img-fluid" width="600" height="666" alt="">
+                            <img src="assets/img/new-images/ipad.png" class="img-fluid theme-anim" width="600" height="666" alt="">
                         </div>
                         <div class="col-md-6 header-style-2 order-md-1 mt-4 mt-md-0">
                             <div class="section-thumb d-flex justify-content-center align-items-center">
