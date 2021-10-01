@@ -70,6 +70,7 @@
             </div>
 
         </section>
+
         <section class="feature-section curved-section curved-theme  mt-0">
             <div class="curved-inner">
                 <div class="container">
@@ -137,6 +138,7 @@
                 </div>
             </div>
         </section>
+
         <section class="bg-dot-right-top position-relative">
             <div class="container-fluid">
                 <div class="row">
@@ -326,41 +328,36 @@
             </div>
         </section>
 
-        <section class="animated-row  ">
+        <section class="section curved-section curved-theme mb-md-5">
+            <div class="curved-inner">
 
-            <div class="container">
-                <div class="row align-items-center animated-row ">
-                    <div class="col-md-6 section-two-right fadeInRight order-md-2 mb-4 mb-mb-0 animated"
-                        data-animate="fadeInRight">
-                        <div class="section-two-right-img">
-                            <img src="assets/img/api-lns-bottom.png" alt="">
+                <div class="container">
+                    <div class="row align-items-center animated-row ">
+                        <div class="col-md-6 section-two-right fadeInRight order-md-2 mb-4 mb-mb-0 animated"
+                            data-animate="fadeInRight">
+                            <div class="section-two-right-img">
+                                <img src="assets/img/api-lns-bottom.png" alt="">
+                            </div>
                         </div>
 
+                        <div class="col-md-6 header-style-2 section-two-left fadeInLeft order-md-1 animated"
+                            data-animate="fadeInLeft">
+                            <h3 class="sub-title">Loyal-n-save API integration?
+                            </h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing
+                                and typesetting industry. Lorem Ipsum has been the
+                                industry's standard dummy text ever since the 1500
+                                when an unknown printer took a galley of type and
+                                scrambled it to make a type specimen book. </p>
+                            <p>Lorem Ipsum is simply dummy text of the printing
+                                and typesetting industry. Lorem Ipsum has been
+                                the industry'.</p>
+                            <a href="#" class="button">Start Earning Today!</a>
+                        </div>                        
                     </div>
-
-                    <div class="col-md-6 header-style-2 section-two-left fadeInLeft order-md-1 animated"
-                        data-animate="fadeInLeft">
-                        <h3 class="sub-title">Loyal-n-save API integration?
-                        </h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing
-                            and typesetting industry. Lorem Ipsum has been the
-                            industry's standard dummy text ever since the 1500
-                            when an unknown printer took a galley of type and
-                            scrambled it to make a type specimen book. </p>
-                        <p>
-
-                            Lorem Ipsum is simply dummy text of the printing
-                            and typesetting industry. Lorem Ipsum has been
-                            the industry'.</p>
-
-                        <a href="#" class="button">Start Earning Today!</a>
-
-                    </div>
-
-
                 </div>
+            
             </div>
-
         </section>
         <!-- <section class="industries-about animated-row">
             <div class="container container-1600">
