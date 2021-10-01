@@ -32,8 +32,8 @@
     </section>
 
     <section class="privacy-section animated-row">
-        <div class="container container-1600">
-            <div class="row align-items-center">
+        <div class="container">
+            <div class="row">
                 <div class="col-12 col-xl-7 animate" data-animate="fadeInUp">
                     <div class="last-updated">Last Updated On <strong>30th September 2019</strong></div>
                     <p>This privacy notice discloses the privacy practices for FasTrax POS, LLC doing business as FTx Solutions. FTx Solutions operates the Loyal~n~Save website as well as the Loyal~n~Save app. The Loyal~n~Save website and app (“Service,” “Us,” or “Our”) is intended for use as is.</p>

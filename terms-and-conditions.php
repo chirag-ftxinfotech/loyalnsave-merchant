@@ -32,7 +32,7 @@
     </section>
 
     <section class="privacy-section animated-row">
-        <div class="container container-1600">
+        <div class="container">
             <div class="row">
                 <div class="col-12 col-xl-7 animate" data-animate="fadeInUp">
                     <div class="last-updated">Last Updated On <strong>30th September 2021</strong></div>
