@@ -128,7 +128,7 @@
 
                     </div>
                     <div class="row mt-lg-5 align-items-center">
-                        <div class="col-md-6 pl-0 order-md-2">
+                        <div class="col-md-6 order-md-2">
                             <img src="assets/img/new-images/swagshop-girl.png" class="img-fluid" width="705"
                                 height="680" alt="">
                         </div>

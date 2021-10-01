@@ -269,7 +269,7 @@
             </div>
         </section>
 
-        <section class="section curved-section curved-theme">
+        <section class="section curved-section curved-theme mb-md-5">
             <div class="curved-inner">
                 <div class="container container-1600">
 
@@ -284,7 +284,7 @@
 
                 <div class="section-content section-line-bg">
                     <div class="container container-1600">
-                        <div class="row">
+                        <div class="row pb-md-5">
 
                             <div class="col-12 col-lg-4 pt-5">
                                 <div class="card-item companyh-1 text-center">
