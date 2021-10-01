@@ -1,0 +1,12 @@
+
+/* New CSS start */
+
+@media (min-width: 1470px){
+  .container {
+    max-width: 1430px;
+  }
+  .container-1600 {
+    max-width: 1600px;
+  }
+}
+/* New CSS End */
