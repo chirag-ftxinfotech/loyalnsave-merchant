@@ -4,13 +4,27 @@
 <?php include('header.php'); ?>
 <main id="content">
 
-    <section class="header-style-1 inner-title animated-row">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-10 col-md-7 col-lg-5 animate" data-animate="fadeInUp">
+    <section class="header-style-1 header-style-1-inner">
+        <div class="anim-circle anim-circle--one">
+            <img src="assets/img/new-images/header-circle.svg" width="150" height="150" />
+        </div>
+        <div class="anim-circle anim-circle--two">
+            <img src="assets/img/new-images/header-circle.svg" width="150" height="150" />
+        </div>
+        <div class="anim-circle anim-circle--three">
+            <img src="assets/img/new-images/header-circle.svg" width="150" height="150" />
+        </div>
+        <div class="anim-circle anim-circle--four">
+            <img src="assets/img/new-images/header-circle.svg" width="150" height="150" />
+        </div>
+        <div class="anim-circle anim-circle--five">
+            <img src="assets/img/new-images/header-circle.svg" width="150" height="150" />
+        </div>
+        <div class="container">
+            <div class="row align-items-center header-inner-content animated-row">
+                <div class="col-12 col-lg-5 animate" data-animate="fadeInUp">
                     <hgroup class="header__title">
                         <h1>Frequently Asked Questions</h1>
-                        <!-- <h3>Lorem ipsum Dolor</h3> -->
                     </hgroup>
                     <p class="header__desc">Still haven't found what you were looking for? Don't worry, we've compiled a database of answers for questions you may have.</p>
                 </div>
@@ -19,19 +33,8 @@
     </section>
 
     <section class="faq-section animated-row">
-        <div class="container container-1600">
-            <div class="row align-items-center">
-                <div class="col-12 col-md-12 col-xl-12 text-center animate" data-animate="fadeInUp">
-                    <h2>How can we help you?</h2>
-                    <form class="form form-search" action="#" method="post">
-                        <div class="form-field">
-                            <input type="text" class="form-control" placeholder="" />
-                        </div>
-                        <div class="form-action">
-                            <button class="button">Search Now</button>
-                        </div>
-                    </form>
-                </div>
+        <div class="container">
+            <div class="row">
                 <div class="col-12 col-md-6 col-xl-7 animate" data-animate="fadeInUp">
                     <div class="header-style-2">
                         <h3>Find An Answer</h3>

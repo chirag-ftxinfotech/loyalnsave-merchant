@@ -360,6 +360,12 @@ footer {
     content: "";
     background-size: 100% auto;
   }
+  &.footer-contact {
+    margin-top: 0;
+    &:before {
+      border-top-width: 0;
+    }
+  }
   &:after {
     background: url(../img/new-images/footer-bottom-bg.png) bottom no-repeat;
     height: 590px;

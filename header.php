@@ -41,7 +41,7 @@
                     <div class="dropdown">
                         <ul>
                             <li><a href="team-reward.php">Team Reward</a></li>    
-                            <li><a href="team-reward.php">Gamification</a></li>    
+                            <li><a href="gamification.php">Gamification</a></li>    
                             <li><a href="swagshop.php">Swag Shop</a></li>
                             <li><hr /></li>                            
                             <li><a href="manufacturers.php">Manufacturers</a></li>
