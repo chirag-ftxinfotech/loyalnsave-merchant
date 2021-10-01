@@ -19,19 +19,20 @@
                 padding: 12px 0;
                 font-size: 18px;
                 font-weight: 500;
-                color: #adbed8;
+                color: #521e92;
                 display: block;
                 position: relative;
                 .counter {
                     margin-left: 10px;
-                    width: 24px;
-                    height: 24px;
-                    line-height: 24px;
+                    width: 20px;
+                    height: 20px;
+                    line-height: 20px;
                     display: inline-block;
-                    background: #85a2d2;
+                    vertical-align: middle;
+                    background: #521e92;
                     color: #fff;
                     text-align: center;
-                    font-size: 13px;
+                    font-size: 12px;
                     font-weight: bold;
                     @include border-radius(50%);
                 }
@@ -42,35 +43,42 @@
                     right: 0;
                     bottom: 0px;
                     height: 4px;
-                    background: #d9d9d9;
+                    background: #521e92;
                     opacity: 0;
                 }
                 &:hover,
                 &.active {
-                    color: #638ccc;
+                    color: #ff098e;
                     .counter {
-                        background: #fff;
-                        color: #638ccc;
+                        background: #ff098e;
+                        color: #fff;
                     }
                     &:after {
                         opacity: 1;
+                        background: #ff098e;
                     }
                 }
             }
         }
         @include media(sm) {
-            background: #cdc2ea;
+            background: #edf1f6;
             padding: 10px;
             li a {
-                padding: 8px 20px;
+                border-radius: 5px;
+                font-size: 16px;
+                padding: 12px 12px;
                 color: #000;
                 .counter {
-                    background-color: #fff;
-                    color: #638ccc;
+                    background-color: #521e92;
+                    color: #fff;
                 }
                 &.active {
-                    background-color: #638ccc;
+                    background-color: #521e92;
                     color: #fff;
+                    .counter {
+                        background-color: #fff;
+                        color: #521e92;
+                    }
                 }
                 &:after {
                     content: none;
@@ -123,6 +131,9 @@
                 color: #374149;
             }
             @include media(sm) {
+                margin-bottom: 20px;
+                font-size: 17px;
+                line-height: 22px;
                 min-height: auto;
             }
         }
@@ -180,9 +191,9 @@
     margin-bottom: 20px;
     font-size: 14px;
     font-weight: 500;
-    color: #95a0b2;
+    color: #ff098e;
     a {
-        color: #3e86f3;
+        color: #521e92;
     }
     .dot {
         margin: 0 10px;
@@ -198,7 +209,7 @@
 .blog-pagination {
     padding: 0 0 25px;
     @include media_min(md) {
-        padding: 100px 0;
+        padding: 25px 0 0;
     }
     ul {
         margin: 0;
@@ -227,7 +238,7 @@
             &.active a,
             &:hover span,
             &.active span {
-                background: #5782c8;
+                background: #ff098e;
                 color: #fff;
             }
         }
@@ -251,8 +262,8 @@
             margin-bottom: 40px;
         }
         @include media_min(xl) {
-            font-size: 60px;
-            margin-top: 100px;
+            font-size: 42px;
+            margin-top: 50px;
             margin-bottom: 50px;
         }
     }
@@ -285,14 +296,14 @@
     }
     .blog-content {
         margin: 15px 0;
-        padding: 50px 0;
+        padding: 50px 0 15px;
         font-size: 16px;
         line-height: 30px;
         color: #728391;
         border-top: 1px solid #f0eff3;
         clear: both;
         @include media(md) {
-            padding: 30px 0 10px;
+            padding: 30px 0 20px;
         }
         .blog-image {
             margin: 0 auto 70px;
@@ -412,7 +423,7 @@
             a {
                 color: #999999;
                 &:hover {
-                    color: #3f87f4;
+                    color: #ff098e;
                 }
             }
             .counter {
@@ -422,8 +433,8 @@
                 line-height: 24px;
                 text-align: center;
                 font-weight: bold;
-                background: #eae9ef;
-                color: #3f87f4;
+                background: #ff098e;
+                color: #fff;
                 position: absolute;
                 right: 0;
                 top: 50%;
@@ -437,17 +448,19 @@
 .blog-paginate {
     display: flex;
     flex-direction: row;
+    margin-bottom: 25px;
     a {
         margin: 1px 10px;
-        padding: 30px 64px;
+        padding: 15px 60px;
         width: 50%;
-        font-size: 24px;
+        font-size: 18px;
         font-weight: normal;
-        color: #0792e1;
+        color: #ff098e;
         background: #fff;
         border: 1px solid rgba(0, 0, 0, .1);
         position: relative;
         @include media(md) {
+            padding: 30px 60px;
             span {
                 display: none;
             }
@@ -457,9 +470,9 @@
             position: absolute;
             left: 20px;
             top: 50%;
-            width: 18px;
-            height: 33px;
-            margin-top: -16px;
+            width: 12px;
+            height: 20px;
+            margin-top: -10px;
             background: url(../img/paginate-left.png) left center no-repeat;
             @include media(md) {
                 left: 50%;
