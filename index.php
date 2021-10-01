@@ -380,7 +380,7 @@
 <!-- Customer Experience section end -->
 
 <!-- pos section start -->
-    <section class="animated-row curved-section  section-pos">
+    <section class="animated-row curved-section  section-pos pb-md-5">
         <div class="section-pos-inner">
             <div class="container">
                 <div class="row align-items-center">

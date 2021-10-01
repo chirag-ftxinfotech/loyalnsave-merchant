@@ -4,10 +4,14 @@
       box-shadow: none;
       background: transparent;
       &::before{
-        background-image: linear-gradient( $gradient-top, $gradient-bottom);
+        // background-image: linear-gradient( $gradient-top, $gradient-bottom);
+        // opacity: 0.8;     
+        display: none;
       }
       &:hover{
         box-shadow: 0 5px 15px rgb(0 0 0 / 25%);
+        background-image: linear-gradient( $gradient-top, $gradient-bottom);
+        opacity: 0.8;     
       }
     }
     

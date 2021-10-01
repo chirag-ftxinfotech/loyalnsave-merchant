@@ -48,7 +48,7 @@
     }
 
     @media (min-width: 1470px){
-      flex-basis: 19%;
+      flex-basis: 20%;
 
       &:nth-child(5n+1) {
         animation-delay: 0.05s;
@@ -66,10 +66,10 @@
         animation-delay: 0.25s;
       }
 
-      &:nth-child(6),
-      &:nth-child(16) {
-        margin-left: 5%;
-      }
+      // &:nth-child(6),
+      // &:nth-child(16) {
+      //   margin-left: 5%;
+      // }
     }
 
     .industries-item {
@@ -96,7 +96,7 @@
         top: 0;
         bottom: 0;
         opacity: 0;
-        @include gradient(#f5e9fd,#eff1f8);
+        @include gradient(rgba($gradient-top,0.2),rgba($gradient-bottom,0.2));
         @include animateEaseIn(0.3s);
       }
 
