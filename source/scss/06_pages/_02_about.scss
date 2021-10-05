@@ -707,11 +707,15 @@
       border-left: 3px dashed $secondary;
       @media (max-width: 1469px) {
         left: -190px;
+        top: 33px;
       }
     }
     &:after {
       top: 42px;
       left: -42px;
+      @media (max-width: 1469px) {
+        top: 52px;
+      }
     }
   }
   .hiw-5 {
@@ -739,11 +743,15 @@
       border-right: 3px dashed $secondary;
       @media (max-width: 1469px) {
         right: -194px;
+        top: 33px;
       }
     }
     &:after {
       top: 42px;
       right: -42px;
+      @media (max-width: 1469px) {
+        top: 52px;
+      }
     }
   }
   .hiw-6 {
