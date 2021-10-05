@@ -5,7 +5,7 @@
     <?php include('header.php'); ?>
     <main id="content">
 
-        <section class="header-style-1 header-style-1-inner">
+        <section class="header-style-1 header-style-1-inner animated-row">
             <div class="anim-circle anim-circle--one">
                 <img src="assets/img/new-images/header-circle.svg" width="150" height="150" />
             </div>
@@ -21,7 +21,7 @@
             <div class="anim-circle anim-circle--five">
                 <img src="assets/img/new-images/header-circle.svg" width="150" height="150" />
             </div>
-            <div class="container">
+            <div class="container animate" data-animate="fadeInLeft">
                 <div class="row align-items-center header-inner-content">
                     <div class="col-12 col-lg-5">
                         <hgroup class="header__title">
@@ -37,10 +37,10 @@
             </div>
         </section>
 
-        <section class="pb-0 mt-0 bg-dot-right-top bg-dot-left-top position-relative">
+        <section class="pb-0 mt-0 bg-dot-right-top bg-dot-left-top position-relative animated-row">
             <div class="container">
                 <div class="row">
-                    <div class="header-style-2 text-center animate col">
+                    <div class="header-style-2 text-center animate col" data-animate="fadeInUp">
                         <h3 class="sub-title">Lorem Ipsum Is Simply Dummy Text</h3>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
                             been the
@@ -51,7 +51,7 @@
                             Lorem Ipsum has been the industry'.</p>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row animate" data-animate="fadeInUp">
                     <div class="col team-chat text-center position-relative">
                         <div class="team-chat-popup team-chat-popup-left">
                             <div class="team-chat-popup-thumb">
@@ -70,8 +70,8 @@
                             height="698">
                     </div>
                 </div>
-                <div class="row">
-                    <div class="header-style-2 text-center animate col">
+                <div class="row animate">
+                    <div class="header-style-2 text-center animate col" data-animate="fadeInUp">
                         <h5>Lorem Ipsum Is Simply Dummy Text</h5>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
                             been the
@@ -84,11 +84,11 @@
 
 
 
-        <section class="curved-section curved-theme pb-0 mt-0">
+        <section class="curved-section curved-theme pb-0 mt-0 animated-row">
             <div class="curved-inner">
                 <div class="container">
                     <div class="row">
-                        <div class="header-style-2 text-center animate col">
+                        <div class="header-style-2 text-center animate col" data-animate="fadeInUp">
                             <h3 class="sub-title">Lorem Ipsum Is Simply Dummy Text</span></h3>
                             <p>
                                 Loyal~n~Save has several beneficial features that your business can utilize to increase
@@ -98,7 +98,7 @@
                         </div>
                     </div>
                     <div class="row header-style-2 text-center">
-                        <div class="col-12 col-thumb text-left">
+                        <div class="col-12 col-thumb text-left animate" data-animate="fadeInLeft">
                             <div class="col-thumb-icon">
                                 <img src="assets/img/new-images/icon-1.png" alt="" width="60" height="60">
                             </div>
@@ -109,7 +109,7 @@
                                     ullam voluptatibus </p>
                             </div>
                         </div>
-                        <div class="col-12 col-thumb text-left">
+                        <div class="col-12 col-thumb text-left animate" data-animate="fadeInRight">
                             <div class="col-thumb-icon">
                                 <img src="assets/img/new-images/icon-1.png" alt="" width="60" height="60">
                             </div>
@@ -120,7 +120,7 @@
                                     ullam voluptatibus </p>
                             </div>
                         </div>
-                        <div class="col-12 col-thumb text-left">
+                        <div class="col-12 col-thumb text-left animate" data-animate="fadeInLeft">
                             <div class="col-thumb-icon">
                                 <img src="assets/img/new-images/icon-1.png" alt="" width="60" height="60">
                             </div>
@@ -138,10 +138,10 @@
         </section>
 
 
-        <section class="mt-lg-5">
+        <section class="mt-lg-5 animated-row">
             <div class="container">
                 <div class="row">
-                    <div class="header-style-2 text-center animate col">
+                    <div class="header-style-2 text-center animate col" data-animate="fadeInUp">
                         <h3 class="sub-title">Lorem Ipsum Is Simply Dummy Text</span></h3>
                         <p>
                             Loyal~n~Save has several beneficial features that your business can utilize to increase
@@ -150,12 +150,12 @@
                     </div>
                 </div>
                 <div class="row tr-logo align-items-center mt-md-5">
-                    <div class="col-md-4 tr-logo-left">
+                    <div class="col-md-4 tr-logo-left animate" data-animate="fadeInLeft">
                         <div class="deal-quotes">
                             Lorem ipsum dolor sit amet consectetur elit!
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 animate">
                         <div class="tr-logo-item">
                             <div class="tr-logo-item-one">
                                 <div class="tr-logo-item-two">
@@ -167,7 +167,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 tr-logo-right">
+                    <div class="col-md-4 tr-logo-right animate" data-animate="fadeInRight">
                         <h6 class="mb-3">Lorem ipsum is simply Dummy Text</h6>
                         <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus
                             eligendi quo quod
@@ -181,11 +181,11 @@
             </div>
         </section>
 
-        <section class="curved-section curved-theme pb-0 mt-0">
+        <section class="curved-section curved-theme pb-0 mt-0 animated-row">
             <div class="curved-inner">
                 <div class="container">
                     <div class="row">
-                        <div class="header-style-2 animate col-md-4">
+                        <div class="header-style-2 animate col-md-4 animate" data-animate="fadeInLeft">
                             <h3 class="sub-title">Lorem Ipsum Dolor Sit</span></h3>
                             <p>
                                 Loyal~n~Save has several beneficial features that your business can utilize to increase
@@ -195,7 +195,7 @@
                         </div>
                         <div class="col-md-8"></div>
                     </div>
-                    <div class="row tr-card-row">
+                    <div class="row tr-card-row animate" data-animate="fadeInRight">
                         <div class="col-md-4">
                             <div class="tr-card">
                                 <div class="tr-card-inner">
@@ -249,7 +249,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="header-style-2 animate col-md-4">
+                        <div class="header-style-2 animate col-md-4" data-animate="fadeInLeft">
                             <h3 class="sub-title">Lorem Ipsum Dolor Sit</span></h3>
                             <p>
                                 Loyal~n~Save has several beneficial features that your business can utilize to increase

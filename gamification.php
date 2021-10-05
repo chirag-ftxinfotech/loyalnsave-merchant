@@ -5,7 +5,7 @@
     <?php include('header.php'); ?>
 
     <main id="content">
-        <section class="header-style-1 header-style-1-inner">
+        <section class="header-style-1 header-style-1-inner animated-row">
             <div class="anim-circle anim-circle--one">
                 <img src="assets/img/new-images/header-circle.svg" width="150" height="150" />
             </div>
@@ -22,7 +22,7 @@
                 <img src="assets/img/new-images/header-circle.svg" width="150" height="150" />
             </div>
             <div class="container">
-                <div class="row align-items-center header-inner-content">
+                <div class="row align-items-center header-inner-content animate" data-animate="fadeInLeft">
                     <div class="col-12 col-lg-5">
                         <hgroup class="header__title">
                             <h1>Gamification</h1>
@@ -38,9 +38,9 @@
         </section>
 
 
-        <section class="section bg-dot-right-top bg-dot-left-top gamification-top">
+        <section class="section bg-dot-right-top bg-dot-left-top gamification-top animated-row">
             <div class="container bg-dot-left-bottom">
-                <div class="header-style-2">
+                <div class="header-style-2 animate" data-animate="fadeInUp">
                     <h3 class="sub-title">Lorem Ipsum</h3>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
                         the industry's standard dummy text ever since the 1500 when an unknown printer took a galley of
@@ -52,7 +52,7 @@
                     </p>
                 </div>
 
-                <div class="section-content">
+                <div class="section-content animate" data-animate="fadeInUp">
                     <div class="gamification-items">
 
                         <div class="gamification-item">
@@ -88,13 +88,12 @@
         </section>
 
 
-        <section class="section curved-section curved-theme mt-0">
+        <section class="section curved-section curved-theme mt-0 animated-row">
             <div class="curved-inner">
                 <div class="container">
-
                     <div class="section-content">
                         <div class="row align-items-center">
-                            <div class="col-12 col-xl-7">
+                            <div class="col-12 col-xl-7 animate" data-animate="fadeInLeft">
                                 <div class="img-tooltip mt-md-5 mx-auto">
                                     <img src="assets/img/new-images/team-reward-phone.png" class="img-fluid" width="583"
                                         height="732" alt="">
@@ -115,7 +114,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-12 col-xl-5">
+                            <div class="col-12 col-xl-5 animate" data-animate="fadeInRight">
                                 <div class="header-style-2">
                                     <h3 class="sub-title">Lorem Ipsum Dolor Sit</h3>
                                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
@@ -151,12 +150,11 @@
             </div>
         </section>
 
-        <section class="section py-0">
+        <section class="section py-0 animated-row">
             <div class="container">
-
                 <div class="section-content">
                     <div class="row align-items-center">
-                        <div class="col-12 col-xl-8">
+                        <div class="col-12 col-xl-8 animate" data-animate="fadeInLeft">
                             <div class="header-style-2">
                                 <h3 class="sub-title">Lorem Ipsum Dolor Sit</h3>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
@@ -169,7 +167,7 @@
 
 
                         </div>
-                        <div class="section-content col-12 d-flex pl-lg-5">
+                        <div class="section-content col-12 d-flex pl-lg-5 animate" data-animate="fadeInUp">
                             <div class="quote-image position-relative ml-lg-5">
                                 <img src="assets/img/new-images/gamfication-image.png" class="img-fluid" alt="" />
                                 <div class="quote-text">
@@ -184,17 +182,16 @@
             </div>
         </section>
 
-        <section class="section curved-section curved-theme mt-0 below-quote-img pb-0">
+        <section class="section curved-section curved-theme mt-0 below-quote-img pb-0 animated-row">
             <div class="curved-inner">
                 <div class="container">
-
                     <div class="section-content">
                         <div class="row align-items-center">
-                            <div class="col-12 col-xl-6">
+                            <div class="col-12 col-xl-6 animate" data-animate="fadeInLeft">
                                 <img src="assets/img/new-images/ipad.png" class="img-fluid theme-anim" width="600" height="666"
                                     alt="">
                             </div>
-                            <div class="col-12 col-xl-5">
+                            <div class="col-12 col-xl-5 animate" data-animate="fadeInRight">
                                 <div class="header-style-2">
                                     <h3 class="sub-title">Lorem Ipsum Dolor Sit</h3>
                                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
@@ -215,7 +212,7 @@
         <section class="clientsay-section animated-row">
             <div class="container">
                 <div class="row">
-                    <div class="header-style-2 text-center animate col-12">
+                    <div class="header-style-2 text-center animate col-12 animate" data-animate="fadeInUp">
                         <h3 class="sub-title">What Our Clients Say</span></h3>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
                             been the industry's
@@ -227,7 +224,7 @@
 
                     </div>
                 </div>
-                <div class="client-slick">
+                <div class="client-slick animate" data-animate="fadeInUp">
                     <div class="row align-items-center d-flex">
                         <div class="col-md-6 text-center">
                             <div class="client-thumb">
