@@ -799,14 +799,15 @@
   align-items: stretch;
   max-width: 1030px;
   margin: auto;
+  @include media(md) {
+    padding-top: 40px;
+    padding-bottom: 0px;
+  }
   @include media(sm) {
     padding-top: 20px;
-    padding-bottom: 20px;
   }
   @include media(xs) {
     flex-direction: column;
-    padding-top: 0px;
-    padding-bottom: 0px;
   }
   .pricing-plan {
     display: flex;
@@ -818,9 +819,7 @@
     box-shadow: 3px 0 24px rgba(74, 74, 74, .2);
     -webkit-border-radius: 11px;
     border-radius: 11px;
-    @include media(lg) {
-      padding: 20px;
-    }
+   
     .icon {
       background: #fff;
       margin: 25px auto;
@@ -830,7 +829,7 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      @include media(sm) {
+      @include media(md) {
         margin-top: 0;
         margin-bottom: 0;
       }
@@ -873,16 +872,20 @@
 
     &.pp2 {
       position: relative;
-      transform: scale(1.1);
       background: #d43f8d;
       background: -moz-linear-gradient(45deg,  #d43f8d 0%, #0250c5 100%);
       background: -webkit-linear-gradient(45deg,  #d43f8d 0%,#0250c5 100%);
       background: linear-gradient(45deg,  #d43f8d 0%,#0250c5 100%);
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d43f8d', endColorstr='#0250c5',GradientType=1 );
       border: none;
+      @include media_min(lg) {
+        transform: scale(1.1);
+        }
       .icon {
         background: none;
+        @include media_min(lg) {
         transform: scale(1.2);
+        }
       }
       .price,
       .title,
@@ -891,8 +894,28 @@
       }
       @include media(xs) {
         transform: scale(1);
-        margin-top: 15px;
-        margin-bottom: 15px;
+        // margin-top: 15px;
+        // margin-bottom: 15px;
+      }
+    }
+
+    @include media(lg) {
+      padding: 20px;     
+    }
+    @include media(md) {
+      background: #d43f8d;
+      background: -moz-linear-gradient(45deg,  #d43f8d 0%, #0250c5 100%);
+      background: -webkit-linear-gradient(45deg,  #d43f8d 0%,#0250c5 100%);
+      background: linear-gradient(45deg,  #d43f8d 0%,#0250c5 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d43f8d', endColorstr='#0250c5',GradientType=1 );
+      border: none;
+      .icon {
+        background: none;
+      }
+      .price,
+      .title,
+      .desc {
+        color: #fff;
       }
     }
   }

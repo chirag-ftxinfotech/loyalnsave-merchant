@@ -356,11 +356,11 @@
                                     <img src="assets/img/new-images/customer-acquisition-icon.png" width="130"
                                         height="85" class="img-fluid" alt="">
                                 </div>
-                                <div class="ce-list-right-text mt-4">
+                                <div class="ce-list-right-text mt-md-4">
                                     New Customer <span>acquisition</span>
                                 </div>
                             </li>
-                            <li class="align-self-start flex-md-row">
+                            <li class="align-self-md-start flex-md-row">
                                 <div class="ce-list-right-thumb">
                                     <img src="assets/img/new-images/customer-retention-icon.png" width="130" height="85"
                                         class="img-fluid" alt="">

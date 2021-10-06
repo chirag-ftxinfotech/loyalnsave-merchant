@@ -379,18 +379,22 @@
             <div class="curved-inner">
                 <div class="container container-1600">
 
-                    <div class="header-style-2 text-center animate" data-animate="fadeInUp"> 
+                    <div class="header-style-2 text-center animate" data-animate="fadeInUp">
                         <h3 class="sub-title">Pricing Plan</h3>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
                             been the industry's standard dummy text ever since the 1500 when an unknown .</p>
                     </div>
-
+                    <div class="pricing-tabs">
+                        <div class="ptabs active" id="one">Add Ons</div>
+                        <div class="ptabs" id="two">Regular</div>
+                        <div class="ptabs" id="three">Enterprise</div>
+                    </div>
                     <div class="section-content animate" data-animate="fadeInUp">
                         <div class="row">
                             <div class="col-12">
 
-                                <div class="pricing-plans text-center">
-                                    <div class="pricing-plan pp1">
+                                <div class="pricing-plans pricing-plan text-center"  id="pricing-slider">
+                                    <div class="pricing-plan pp1 pricing-plan-item active" id="one">
                                         <div class="icon"><img src="http://placehold.it/50" alt="" /></div>
                                         <div class="price">$<strong>125</strong>/month</div>
                                         <div class="title">Per Location | One POS</div>
@@ -398,7 +402,7 @@
                                             and
                                             one POS device.</div>
                                     </div>
-                                    <div class="pricing-plan pp2">
+                                    <div class="pricing-plan pp2 pricing-plan-item" id="two">
                                         <div class="icon"><img src="http://placehold.it/50" alt="" /></div>
                                         <div class="price">$<strong>125</strong>/month</div>
                                         <div class="title">Per Location | One POS</div>
@@ -406,7 +410,7 @@
                                             and
                                             one POS device.</div>
                                     </div>
-                                    <div class="pricing-plan pp3">
+                                    <div class="pricing-plan pp3 pricing-plan-item" id="three">
                                         <div class="icon"><img src="http://placehold.it/50" alt="" /></div>
                                         <div class="price">$<strong>125</strong>/month</div>
                                         <div class="title">Per Location | One POS</div>
