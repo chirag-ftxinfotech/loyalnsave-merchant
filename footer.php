@@ -3,7 +3,7 @@
 
     <div class="container">
         <div class="row">
-            <div class="header-style-2 text-center animate col">
+            <div class="header-style-2 text-center animate col" data-animate="fadeInUp">
                 <h3 class="sub-title">What Our Clients Say</span></h3>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                     industry's
@@ -14,7 +14,7 @@
 
             </div>
         </div>
-        <div class="client-slick">
+        <div class="client-slick animate" data-animate="fadeInUp">
             <div class="row align-items-center d-flex">
                 <div class="col-md-6 text-center">
                     <div class="client-thumb">

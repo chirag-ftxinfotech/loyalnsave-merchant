@@ -5,7 +5,7 @@
     <?php include('header.php'); ?>
     <main id="content">
 
-        <section class="header-style-1 header-style-1-inner">
+        <section class="header-style-1 header-style-1-inner animated-row">
             <div class="anim-circle anim-circle--one">
                 <img src="assets/img/new-images/header-circle.svg" width="150" height="150" />
             </div>
@@ -21,7 +21,7 @@
             <div class="anim-circle anim-circle--five">
                 <img src="assets/img/new-images/header-circle.svg" width="150" height="150" />
             </div>
-            <div class="container">
+            <div class="container animate" data-animate="fadeInLeft">
                 <div class="row align-items-center header-inner-content">
                     <div class="col-12 col-lg-5">
                         <hgroup class="header__title">
@@ -37,13 +37,13 @@
             </div>
         </section>
 
-        <section class="hiw-top bg-dot-right-top bg-dot-left-top mt-lg-5">
+        <section class="hiw-top bg-dot-right-top bg-dot-left-top mt-lg-5 animated-row">
             <div class="container-fluid mt-lg-5">
                 <div class="row">
-                    <div class="col-md-6 pl-0">
+                    <div class="col-md-6 pl-0 animate" data-animate="fadeInLeft">
                         <img src="assets/img/new-images/laptop.png" class="img-fluid" width="960" height="693" alt="">
                     </div>
-                    <div class="col-md-6 col-lg-5 col-xl-4 header-style-2 mt-4 mt-md-0">
+                    <div class="col-md-6 col-lg-5 col-xl-4 header-style-2 mt-4 mt-md-0 animate" data-animate="fadeInRight">
                         <div class="section-thumb d-flex justify-content-center align-items-center">
                             <img src="assets/img/new-images/icon-2.png" width="48" height="48" alt="">
                         </div>
@@ -83,14 +83,14 @@
             </div>
         </section>
 
-        <section class="curved-section curved-theme cruved-dot-left-top">
+        <section class="curved-section curved-theme cruved-dot-left-top animated-row">
             <div class="curved-inner">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-6 order-md-2">
+                        <div class="col-md-6 order-md-2 animate" data-animate="fadeInRight">
                             <img src="assets/img/new-images/ipad.png" class="img-fluid theme-anim" width="600" height="666" alt="">
                         </div>
-                        <div class="col-md-6 header-style-2 order-md-1 mt-4 mt-md-0">
+                        <div class="col-md-6 header-style-2 order-md-1 mt-4 mt-md-0 animate" data-animate="fadeInLeft">
                             <div class="section-thumb d-flex justify-content-center align-items-center">
                                 <img src="assets/img/new-images/icon-2.png" width="48" height="48" alt="">
                             </div>
@@ -115,13 +115,13 @@
             </div>
         </section>
 
-        <section class="mt-xl-5">
+        <section class="mt-xl-5 animated-row">
             <div class="container mt-lg-5 pt-lg-5">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 animate" data-animate="fadeInLeft">
                         <img src="assets/img/new-images/ipad.png" class="img-fluid theme-anim" width="600" height="666" alt="">
                     </div>
-                    <div class="col-md-6 header-style-2 mt-4 mt-md-0">
+                    <div class="col-md-6 header-style-2 mt-4 mt-md-0 animate" data-animate="fadeInRight">
                         <div class="section-thumb d-flex justify-content-center align-items-center">
                             <img src="assets/img/new-images/icon-2.png" width="48" height="48" alt="">
                         </div>
@@ -156,14 +156,14 @@
 
         </section>
 
-        <section class="curved-section curved-theme">
+        <section class="curved-section curved-theme animated-row">
             <div class="curved-inner">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-6 order-md-2">
+                        <div class="col-md-6 order-md-2 animate" data-animate="fadeInRight">
                             <img src="assets/img/new-images/ipad.png" class="img-fluid theme-anim" width="600" height="666" alt="">
                         </div>
-                        <div class="col-md-6 header-style-2 order-md-1 mt-4 mt-md-0">
+                        <div class="col-md-6 header-style-2 order-md-1 mt-4 mt-md-0 animate" data-animate="fadeInLeft">
                             <div class="section-thumb d-flex justify-content-center align-items-center">
                                 <img src="assets/img/new-images/icon-2.png" width="48" height="48" alt="">
                             </div>
@@ -188,13 +188,13 @@
             </div>
         </section>
 
-        <section class="mt-xl-5">
+        <section class="mt-xl-5 animated-row">
             <div class="container mt-lg-5 pt-lg-5">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 animate" data-animate="fadeInLeft">
                         <img src="assets/img/new-images/ipad.png" class="img-fluid theme-anim" width="600" height="666" alt="">
                     </div>
-                    <div class="col-md-6 header-style-2 mt-4 mt-md-0">
+                    <div class="col-md-6 header-style-2 mt-4 mt-md-0 animate" data-animate="fadeInRight">
                         <div class="section-thumb d-flex justify-content-center align-items-center">
                             <img src="assets/img/new-images/icon-2.png" width="48" height="48" alt="">
                         </div>
@@ -216,14 +216,14 @@
 
         </section>
 
-        <section class="curved-section curved-theme">
+        <section class="curved-section curved-theme animated-row">
             <div class="curved-inner">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-6 order-md-2">
+                        <div class="col-md-6 order-md-2 animate" data-animate="fadeInRight">
                             <img src="assets/img/new-images/ipad.png" class="img-fluid theme-anim" width="600" height="666" alt="">
                         </div>
-                        <div class="col-md-6 header-style-2 order-md-1 mt-4 mt-md-0">
+                        <div class="col-md-6 header-style-2 order-md-1 mt-4 mt-md-0 animate" data-animate="fadeInLeft">
                             <div class="section-thumb d-flex justify-content-center align-items-center">
                                 <img src="assets/img/new-images/icon-2.png" width="48" height="48" alt="">
                             </div>

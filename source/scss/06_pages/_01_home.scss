@@ -1,10 +1,15 @@
 // Need to remove this css start
-[data-animate=fadeIn], [data-animate=fadeInUp] {
-  opacity: 1;
-}
+// [data-animate=fadeIn], [data-animate=fadeInUp] {
+//   opacity: 1;
+// }
 // Need to remove this css end
 
-
+*[data-animate="fadeInRight"],
+*[data-animate="fadeInLeft"],
+*[data-animate="fadeInDown"],
+*[data-animate="fadeInUp"] {
+  opacity: 0;
+}
 // ================
 // used in new HTML
 // ================
@@ -265,6 +270,9 @@ html{scroll-behavior:smooth}
   // min-height: 500px;
   padding-left: 0;
   padding-right: 0;  
+  @include media_min(lg) {
+    min-height: 900px;
+  }
   @include media(md) {
     overflow: hidden;
   }
@@ -351,18 +359,32 @@ html{scroll-behavior:smooth}
 .header-style-1 .header__title h1 {
   color: $white;
   margin-bottom: 25px;
+  @include media(xxl) {
+    font-size: 36px;
+  }
+  @include media(xl) {
+    font-size: 32px;
+  }
+}
+.header-banner-thumb{
+  @include media(xxl) {
+    max-width:400px;
+  }
+  @include media(xl) {
+    max-width:300px;
+  }
 }
 .header__desc {
   margin-bottom: 25px;
   font-size: 24px;
   line-height: 1.4;
   color: $white;
+  @include media(xxl) {
+    font-size:18px;
+  }
   @include media(xl) {
-    font-size: 18px;
-  }
-  @include media(md) {
     font-size: 16px;
-  }
+  }  
   @include media(xs) {
     font-size: 14px;
   }
@@ -506,7 +528,7 @@ footer {
       font-size: 16px;
     }
     @include media(xs) {
-      font-size: 16px;
+      font-size: 14px;
     }
   }
 }
@@ -635,6 +657,12 @@ section {
       }
       @include media(md) {
         flex: 1;
+      }
+      @include media(sm) {
+        flex: 1 1 48%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    
       }
     }
   }
@@ -1282,12 +1310,17 @@ section {
         margin-bottom: 0px;
       }
     }
+    &+li{
+      @include media(sm) {
+        margin-top:25px;
+      }
+    }
   }
   @include media(sm) {
     padding-left: 0;
-    @include flex-direction(row);
+    @include flex-direction(column);
     min-height: auto;
-    @include align-items(flex-start);
+    @include align-items(center);
   }
 }
 
@@ -1339,7 +1372,7 @@ section {
   }
   @include media(sm) {
     order: 2;
-    margin-top: 24px;
+    margin-top: 15px;
   }
   @include media(xs) {
     font-size: 12px;

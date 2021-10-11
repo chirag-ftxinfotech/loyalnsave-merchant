@@ -4,7 +4,7 @@
 <body>
     <?php include('header.php'); ?>
     <main id="content">
-        <section class="header-style-1 header-style-1-inner">
+        <section class="header-style-1 header-style-1-inner animated-row">
             <div class="anim-circle anim-circle--one">
                 <img src="assets/img/new-images/header-circle.svg" width="150" height="150" />
             </div>
@@ -20,7 +20,7 @@
             <div class="anim-circle anim-circle--five">
                 <img src="assets/img/new-images/header-circle.svg" width="150" height="150" />
             </div>
-            <div class="container">
+            <div class="container animate" data-animate="fadeInLeft">
                 <div class="row align-items-center header-inner-content">
                     <div class="col-12 col-lg-5">
                         <hgroup class="header__title">
@@ -35,14 +35,14 @@
                 </div>
             </div>
         </section>
-        <section class="bg-dot-right-top position-relative">
+        <section class="bg-dot-right-top position-relative animated-row">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-6 pl-md-5 deal-top-left">
+                    <div class="col-md-6 pl-md-5 deal-top-left animate" data-animate="fadeInLeft">
                         <img src="assets/img/new-images/deals-phone.png" class="img-fluid theme-anim" width="500" height="629"
                             alt="">
                     </div>
-                    <div class="col-md-6 col-lg-5 col-xl-4 header-style-2 mt-4 mt-md-0">
+                    <div class="col-md-6 col-lg-5 col-xl-4 header-style-2 mt-4 mt-md-0 animate" data-animate="fadeInRight">
 
                         <h3 class="sub-title">Lorem Ipsum</h3>
                         <p>Lorem Ipsum is simply dummy text of the printing
@@ -93,11 +93,11 @@
             </div>
         </section> -->
 
-        <section class="feature-section deals-feature curved-section curved-theme cruved-dot-left-top pb-0">
+        <section class="feature-section deals-feature curved-section curved-theme cruved-dot-left-top pb-0 animated-row">
             <div class="curved-inner">
                 <div class="container">
                     <div class="row">
-                        <div class="header-style-2 text-center animate col">
+                        <div class="header-style-2 text-center animate col" data-animate="fadeInUp">
                             <h3 class="sub-title">Lorem Ipsum Is Simply Dummy Text</span></h3>
                             <h5 class="mb-4">Lorem Ipsum Is Simply Dummy Text</h5>
                             <p>Loyal~n~Save has several beneficial features that your business can utilize to increase
@@ -108,10 +108,10 @@
                         </div>
                     </div>
 
-                    <div class="feature-items deals-feature">
+                    <div class="feature-items deals-feature animate" data-animate="fadeInUp">
                         <div class="row mt-lg-5">
                             <div class="col-md-3 px-0">
-                                <div class="feature-item animate ">
+                                <div class="feature-item">
                                     <div class="thumb-container">
                                         <p class="thumb">
                                             <img src="assets/img/new-images/deal-icon1.png" width="50" height="50"
@@ -125,7 +125,7 @@
                                 </div>
                             </div>
                             <div class="col-md-3 px-0">
-                                <div class="feature-item animate ">
+                                <div class="feature-item">
                                     <div class="thumb-container">
                                         <p class="thumb">
                                             <img src="assets/img/new-images/deal-icon2.png" width="50" height="50"
@@ -139,7 +139,7 @@
                                 </div>
                             </div>
                             <div class="col-md-3 px-0">
-                                <div class="feature-item animate ">
+                                <div class="feature-item">
                                     <div class="thumb-container">
                                         <p class="thumb">
                                             <img src="assets/img/new-images/deal-icon3.png" width="50" height="50"
@@ -153,7 +153,7 @@
                                 </div>
                             </div>
                             <div class="col-md-3 px-0">
-                                <div class="feature-item animate ">
+                                <div class="feature-item">
                                     <div class="thumb-container">
                                         <p class="thumb">
                                             <img src="assets/img/new-images/deal-icon4.png" width="50" height="50"
@@ -166,7 +166,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 text-center mt-5">
+                        <div class="col-12 text-center mt-5 animate">
                             <a href="#" class="button">Explore all industries</a>
                         </div>
 
@@ -176,14 +176,14 @@
             </div>
         </section>
 
-        <section class="hiw-top  ">
+        <section class="hiw-top animated-row">
             <div class="container mt-lg-5">
                 <div class="row">
-                    <div class="col-md-6 pl-0 order-md-2">
+                    <div class="col-md-6 pl-0 order-md-2 animate" data-animate="fadeInRight">
                         <img src="assets/img/new-images/deals-girl.png" class="img-fluid theme-anim" width="960" height="693"
                             alt="">
                     </div>
-                    <div class="col-md-6 order-md-1 header-style-2 mt-4 mt-md-0">
+                    <div class="col-md-6 order-md-1 header-style-2 mt-4 mt-md-0 animate" data-animate="fadeInLeft">
                         <div class="deal-quotes">
                             Lorem ipsum dolor sit amet, consectetur elit!
                         </div>

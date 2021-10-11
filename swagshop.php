@@ -4,7 +4,7 @@
 <body>
     <?php include('header.php'); ?>
     <main id="content">
-        <section class="header-style-1 header-style-1-inner">
+        <section class="header-style-1 header-style-1-inner animated-row">
             <div class="anim-circle anim-circle--one">
                 <img src="assets/img/new-images/header-circle.svg" width="150" height="150" />
             </div>
@@ -21,7 +21,7 @@
                 <img src="assets/img/new-images/header-circle.svg" width="150" height="150" />
             </div>
             <div class="container">
-                <div class="row align-items-center header-inner-content">
+                <div class="row align-items-center header-inner-content animate" data-animate="fadeInLeft">
                     <div class="col-12 col-lg-5">
                         <hgroup class="header__title">
                             <h1>Swag Shop</h1>
@@ -35,10 +35,10 @@
                 </div>
             </div>
         </section>
-        <section class="bg-dot-right-top bg-dot-left-top position-relative swagshop-top">
+        <section class="bg-dot-right-top bg-dot-left-top position-relative swagshop-top animated-row">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 order-md-2 pl-lg-5">
+                    <div class="col-md-6 order-md-2 pl-lg-5 animate" data-animate="fadeInRight">
                         <div class="row orderbox-list">
                             <div class="col-sm-6 orderbox-list-left">
                                 <div class="orderbox-list-item">
@@ -70,7 +70,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6  header-style-2 mt-4 mt-md-0 order-md-1">
+                    <div class="col-md-6  header-style-2 mt-4 mt-md-0 order-md-1 animate" data-animate="fadeInLeft">
 
                         <h3 class="sub-title">Lorem Ipsum</h3>
                         <p>Lorem Ipsum is simply dummy text of the printing
@@ -113,11 +113,11 @@
             </div>
         </section> -->
 
-        <section class="curved-section curved-theme pb-0 mt-0">
+        <section class="curved-section curved-theme pb-0 mt-0 animated-row">
             <div class="curved-inner">
                 <div class="container">
                     <div class="row">
-                        <div class="header-style-2 text-center animate col">
+                        <div class="header-style-2 text-center animate col animate" data-animate="fadeInUp">
                             <h3 class="sub-title">Lorem Ipsum Is Simply Dummy Text</span></h3>
                             <p>Loyal~n~Save has several beneficial features that your business can utilize to increase
                                 customer retention and ROI. Create customized campaigns, send mobile push notifications
@@ -128,11 +128,11 @@
 
                     </div>
                     <div class="row mt-lg-5 align-items-center">
-                        <div class="col-md-6 order-md-2">
+                        <div class="col-md-6 order-md-2 animate" data-animate="fadeInRight">
                             <img src="assets/img/new-images/swagshop-girl.png" class="img-fluid" width="705"
                                 height="680" alt="">
                         </div>
-                        <div class="col-md-6  header-style-2 mt-4 mt-md-0 order-md-1">
+                        <div class="col-md-6 header-style-2 mt-4 mt-md-0 order-md-1 animate" data-animate="fadeInLeft">
 
                             <h3 class="sub-title">Lorem Ipsum</h3>
                             <p>Lorem Ipsum is simply dummy text of the printing
@@ -149,14 +149,14 @@
             </div>
         </section>
 
-        <section class=" pt-0">
+        <section class="pt-0 animated-row">
             <div class="container mt-lg-5">
                 <div class="row">
-                    <div class="col-md-6 pl-0 ">
+                    <div class="col-md-6 pl-0 animate" data-animate="fadeInLeft">
                         <img src="assets/img/new-images/lns-device.png" class="img-fluid" width="1068" height="797"
                             alt="">
                     </div>
-                    <div class="col-md-6 header-style-2 mt-4 mt-md-0">
+                    <div class="col-md-6 header-style-2 mt-4 mt-md-0 animate" data-animate="fadeInRight">
 
                         <h3 class="sub-title">Lorem Ipsum</h3>
                         <p>Lorem Ipsum is simply dummy text of the printing
@@ -176,11 +176,11 @@
             </div>
         </section>
 
-        <section class="feature-section deals-feature curved-section curved-theme pb-0 mt-0 bg-dot-none">
+        <section class="feature-section deals-feature curved-section curved-theme pb-0 mt-0 bg-dot-none animated-row">
             <div class="curved-inner">
                 <div class="container">
                     <div class="row">
-                        <div class="header-style-2 text-center animate col">
+                        <div class="header-style-2 text-center animate col animate" data-animate="fadeInUp">
                             <h3 class="sub-title">Lorem Ipsum Is Simply Dummy Text</span></h3>
 
                             <p>Loyal~n~Save has several beneficial features that your business can utilize to increase
@@ -193,8 +193,8 @@
 
                     <div class="feature-items deals-feature">
                         <div class="row">
-                            <div class="col-md-4 mt-lg-4">
-                                <div class="feature-item animate ">
+                            <div class="col-md-4 mt-lg-4 animate" data-animate="fadeInUp">
+                                <div class="feature-item">
                                     <div class="thumb-container">
                                         <p class="thumb">
                                             <img src="assets/img/new-images/deal-icon1.png" width="50" height="50"
@@ -207,8 +207,8 @@
 
                                 </div>
                             </div>
-                            <div class="col-md-4 mt-lg-4">
-                                <div class="feature-item animate ">
+                            <div class="col-md-4 mt-lg-4 animate" data-animate="fadeInUp">
+                                <div class="feature-item">
                                     <div class="thumb-container">
                                         <p class="thumb">
                                             <img src="assets/img/new-images/deal-icon2.png" width="50" height="50"
@@ -221,8 +221,8 @@
 
                                 </div>
                             </div>
-                            <div class="col-md-4 mt-lg-4">
-                                <div class="feature-item animate ">
+                            <div class="col-md-4 mt-lg-4 animate" data-animate="fadeInUp">
+                                <div class="feature-item">
                                     <div class="thumb-container">
                                         <p class="thumb">
                                             <img src="assets/img/new-images/deal-icon3.png" width="50" height="50"
@@ -235,8 +235,8 @@
 
                                 </div>
                             </div>
-                            <div class="col-md-4 mt-lg-4">
-                                <div class="feature-item animate ">
+                            <div class="col-md-4 mt-lg-4 animate" data-animate="fadeInUp">
+                                <div class="feature-item">
                                     <div class="thumb-container">
                                         <p class="thumb">
                                             <img src="assets/img/new-images/deal-icon4.png" width="50" height="50"
@@ -248,8 +248,8 @@
                                         let them use the virtual punch card on their mobile app.</p>
                                 </div>
                             </div>
-                            <div class="col-md-4 mt-lg-4">
-                                <div class="feature-item animate ">
+                            <div class="col-md-4 mt-lg-4 animate" data-animate="fadeInUp">
+                                <div class="feature-item">
                                     <div class="thumb-container">
                                         <p class="thumb">
                                             <img src="assets/img/new-images/deal-icon1.png" width="50" height="50"
@@ -262,8 +262,8 @@
 
                                 </div>
                             </div>
-                            <div class="col-md-4 mt-lg-4">
-                                <div class="feature-item animate ">
+                            <div class="col-md-4 mt-lg-4 animate" data-animate="fadeInUp">
+                                <div class="feature-item">
                                     <div class="thumb-container">
                                         <p class="thumb">
                                             <img src="assets/img/new-images/deal-icon2.png" width="50" height="50"

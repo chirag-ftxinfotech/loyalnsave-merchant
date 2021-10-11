@@ -42,8 +42,7 @@
                         <ul>
                             <li><a href="team-reward.php">Team Reward</a></li>    
                             <li><a href="gamification.php">Gamification</a></li>    
-                            <li><a href="swagshop.php">Swag Shop</a></li>
-                            <li><hr /></li>                            
+                            <li><a href="swagshop.php">Swag Shop</a></li>                    
                             <li><a href="manufacturers.php">Manufacturers</a></li>
                         </ul>
                     </div>
@@ -53,6 +52,6 @@
                 <!-- <li><a href="contact-us.php">Contact</a></li> -->
             </ul>
         </nav>
-        <a href="contact-us.php" class="button btn-get-quote"><img src="assets/img/quote.png" alt="" /><span>Get in Touch</span></a>
+        <a href="#!" data-toggle="modal" data-target="#requestQuote" class="button btn-get-quote"><img src="assets/img/quote.png" alt="" /><span>Get in Touch</span></a>
     </div>
 </header>
