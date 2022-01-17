@@ -4,15 +4,29 @@
 <?php include('header.php'); ?>
 <main id="content">
 
-    <section class="header-style-1 inner-title animated-row">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-10 col-md-7 col-lg-5 animate" data-animate="fadeInUp">
+    <section class="header-style-1 header-style-1-inner">
+        <div class="anim-circle anim-circle--one">
+            <img src="assets/img/new-images/header-circle.svg" width="150" height="150" />
+        </div>
+        <div class="anim-circle anim-circle--two">
+            <img src="assets/img/new-images/header-circle.svg" width="150" height="150" />
+        </div>
+        <div class="anim-circle anim-circle--three">
+            <img src="assets/img/new-images/header-circle.svg" width="150" height="150" />
+        </div>
+        <div class="anim-circle anim-circle--four">
+            <img src="assets/img/new-images/header-circle.svg" width="150" height="150" />
+        </div>
+        <div class="anim-circle anim-circle--five">
+            <img src="assets/img/new-images/header-circle.svg" width="150" height="150" />
+        </div>
+        <div class="container">
+            <div class="row align-items-center header-inner-content animated-row">
+                <div class="col-12 col-lg-5 animate" data-animate="fadeInUp">
                     <hgroup class="header__title">
                         <h1>Contact Us</h1>
-                        <!--h3>Lorem ipsum Dolor</h3-->
                     </hgroup>
-                    <p class="header__desc">Do you have questions about how Loyal~n~Save’s loyalty program can increase your customer retention and grow your company’s profits? We would love to answer all your questions. Do you have suggestions for improvement or want to share your Loyal~n~Save experience with us? We’d love to hear from you! </p>
+                    <p class="header__desc">Do you have questions about how Loyal~n~Save’s loyalty program can increase your customer retention and grow your company’s profits? We would love to answer all your questions. Do you have suggestions for improvement or want to share your Loyal~n~Save experience with us? We’d love to hear from you!</p>
                 </div>
             </div>
         </div>

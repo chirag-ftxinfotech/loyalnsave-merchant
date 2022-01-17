@@ -4,25 +4,38 @@
 <?php include('header.php'); ?>
 <main id="content">
 
-    <section class="header-style-1 inner-title animated-row">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-10 col-md-7 col-lg-5 animate" data-animate="fadeInUp">
+    <section class="header-style-1 header-style-1-inner">
+        <div class="anim-circle anim-circle--one">
+            <img src="assets/img/new-images/header-circle.svg" width="150" height="150" />
+        </div>
+        <div class="anim-circle anim-circle--two">
+            <img src="assets/img/new-images/header-circle.svg" width="150" height="150" />
+        </div>
+        <div class="anim-circle anim-circle--three">
+            <img src="assets/img/new-images/header-circle.svg" width="150" height="150" />
+        </div>
+        <div class="anim-circle anim-circle--four">
+            <img src="assets/img/new-images/header-circle.svg" width="150" height="150" />
+        </div>
+        <div class="anim-circle anim-circle--five">
+            <img src="assets/img/new-images/header-circle.svg" width="150" height="150" />
+        </div>
+        <div class="container">
+            <div class="row align-items-center header-inner-content">
+                <div class="col-12 col-lg-5">
                     <hgroup class="header__title">
                         <h1>Terms of Use</h1>
-                        <!-- <h3>Lorem ipsum Dolor</h3> -->
                     </hgroup>
-                    <!-- <p class="header__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore </p> -->
                 </div>
             </div>
         </div>
     </section>
 
     <section class="privacy-section animated-row">
-        <div class="container container-1600">
+        <div class="container">
             <div class="row">
-                <div class="col-12 col-md-6 col-xl-7 animate" data-animate="fadeInUp">
-                    <div class="last-updated">Last Updated On <strong>18th October 2019</strong></div>
+                <div class="col-12 col-xl-7 animate" data-animate="fadeInUp">
+                    <div class="last-updated">Last Updated On <strong>30th September 2021</strong></div>
                     <p>Please read these Terms of Use ("Terms," "Terms of Use" “Standard Terms”) carefully before using the http://loyalnsave.com/merchant website (the "Service," “site,” “website”) or Loyal~n~Save app (the “Smartphone app”) operated by LNS Solutions PO Box 960 Rock Hill, NY 12775.</p>
                     <p>Your access to and use of the Service is conditioned upon your acceptance of and compliance with these Terms. These Terms apply to all merchants (“merchant” or “you”) who access or use the Service.</p>
                     <p>By accessing or using the Service you agree to be bound by these Terms. If you disagree with any part of the Terms then you may not access the Service.</p>
@@ -122,7 +135,7 @@
                     <p>If you have any questions regarding this policy, please contact LNS Solutions PO Box 960 Rock Hill, NY 12775 or e-mail <a href="mailto:info@loyalnsave.com">info@loyalnsave.com</a>.</p>
                     
                 </div>
-                <div class="col-12 col-md-6 col-xl-5 text-center animate" data-animate="fadeInUp"><img src="assets/img/privacy-img.png" alt="" /></div>
+                <div class="col-12 col-xl-5 text-center animate" data-animate="fadeInUp"><img src="assets/img/privacy-img.png" alt="" /></div>
 
             </div>
         </div>

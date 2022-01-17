@@ -66,7 +66,7 @@
     color: #787c83;
     text-align: center;
     width: 50%;
-    border: 1px solid #fff;
+    // border: 1px solid #fff;
     @include border-radius(30px);
 
     @include media(md){
@@ -81,14 +81,20 @@
       background: -webkit-linear-gradient(45deg,  #f6c8f6 1%,#dadffa 51%,#f1f4f9 100%);
       background: linear-gradient(45deg,  #f6c8f6 1%,#dadffa 51%,#f1f4f9 100%);
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6c8f6', endColorstr='#f1f4f9',GradientType=1 );
+      @include media(md){
+        background: -moz-linear-gradient(45deg,  #bc4294 1%, #6348ab  51%, #0950c4 100%);
+      background: -webkit-linear-gradient(45deg,  #bc4294 1%,#6348ab 51%,#0950c4 100%);
+      background: linear-gradient(45deg,  #bc4294 1%,#6348ab 51%,#0950c4 100%);
+      color:#fff;
+      }  
     }
   }
 }
 
 .pricing-plan {
-  margin: 0;
-  padding: 0;
-  padding-top: 25px;
+  // margin: 0;
+  // padding: 0;
+  // padding-top: 25px;
   /*flex-direction: column;*/
 
   @include media_min(md){
@@ -104,10 +110,10 @@
   }
 
   .pricing-plan-item {
-    margin: 0;
-    padding: 0 5px;
-    width: 33.33%;
-    height: auto;
+    // margin: 0;
+    // padding: 0 5px;
+    // width: 33.33%;
+    // height: auto;
     display: none;
 
     &.active {
@@ -132,7 +138,7 @@
 
     @include media(md){
       width: 100%;
-      margin-bottom: 25px;
+      margin-bottom: 0px;
     }
   }
 
@@ -273,7 +279,7 @@
 
   &:after {
       content: '';
-      background: url(../../images/merchant_website/pricing-wave.png) center top no-repeat;
+      background: url(../img/pricing-wave.png) center top no-repeat;
       background-size: 100%;
       position: absolute;
       top: 0;

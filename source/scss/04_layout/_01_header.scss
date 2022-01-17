@@ -1,3 +1,5 @@
+.hidden{overflow:hidden;}
+
 .no-js #loader {
   display: none;
 }
@@ -171,6 +173,9 @@
 
           &:hover {
             color: #fff;
+          }
+          @include media(xxl){
+            padding:15px;
           }
         }
 

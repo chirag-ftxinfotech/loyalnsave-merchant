@@ -27,3 +27,8 @@
 # Node_Modules
 
 /node_modules
+
+# Projects Files
+
+/assets/css/*
+/assets/js/*

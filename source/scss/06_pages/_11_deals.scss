@@ -1,0 +1,72 @@
+.feature-section{
+  .feature-items.deals-feature{
+    .feature-item{
+      box-shadow: none;
+      background: transparent;
+      &::before{
+        // background-image: linear-gradient( $gradient-top, $gradient-bottom);
+        // opacity: 0.8;     
+        display: none;
+      }
+      &:hover{
+        box-shadow: 0 5px 15px rgb(0 0 0 / 25%);
+        background-image: linear-gradient( $gradient-top, $gradient-bottom);
+        opacity: 0.8;     
+      }
+    }
+    
+  }
+}
+.deal-quotes {
+  font-size: 35px;
+  color: $secondary;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 65px;
+  @include media(xl) {
+    font-size: 30px;
+  }
+  @include media(lg) {
+    font-size: 25px;
+    margin-bottom: 45px;
+  }
+  @include media(sm) {
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+  @include media(xs) {
+    font-size: 18px;
+  }
+  &:before{
+    background: url(../img/new-images/quotes-icon.png);
+    content: "";
+    display: block;
+    height: 100px;
+    width: 120px;
+    background-size: cover;
+    opacity: 0.1;
+    @include media(sm) {
+      height: 50px;
+      width: 70px;
+    }
+  }
+}
+.deals-feature{
+  @include media(lg) {
+    margin-top: 0;
+  }
+}
+
+.deal-top-left:before {
+  content: "";
+  border: 50px solid $priamary;
+  position: absolute;
+  border-radius: 100%;
+  z-index: -1;
+  left: -120px;
+  width: 500px;
+  height: 500px;
+  @include media(lg) {
+   display: none;
+  }
+}

@@ -1,18 +1,25 @@
-<footer id="footer" class="animated-row">    
-    <div class="container">
-        <div class="f-top">
-            <div class="row">
-                <div class="col-12 col-md-5">&nbsp;</div>
-                <div class="col-12 col-md-7">
-
-                    <div class="technical-section animate" data-animate="fadeInUp">
-                        <h5>Need Technical Assistance With Your Loyal~n~Save Account?</h5>
-                        <p>If you are an existing customer with a technical issue or quesiton, you cna submit a support ticket directly from your account or contact us directly by using the button below.</p>
-                    </div>
-                    
-                </div>
+<section class="hiw-top  ">
+    <div class="container mt-lg-5">
+        <div class="row align-items-center">
+            <div class="col-md-4 offset-md-2 pl-0 order-md-2">
+                <img src="assets/img/new-images/gamfication-image.png" class="img-fluid theme-anim" alt="" width="960" height="693">
             </div>
+            <div class="col-md-5 order-md-1 header-style-2 mt-4 mt-md-0">
+                <!-- <div class="deal-quotes">
+                    Need Technical Assistance With Your Loyal~n~Save Account?
+                </div> -->
+                <h3>Need Technical Assistance With Your Loyal~n~Save Account?</h3>
+                <p>If you are an existing customer with a technical issue or quesiton, you cna submit a support ticket directly from your account or contact us directly by using the button below.</p>
+                
+            </div>
+
         </div>
+    </div>
+</section>
+
+<footer id="footer" class="footer-contact animated-row">    
+    <div class="container">
+        <div class="f-top"><br /><br /><br /><br /><br /><br /><br /><br /></div>
 
         <div class="f-middle">
             <div class="f-request text-center animate" data-animate="fadeInUp">
