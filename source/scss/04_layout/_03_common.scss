@@ -1,0 +1,256 @@
+/* Left/Right Structure Section with Responsive Image Top */
+.rs-section {
+  position: relative;
+  .rs-text,
+  .rs-img {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  @media screen and (max-width: 767px) {
+    .rs-text {
+      order: 2;
+    }
+    .rs-img {
+      order: 1;
+    }
+  }
+}
+
+/* Content Section */
+.section-content {
+  margin: 0;
+  padding: 60px 0;
+}
+
+/* Client Section */
+.section-client {
+  background: #f4effc;
+  padding: 200px 0 130px;
+  position: relative;
+  &:before {
+    content: '';
+    background: url(../img/new/wave-1.svg) bottom center no-repeat;
+    background-size: 100%;
+    display: block;
+    width: 100%;
+    min-height: 120px;
+    transform: rotate(180deg);
+    position: absolute;
+    top: 0;
+    z-index: 0;
+  }
+  &:after {
+    content: '';
+    background: url(../img/new/wave-2.svg) bottom center no-repeat;
+    background-size: 100%;
+    display: block;
+    width: 100%;
+    min-height: 120px;
+    position: absolute;
+    bottom: 0;
+    z-index: 0;
+  }
+  .container {
+    position: relative;
+    z-index: 1;
+  }
+}
+
+/* Testimonial Section */
+.section-testimonial {
+  padding: 60px 0 60px;
+  position: relative;
+  .slick-client {
+    .client-box {
+      margin: 40px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      background: #f2fbff;
+      overflow: hidden;
+      -webkit-box-shadow: 0 10px 25px rgba(0,0,0,.15);
+      box-shadow: 0 10px 25px rgba(0,0,0,.15);
+      -webkit-border-radius: 50px;
+      border-radius: 50px;
+      opacity: 0.3;
+      &.slick-active {
+        opacity: 1;
+      }
+    }
+    .image {
+      flex: 0 0 35%;
+      max-width: 35%;
+      img {
+        width: 100%;
+      }
+    }
+    .text {
+      position: relative;
+      padding: 120px 50px 50px 50px;
+      flex: 0 0 70%;
+      max-width: 70%;
+      background: url(../img/new/quote-1.svg) 50px 40px no-repeat;
+      background-size: 80px;
+
+      p {
+        font-size: 28px;
+        line-height: 45px;
+        height: 230px;
+        overflow: hidden;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 6;
+      }
+      h4 {
+        margin-top: 20px;
+        font-size: 24px;
+        font-weight: 600;
+        position: absolute;
+        bottom: 35px;
+      }
+    }  
+  }
+}
+
+/* Video Section */
+.section-video {
+    padding: 0 0 100px;
+    .container {
+        position: relative;
+        padding: 0;
+        background: #000;
+        overflow: hidden;
+        height: 560px;
+        video {
+            width: 100%;
+            opacity: .3;
+            position: relative;
+            z-index: 0;
+        }
+
+        .overlay-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 90%;
+            transform: translate3d(-50%, -50%, 0);
+            text-align: center;
+            z-index: 1;
+            color: #fff;
+        }
+        h3 {
+            font-size: 60px;
+            font-weight: 500;            
+        }
+        p {
+            margin-bottom: 20px;
+            font-size: 30px;
+        }
+    }
+}
+
+/* Waves Section */
+.section-waves {
+  padding: 160px 0 120px;
+  position: relative;
+  &:before {
+    content: '';
+    background: url(../img/new/wave-1.svg) bottom center no-repeat;
+    background-size: 100%;
+    display: block;
+    width: 100%;
+    min-height: 120px;
+    transform: rotate(180deg);
+    position: absolute;
+    top: 0;
+    z-index: 0;
+  }
+  &:after {
+    content: '';
+    background: url(../img/new/wave-2.svg) bottom center no-repeat;
+    background-size: 100%;
+    display: block;
+    width: 100%;
+    min-height: 120px;
+    position: absolute;
+    bottom: 0;
+    z-index: 0;
+  }
+  .container {
+    position: relative;
+    z-index: 1;
+  }
+  &.section-light {
+    background: #f9f9f9;
+  }
+  &.section-blue {
+    background: #eaf4fe;
+  }  
+  &.section-pink {
+    background: #f4effc;
+  }
+}
+
+/* Dot Seprator */
+.seprator-dot {
+  background: url(../../../assets/img/new/dot.jpg) left top repeat #fff;
+  display: block;
+  margin: 50px auto;
+  max-width: 1010px;
+  width: 100%;
+  height: 90px;
+}
+
+/* Accordion */
+.accordion {
+  padding-bottom: 50px;
+  .card {
+    border-bottom: 2px solid #000000;
+  }
+  .card-header {
+    button {
+      padding: 15px 0;
+      display: block;
+      width: 100%;
+      text-align: left;
+      background: #fff;
+      border: none;
+      font-size: 24px;
+      font-weight: 600;
+      color: #000000;
+      position: relative;
+      &:focus {
+        outline: none;
+        box-shadow: none;
+      }
+      &:before,
+      &:after {
+        content: '';
+        width: 16px;
+        height: 2px;
+        display: block;
+        background: #000;
+        position: absolute;
+        right: 25px;
+        top: 50%;
+        transition: transform .3s ease-in-out;
+      }
+      &:before {
+        transform: rotate(90deg);
+      }
+      &:not(.collapsed) {
+        color: #ff0988;
+        &:after {
+          transform: rotate(45deg);
+        }
+        &:before {
+          transform: rotate(135deg);
+        }
+      }
+    }
+  }
+  .card-body {
+    padding-bottom: 20px;
+    font-size: 18px;
+  }
+}

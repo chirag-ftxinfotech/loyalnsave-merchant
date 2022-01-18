@@ -1,231 +1,139 @@
-<!-- client section start -->
-<section class="animated-row clientsay-section">
-
-    <div class="container">
-        <div class="row">
-            <div class="header-style-2 text-center animate col" data-animate="fadeInUp">
-                <h3 class="sub-title">What Our Clients Say</span></h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                    industry's
-                    standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                    scrambled
-                    it to make a type specimen book. It has survived not only five centuries, but also the leap into
-                    electronic typesetting, remaining essentially unchanged.</p>
-
-            </div>
-        </div>
-        <div class="client-slick animate" data-animate="fadeInUp">
-            <div class="row align-items-center d-flex">
-                <div class="col-md-6 text-center">
-                    <div class="client-thumb">
-                        <img src="assets/img/new-images/client-logo.png" width="155" height="113" class="img-fluid"
-                            alt="">
-                    </div>
-                </div>
-                <div class="col-md-6 client-slick-right">
-                    <p>We knew that opening a restaurant meant we needed to have
-                        a loyalty program. Loyal~n~Save gave us the tools to get people
-                        into our place during those slow week nights. Plus, the detail
-                        view of our customer analytics is super helpful when identifying
-                        top customers.</p>
-                    <div class="client-slick-title">MUNCHIES</div>
-
-                </div>
-            </div>
-            <div class="row align-items-center d-flex">
-                <div class="col-md-6 text-center">
-                    <div class="client-thumb">
-                        <img src="assets/img/new-images/client-logo.png" width="155" height="113" class="img-fluid"
-                            alt="">
-                    </div>
-                </div>
-                <div class="col-md-6 client-slick-right">
-                    <p>We knew that opening a restaurant meant we needed to have
-                        a loyalty program. Loyal~n~Save gave us the tools to get people
-                        into our place during those slow week nights. Plus, the detail
-                        view of our customer analytics is super helpful when identifying
-                        top customers.</p>
-                    <div class="client-slick-title">MUNCHIES</div>
-
-                </div>
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-<!-- client section end -->
-
 <footer id="footer" class="animated-row">
     <div class="footer-container">
         <div class="container">
-            <div class="f-top">
-                <div class="row align-items-center">
-                    <div class="col-12 col-lg-6 col-xl-7 text-center animate order-lg-2" data-animate="fadeInUp">
-                        <img src="assets/img/fperson.png" width="500" height="510" alt="" class="img-fluid" />
-                    </div>
-                    <div class="col-12 col-lg-6 col-xl-5 order-lg-1">
-                        <div class="f-form animate" data-animate="fadeInUp">
-                            <div class="header-style-2">
-                                <h3 class="sub-title">Get in Touch</h3>
-                                <p>We have some of the best loyalty strategists in the country who are eager to help
-                                    your business thrive with the use of a customized loyalty program. </p>
-                            </div>
-
-                            <form class="form" action="#" method="post">
-                                <div class="form-field select-field">
-                                    <!-- <label>Please Select the Concern Area given below.</label> -->
-                                    <select class="form-control">
-                                        <option>Sales & Marketing</option>
-                                        <option>Sales Team</option>
-                                    </select>
-                                </div>
-                                <div class="form-field">
-                                    <input type="text" class="form-control" placeholder="Name *" />
-                                </div>
-                                <div class="form-field">
-                                    <input type="text" class="form-control" placeholder="Email *" />
-                                </div>
-                                <div class="form-field">
-                                    <textarea class="form-control" rows="8" placeholder="Message *"></textarea>
-                                </div>
-                                <div class="form-action">
-                                    <button class="button">Submit Now</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container ">
-        <div class="row">
-            <div class="col-md-7">
-                <div class="f-middle">
-                    <div class="f-request animate" data-animate="fadeInUp">
-                        <h3 class="sub-title">Ready To Get Started?</h3>
-                        <p>Find out more about how Loyal~n~Save can benefit your business and have you converting more
-                            loyal customers than ever before!</p>
-                        <div class="input-group mb-3">
-                            <input type="email" class="form-control" placeholder="Enter your email"
-                                aria-label="Recipient's username" aria-describedby="basic-addon2">
-                            <div class="input-group-append">
-                                <button class="button">Subscribe</button>
-                            </div>
-                        </div>
-                        <!-- <p><a href="#!" class="button" data-toggle="modal" data-target="#requestQuote">Schedule a Demo</a></p> -->
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-5 d-flex align-items-center justify-content-center ready-to">
-                <div class="ready-to-start">
-                    <div class="ready-to-start-arrow">
-                        <img src="assets/img/new-images/send-icon.png" width="75" height="75" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="f-bottom">
             <div class="row">
-                <div class="col-12 col-lg-4 order-5 order-lg-1">
-                    <div class="f-block animate" data-animate="fadeInUp">
-                        <p class="f-logo"><a href="index.php"><img src="assets/img/logo.png" alt="" /></a></p>
-                        <p class="copyright">© 2019 Loyal N Save <br />Website Design by <a href="http://goftx.com/"
-                                target="_blank">FasTrax Solutions</a></p>
-                    </div>
-                </div>
-                <div class="col-6 col-lg-2 order-1 order-lg-2">
-
-                    <div class="f-block animate" data-animate="fadeInUp">
-                        <h5>Company</h5>
-                        <div class="f-content">
-                            <ul>
-                                <li><a href="about-us.php">About Us</a></li>
-                                <li><a href="pricing.php">Pricing</a></li>
-                                <li><a href="industries.php">Industries</a></li>
-                                <li><a href="blog.php">Blog</a></li>
-                                <li><a href="faq.php">FAQ's</a></li>
-                            </ul>
+                <div class="col-24">
+                    <div class="footer-before">
+                        <div class="row align-items-center">
+                            <div class="col-md-14">
+                                <h5>Ready To Get Started?</h5>
+                                <p>Find out more about how Loyal~n~Save can benefit your business and have you converting more loyal customers than ever before!</p>
+                            </div>
+                            <div class="col-md-4 offset-md-5">
+                                <a href="#!" class="btn btn-secondary btn-block" data-toggle="modal" data-target="#requestQuote">Get In Touch</a><!-- -->
+                            </div>
                         </div>
                     </div>
-
                 </div>
-                <div class="col-6 col-lg-2 order-2 order-lg-3">
-
-                    <div class="f-block animate" data-animate="fadeInUp">
-                        <h5>Resources</h5>
-                        <div class="f-content">
-                            <ul>
-                                <li><a href="privacy-policy.php">Privacy Policy</a></li>
-                                <li><a href="privacy-policy.php">Terms</a></li>
-                                <li><a href="contact-us.php">Contact Us</a></li>
-                                <li><a href="assets/pdf/LNS_User_Manual.pdf" target="_blank">User Manual</a></li>
-                            </ul>
+                <div class="col-24">
+                    <div class="footer-middle">
+                        <div class="row">
+                            <div class="col-6">
+                                <a href="#"><img src="assets/img/new/f-logo.png" /></a>
+                            </div>
+                            <div class="col-12">
+                                <div class="row">                        
+                                    <div class="col-8">
+                                        <div class="f-block">
+                                            <h5 class="f-title">Company</h5>
+                                            <div class="f-content">
+                                                <ul>
+                                                    <li><a href="#">About Us</a></li>
+                                                    <li><a href="#">Merchant Perks</a></li>
+                                                    <li><a href="#">Integration</a></li>
+                                                    <li><a href="#">Pricing</a></li>
+                                                    <li><a href="#">Features</a></li>
+                                                    <li><a href="#">Industries</a></li>
+                                                    <li><a href="#">Resources</a></li>
+                                                    <li><a href="#">Download App</a></li>
+                                                    <li><a href="#">FAQ’s</a></li>
+                                                    <li><a href="#">Contact Us</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-8">
+                                        <div class="f-block">
+                                            <h5 class="f-title">Features</h5>
+                                            <div class="f-content">
+                                                <ul>
+                                                    <li><a href="#">Umbrella Loyalty Program</a></li>
+                                                    <li><a href="#">User Engagement</a></li>
+                                                    <li><a href="#">Campaign Builder</a></li>
+                                                    <li><a href="#">Team Builder</a></li>
+                                                    <li><a href="#">Swag Shop</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="f-block">
+                                            <h5 class="f-title">Resources</h5>
+                                            <div class="f-content">
+                                                <ul>
+                                                    <li><a href="#">Blog</a></li>
+                                                    <li><a href="#">White Papers</a></li>
+                                                    <li><a href="#">Campaign Builder</a></li>
+                                                    <li><a href="#">Videos</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-8">
+                                        <div class="f-block">
+                                            <h5 class="f-title">Industries</h5>
+                                            <div class="f-content">
+                                                <ul>
+                                                    <li><a href="#">Grocery</a></li>
+                                                    <li><a href="#">Tobacco</a></li>
+                                                    <li><a href="#">CBD</a></li>
+                                                    <li><a href="#">Convenience Store</a></li>
+                                                    <li><a href="#">Pet</a></li>
+                                                    <li><a href="#">Salon & Spa</a></li>
+                                                    <li><a href="#">Restaurants</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="f-block">
+                                    <h5 class="f-title">Subscribe Now</h5>
+                                    <div class="f-content">
+                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium</p>
+                                        <div class="form">
+                                            <div class="form-field">
+                                                <input type="email" required placeholder="Email Address" class="form-control" />
+                                            </div>
+                                            <div class="form-action">
+                                                <button class="btn btn-primary btn-block">Subscribe Now</button
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="f-block f-support">
+                                    <h5 class="f-title">Customer Support</h5>
+                                    <div class="f-content">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <a href="#" class="btn btn-tertiary btn-block"><svg class="svg f-support mr-3" aria-hidden="true" role="img"><use href="#f-support" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#f-support"></use></svg>Call Us</a>
+                                            </div>
+                                            <div class="col-12">
+                                                <a href="#" class="btn btn-secondary btn-block"><svg class="svg f-email mr-3" aria-hidden="true" role="img"><use href="#f-email" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#f-email"></use></svg>Email Us</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-
                 </div>
-
-                <div class="col-6 col-lg-2 order-3 order-lg-4">
-
-                    <div class="f-block animate" data-animate="fadeInUp">
-                        <h5>API</h5>
-                        <div class="f-content">
-                            <ul>
-                                <li><a href="api-integration.php">API Integration</a></li>
-                            </ul>
+                <div class="col-24">
+                    <div class="footer-after">
+                        <div class="row">                        
+                            <div class="col-12">
+                                <p>© 2022 Loyal~N~Save | Website Design by <a href="#" target="_blank">FasTrax Infotech</a></p>
+                            </div>
+                            <div class="col-12 text-right f-social">
+                                <a href="#"><svg class="svg facebook" aria-hidden="true" role="img"><use href="#facebook" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use></svg></a><a href="#"><svg class="svg twitter" aria-hidden="true" role="img"><use href="#twitter" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a><a href="#"><svg class="svg linkedin" aria-hidden="true" role="img"><use href="#linkedin" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#linkedin"></use></svg></a>
+                            </div>
                         </div>
                     </div>
-
                 </div>
-
-
-                <div class="col-6 col-lg-2 order-4 order-lg-5">
-
-                    <div class="f-block f-social animate" data-animate="fadeInUp">
-                        <h5>Follow us</h5>
-                        <div class="f-content">
-                            <ul class="">
-                                <li>
-                                    <a href="https://www.facebook.com/LoyalNSave/" target="_blank"><img
-                                            src="assets/img/facebook.png" alt="" /></a>
-                                </li>
-                                <li>
-                                    <a href="https://www.instagram.com/loyalnsave/" target="_blank"><img
-                                            src="assets/img/instagram.png" alt="" /></a>
-                                </li>
-                                <li>
-                                    <a href="https://www.linkedin.com/company/loyal-n-save/" target="_blank"><img
-                                            src="assets/img/linkedin.png" alt="" /></a>
-                                </li>
-                                <li>
-                                    <a href="https://twitter.com/LoyalNSave" target="_blank"><img
-                                            src="assets/img/twitter.png" alt="" /></a>
-                                </li>
-                            </ul>
-
-
-
-
-                        </div>
-                    </div>
-
-                </div>
-
             </div>
         </div>
-    </div>
+    </div>    
 </footer>
 </div>
-
-<!-- Chat -->
-<a href="#" class="chat">Live Chat</a>
-<!-- Chat -->
 
 <!-- Modal -->
 <div class="modal fade" id="requestQuote" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
@@ -287,9 +195,9 @@
 
 <script>
 $(document).ready(function() {
-    $('.client-slick').slick({
+    /* $('.client-slick').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
-    });
+    }); */
 });
 </script>

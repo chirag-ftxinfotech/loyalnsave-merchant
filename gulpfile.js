@@ -8,7 +8,7 @@ const terser = require('gulp-terser');
 const postcss = require('gulp-postcss');
 const autoprefixer = require('autoprefixer');
 const cssnano = require('cssnano');
-const replace = require('gulp-replace');
+//const replace = require('gulp-replace');
 const browsersync = require('browser-sync').create();
 
 // File paths

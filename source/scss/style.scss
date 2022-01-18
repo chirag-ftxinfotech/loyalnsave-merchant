@@ -1,7 +1,5 @@
 @charset 'UTF-8';
 
-
-
 // -------------------------------------------------- //
 // --------------------- BOOTSTRAP ------------------ //
 // -------------------------------------------------- //
@@ -48,24 +46,16 @@
 // 4. Layout-related sections
 @import  '04_layout/_01_header';
 @import  '04_layout/_02_footer';
+@import  '04_layout/_03_common';
 
 // 5. Components
 @import  '05_components/_01_buttons';
+@import  '05_components/_02_nav';
+@import  '05_components/_03_slickslider';
 
 // 6. Page-specific styles
 @import  '06_pages/_01_home';
-@import  '06_pages/_02_about';
-@import  '06_pages/_03_api';
-@import  '06_pages/_04_contact';
-@import  '06_pages/_05_faq';
-@import  '06_pages/_06_privacy';
-@import  '06_pages/_07_industries';
-@import  '06_pages/_08_blog';
-@import  '06_pages/_09_pricing';
-@import  '06_pages/_10_howitworks';
-@import  '06_pages/_11_deals';
-@import  '06_pages/_12_swagshop';
-@import  '06_pages/_13_features';
-@import  '06_pages/_15_manufacturers';
-@import  '06_pages/_14_gamification';
-@import  '06_pages/_16_teamreward';
+@import  '06_pages/_02_merchant-perks';
+@import  '06_pages/_03_integration';
+@import  '06_pages/_04_features';
+@import  '06_pages/_04_features_detail';

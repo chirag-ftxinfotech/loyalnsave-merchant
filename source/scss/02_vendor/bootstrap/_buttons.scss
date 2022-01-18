@@ -6,13 +6,13 @@
 
 .btn {
   display: inline-block;
-  font-weight: $btn-font-weight;
+  font-weight: $font-weight-medium;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
   user-select: none;
   border: $btn-border-width solid transparent;
-  @include button-size($btn-padding-y, $btn-padding-x, $font-size-base, $btn-line-height, $btn-border-radius);
+  @include button-size($btn-padding-y, $btn-padding-x, $font-size-btn, $btn-line-height, $btn-border-radius);
   @include transition($btn-transition);
 
   // Share hover and focus styles
