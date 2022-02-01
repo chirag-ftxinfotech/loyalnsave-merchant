@@ -14,7 +14,11 @@
     z-index: 2;
     margin: 0px auto;
     perspective: 2000px;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;
+    @include media(xxl) {
+      width: auto;
+      justify-content: center;
+    }
   }
 
   nav .menu-item {
@@ -28,6 +32,10 @@
     justify-content: center;
     perspective: 200px;
     letter-spacing: 0.5px;
+    @include media(xxl) {
+      flex-grow: 0;
+      flex-basis: auto;
+    }
   }
 
   nav .menu-text, 
@@ -38,11 +46,20 @@
     /* text-shadow: 0 1px 5px rgba(0,0,0,0.1); */
     transition: color 0.1s ease-out;
     text-align: center;
+    @include media(xxl) {
+      font-size: 16px;
+    }
   }
 
   nav .menu-text a {
     display: block;
     padding: 1.5em 0.5em;
+    @include media(xxl) {
+      padding: 1.75em 1em;
+    }
+    @include media(lg) {
+      padding: 1.75em 0.5em;
+    }
   }
 
   nav .menu-text a:hover {
@@ -89,19 +106,46 @@
   nav .menu-item.highlight:nth-of-type(3):hover ~ #sub-menu-container #sub-menu-holder,
   nav .menu-item.highlight:nth-of-type(4):hover ~ #sub-menu-container #sub-menu-holder {
     clip-path: inset(0 742px 0 0 round 20px);
+    @include media(xxl) {
+      clip-path: inset(0 812px 0 0 round 20px);
+    }
   }
 
   nav .menu-item.highlight:nth-of-type(1):hover ~ #sub-menu-container #sub-menu-holder {
     left: calc(-300px + -1px);
+    @include media(xxl) {
+      left: -241px;
+    }
+    @include media(lg) {
+      left: -164px;
+    }
   }
   nav .menu-item.highlight:nth-of-type(2):hover ~ #sub-menu-container #sub-menu-holder {
     left: calc(-140px + -1px);
+    @include media(xxl) {
+      left: -113px;
+    }
+    @include media(lg) {
+      left: -52px;
+    }
   }
   nav .menu-item.highlight:nth-of-type(3):hover ~ #sub-menu-container #sub-menu-holder {
     left: calc(20px + 1px);
+    @include media(xxl) {
+      left: 11px;
+    }
+    @include media(lg) {
+      left: 57px;
+    }
   }
   nav .menu-item.highlight:nth-of-type(4):hover ~ #sub-menu-container #sub-menu-holder {
     left: calc(180px + 1px);
+    @include media(xxl) {
+      left: 117px;
+    }
+    @include media(lg) {
+      left: 146px;
+    }
   }
 
   .menu-item .sub-menu {
@@ -123,6 +167,9 @@
     flex-direction: row;
     flex-wrap: nowrap;
     height: 320px;
+    @include media(xxl) {
+      min-width: 660px;
+    }
   }
 
   .sub-menu-links {
@@ -152,19 +199,19 @@
   }
 
   .menu-about-us .sub-menu-content {
-    background: url(../img/new/nav_bg_perk.jpg) center bottom no-repeat;
+    background: url(../../../assets/img/new/nav_bg_perk.jpg) center bottom no-repeat;
   }
 
   .menu-merchant-perks .sub-menu-content {
-    background: url(../img/new/nav_bg_aboutus.jpg) center bottom no-repeat;
+    background: url(../../../assets/img/new/nav_bg_aboutus.jpg) center bottom no-repeat;
   }
 
   .menu-features .sub-menu-content {
-    background: url(../img/new/nav_bg_features.jpg) center bottom no-repeat;
+    background: url(../../../assets/img/new/nav_bg_features.jpg) center bottom no-repeat;
   }
 
   .menu-resources .sub-menu-content {
-    background: url(../img/new/nav_bg_resources.jpg) center bottom no-repeat;
+    background: url(../../../assets/img/new/nav_bg_resources.jpg) center bottom no-repeat;
   }
 
   .nav-img-download-app {
@@ -186,7 +233,7 @@
     font-size: 18px;
     font-weight: 500;
     padding-right: 35px;
-    background: url(../img/new/nav-icon-arrow-right.svg) right center no-repeat;
+    background: url(../../../assets/img/new/nav-icon-arrow-right.svg) right center no-repeat;
     background-size: 16px 16px;
     text-decoration: underline;
   }
@@ -230,6 +277,12 @@
   .menu-item.highlight:hover .sub-menu {
     opacity: 1;
     margin-left: 0;
+    @include media(xxl) {
+      margin-left: 100px;
+    }
+    @include media(lg) {
+      margin-left: 270px;
+    }
   }
 
   .menu-item.highlight:hover ~ #sub-menu-container #sub-menu-holder  {
@@ -401,7 +454,7 @@
       font-size: 15px;
       font-weight: normal;
       color: #000000;
-      background: url(../img/new/quote.svg) left top no-repeat;
+      background: url(../../../assets/img/new/quote.svg) left top no-repeat;
       background-size: 65px;
       -webkit-box-orient: vertical;
       display: -webkit-box;

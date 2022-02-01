@@ -8,14 +8,14 @@
         <section class="header-style-1 inner-title animated-row">
             <div class="container">
                 <div class="row">
-                    <div class="col-24 col-sm-10">
+                    <div class="col-24 col-lg-10">
                         <div class="header__title">
-                            <h1>Become a Merchant today</h1>
-                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias</p>
+                            <h1>Enjoy More Revenue, Retention, and Business Growth with Merchant Loyalty Programs</h1>
+                            <p>Loyal~n~Save is a one-stop solution for merchants who want to implement successful loyalty programs to acquire, engage, and retain customers. The solution offers exciting merchant rewards and perks.</p>
                             <p><a href="#" class="btn btn-secondary">Get In Touch</a></p>
                         </div>
                     </div>
-                    <div class="col-24 col-sm-14 text-center">
+                    <div class="col-24 col-lg-14 text-center">
                         <img src="assets/img/new/merchant-perks.png" alt="" class="side-img" />
                     </div>
                 </div>
@@ -31,27 +31,47 @@
         </section>
         <!-- Waves -->
 
-        <section class="section-mp1">
+        <section class="section-content section-mp1">
             <div class="container">
                 <div class="header-title-2 text-center">
                     <span class="label">Loyalty Programs</span>
-                    <h3 class="title">The Benefits of Merchant Perks</h3>
+                    <h3 class="title">Benefits of Using Loyal~n~Save Multi-Merchant Loyalty Programs</h3>
                 </div>
 
                 <div class="card-items">
-                    <?php for ($x = 1; $x <= 3; $x++) { ?>
                     <div class="card-item">
                         <div class="card-inner text-center">
                             <div class="image">
-                                <?php echo '<img src="assets/img/new/perks-benefits-'. $x .'.jpg" alt="" />'; ?>
+                                <img src="assets/img/new/perks-benefits-1.jpg" alt="" />
                             </div>
-                            <h4 class="title">Sed ut perspiciatis</h4>
+                            <h4 class="title">Higher Customer <br />Acquisition</h4>
                             <div class="description">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                <p>Merchants can increase customer acquisition and decrease customer acquisition costs by implementing multiple loyalty program campaigns with Loyal~n~Save. The solution helps you encourage word-of-mouth advertising through team builder and offer a hassle-free customer onboarding process, resulting in higher acquisition and low acquisition costs.</p>
                             </div>
                         </div>
                     </div>
-                    <?php } ?>
+                    <div class="card-item">
+                        <div class="card-inner text-center">
+                            <div class="image">
+                                <img src="assets/img/new/perks-benefits-2.jpg" alt="" />
+                            </div>
+                            <h4 class="title">Increased Customer <br />Engagement and LTV</h4>
+                            <div class="description">
+                                <p>Loyal~n~Save helps you offer tiered loyalty programs and streamline customer communication, resulting in higher customer engagement and lifetime value (LTV). You can strategically provide rewards based on your customers’ preferences and provide them with a personalized experience.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <div class="card-inner text-center">
+                            <div class="image">
+                                <img src="assets/img/new/perks-benefits-3.jpg" alt="" />
+                            </div>
+                            <h4 class="title">Higher Customer <br />Retention and Revenue</h4>
+                            <div class="description">
+                                <p>Loyal~n~Save equips merchants with the tools needed to retain customers and turn them into brand advocates. The solution helps you implement various retention strategies and run loyalty campaigns to increase customer retention. More retention means more recurring revenue for merchants.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -62,36 +82,36 @@
                     <div class="col-24">
 
                         <div class="header-title-1 text-center">
-                            <h3 class="title">Register Your Store</h3>
-                            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt <br />ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                            <h3 class="title">Getting Started with Loyal~n~Save Is Easy</h3>
+                            <p class="description">Loyal~n~Save offers an effortless registration and set-up process. All you need to do is follow three simple steps to get your loyalty program up and running.</p>
                         </div>
 
-                        <div class="step-process">                            
+                        <div class="step-process">
                             <div class="step-item step-1">
                                 <div class="icon">
                                     <img src="http://placehold.it/40" alt="" />
-                                </div>                        
+                                </div>
                                 <div class="text">
-                                    <h4 class="title">In-Store</h4>
-                                    <p>Visit a local participating store to sign-up.</p>
+                                    <h4 class="title">Register on Loyal~n~Save</h4>
+                                    <p>Register as a merchant on Loyal~n~Save with the help of support team who’ll be there for you through the entire onboarding process.</p>
                                 </div>
                             </div>
                             <div class="step-item step-2">
                                 <div class="icon">
                                     <img src="http://placehold.it/40" alt="" />
-                                </div>                        
+                                </div>
                                 <div class="text">
-                                    <h4 class="title">Loyalty App</h4>
-                                    <p>Download our user-friendly app and sign-up in 30 seconds.</p>
+                                    <h4 class="title">Configure Your Loyalty Program</h4>
+                                    <p>Enter the asked details, including criteria, tiers, and incentives, to configure your loyalty program.</p>
                                 </div>
                             </div>
                             <div class="step-item step-3">
                                 <div class="icon">
                                     <img src="http://placehold.it/40" alt="" />
-                                </div>                        
+                                </div>
                                 <div class="text">
-                                    <h4 class="title">Loyalty Website</h4>
-                                    <p>You’re already here! Click “register” in the top right corner.</p>
+                                    <h4 class="title">Implement the Program</h4>
+                                    <p>Implement the loyalty program across various channels, including website, app, and in-store.</p>
                                 </div>
                             </div>
                         </div>
@@ -107,18 +127,18 @@
                     <div class="col-24 col-md-20 offset-md-2">
 
                         <div class="header-title-2 text-center">
-                            <h3 class="title text-white">Advantages of Loyal-n-Save Reward Program</h3>
+                            <h3 class="title text-white">Why Choose Loyal~n~Save for Loyalty Program Management?</h3>
                         </div>
 
-                        <div class="program-items">                            
+                        <div class="program-items">
                             <div class="program-item program-1">
                                 <div class="program-inner">
                                     <div class="image">
                                         <img src="assets/img/new/reward-acquistion.png" alt="" />
                                     </div>
                                     <div class="text">
-                                        <h4 class="title">New Customer <strong>Acquistion</strong></h4>
-                                        <p>Loyal~n~Save not only engages your existing customers, but its unique marketing approach also introduces hundreds of new customers to your store through qualified word-of-mouth referrals.</p>
+                                        <h4 class="title"><strong>API-Based Solution</strong></h4>
+                                        <p>LNS is an API-first loyalty program management platform that integrates with all the major POS systems in the industry. The software integrates with other business applications like sales and marketing automation, CRM, and ERP systems for unified business management.</p>
                                     </div>
                                 </div>
                             </div>
@@ -129,8 +149,8 @@
                                         <img src="assets/img/new/reward-retention.png" alt="" />
                                     </div>
                                     <div class="text">
-                                        <h4 class="title">Customer <strong>Retention</strong></h4>
-                                        <p>With Loyal~n~Save, you can easily keep track of your customers and campaigns through reports that track what product/service and customer group is generating more profit for your business and when it's happening.</p>
+                                        <h4 class="title"><strong>Easy to Set-Up and Configure</strong> </h4>
+                                        <p>Loyal~n~Save is an excellent pick for merchants who aren’t tech-savvy. Our solution is easy to set up, configure, and use. Merchants with all levels of technical proficiency can use the solution and train their employees to use it. LNS comes with a small learning curve.</p>
                                     </div>
                                 </div>
                             </div>
@@ -141,8 +161,8 @@
                                         <img src="assets/img/new/reward-engagement.png" alt="" />
                                     </div>
                                     <div class="text">
-                                        <h4 class="title">New Customer <strong>Engagement</strong></h4>
-                                        <p>Loyal~n~Save gives you the ability to manage and target personalized offers and notifications across all channels: including mobile, web, email, and social media for optimal customer and community engagement.</p>
+                                        <h4 class="title"><strong>Customizable and Scalable</strong></h4>
+                                        <p>LNS is a fully customizable and scalable loyalty rewards management system that caters to the individual requirements of all merchants. Whether you’re a hotel manager, restaurant owner, or retailer, LNS can help you achieve your customer success and business growth objectives.</p>
                                     </div>
                                 </div>
                             </div>
@@ -153,95 +173,131 @@
             </div>
         </section>
 
-        <section class="section-content pt-0">
+        <div class="seprator-dot"></div>
+
+        <section class="section-content">
             <div class="container">
-
-                <div class="row">
-                    <div class="col-24 col-md-18 offset-md-3">
-                        <div class="header-title-1 text-center">
-                            <h3 class="title">We Have the Features You Need</h3>
-                            <p class="description">Our team of application development experts will work hard to work out any bugs found by your tech team during installation to ensure seamless integration with the Loyal~n~Save API into your POS system. Choose the Loyal~n~Save features you want to participate in and none of the ones you don't.</p>
-                        </div>
-                    </div>
-                    <div class="col-24 col-md-22 offset-md-1">
-                        
-                        <div class="card-feature">
-                            <div class="cf-item">
-                                <div class="cfi-inner">
-                                    <span class="img"><img src="assets/img/new/cf-img-1.jpg" alt=""></span>
-                                    <h4>Tech Support</h4>
-                                    <p>24/7 Assistance</p>
-                                </div>
-                            </div>
-
-                            <div class="cf-item">
-                                <div class="cfi-inner">
-                                    <span class="img"><img src="assets/img/new/cf-img-2.jpg" alt=""></span>
-                                    <h4>Seamless Integration</h4>
-                                    <p>Easy-to-Setup</p>
-                                </div>
-                            </div>
-
-                            <div class="cf-item">
-                                <div class="cfi-inner">
-                                    <span class="img"><img src="assets/img/new/cf-img-3.jpg" alt=""></span>
-                                    <h4>Customizable Components</h4>
-                                    <p>Your Choice</p>
-                                </div>
-                            </div>
-
-                            <div class="cf-item">
-                                <div class="cfi-inner">
-                                    <span class="img"><img src="assets/img/new/cf-img-4.jpg" alt=""></span>
-                                    <h4>Full Documentation</h4>
-                                    <p>User Guide and FAQs</p>
-                                </div>
-                            </div>
-                            <div class="cf-item">
-                                <div class="cfi-inner">
-                                    <span class="img"><img src="assets/img/new/cf-img-1.jpg" alt=""></span>
-                                    <h4>Tech Support</h4>
-                                    <p>24/7 Assistance</p>
-                                </div>
-                            </div>
-
-                            <div class="cf-item">
-                                <div class="cfi-inner">
-                                    <span class="img"><img src="assets/img/new/cf-img-2.jpg" alt=""></span>
-                                    <h4>Seamless Integration</h4>
-                                    <p>Easy-to-Setup</p>
-                                </div>
-                            </div>
-
-                            <div class="cf-item">
-                                <div class="cfi-inner">
-                                    <span class="img"><img src="assets/img/new/cf-img-3.jpg" alt=""></span>
-                                    <h4>Customizable Components</h4>
-                                    <p>Your Choice</p>
-                                </div>
-                            </div>
-
-                            <div class="cf-item">
-                                <div class="cfi-inner">
-                                    <span class="img"><img src="assets/img/new/cf-img-4.jpg" alt=""></span>
-                                    <h4>Full Documentation</h4>
-                                    <p>User Guide and FAQs</p>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
+                <div class="header-title-2 text-center">
+                    <h3 class="title">How Loyal~n~Saves Helps You Acquire and Retain Customers?</h3>
+                    <p class="description">Loyal~n~Save helps you increase customer acquisition and retention. But how? Here are some tangible ways in which LNS helps your business.</p>
                 </div>
-            
+
+                <div class="row align-items-center rs-section mt-5">
+                    <div class="col-24 col-md-10 rs-text">
+                        <div class="header-title-1">
+                            <h3 class="title">Reward Your Customers Through Swag Shops </h3>
+                            <p>Rewarding your customers is an excellent way to make your customers feel good about buying from you. Customers are more likely to shop more often from merchants that offer exciting rewards and incentives.</p>
+                            <p>Swag shop and Unique reward point campaigns built through LNS tools can help you reward your consumers appropriately so that the consumers are genuinely excited about purchasing your products and participating in your loyalty campaigns.</p>
+                        </div>                        
+                    </div>
+                    <div class="col-24 col-md-12 offset-md-1 rs-img">
+                        <div class="text-center">
+                            <img src="http://placehold.it/500" alt="">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row align-items-center rs-section mt-5">                    
+                    
+                    <div class="col-24 col-md-12 rs-img">
+                        <div class="text-center">
+                            <img src="http://placehold.it/500" alt="">
+                        </div>
+                    </div>
+                    <div class="col-24 col-md-10 offset-md-1 rs-text">
+                        <div class="header-title-1">
+                            <h3 class="title">Increase User Engagement</h3>
+                            <p>Implementing customer-centric merchant rewards programs is one of the best ways to engage your customers. Loyal~n~Save enables you to implement customizable loyalty programs to engage your customers and provide them with personalized experiences.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row align-items-center rs-section mt-5">
+
+                    <div class="col-24 col-md-10 rs-text">
+                        <div class="header-title-1">
+                            <h3 class="title">Encourage Customers to Buy More Through Team Builder & Other Loyalty Campaigns</h3>
+                            <p>With Loyal~n~Save, you can implement tiered loyalty programs to incentivize customers based on their spending. This way, you can encourage customers to shop more, resulting in more sales and revenue.</p>
+                        </div>                        
+                    </div>
+                    <div class="col-24 col-md-12 offset-md-1 rs-img">
+                        <div class="text-center">
+                            <img src="http://placehold.it/500" alt="">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row align-items-center rs-section mt-5">
+                    
+                    <div class="col-24 col-md-12 rs-img">
+                        <div class="text-center">
+                            <img src="http://placehold.it/500" alt="">
+                        </div>
+                    </div>
+                    <div class="col-24 col-md-10 offset-md-1 rs-text">
+                        <div class="header-title-1">
+                            <h3 class="title">Attract Word-of-Mouth Advertising – Team Builder and Swag Shop</h3>
+                            <p>Loyal~n~Save empowers merchants to drive word-of-mouth advertising. When you offer remarkable experiences to your customers, they will recommend your brand and products to the people they know. Hence, you get more customers without running any aggressive marketing campaigns.</p>
+                            <p>Moreover, with team builder, swag shop and campaign builder you can drive genuine word-of- mouth advertising.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row align-items-center rs-section mt-5">
+
+                    <div class="col-24 col-md-10 rs-text">
+                        <div class="header-title-1">
+                            <h3 class="title">Inspire Customer Loyalty</h3>
+                            <p>Loyal~n~Save is the go-to solution for merchants who want to increase customer retention and loyalty. Customers are more likely to stick with a merchant with a loyalty program. LNS helps you implement personalized loyalty programs that encourage customers to stick with your brand and recommend it to others.</p>
+                        </div>                        
+                    </div>
+                    <div class="col-24 col-md-12 offset-md-1 rs-img">
+                        <div class="text-center">
+                            <img src="http://placehold.it/500" alt="">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row align-items-center rs-section mt-5">
+                    
+                    <div class="col-24 col-md-12 rs-img">
+                        <div class="text-center">
+                            <img src="http://placehold.it/500" alt="">
+                        </div>
+                    </div>
+                    <div class="col-24 col-md-10 offset-md-1 rs-text">
+                        <div class="header-title-1">
+                            <h3 class="title">Enhance Marketing and Brand Awareness</h3>
+                            <p>Loyal~n~Save takes your marketing campaigns to the next level. Advertising your loyalty program as your brand’s unique selling proposition (USP) is a proven strategy to increase brand awareness and acquire customers. LNS also has a campaign builder that lets you create, run, and manage promotional campaigns.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row align-items-center rs-section mt-5">
+
+                    <div class="col-24 col-md-10 rs-text">
+                        <div class="header-title-1">
+                            <h3 class="title">Get a Competitive Edge with Umbrella Loyalty Program and Team Builder</h3>
+                            <p>Loyal~n~Save improves your business’ bottom line and gives you a substantial advantage over your competitors. It helps you implement and manage customer-centric loyalty programs, which bolster customer engagement and retention. LNS also goes a long way in increasing customer acquisition and overall brand awareness.</p>
+                            <p>Umbrella Loyalty Program and Team Builder offer customers attractive rewards and also ensure that they stay loyal to your brand.</p>
+                        </div>                        
+                    </div>
+                    <div class="col-24 col-md-12 offset-md-1 rs-img">
+                        <div class="text-center">
+                            <img src="http://placehold.it/500" alt="">
+                        </div>
+                    </div>                    
+
+                </div>
+                    
             </div>
         </section>
-
 
         <section class="section-client">
             <div class="container">
                 <div class="row">
                     <div class="col-24 col-md-12 offset-md-6">
-                        <div class="header-title-1 text-center">                            
+                        <div class="header-title-1 text-center">
                             <h3 class="title">Meet Our Fantastic <br />Community of Loyal Clients</h3>
                             <p class="description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
                         </div>
@@ -251,6 +307,7 @@
             </div>
         </section>
 
+        <!-- -->
         <section class="section-testimonial">
             
             <div class="container">
@@ -274,6 +331,7 @@
             </div>
 
         </section>
+        <!-- -->
 
         <section class="container">
             <div class="seprator-dot"></div>
@@ -282,41 +340,58 @@
         <section class="section-content">
             <div class="container">
                 <div class="row">
-                    <div class="col-24 col-md-18 offset-3">
+                    <div class="col-24 col-md-18 offset-md-3">
                         <div class="header-title-1 text-center">
                             <h3 class="title">Frequently Asked Questions</h3>
-                            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                         </div>
 
                         <div class="accordion" id="accordion">
                             <div class="card">
                                 <div class="card-header" id="headingOne">
-                                    <button data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">How will Loyal~n~Save benefit my business?</button>
+                                    <button data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        What are the benefits of loyalty programs for merchants?
+                                    </button>
                                 </div>
 
                                 <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                                     <div class="card-body">
-                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                        Loyalty programs directly impact your bottom line. They help you achieve higher customer acquisition, user engagement, and customer retention. Furthermore, they enable you to increase customer lifetime value and also enhance your marketing campaigns.
                                     </div>
                                 </div>
                             </div>
                             <div class="card">
                                 <div class="card-header" id="headingTwo">
-                                    <button class="collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Does Loyal~n~Save integrate with my POS?</button>
+                                    <button class="collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Is Loyal~n~Save easy to install and use?
+                                    </button>
                                 </div>
                                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                                     <div class="card-body">
-                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                        Yes, LNS is one of the easiest-to-use loyalty program managers out there. It is an API-first solution, and you can integrate it with almost any POS system. The installation process is simple, and the software has a small learning curve.
                                     </div>
                                 </div>
                             </div>
                             <div class="card">
-                                <div class="card-header" id="headingThree">                                
-                                    <button class="collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">How soon can I launch a loyalty program at my business?</button>
+                                <div class="card-header" id="headingThree">
+                                    <button class="collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        What if I run into technical issues?
+                                    </button>
                                 </div>
                                 <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                                     <div class="card-body">
-                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                    Our customer support team is available 24/7 to assist you. If you run into any issues, our team will resolve them as soon as possible. You can reach out to us via email and phone.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingThree">
+                                    <button class="collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        Can I cancel the plan if I’m not satisfied with the solution?
+                                    </button>
+                                </div>
+                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                                    <div class="card-body">
+                                    Yes. We hate contracts, and therefore, we offer one-month subscription plans. If you are not satisfied with the solution, you can cancel your plan after a month. However, we promise you won’t need to do that.
                                     </div>
                                 </div>
                             </div>
@@ -340,7 +415,62 @@ $(document).ready(function() {
         arrows: true,
         centerMode: true,
         centerPadding: '250px',
+        autoplay: true,
+        autoplaySpeed: 2000,
         /*infinite: false,*/
+        responsive: [
+            {
+                breakpoint: 1600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerPadding: '100px',
+                }
+            },
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    centerMode: false,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerPadding: '100px',
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerPadding: '50px',
+                    arrows: false,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerPadding: '15px',
+                    arrows: false,
+                }
+            },
+            {
+                breakpoint: 376,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerPadding: '15px',
+                    arrows: false,
+                }
+            }
+        ]
     });
 
 })

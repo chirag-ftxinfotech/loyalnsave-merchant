@@ -40,9 +40,9 @@ button {
     transform: translate3d(0, 100%, 0);
 }
 
-@media (min-width: 1470px) {
+@include media_min(xxl) {
     .container {
-        max-width: 1430px;
+        max-width: 1380px;
     }
     .container-1600 {
         max-width: 1600px;
@@ -97,15 +97,18 @@ button {
         }
     }
     &.inner-title {
-        padding-top: 35%;
-        padding-bottom: 35%;
+        padding: 100px 20px 100px;
         @include media_min(md) {
-            padding: 25% 25px;
+            padding: 150px 25px 75px;
             min-height: auto;
         }
         @include media_min(lg) {
-            padding-top: 15%;
-            padding-bottom: 15%;
+            padding-top: 180px;
+            padding-bottom: 150px;
+        }
+        @include media_min(xl) {
+            padding-top: 250px;
+            padding-bottom: 250px;
         }
         h1 {
             margin-bottom: 15px;
@@ -117,9 +120,11 @@ button {
             margin-bottom: 20px;
         }
         .side-img {
-            position: absolute;
-            right: 0;
-        }        
+            @include media_min(xl) {
+                position: absolute;
+                right: 0;
+            }
+        }
     }
     @include media_min(md) {
         padding-left: 90px;
@@ -128,11 +133,28 @@ button {
 }
 
 .header__img_bottom {
+    padding: 0 20px;
     position: relative;
-    z-index: 99;    
-    transform: translateY(-220px);
-    height: 400px;
-    /* top: -200px; */
+    z-index: 99;
+    height: 200px;
+    transform: translateY(-60px);
+    @include media_min(sm) {
+        height: 320px;
+        transform: translateY(-60px);
+    }
+    @include media_min(md) {
+        height: 520px;
+        transform: translateY(-60px);
+    }
+    @include media_min(lg) {
+        height: 520px;
+        transform: translateY(-60px);
+    }
+    @include media_min(xl) {
+        height: 400px;
+        transform: translateY(-220px);
+    }
+    @include media_min(xxl) {}
 }
 
 .modal-dialog {
@@ -140,19 +162,7 @@ button {
     .modal-content {
         background: #ceccdb;
         border: none;
-        @include border-radius(15px);
         position: relative;
-        &:before {
-            content: '';
-            position: absolute;
-            left: 0;
-            right: 0;
-            top: 0;
-            height: 35%;
-            @include gradient(#741a88, #491a89);
-            z-index: 1;
-            @include border-radius(10px 10px 0 0);
-        }
     }
     .modal-body {
         position: relative;
@@ -169,7 +179,6 @@ button {
         font-size: 24px;
         font-weight: 300;
         color: #fff;
-        text-align: center;
     }
     .close {
         width: 45px;
@@ -186,34 +195,5 @@ button {
             width: 100%;
             height: 100%;
         }
-    }
-    .form {
-        padding: 20px;
-        background: #eae9ef;
-        @include border-radius(10px);
-        box-shadow: 0px 5px 18px rgba(0, 0, 0, .08);
-        label {
-            opacity: .7;
-            small {
-                color: #f00;
-            }
-        }
-        .form-field {
-            margin-bottom: 5px;
-        }
-        .form-control {
-            padding: 7px 15px;
-            background: #eae9ef;
-            border: 1px solid #c0bfc4;
-            @include border-radius(5px);
-        }
-        textarea {
-            min-height: 90px;
-        }
-    }
-    .g-recaptcha {
-        &>div {
-            margin: 15px auto 0;
-        }
-    }
+    }    
 }

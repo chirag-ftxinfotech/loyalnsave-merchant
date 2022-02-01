@@ -5,6 +5,57 @@ $(window).on("load", function() {
 	// Animate loader off screen
 	$(".page-loader").fadeOut("slow");
 });
+
+$(function(){
+  /* var tabChange = function () {
+      var tabs = $('.nav-tabs > li');
+      var active = tabs.filter('.active');
+      var next = active.next('li').length ? active.next('li').find('a') : tabs.filter(':first-child').find('a');
+      // Use the Bootsrap tab show method
+      next.tab('show');
+  };
+  // Tab Cycle function
+  var tabCycle = setInterval(tabChange, 1000);
+
+  // Tab click event handler
+  $('a').on('click', function (e) {
+      e.preventDefault();
+      // Stop the cycle
+      clearInterval(tabCycle);
+      // Show the clicked tabs associated tab-pane
+      $(this).tab('show');
+      // Start the cycle again in a predefined amount of time
+      setTimeout(function () {
+          //tabCycle = setInterval(tabChange, 5000);
+      }, 15000);
+  }); */
+
+  /* // Tab-Pane change function
+  var tabChange = function(){
+      var tabs = $('.nav-tabs > li');
+      var active = tabs.filter('.active');
+      var next = active.next('li').length? active.next('li').find('a') : tabs.filter(':first-child').find('a');
+      // Bootsrap tab show, para ativar a tab
+      next.tab('show')
+  }
+  // Tab Cycle function
+  var tabCycle = setInterval(tabChange, 1000)
+  // Tab click event handler
+  $(function(){
+      $('.nav-tabs a').click(function(e) {
+          e.preventDefault();
+          // Parar o loop
+          clearInterval(tabCycle);
+          // mosta o tab clicado, default bootstrap
+          $(this).tab('show')
+          // Inicia o ciclo outra vez
+          setTimeout(function(){
+              tabCycle = setInterval(tabChange, 1000)//quando recomeça assume este timing
+          }, 1000);
+      });
+  }); */
+
+});
 </script>
 <!-- Scripts - Page Loader -->
 
@@ -27,6 +78,10 @@ $(function (){
 	
 	$('.accordion .accordion-title').on('click' ,function(){
 		$(this).parent('.accordion-item').toggleClass('active');
+	});
+
+  $('.f-block .f-title').on('click' ,function(){
+		$(this).parent('.f-block').toggleClass('active');
 	});
 });
 
@@ -52,7 +107,11 @@ var adjustHeaderMenu = function (){
 		$(document).on('click', '.mobile-nav__close', function(){
 			$('.mobile-nav').removeClass('open');
 			$('body').removeClass('hidden');
-		});		
+      $('.menu-item').removeClass('active');
+		});
+    $('.menu-item .menu-click').on('click', function(){
+      $(this).parent().parent('.menu-item').toggleClass('active');
+    });
 	}
 }
 </script>

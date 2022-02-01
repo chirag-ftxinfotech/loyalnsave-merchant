@@ -33,7 +33,7 @@
                 <div class="header-app-banner">
                     <div class="hab-inner">
                         <h3>Download Our App & <br />Start Earning Today!</h3>
-                        <p class="pt-4"><a href="#"><img src="assets/img/new/google-play.png" /></a> &nbsp; <a href="#"><img src="assets/img/new/app-store.png" /></a></p>
+                        <p class="pt-4"><a href="#"><img src="assets/img/new/google-play.png" /></a><a href="#"><img src="assets/img/new/app-store.png" /></a></p>
                     </div>
                     <div class="mobile-1"><img src="assets/img/new/mobile-1.png" /></div>
                     <div class="mobile-2"><img src="assets/img/new/mobile-2.png" /></div>
@@ -64,7 +64,10 @@
                     <div class="tab-content" id="myTabContent">
                         <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="tab-1">
                             <div class="row align-items-center">
-                                <div class="col-24 col-md-10">
+                                <div class="col-24 col-lg-12 offset-lg-1 order-lg-2">
+                                    <img src="assets/img/new/tab-image-1.jpg" />
+                                </div>
+                                <div class="col-24 col-lg-10 order-lg-1">
                                     <h4>Sign-Up for Loyal~n~Save in Seconds!</h4>
                                     <p>You have a few options when it comes to signing up for the Loyal~n~Save loyalty program. You can go to a participating store and sign-up in-store, you'll earn points right away by making a purchase! You can also download our easy-to-use app and sign-up with a social account or email address. Or sign-up right on our site by clicking the "Register" button on the top right of this page!</p>
                                     
@@ -91,9 +94,6 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-24 col-md-12 offset-md-2">
-                                    <img src="assets/img/new/tab-image-1.jpg" />
                                 </div>
                             </div>
                         </div>
@@ -177,10 +177,10 @@
             <div class="container">
                 <div class="section-box">
                     <div class="row align-items-center">
-                        <div class="col-24 col-md-12">
+                        <div class="col-24 col-lg-12">
                             <img src="assets/img/new/about-us.png" alt="" />
                         </div>
-                        <div class="col-24 col-md-12 pl-4 pr-4">
+                        <div class="col-24 col-lg-12 pl-4 pr-4">
                             <div class="header-title-1">
                                 <h3>About Us</h3>
                             </div>                            
@@ -208,28 +208,28 @@
                 </div>
 
                 <div class="icons-cards justify-content-center">
-                    <div class="icons-card col-md-6">
+                    <div class="icons-card col-24 col-md-12 col-xl-6">
                         <div class="icons-inner">
                             <span class="icon"><svg class="svg lp-1" aria-hidden="true" role="img"><use href="#lp-1" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#lp-1"></use></svg></span>
                             <h4>Marketing Portal</h4>
                             <p>Manage your campaigns, customers, swag shop, and more through our user-friendly back-end portal.</p>
                         </div>
                     </div>
-                    <div class="icons-card col-md-6">
+                    <div class="icons-card col-24 col-md-12 col-xl-6">
                         <div class="icons-inner">
                             <span class="icon"><svg class="svg lp-2" aria-hidden="true" role="img"><use href="#lp-2" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#lp-2"></use></svg></span>
                             <h4>Swag Shop</h4>
                             <p>Upload exclusive merchandise such as t-shirts or hats for customers to redeem their points from right in the app!</p>
                         </div>
                     </div>
-                    <div class="icons-card col-md-6">
+                    <div class="icons-card col-24 col-md-12 col-xl-6">
                         <div class="icons-inner">
                             <span class="icon"><svg class="svg lp-3" aria-hidden="true" role="img"><use href="#lp-3" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#lp-3"></use></svg></span>
                             <h4>Mobile App</h4>
                             <p>Meet your customers where they are: their phones. Customers can join stores and campaigns, view their points, and much more.</p>
                         </div>
                     </div>
-                    <div class="icons-card col-md-6">
+                    <div class="icons-card col-24 col-md-12 col-xl-6">
                         <div class="icons-inner">
                             <span class="icon"><svg class="svg lp-4" aria-hidden="true" role="img"><use href="#lp-4" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#lp-4"></use></svg></span>
                             <h4>Branded Keytags</h4>
@@ -244,12 +244,14 @@
         <section class="section-waves section-pink">
             <div class="container">
                 <div class="row">
-                    <div class="col-24 col-md-20 offset-md-2">
+                    <div class="col-24 col-lg-20 offset-lg-2">
                         <div class="header-title-1 text-center">
                             <h3 class="title">Customer Experience</h3>
                             <p class="description">Create a personal connection with your customers and enhance their overall experience at your business with Loyal~n~Save. With exclusive insight into your customer's shopping behaviors, you have the ability to personalize each customer's experience with your store and make them feel special. In return, they will feel more obligated to tell their family and friends about your business.</p>
                         </div>
+                    </div>
 
+                    <div class="col-24 col-lg-24">
                         <div class="ce-tabbing">
                             <ul class="nav nav-tabs" id="ceTab" role="tablist">
                                 <li class="nav-item" role="presentation">
@@ -364,7 +366,7 @@
         <section class="section-p4">            
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-24 col-md-10">
+                    <div class="col-24 col-lg-10">
                         <div class="header-title-1">
                             <h3 class="title">Who Uses Loyal-n-Save?</h3>
                             <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti.</p>
@@ -388,10 +390,8 @@
                         </div>
                         
                     </div>
-                    <div class="col-24 col-md-12 offset-md-1">
+                    <div class="col-24 col-lg-12 offset-lg-1">
                         <div class="side-img"><img src="assets/img/new/home-img-5.png" alt="" /></div>
-                        <div class="dot-1"></div>
-                        <div class="dot-2"></div>
                     </div>
                 </div>
             </div>
@@ -404,17 +404,17 @@
                     <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus</p>
                 </div>
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-24 col-md-12 col-lg-8 col-xxl-6">
                         <div class="industries-box">
                             <a href="#">
                                 <img src="assets/img/new/grocery.jpg" alt="" />
                                 <span>Grocery 
-                                    <span class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+                                    <span class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua  labore et dolore magna aliqua.</span>
                                 </span>
                             </a>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-24 col-md-12 col-lg-8 col-xxl-6">
                         <div class="industries-box">
                             <a href="#">
                                 <img src="assets/img/new/tobacco.jpg" alt="" />
@@ -424,7 +424,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-24 col-md-12 col-lg-8 col-xxl-6">
                         <div class="industries-box">
                             <a href="#">
                                 <img src="assets/img/new/cbd.jpg" alt="" />
@@ -434,7 +434,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-24 col-md-12 col-lg-8 col-xxl-6">
                         <div class="industries-box">
                             <a href="#">
                                 <img src="assets/img/new/convenience-store.jpg" alt="" />
@@ -444,7 +444,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-24 col-md-12 col-lg-8 col-xxl-6">
                         <div class="industries-box">
                             <a href="#">
                                 <img src="assets/img/new/pet.jpg" alt="" />
@@ -454,7 +454,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-24 col-md-12 col-lg-8 col-xxl-6">
                         <div class="industries-box">
                             <a href="#">
                                 <img src="assets/img/new/salon.jpg" alt="" />
@@ -464,7 +464,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-24 col-md-12 col-lg-8 col-xxl-6">
                         <div class="industries-box">
                             <a href="#">
                                 <img src="assets/img/new/restaurant.jpg" alt="" />
@@ -474,7 +474,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-24 col-md-12 col-lg-8 col-xxl-6">
                         <div class="industries-box">
                             <a href="#">
                                 <img src="assets/img/new/industries-all.jpg" alt="" />
@@ -557,8 +557,53 @@ $(document).ready(function() {
         centerMode: true,
         centerPadding: '75px',
         autoplay: true,
-        autoplaySpeed: 2000
+        autoplaySpeed: 2000,
         /*infinite: false,*/
+        responsive: [
+            {
+                breakpoint: 1400,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    centerMode: false,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerPadding: '120px',
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerPadding: '50px',
+                    arrows: false,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerPadding: '5px',
+                    arrows: false,
+                }
+            },
+            {
+                breakpoint: 376,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerPadding: '5px',
+                    arrows: false,
+                }
+            }
+        ]
     });
 
     $('.slick-client').slick({
@@ -571,6 +616,59 @@ $(document).ready(function() {
         autoplay: true,
         autoplaySpeed: 2000,
         /*infinite: false,*/
+        responsive: [
+            {
+                breakpoint: 1600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerPadding: '100px',
+                }
+            },
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    centerMode: false,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerPadding: '100px',
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerPadding: '50px',
+                    arrows: false,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerPadding: '15px',
+                    arrows: false,
+                }
+            },
+            {
+                breakpoint: 376,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerPadding: '15px',
+                    arrows: false,
+                }
+            }
+        ]
     });
 
     $('.slick-blogs').slick({
@@ -580,11 +678,57 @@ $(document).ready(function() {
         arrows: true,
         centerMode: true,
         centerPadding: '75px',
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 2000,
         prevArrow: $('.blog-prev'),
         nextArrow: $('.blog-next'),
-        /*infinite: false,*/
+        responsive: [
+            {
+                breakpoint: 1800,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 4,                    
+                }
+            },
+            {
+                breakpoint: 1400,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 4,                    
+                }
+            },
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    centerPadding: '20px',
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    centerPadding: '15px',
+                }
+            },
+            {
+                breakpoint: 376,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerPadding: '15px',
+                }
+            },
+        ]
     });
 })
 </script>

@@ -4,7 +4,7 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-24 col-md-10">
+            <div class="col-24 col-lg-10">
                 <div class="dot-1"></div>
                 <div class="dot-2"></div>
                 <div class="form">
@@ -41,12 +41,12 @@
                 <div class="col-24">
                     <div class="footer-middle">
                         <div class="row">
-                            <div class="col-6">
-                                <a href="#"><img src="assets/img/new/f-logo.png" /></a>
+                            <div class="col-24 col-lg-24 col-xl-6 text-center">
+                                <a href="#" class="f-logo"><img src="assets/img/new/f-logo.png" /></a>
                             </div>
-                            <div class="col-12">
+                            <div class="col-24 col-lg-24 col-xl-12">
                                 <div class="row">                        
-                                    <div class="col-8">
+                                    <div class="col-24 col-lg-8">
                                         <div class="f-block">
                                             <h5 class="f-title">Company</h5>
                                             <div class="f-content">
@@ -59,13 +59,13 @@
                                                     <li><a href="#">Industries</a></li>
                                                     <li><a href="#">Resources</a></li>
                                                     <li><a href="#">Download App</a></li>
-                                                    <li><a href="#">FAQ’s</a></li>
+                                                    <li><a href="#">FAQ's</a></li>
                                                     <li><a href="#">Contact Us</a></li>
                                                 </ul>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-8">
+                                    <div class="col-24 col-lg-8">
                                         <div class="f-block">
                                             <h5 class="f-title">Features</h5>
                                             <div class="f-content">
@@ -90,7 +90,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-8">
+                                    <div class="col-24 col-lg-8">
                                         <div class="f-block">
                                             <h5 class="f-title">Industries</h5>
                                             <div class="f-content">
@@ -108,8 +108,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-6">
-                                <div class="f-block">
+                            <div class="col-24 col-lg-24 col-xl-6">
+                                <div class="f-block no-accordion">
                                     <h5 class="f-title">Subscribe Now</h5>
                                     <div class="f-content">
                                         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium</p>
@@ -118,12 +118,12 @@
                                                 <input type="email" required placeholder="Email Address" class="form-control" />
                                             </div>
                                             <div class="form-action">
-                                                <button class="btn btn-primary btn-block">Subscribe Now</button
+                                                <button class="btn btn-primary btn-block">Subscribe Now</button>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="f-block f-support">
+                                <div class="f-block f-support no-accordion">
                                     <h5 class="f-title">Customer Support</h5>
                                     <div class="f-content">
                                         <div class="row">
@@ -142,13 +142,15 @@
                 </div>
                 <div class="col-24">
                     <div class="footer-after">
-                        <div class="row">                        
-                            <div class="col-12">
-                                <p>© 2022 Loyal~N~Save | Website Design by <a href="#" target="_blank">FasTrax Infotech</a></p>
+                        <div class="row">
+                            <div class="col-24 col-lg-12 order-lg-2 text-center text-lg-right">
+                                <div class="f-social">
+                                    <a href="#"><svg class="svg facebook" aria-hidden="true" role="img"><use href="#facebook" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use></svg></a><a href="#"><svg class="svg twitter" aria-hidden="true" role="img"><use href="#twitter" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a><a href="#"><svg class="svg linkedin" aria-hidden="true" role="img"><use href="#linkedin" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#linkedin"></use></svg></a>
+                                </div>
                             </div>
-                            <div class="col-12 text-right f-social">
-                                <a href="#"><svg class="svg facebook" aria-hidden="true" role="img"><use href="#facebook" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use></svg></a><a href="#"><svg class="svg twitter" aria-hidden="true" role="img"><use href="#twitter" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a><a href="#"><svg class="svg linkedin" aria-hidden="true" role="img"><use href="#linkedin" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#linkedin"></use></svg></a>
-                            </div>
+                            <div class="col-24 col-lg-12 order-lg-1">
+                                <div class="f-copyright">© 2022 Loyal~N~Save <span>|</span> Website Design by <a href="#" target="_blank">FasTrax Infotech</a></div>
+                            </div>                            
                         </div>
                     </div>
                 </div>

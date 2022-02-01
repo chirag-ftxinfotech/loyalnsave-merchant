@@ -1,29 +1,34 @@
 /* Section 1 */
 
 .section-mp1 {
-  margin: 0;
-  padding: 60px 0;
   .card-items {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: nowrap;
     align-items: stretch;
     .card-item {
+      flex: 1 0 0%;
+      width: 100%;
+      max-width: 100%;
       padding: 15px 10px;
-      &:hover .card-inner {
-        transform: translateY(-10px);
-        -webkit-box-shadow: 10px 10px 25px rgba(0,0,0,.1);
-        box-shadow: 10px 10px 25px rgba(0,0,0,.1);
+      @include media_min(xl) {
+        &:hover .card-inner {
+          transform: translateY(-10px);
+          -webkit-box-shadow: 10px 10px 25px rgba(0,0,0,.1);
+          box-shadow: 10px 10px 25px rgba(0,0,0,.1);
+        }
       }
     }
     .card-inner {
-      background: #fff;
-      padding: 35px;
-      height: 100%;      
+      background: #fff;      
+      height: 100%;
       -webkit-border-radius: 35px;
       border-radius: 35px;
       -webkit-transition: all .3s ease-in-out;
       transition: all .3s ease-in-out;
+      @include media_min(xl) {
+        padding: 35px;
+      }
     }
     .image {
       margin-bottom: 20px;
@@ -36,16 +41,19 @@
     .description {
       font-size: 18px;
     }
+    @include media_min(xl) {
+      flex-direction: row;
+    }
   }
 }
 
 .section-mp2 {
   background: #e9f4ff;
-  padding: 200px 0 100px;
+  padding: 60px 0 30px;
   position: relative;
   &:before {
     content: '';
-    background: url(../img/new/wave-1.svg) bottom center no-repeat;
+    background: url(../../../assets/img/new/wave-1.svg) bottom center no-repeat;
     background-size: 100%;
     display: block;
     width: 100%;
@@ -59,18 +67,17 @@
     position: relative;
     z-index: 1;
   }
-
   .step-process {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: nowrap;
     justify-content: space-evenly;
     position: relative;
-    background: url(../img/new/step-shape.svg) center 25px no-repeat;
-    background-size: 900px;
     .step-item {
-      padding: 20px;
-      max-width: 250px;
+      flex: 1 0 0%;
+      width: 100%;
+      max-width: 100%;
+      padding: 20px;      
       text-align: center;
       list-style-type: none;
       counter-increment: step-counter 1;
@@ -115,27 +122,62 @@
           -webkit-border-radius: 50%;
           border-radius: 50%;
         }
-      }
-
-      &.step-1 {
-        position: relative;
-        top: 25px;
-      }
-      &.step-2 {
-        position: relative;
-        top: 0px;
-      }
-      &.step-3 {
-        position: relative;
-        top: -25px;
+      }      
+    }
+    @include media_min(md) {
+      flex-direction: row;
+      background: url(../../../assets/img/new/step-shape.svg) center 25px no-repeat;
+      background-size: 550px;
+      .step-item {
+        max-width: 250px;
+        &.step-1 {
+          position: relative;
+          top: 25px;
+        }
+        &.step-2 {
+          position: relative;
+          top: 0px;
+        }
+        &.step-3 {
+          position: relative;
+          top: -25px;
+        }
       }
     }
+    @include media_min(xl) {
+      background-size: 750px;
+      .step-item {
+        max-width: 300px;
+      }
+    }
+    @include media_min(xxl) {
+      background-size: 900px;
+      .step-item {
+        max-width: 350px;
+      }
+    }
+  }
+
+  @include media_min(sm) {
+    padding: 80px 0 40px;
+  }
+  @include media_min(md) {
+    padding: 100px 0 50px;
+  }
+  @include media_min(lg) {
+    padding: 120px 0 60px;
+  }
+  @include media_min(xl) {
+    padding: 140px 0 80px;
+  }
+  @include media_min(xxl) {
+    padding: 180px 0 100px;
   }
 }
 
 .section-mp3 {
   background: #fff;
-  padding: 80px 0 80px;
+  padding: 60px 0 30px;
   position: relative;
   &:before {
     content: '';
@@ -154,62 +196,8 @@
   .container {
     position: relative;
     z-index: 1;
-  }  
-}
-
-.program-items {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  .program-item {
-    padding: 15px;
-    text-align: center;
-    flex: 1 0 0%;
-    width: 100%;
-    max-width: 100%;
   }
-  .program-inner {
-    height: 100%;
-    background: #fff;
-    -webkit-box-shadow: 0 5px 10px rgba(0,0,0,.1);
-    box-shadow: 0 5px 10px rgba(0,0,0,.1);
-    .image {
-      padding: 15px;
-      height: 285px;
-      background: #cce5f8;
-    }
-    .text {
-      padding: 25px;
-    }
-    .title {
-      font-size: 18px;
-      strong {
-        font-size: 24px;
-        font-weight: 600;
-        display: block;
-        text-transform: uppercase;
-      }
-    }
-  }
-  .program-1 .image {
-    background: #cce5f8;
-    background: -moz-linear-gradient(top,  #cce5f8 0%, #ccfbf2 100%);
-    background: -webkit-linear-gradient(top,  #cce5f8 0%,#ccfbf2 100%);
-    background: linear-gradient(to bottom,  #cce5f8 0%,#ccfbf2 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cce5f8', endColorstr='#ccfbf2',GradientType=0 );
-  }
-  .program-2 .image {
-    background: #eddaff;
-    background: -moz-linear-gradient(top,  #eddaff 0%, #d9f1ff 100%);
-    background: -webkit-linear-gradient(top,  #eddaff 0%,#d9f1ff 100%);
-    background: linear-gradient(to bottom,  #eddaff 0%,#d9f1ff 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eddaff', endColorstr='#d9f1ff',GradientType=0 );    
-  }
-  .program-3 .image {
-    background: #dcd8e9;
-    background: -moz-linear-gradient(top,  #dcd8e9 0%, #fbd8db 100%);
-    background: -webkit-linear-gradient(top,  #dcd8e9 0%,#fbd8db 100%);
-    background: linear-gradient(to bottom,  #dcd8e9 0%,#fbd8db 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dcd8e9', endColorstr='#fbd8db',GradientType=0 );
+  @include media_min(md) {
+    padding: 80px 0 80px;
   }
 }

@@ -206,8 +206,8 @@
                                 <li><a href="merchant-perks.php" target="_blank" class="active">Merchant Perks</a></li>
                                 <li><a href="#">Packages</a></li>
                                 <li><a href="features.php" target="_blank" class="active">Features</a></li>
-                                <li><a href="#">Industries</a></li>
-                                <li><a href="#">Resources</a></li>
+                                <li><a href="industries.php" target="_blank" class="active">Industries</a></li>
+                                <li><a href="resources.php" target="_blank" class="active">Resources</a></li>
                                 <li><a href="#">About us</a></li>
                                 <li><a href="#">Download App</a></li>                       
                             </ul>
@@ -236,7 +236,7 @@
                             <ul>
                                 <li><a href="#">Blog</a></li>
                                 <li><a href="#">Blog - Detail</a></li>
-                                <li><a href="#">White Papers</a></li>
+                                <li><a href="whitepapers.php" target="_blank" class="active">White Papers</a></li>
                                 <li><a href="#">Videos</a></li>
                                 <li><a href="#">Release notes</a></li>
                                 <li><a href="#">Release notes - Detail</a></li>
@@ -245,14 +245,14 @@
                         <div class="col-md-8">
                             <h4>Industries</h4>
                             <ul>
+                                <li><a href="industry-restaurant.php" target="_blank" class="active">Restaurants</a></li>
                                 <li><a href="#">Grocery</a></li>
                                 <li><a href="#">Tobacco</a></li>
                                 <li><a href="#">CBD</a></li>
                                 <li><a href="#">Convenience Store</a></li>
                                 <li><a href="#">Pet</a></li>
                                 <li><a href="#">Salon & Spa</a></li>
-                                <li><a href="#">Liquor</a></li>
-                                <li><a href="#">Restaurants</a></li>
+                                <li><a href="#">Liquor</a></li>                                
                                 <li><a href="#">Other</a></li>
                             </ul>                                       
                             <h4>CMS Content</h4>

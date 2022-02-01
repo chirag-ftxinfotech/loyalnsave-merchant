@@ -16,6 +16,14 @@
 	<div class="mobile-nav-inner" id="mobile-nav">
 		<!-- Mobile navigation code move here -->    
 	</div>
+    <div class="mobile-nav-bottom">
+        <div class="mobile-call">
+            <a href="#">256.319.3470</a>
+        </div>
+        <div class="mobile-contact">
+            <a href="#">Contact Us</a>
+        </div>
+    </div>
 </section>
 <!-- Mobile Navigation -->
 <div id="main">
@@ -30,6 +38,7 @@
                 <div class="menu-item menu-about-us highlight">
                     <div class="menu-text">
                         <a href="#">About Us</a>
+                        <span class="menu-click"></span>
                     </div>
                     <div class="sub-menu">
                         <div class="sub-menu-links">
@@ -68,6 +77,7 @@
                 <div class="menu-item menu-merchant-perks highlight">
                     <div class="menu-text">
                         <a href="#">Merchant Perks</a>
+                        <span class="menu-click"></span>
                     </div>
                     <div class="sub-menu">
                         <div class="sub-menu-links">
@@ -98,6 +108,7 @@
                 <div class="menu-item menu-features highlight">
                     <div class="menu-text">
                         <a href="#">Features</a>
+                        <span class="menu-click"></span>
                     </div>
                     <div class="sub-menu">
                         <div class="sub-menu-links">
@@ -155,6 +166,7 @@
                 <div class="menu-item menu-resources highlight">
                     <div class="menu-text">
                         <a href="#">Resources</a>
+                        <span class="menu-click"></span>
                     </div>
                     <div class="sub-menu">
                         <div class="sub-menu-links">
@@ -216,7 +228,7 @@
         </div>        
     </div>
     <div class="header-right">
-        <a href="#" class="link phone mr-4"><svg class="svg svg-phone mr-3" aria-hidden="true" role="img"><use href="#svg-phone" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-phone"></use></svg>256.319.3470</a>
+        <a href="#" class="link phone mr-4"><svg class="svg svg-phone" aria-hidden="true" role="img"><use href="#svg-phone" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-phone"></use></svg><span>256.319.3470</span></a>
         <a href="#!" class="btn btn-primary btn-get-quote"><span>Contact Us</span></a><!-- data-toggle="modal" data-target="#requestQuote" -->
     </div>
 </header>
