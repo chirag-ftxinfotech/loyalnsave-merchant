@@ -10,9 +10,9 @@
                 <div class="row">
                     <div class="col-24 col-sm-10">
                         <div class="header__title">
-                            <h1>What is Team Building?</h1>
-                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias</p>
-                            <p><a href="#" class="btn btn-secondary">Get In Touch</a></p>
+                            <h1>Boost Sales & Reduce Marketing Costs with Team Builder's Innovative Features</h1>
+                            <p>Get more sales, grow consumer base and decrease marketing costs with team builder's out-of-the-box customer referral campaigns and employee incentive programs. Build a team of superstar consumers and skyrocket your sales, revenue, and business growth.</p>
+                            <p><a href="javascript:void(0)" data-toggle="modal" data-target="#requestQuote" class="btn btn-secondary">Get In Touch</a></p>
                         </div>
                     </div>
                     <div class="col-24 col-sm-12 text-center">
@@ -34,140 +34,76 @@
         <section class="section-content">
             <div class="container">
 
-                <div class="row">
-                    <div class="col-24 col-md-16 offset-md-4">
-                        <div class="header-title-2 text-center">
-                            <h3 class="title">How does it work?</h3>
-                            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis tellus urna. Integer urna tortor, lobortis eget condimentum id, dictum quis sem. Pellentesque imperdiet consequat.</p>
-                        </div>
-                        
-                        <div class="fd-how-it-work">
-                            <div class="fdh-item">
-                                <img src="http://placehold.it/240" alt="" />
-                            </div>
-                            <div class="fdh-item">
-                                <img src="http://placehold.it/240" alt="" />
-                            </div>
-                            <div class="fdh-item">
-                                <img src="http://placehold.it/240" alt="" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-        </section>
-
-        <section class="section-waves section-blue">
-            <div class="container">
-
                 <div class="row align-items-center rs-section">
-                    <div class="col-24 col-md-10 rs-text">
+                    <div class="col-24 col-lg-10 rs-text">
                         <div class="header-title-1">
-                            <h3 class="title">Double Your Chances of Earning Rewards by Building a Team</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur gravida tellus mauris, eu iaculis diam auctor nec. Nullam lacinia eleifend dolor, quis laoreet mi dignissim et. In laoreet, tortor non molestie consectetur, urna enim tincidunt diam, nec dictum libero orci vitae turpis. Sed tristique bibendum justo, a efficitur quam bibendum sed. Nullam euismod, ante dictum facilisis pretium, lectus nulla tempus nisl, nec auctor ligula odio vitae mauris. Duis in lorem iaculis, lacinia tortor nec</p>
-                        </div>                        
+                            <h3 class="title">Grow Your Business with New-Age Referral Reward Programs</h3>
+                            <p>
+                                Getting more sales and amplifying a loyal consumer base is the ultimate objective for every merchant. Team Builder's unique referral campaign can get you a faithful and willing consumer base that will proactively refer you to their acquaintances.
+                            </p>
+                            <p>
+                                Rewarding your employees is one of the best ways to make them a part of your team and leverage their network to get more sales.
+                            </p>
+                            <p>
+                                Employee Incentive Reward Programs also go a long way in building a high-performance team. Companies with a sales incentive program see a 3x increase in annual revenue.
+                            </p>
+                            <p>
+                                While the benefits of a referral incentive program are apparent, not all merchants have the resources and knowledge to set up and manage it. Loyal~n~Save's Team Builder feature resolves that hurdle. It lets you establish a fully-customizable referral program to empower your customers and employees to get more sales.
+                            </p>
+                        </div>
                     </div>
-                    <div class="col-24 col-md-12 offset-md-1 rs-img">
+                    <div class="col-24 col-lg-12 offset-lg-1 rs-img">
                         <div class="text-center">
                             <img src="assets/img/new/api-solution.jpg" alt="" />
                         </div>
                     </div>
                 </div>
-                
-            </div>
-        </section>
 
-        <section class="section-content">
-            <div class="container">
-
-                <div class="header-title-1 text-center">
-                    <h3 class="title">How Can Team Building Benefit Your Business?</h3>
-                    <p class="description">Cras et tempor turpis. Nulla scelerisque purus ut metus mollis suscipit. Ut augue nulla, lacinia accumsan arcu in, faucibus vestibulum nibh. Duis eget ex eu tortor dapibus sagittis quis et erat. Integer imperdiet lacus elit. </p>
-                </div>
-                <div class="number-cards number-cards-simple justify-content-center">
-                    <div class="number-card col-md-6">
-                        <div class="number-inner">
-                            <h4>Focuses on Higher-Value Customers</h4>
-                        </div>
-                    </div>
-                    <div class="number-card col-md-6">
-                        <div class="number-inner">
-                            <h4>Can Offer Better Experiences Across Tiers Than Traditional Points Programs </h4>
-                        </div>
-                    </div>
-                    <div class="number-card col-md-6">
-                        <div class="number-inner">
-                            <h4>More Opportunity for Customization (and differentiation)</h4>
-                        </div>
-                    </div>
-                    <div class="number-card col-md-6">
-                        <div class="number-inner">
-                            <h4>Encourages Additional Purchases as Members Want to Achieve More Exclusive Status</h4>
-                        </div>
-                    </div>
-                    <div class="number-card col-md-6">
-                        <div class="number-inner">
-                            <h4>Give The Best Rewards to Your Best Customers</h4>
-                        </div>
-                    </div>
-                    <div class="number-card col-md-6">
-                        <div class="number-inner">
-                            <h4>Doesn’t Give Away Margin to Every Member </h4>
-                        </div>
-                    </div>
-                    <div class="number-card col-md-6">
-                        <div class="number-inner">
-                            <h4>Higher Tier Members are Less Likely to Cancel Membership </h4>
-                        </div>
-                    </div>
-                </div>
-                                             
             </div>
         </section>
 
         <section class="section-waves section-light">
             <div class="container">
                 <div class="header-title-1 text-center">
-                    <h3 class="title">How does team building help in getting more points?</h3>
-                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur gravida tellus mauris, eu iaculis diam auctor nec. Nullam lacinia eleifend dolor, quis laoreet mi dignissim et. In laoreet, tortor non molestie consectetur, urna enim tincidunt diam, nec dictum libero orci vitae turpis. Sed tristique bibendum justo, a efficitur quam bibendum sed. Nullam euismod, ante dictum facilisis pretium, lectus nulla tempus nisl, nec auctor ligula odio vitae mauris.</p>
+                    <h3 class="title">How Does Team Building in LNS Work?</h3>
+                    <p class="description">Imagine if your consumers become your brand promoters and go out of their way to increase your sales. Isn't that a dream come true? Well, LNS Team Builder can make it happen. The team builder feature of LNS enables merchants to build a loyal consumer base through word-of-mouth marketing, referral campaigns, and employee incentive programs. You can allow your customers to create a team and add members. Every time a team member makes a purchase, the customer earns a percentage of their reward points. Customers can add an infinite number of customers to their team and get rewards for up to five levels.</p>
                 </div>
 
                 <div class="puzzle-cards">
                     <div class="puzzle-card">
                         <div class="icon">
-                            <img src="http://placehold.it/300" alt="" />
+                            <img src="http://placehold.it/300x400" alt="" />
                         </div>
                         <div class="info">
-                            <h4>Top Member</h4>
-                            <p>As the top member of your own team, you will earn a percentage of points whenever a team member below you makes a qualifying purchase.</p>
+                            <h4>Register Your Store</h4>
+                            <p>Register your store on Loyal~n~Save. All LNS users get full access to the team builder feature.</p>
                         </div>
                     </div>
                     <div class="puzzle-card">
                         <div class="icon">
-                            <img src="http://placehold.it/300" alt="" />
+                            <img src="http://placehold.it/300x400" alt="" />
                         </div>
                         <div class="info">
-                            <h4>Teammates</h4>
-                            <p>Team members below you will earn points when you make a qualifying purchase as long as you are also added to their team. Each team can go all the way down to 5 tiers.</p>
+                            <h4>Train Cashiers to Add Team Members</h4>
+                            <p>Encourage your cashiers to explain the benefits of Team Builder and add them to their team. Customers can create a team by referring your store and adding members to their team to earn extra reward points. Each customer can add team members under them, creating an extensive network and getting incentives when they or their team members (a percentage of their reward points) make a purchase.</p>
                         </div>
                     </div>
                     <div class="puzzle-card">
                         <div class="icon">
-                            <img src="http://placehold.it/300" alt="" />
+                            <img src="http://placehold.it/300x400" alt="" />
                         </div>
                         <div class="info">
-                            <h4>Friend's Team</h4>
-                            <p>If you are on a friend's team, and they add more members to their team, you will earn a percentage of not only your friend's purchases but also THEIR friend's purchases.</p>
+                            <h4>Set Incentives</h4>
+                            <p>Loyal~n~Save enables each customer to earn incentives for up to five levels. Whenever a member gets a sale, both the member and the person who added them will get an incentive.</p>
                         </div>
                     </div>
                     <div class="puzzle-card">
                         <div class="icon">
-                            <img src="http://placehold.it/300" alt="" />
+                            <img src="http://placehold.it/300x400" alt="" />
                         </div>
                         <div class="info">
-                            <h4>Point Percentage</h4>
-                            <p>As the top member of your own team, you will earn a percentage of points whenever a team member below you makes a qualifying purchase.</p>
+                            <h4>Reward Your Employees and Reduce Iterations</h4>
+                            <p>When you use the Team Builder to add customers to their team and earn incentives when they make purchases, your employees can get attached and motivated to your store. This way, your employees will make an extra effort to execute the sale in the best way possible and try to get more consumers to sign in to team builder.</p>
                         </div>
                     </div>
                 </div>
@@ -176,51 +112,191 @@
 
         <section class="section-content">
             <div class="container">
-                
+
+                <div class="header-title-1 text-center">
+                    <h3 class="title">Benefits of Team Builder for Your Business</h3>
+                    <p class="description">Rewarding your customers is instrumental to driving word-of-mouth marketing and generating sales and revenue. You can also implement employee reward and incentive programs, which offer more than just more sales. Here's why all merchants should use LNS Team Builder for their businesses.</p>
+                </div>
+
                 <div class="row align-items-center rs-section">
-                    <div class="col-24 col-md-10 rs-text">
+                    <div class="col-24 col-lg-10 rs-text">
                         <div class="header-title-1">
-                            <h3 class="title">Use Team Tiers to Set your Store Apart</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur gravida tellus mauris, eu iaculis diam auctor nec. Nullam lacinia eleifend dolor, quis laoreet mi dignissim et. In laoreet, tortor non molestie consectetur, urna enim tincidunt diam, nec dictum libero orci vitae turpis. Sed tristique bibendum justo, a efficitur quam bibendum sed. Nullam euismod, ante dictum facilisis pretium, lectus nulla tempus nisl, nec auctor ligula odio vitae mauris. Duis in lorem iaculis, lacinia tortor nec</p>
-                            <p><a href="#" class="btn btn-primary">Read More</a></p>
-                        </div>                        
+                            <h3 class="title">More Sales and Revenue</h3>
+                            <p>Word-of-mouth advertising through LNS's innovative referral programs directly contributes to escalated sales and revenue, resulting in faster and more sustainable business growth.</p>
+                        </div>
                     </div>
-                    <div class="col-24 col-md-12 offset-md-1 rs-img">
+
+                    <div class="col-24 col-lg-12 offset-lg-1 rs-img">
                         <div class="text-center">
-                            <img src="assets/img/new/api-solution.jpg" alt="" />
+                            <img src="http://placehold.it/500" alt="">
                         </div>
                     </div>
                 </div>
 
+                <div class="row align-items-center rs-section mt-4">
+                    <div class="col-24 col-lg-12 rs-img">
+                        <div class="text-center">
+                            <img src="http://placehold.it/500" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-24 col-lg-10 offset-lg-1 rs-text">
+                        <div class="header-title-1">
+                            <h3 class="title">Increased Employee Engagement</h3>
+                            <p>Employees are less likely to leave an organization that offers incentives. Hence, employee incentive programs reduce employee turnover and increase retention.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row align-items-center rs-section mt-4">
+                    <div class="col-24 col-lg-10 rs-text">
+                        <div class="header-title-1">
+                            <h3 class="title">Happier Customers Reduce Your Marketing Costs</h3>
+                            <p>Customers tend to be happier when you reward them by allowing them to refer other customers and earn more rewards even when their team members shop; you can boost their engagement satisfaction and encourage them to refer more.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-24 col-lg-12 offset-lg-1 rs-img">
+                        <div class="text-center">
+                            <img src="http://placehold.it/500" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row align-items-center rs-section mt-4">
+                    <div class="col-24 col-lg-12 rs-img">
+                        <div class="text-center">
+                            <img src="http://placehold.it/500" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-24 col-lg-10 offset-lg-1 rs-text">
+                        <div class="header-title-1">
+                            <h3 class="title">Exceed Revenue Goals</h3>
+                            <p>Only a handful of sales reps can exceed their sales quota. Sales reps tend to exceed their sales quotas more often when incentivized. Besides, the Team Builder enables you to include employees in your sales efforts, resulting in more sales.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row align-items-center rs-section mt-4">
+                    <div class="col-24 col-lg-10 rs-text">
+                        <div class="header-title-1">
+                            <h3 class="title">Faster Business Growth</h3>
+                            <p>LNS Team Builder helps you drive more sales and revenue, resulting in higher customer acquisition and faster business growth.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-24 col-lg-12 offset-lg-1 rs-img">
+                        <div class="text-center">
+                            <img src="http://placehold.it/500" alt="">
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
-        <section class="container">
-            <div class="seprator-dot"></div>
-        </section>
-
-        <section class="section-content">
+        <section class="section-waves section-blue noa">
             <div class="container">
-                
-                <div class="row align-items-center rs-section">                    
-                    <div class="col-24 col-md-12 rs-img">
-                        <div class="text-center">
-                            <img src="assets/img/new/developer-driven.jpg" alt="" />
+
+                <div class="header-title-1 text-center">
+                    <h3 class="title">Why Choose LNS for Referral Programs?</h3>
+                    <p class="description">Loyal~n~Save is the go-to choice for merchants for implementing referral programs. Here are some reasons to choose LNS Team Builder for your incentive program.</p>
+                </div>
+
+                <div class="row align-items-center rs-section">
+                    <div class="col-24 col-lg-10 rs-text">
+                        <div class="header-title-1">
+                            <h3 class="title">Social Selling</h3>
+                            <p>In this era of social selling, Team Builder allows you to enable your customers, cashiers, and team members to build relationships get sales on social media, and get rewarded.</p>
                         </div>
                     </div>
-                    <div class="col-24 col-md-10 offset-md-1 rs-text">
+
+                    <div class="col-24 col-lg-12 offset-lg-1 rs-img">
+                        <div class="text-center">
+                            <img src="http://placehold.it/500" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row align-items-center rs-section mt-4">
+                    <div class="col-24 col-lg-12 rs-img">
+                        <div class="text-center">
+                            <img src="http://placehold.it/500" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-24 col-lg-10 offset-lg-1 rs-text">
                         <div class="header-title-1">
-                            <h3 class="title">Employee Incentive Programs to Drive More Sales </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur gravida tellus mauris, eu iaculis diam auctor nec. Nullam lacinia eleifend dolor, quis laoreet mi dignissim et. In laoreet, tortor non molestie consectetur, urna enim tincidunt diam, nec dictum libero orci vitae turpis. Sed tristique bibendum justo, a efficitur quam bibendum sed.</p>
-                            <p><a href="#" class="btn btn-primary">Read More</a></p>
-                        </div>                        
+                            <h3 class="title">Incentives Up to Five Levels</h3>
+                            <p>Customers can earn incentives up to five levels and multiply their rewards. With LNS, you can offer generous rewards to your customers.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row align-items-center rs-section mt-4">
+                    <div class="col-24 col-lg-10 rs-text">
+                        <div class="header-title-1">
+                            <h3 class="title">Employee Incentive Programs</h3>
+                            <p>LNS Team Builder helps you deploy an employee incentive program to incentivize your employees for the sales they get. It's a powerful method to boost employee performance and satisfaction.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-24 col-lg-12 offset-lg-1 rs-img">
+                        <div class="text-center">
+                            <img src="http://placehold.it/500" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row align-items-center rs-section mt-4">
+                    <div class="col-24 col-lg-12 rs-img">
+                        <div class="text-center">
+                            <img src="http://placehold.it/500" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-24 col-lg-10 offset-lg-1 rs-text">
+                        <div class="header-title-1">
+                            <h3 class="title">Performance Tracking and Optimization</h3>
+                            <p>LNS Campaign Builder has an intuitive dashboard with performance tracking and measurement features. You can measure the performance of your campaigns, understand consumer behavior in real-time and optimize them for better results.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row align-items-center rs-section mt-4">
+                    <div class="col-24 col-lg-10 rs-text">
+                        <div class="header-title-1">
+                            <h3 class="title">Easy Setup</h3>
+                            <p>Team Builder is a simple and easy-to-implement referral program solution. A few minutes is all it takes to get your referral program up and running.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-24 col-lg-12 offset-lg-1 rs-img">
+                        <div class="text-center">
+                            <img src="http://placehold.it/500" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row align-items-center rs-section mt-4">
+                    <div class="col-24 col-lg-12 rs-img">
+                        <div class="text-center">
+                            <img src="http://placehold.it/500" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-24 col-lg-10 offset-lg-1 rs-text">
+                        <div class="header-title-1">
+                            <h3 class="title">Two Types of Incentive Structures</h3>
+                            <p>LNS Team Builder allows you to choose from a multi-level incentive structure and a traditional loyalty program.</p>
+                        </div>
                     </div>
                 </div>
 
             </div>
         </section>
 
-        <section class="section-client">
+        <section class="section-client nob">
             <div class="container">
                 <div class="row">
                     <div class="col-24 col-md-12 offset-md-6">
@@ -256,7 +332,6 @@
             </div> 
 
         </section>
-
         
         <section class="container">
             <div class="seprator-dot"></div>
@@ -265,7 +340,7 @@
         <section class="section-content">
             <div class="container">
                 <div class="row">
-                    <div class="col-24 col-md-18 offset-3">
+                    <div class="col-24 col-md-18 offset-md-3">
                         <div class="header-title-1 text-center">
                             <h3 class="title">Frequently Asked Questions</h3>
                             <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
@@ -323,7 +398,62 @@ $(document).ready(function() {
         arrows: true,
         centerMode: true,
         centerPadding: '250px',
+        autoplay: true,
+        autoplaySpeed: 2000,
         /*infinite: false,*/
+        responsive: [
+            {
+                breakpoint: 1600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerPadding: '100px',
+                }
+            },
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    centerMode: false,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerPadding: '100px',
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerPadding: '50px',
+                    arrows: false,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerPadding: '15px',
+                    arrows: false,
+                }
+            },
+            {
+                breakpoint: 376,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerPadding: '15px',
+                    arrows: false,
+                }
+            }
+        ]
     });
 
 })

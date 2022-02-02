@@ -65,7 +65,7 @@ $(window).scroll(function(){
   var sticky = $('#header'),
       scroll = $(window).scrollTop();
 
-  if (scroll >= 160) sticky.addClass('header-sticky');
+  if (scroll >= 10) sticky.addClass('header-sticky');
   else sticky.removeClass('header-sticky');
 });
 </script>

@@ -31,8 +31,8 @@
 
 /* Icon Cards */
 .icon-cards {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -44,7 +44,7 @@
         }
     }
     .icon-card {
-      padding: 15px 25px;
+      padding: 15px 10px;
       counter-increment: icon 1;
       &:nth-child(odd) {
           position: relative;          
@@ -115,6 +115,15 @@
         }
         &:hover {
             transform: translateY(-15px);
+        }
+    }
+
+    @include media_min(lg) {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        .icon-card {
+            padding-left: 25px;
+            padding-right: 25px;
         }
     }
 }
@@ -218,8 +227,8 @@
 
 /* Check Cards */
 .check-cards {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 25px;
+    padding-bottom: 0;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -229,7 +238,6 @@
       counter-increment: number 1;
       &:nth-child(odd) .check-inner {
           position: relative;
-          top: 50px;
           background: #fff;
       }
     }
@@ -263,7 +271,6 @@
             -webkit-border-radius: 50%;
             border-radius: 50%;
         }
-
         h4 {
             font-size: 24px;
             font-weight: 600;
@@ -273,12 +280,21 @@
             transform: translateY(-15px);
         }
     }
+    @include media_min(xl) {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        .check-card {
+            &:nth-child(odd) .check-inner {
+                top: 50px;
+            }
+        }
+    }
 }
 
 /* Puzzle Cards */
 .puzzle-cards {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     .puzzle-card {
         padding: 20px;
@@ -286,12 +302,12 @@
         flex-direction: row;
         flex-wrap: wrap;
         align-items: stretch;
-        flex: 0 0 auto;
-        width: 50%;
+        flex: 1 0 0%;
+        width: 100%;
         max-width: 100%;
         .icon,
         .info {
-            padding: 20px;
+            padding: 10px;
             flex: 1 0 0%;
             width: 100%;
             max-width: 100%;
@@ -320,27 +336,11 @@
             padding-left: 60px;
             padding-top: 30px;
             h4 {
-                font-size: 48px;
+                font-size: 22px;
                 font-weight: 600;
             }
             p {
-                font-size: 18px;
-            }
-        }
-        &:nth-child(3),
-        &:nth-child(4) {
-            flex-direction: row-reverse;
-            .icon {
-                &:after {
-                    border-left: none;
-                    border-right: 40px solid #f00;
-                    right: auto;
-                    left: -40px;                    
-                }
-            }
-            .info {
-                padding-left: 20px;
-                padding-right: 60px;
+                font-size: 16px;
             }
         }
         &:nth-child(1) {
@@ -356,7 +356,7 @@
             .icon {
                 background: #73bc44;
                 &:after {
-                    border-left-color: #73bc44;
+                    border-right-color: #73bc44;
                 }
             }
             h4 { color: #73bc44; }
@@ -365,7 +365,7 @@
             .icon {
                 background: #29a9e1;
                 &:after {
-                    border-right-color: #29a9e1;
+                    border-left-color: #29a9e1;
                 }
             }
             h4 { color: #29a9e1; }
@@ -379,43 +379,188 @@
             }
             h4 { color: #e70689; }
         }
+    }    
+    @include media_min(xl) {
+        flex-direction: row;
+        .puzzle-card {
+            flex: 0 0 auto;
+            width: 50%; 
+            &:nth-child(3),
+            &:nth-child(4) {
+                flex-direction: row-reverse;
+                .icon {
+                    &:after {
+                        border-left: none;
+                        border-right: 40px solid #f00;
+                        right: auto;
+                        left: -40px;
+                    }
+                }
+                .info {
+                    padding-left: 20px;
+                    padding-right: 60px;
+                }
+            }
+            &:nth-child(1) {
+                .icon {
+                    background: #ef7423;
+                    &:after {
+                        border-left-color: #ef7423;
+                    }
+                }
+                h4 { color: #ef7423; }
+            }
+            &:nth-child(2) {
+                .icon {
+                    background: #73bc44;
+                    &:after {
+                        border-left-color: #73bc44;
+                    }
+                }
+                h4 { color: #73bc44; }
+            }
+            &:nth-child(3) {
+                .icon {
+                    background: #29a9e1;
+                    &:after {
+                        border-right-color: #29a9e1;
+                    }
+                }
+                h4 { color: #29a9e1; }
+            }
+            &:nth-child(4) {            
+                .icon {
+                    background: #e70689;
+                    &:after {
+                        border-right-color: #e70689;
+                    }
+                }
+                h4 { color: #e70689; }
+            }
+        }
+    }
+    @include media(lg) {
+        .puzzle-card {
+            &:nth-child(even) {
+                flex-direction: row-reverse;
+                .icon {
+                    &:after {
+                        border-left: none;
+                        border-right: 40px solid #f00;
+                        right: auto;
+                        left: -40px;
+                    }
+                }
+                .info {
+                    padding-left: 20px;
+                    padding-right: 60px;
+                }
+            }
+            &:nth-child(1) {
+                .icon {
+                    background: #ef7423;
+                    &:after {
+                        border-left-color: #ef7423;
+                    }
+                }
+                h4 { color: #ef7423; }
+            }
+            &:nth-child(2) {
+                .icon {
+                    background: #73bc44;
+                    &:after {
+                        border-right-color: #73bc44;
+                    }
+                }
+                h4 { color: #73bc44; }
+            }
+            &:nth-child(3) {
+                .icon {
+                    background: #29a9e1;
+                    &:after {
+                        border-left-color: #29a9e1;
+                    }
+                }
+                h4 { color: #29a9e1; }
+            }
+            &:nth-child(4) {            
+                .icon {
+                    background: #e70689;
+                    &:after {
+                        border-right-color: #e70689;
+                    }
+                }
+                h4 { color: #e70689; }
+            }
+        }
+    }
+    @include media(sm) {
+        .puzzle-card {
+            flex-direction: column;
+            &:nth-child(even) {
+                flex-direction: column;
+            }
+            .icon:after {
+                content: none;
+            }
+            .info,
+            &:nth-child(even) .info {
+                padding: 30px 0;
+            }
+        }
     }
 }
 
 /* Swag Shop Page */
 .ss-downloadapp {
-    margin-top: 120px;
-    padding: 40px;
+    margin: 10px;
+    margin-top: 20px;
+    padding: 30px;
     background: #fff;
     -webkit-box-shadow: inset -5px 5px 15px rgba(0, 0, 0,.05);
     box-shadow: inset -10px 10px 15px rgba(0, 0, 0,.05);
     -webkit-border-radius: 25px;
     border-radius: 25px;
     h4 {
-        font-size: 48px;
+        font-size: 24px;
         font-weight: normal;
         em {
             font-weight: bold;
         }
     }
     p {
-        font-size: 24px;
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    @include media_min(xl) {
+        margin-top: 120px;
+        padding: 40px;
+        h4 {
+            font-size: 48px;
+        }
+        p {
+            font-size: 24px;
+            padding-bottom: 0;
+        }
     }
 }
 
 .ss-steps-slider {
-    
+    align-items: stretch; 
+    .col-24 {
+        padding: 15px;
+    }   
 }
 .ss-steps {
     background: #faf4f9;
-    padding: 120px 40px 60px;
-    margin-top: 300px;
+    height: 100%;    
+    padding: 20px 20px 30px;
     text-align: center;
     position: relative;
-    -webkit-border-radius: 50px;
-    border-radius: 50px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
     transition: background 0.3s ease-in-out;
-    &:after {
+    /* &:after {
         content: '';
         position: absolute;
         top: 0;
@@ -428,17 +573,17 @@
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2fbff', endColorstr='#00ffffff',GradientType=0 );
         z-index: 0;
         opacity: 0;
-        -webkit-border-radius: 50px;
-        border-radius: 50px;
+        -webkit-border-radius: 20px;
+        border-radius: 20px;
         transition: all 0.3s ease-in-out;
-    }
+    } */
     .img {
-        position: absolute;
+        /* position: absolute;
         left: 25px;
         right: 25px;
         bottom: calc(100% - 50px);
         opacity: 0;
-        visibility: hidden;
+        visibility: hidden; */
         z-index: 1;
         transition: all 0.3s ease-in-out;
     }
@@ -448,21 +593,21 @@
         padding-top: 25px;
         padding-bottom: 25px;
         h4 {
-            font-size: 36px;
+            font-size: 24px;
             font-weight: 600;
             color: #000000;
         }
         p {
-            font-size: 20px;
+            font-size: 18px;
             color: #000000;
         }
     }
     &:hover {
-        background: none;
+        /* background: none;
         &:after {
             opacity: 1;
-            top: -100px;
-        }
+            top: -20px;
+        } */
         .img {
             opacity: 1;
             visibility: visible;

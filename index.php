@@ -32,7 +32,7 @@
 
                 <div class="header-app-banner">
                     <div class="hab-inner">
-                        <h3>Download Our App & <br />Start Earning Today!</h3>
+                        <h3>Download Our App Now!</h3>
                         <p class="pt-4"><a href="#"><img src="assets/img/new/google-play.png" /></a><a href="#"><img src="assets/img/new/app-store.png" /></a></p>
                     </div>
                     <div class="mobile-1"><img src="assets/img/new/mobile-1.png" /></div>
@@ -404,7 +404,7 @@
                     <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus</p>
                 </div>
                 <div class="row">
-                    <div class="col-24 col-md-12 col-lg-8 col-xxl-6">
+                    <div class="col-24 col-md-12 col-lg-8 col-xl-6">
                         <div class="industries-box">
                             <a href="#">
                                 <img src="assets/img/new/grocery.jpg" alt="" />
@@ -414,7 +414,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-24 col-md-12 col-lg-8 col-xxl-6">
+                    <div class="col-24 col-md-12 col-lg-8 col-xl-6">
                         <div class="industries-box">
                             <a href="#">
                                 <img src="assets/img/new/tobacco.jpg" alt="" />
@@ -424,7 +424,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-24 col-md-12 col-lg-8 col-xxl-6">
+                    <div class="col-24 col-md-12 col-lg-8 col-xl-6">
                         <div class="industries-box">
                             <a href="#">
                                 <img src="assets/img/new/cbd.jpg" alt="" />
@@ -434,7 +434,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-24 col-md-12 col-lg-8 col-xxl-6">
+                    <div class="col-24 col-md-12 col-lg-8 col-xl-6">
                         <div class="industries-box">
                             <a href="#">
                                 <img src="assets/img/new/convenience-store.jpg" alt="" />
@@ -444,7 +444,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-24 col-md-12 col-lg-8 col-xxl-6">
+                    <div class="col-24 col-md-12 col-lg-8 col-xl-6">
                         <div class="industries-box">
                             <a href="#">
                                 <img src="assets/img/new/pet.jpg" alt="" />
@@ -454,7 +454,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-24 col-md-12 col-lg-8 col-xxl-6">
+                    <div class="col-24 col-md-12 col-lg-8 col-xl-6">
                         <div class="industries-box">
                             <a href="#">
                                 <img src="assets/img/new/salon.jpg" alt="" />
@@ -464,7 +464,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-24 col-md-12 col-lg-8 col-xxl-6">
+                    <div class="col-24 col-md-12 col-lg-8 col-xl-6">
                         <div class="industries-box">
                             <a href="#">
                                 <img src="assets/img/new/restaurant.jpg" alt="" />
@@ -474,7 +474,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-24 col-md-12 col-lg-8 col-xxl-6">
+                    <div class="col-24 col-md-12 col-lg-8 col-xl-6">
                         <div class="industries-box">
                             <a href="#">
                                 <img src="assets/img/new/industries-all.jpg" alt="" />

@@ -109,7 +109,7 @@
                                 </div>
                             </div>
                             <div class="col-24 col-lg-24 col-xl-6">
-                                <div class="f-block no-accordion">
+                                <div class="f-block f-subscribe no-accordion">
                                     <h5 class="f-title">Subscribe Now</h5>
                                     <div class="f-content">
                                         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium</p>
@@ -127,10 +127,10 @@
                                     <h5 class="f-title">Customer Support</h5>
                                     <div class="f-content">
                                         <div class="row">
-                                            <div class="col-12">
+                                            <div class="col-12 col-xl-24 pb-3">
                                                 <a href="#" class="btn btn-tertiary btn-block"><svg class="svg f-support mr-3" aria-hidden="true" role="img"><use href="#f-support" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#f-support"></use></svg>Call Us</a>
                                             </div>
-                                            <div class="col-12">
+                                            <div class="col-12 col-xl-24">
                                                 <a href="#" class="btn btn-secondary btn-block"><svg class="svg f-email mr-3" aria-hidden="true" role="img"><use href="#f-email" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#f-email"></use></svg>Email Us</a>
                                             </div>
                                         </div>

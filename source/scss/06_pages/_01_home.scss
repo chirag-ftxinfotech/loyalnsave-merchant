@@ -177,21 +177,27 @@ html{scroll-behavior:smooth}
         padding-left: 0px;
       }
       h3 {
-        font-size: 48px;
+        font-size: 36px;
         text-align: left;
       }
       h3, p {
         text-align: left;
       }
     }
-    @include media_min(xxl) {
+    @include media_min(xl) {
       .hab-inner {
         padding-left: 30px;
+      }
+      h3 {
+        font-size: 40px;
       }
     }
     @include media_min(xxl) {
       .hab-inner {
         padding-left: 180px;
+      }
+      h3 {
+        font-size: 48px;
       }
     }
   }
@@ -552,6 +558,32 @@ html{scroll-behavior:smooth}
     opacity: 0.3;
     &.slick-active {
       opacity: 1;
+    }
+    &.slick-current {
+      .feature-box {
+        .title {
+          color: #5c14e3;
+        }
+        img {
+          transform: scale(1.05);
+        }
+        .info {
+          background: #a179eb;
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+          transform: translateY(-50px);
+          .title {
+            color: #fff;
+            &:before {
+              background: #fff;
+            }
+          }
+          p {
+            color: #fff;
+            opacity: 1;
+            visibility: visible;
+          }
+        }
+      }
     }
   }
 }

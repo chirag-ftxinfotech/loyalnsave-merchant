@@ -270,6 +270,14 @@ footer {
         }
       }
     }
+    @include media_min(xxl) {
+      .col-12 {
+        max-width: 50%;
+      }
+      .col-12 {
+        max-width: 50%;
+      }
+    }
   }
 }
 

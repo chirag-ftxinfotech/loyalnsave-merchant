@@ -8,7 +8,7 @@
         <section class="header-style-1 inner-title text-center animated-row">
             <div class="container">
                 <div class="row">
-                    <div class="col-24 col-sm-12 offset-sm-6">
+                    <div class="col-24 col-lg-12 offset-lg-6">
                         <div class="header__title">
                             <h1>API Integration</h1>
                             <p>Our team of developers has created an API that will integrate with your existing software and is designed to help your business acquire and retain more customers without having to switch your POS systems.</p>
@@ -34,14 +34,14 @@
         <section class="section-content">
             <div class="container">
                 <div class="row align-items-center rs-section">
-                    <div class="col-24 col-md-10 rs-text">
+                    <div class="col-24 col-lg-10 offset-lg-1 rs-text">
                         <div class="header-title-1">
                             <h3 class="title">Our API Solutions</h3>
                             <p>The Loyal~n~Save development team has designed APIs that can be easily integrated with your business's existing POS system. Our APIs have been designed with the customer in mind; your tech team has the ability to make any design changes to make sure the integration is seamless.</p>
                             <p>With the Loyal~n~Save API integration seamlessly working with your POS system, you have the ability to launch loyalty campaigns, point-based discounts, and customer referrals faster and easier with programmable building blocks.</p>
                         </div>                        
                     </div>
-                    <div class="col-24 col-md-12 offset-md-1 rs-img">
+                    <div class="col-24 col-lg-12 offset-lg-1 rs-img">
                         <div class="text-center">
                             <img src="assets/img/new/api-solution.jpg" alt="" />
                         </div>
@@ -127,7 +127,7 @@
                 </div>
 
                 <div class="row api-steps">
-                    <div class="col-24 col-md-7 offset-md-1">
+                    <div class="col-20 offset-3 col-md-14 offset-md-5 col-lg-7 offset-lg-1">
                         <div class="apis-items apis-items-1">
                             <span class="apisi-count"><img src="assets/img/new/api-step-1.jpg" alt="" /></span>
                             <div class="apisi-inner">
@@ -136,7 +136,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-24 col-md-7 offset-md-1">
+                    <div class="col-20 offset-3 col-md-14 offset-md-5 col-lg-7 offset-lg-1">
                         <div class="apis-items apis-items-2">
                             <span class="apisi-count"><img src="assets/img/new/api-step-2.jpg" alt="" /></span>
                             <div class="apisi-inner">
@@ -145,7 +145,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-24 col-md-7 offset-md-1">
+                    <div class="col-20 offset-3 col-md-14 offset-md-5 col-lg-7 offset-lg-1">
                         <div class="apis-items apis-items-3">
                             <span class="apisi-count"><img src="assets/img/new/api-step-3.jpg" alt="" /></span>
                             <div class="apisi-inner">
@@ -167,6 +167,9 @@
                         <div class="header-title-2 text-center">
                             <h3 class="title text-white">We Have Custom Applications for</h3>
                         </div>
+
+                    </div>
+                    <div class="col-24 col-md-24">
 
                         <div class="program-items">                            
                             <div class="program-item program-1">
@@ -214,13 +217,13 @@
         <section class="section-content">
             <div class="container">
                 <div class="row align-items-center rs-section">
-                    <div class="col-24 col-md-8 offset-md-2 rs-text">
+                    <div class="col-24 col-lg-8 offset-lg-2 rs-text">
                         <div class="header-title-1">
                             <h3 class="title">Designed to Work the Way You Want</h3>
                             <p>The Loyal~n~Save API integration works with almost all POS systems in the country. Our team of developers is constantly upgrading the interface. You will never be left in the dark and your API will always be up-to-date with the latest technology.</p>
                         </div>                        
                     </div>
-                    <div class="col-24 col-md-10 offset-md-2 rs-img">
+                    <div class="col-24 col-lg-10 offset-lg-2 rs-img">
                         <div class="text-center">
                             <img src="assets/img/new/pos-designed.jpg" alt="" />
                         </div>
@@ -280,7 +283,62 @@ $(document).ready(function() {
         arrows: true,
         centerMode: true,
         centerPadding: '250px',
+        autoplay: true,
+        autoplaySpeed: 2000,
         /*infinite: false,*/
+        responsive: [
+            {
+                breakpoint: 1600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerPadding: '100px',
+                }
+            },
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    centerMode: false,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerPadding: '100px',
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerPadding: '50px',
+                    arrows: false,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerPadding: '15px',
+                    arrows: false,
+                }
+            },
+            {
+                breakpoint: 376,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerPadding: '15px',
+                    arrows: false,
+                }
+            }
+        ]
     });
 
 })

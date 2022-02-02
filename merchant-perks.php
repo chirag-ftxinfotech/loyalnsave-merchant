@@ -130,6 +130,10 @@
                             <h3 class="title text-white">Why Choose Loyal~n~Save for Loyalty Program Management?</h3>
                         </div>
 
+                    </div>
+
+                    <div class="col-24 col-md-24">
+
                         <div class="program-items">
                             <div class="program-item program-1">
                                 <div class="program-inner">
@@ -182,29 +186,29 @@
                     <p class="description">Loyal~n~Save helps you increase customer acquisition and retention. But how? Here are some tangible ways in which LNS helps your business.</p>
                 </div>
 
-                <div class="row align-items-center rs-section mt-5">
-                    <div class="col-24 col-md-10 rs-text">
+                <div class="row align-items-center rs-section">
+                    <div class="col-24 col-lg-10 rs-text">
                         <div class="header-title-1">
                             <h3 class="title">Reward Your Customers Through Swag Shops </h3>
                             <p>Rewarding your customers is an excellent way to make your customers feel good about buying from you. Customers are more likely to shop more often from merchants that offer exciting rewards and incentives.</p>
                             <p>Swag shop and Unique reward point campaigns built through LNS tools can help you reward your consumers appropriately so that the consumers are genuinely excited about purchasing your products and participating in your loyalty campaigns.</p>
                         </div>                        
                     </div>
-                    <div class="col-24 col-md-12 offset-md-1 rs-img">
+                    <div class="col-24 col-lg-12 offset-lg-1 rs-img">
                         <div class="text-center">
                             <img src="http://placehold.it/500" alt="">
                         </div>
                     </div>
 
                 </div>
-                <div class="row align-items-center rs-section mt-5">                    
+                <div class="row align-items-center rs-section mt-3">                    
                     
-                    <div class="col-24 col-md-12 rs-img">
+                    <div class="col-24 col-lg-12 rs-img">
                         <div class="text-center">
                             <img src="http://placehold.it/500" alt="">
                         </div>
                     </div>
-                    <div class="col-24 col-md-10 offset-md-1 rs-text">
+                    <div class="col-24 col-lg-10 offset-lg-1 rs-text">
                         <div class="header-title-1">
                             <h3 class="title">Increase User Engagement</h3>
                             <p>Implementing customer-centric merchant rewards programs is one of the best ways to engage your customers. Loyal~n~Save enables you to implement customizable loyalty programs to engage your customers and provide them with personalized experiences.</p>
@@ -212,29 +216,29 @@
                     </div>
 
                 </div>
-                <div class="row align-items-center rs-section mt-5">
+                <div class="row align-items-center rs-section mt-3">
 
-                    <div class="col-24 col-md-10 rs-text">
+                    <div class="col-24 col-lg-10 rs-text">
                         <div class="header-title-1">
                             <h3 class="title">Encourage Customers to Buy More Through Team Builder & Other Loyalty Campaigns</h3>
                             <p>With Loyal~n~Save, you can implement tiered loyalty programs to incentivize customers based on their spending. This way, you can encourage customers to shop more, resulting in more sales and revenue.</p>
                         </div>                        
                     </div>
-                    <div class="col-24 col-md-12 offset-md-1 rs-img">
+                    <div class="col-24 col-lg-12 offset-lg-1 rs-img">
                         <div class="text-center">
                             <img src="http://placehold.it/500" alt="">
                         </div>
                     </div>
 
                 </div>
-                <div class="row align-items-center rs-section mt-5">
+                <div class="row align-items-center rs-section mt-3">
                     
-                    <div class="col-24 col-md-12 rs-img">
+                    <div class="col-24 col-lg-12 rs-img">
                         <div class="text-center">
                             <img src="http://placehold.it/500" alt="">
                         </div>
                     </div>
-                    <div class="col-24 col-md-10 offset-md-1 rs-text">
+                    <div class="col-24 col-lg-10 offset-lg-1 rs-text">
                         <div class="header-title-1">
                             <h3 class="title">Attract Word-of-Mouth Advertising – Team Builder and Swag Shop</h3>
                             <p>Loyal~n~Save empowers merchants to drive word-of-mouth advertising. When you offer remarkable experiences to your customers, they will recommend your brand and products to the people they know. Hence, you get more customers without running any aggressive marketing campaigns.</p>
@@ -243,29 +247,29 @@
                     </div>
 
                 </div>
-                <div class="row align-items-center rs-section mt-5">
+                <div class="row align-items-center rs-section mt-3">
 
-                    <div class="col-24 col-md-10 rs-text">
+                    <div class="col-24 col-lg-10 rs-text">
                         <div class="header-title-1">
                             <h3 class="title">Inspire Customer Loyalty</h3>
                             <p>Loyal~n~Save is the go-to solution for merchants who want to increase customer retention and loyalty. Customers are more likely to stick with a merchant with a loyalty program. LNS helps you implement personalized loyalty programs that encourage customers to stick with your brand and recommend it to others.</p>
                         </div>                        
                     </div>
-                    <div class="col-24 col-md-12 offset-md-1 rs-img">
+                    <div class="col-24 col-lg-12 offset-lg-1 rs-img">
                         <div class="text-center">
                             <img src="http://placehold.it/500" alt="">
                         </div>
                     </div>
 
                 </div>
-                <div class="row align-items-center rs-section mt-5">
+                <div class="row align-items-center rs-section mt-3">
                     
-                    <div class="col-24 col-md-12 rs-img">
+                    <div class="col-24 col-lg-12 rs-img">
                         <div class="text-center">
                             <img src="http://placehold.it/500" alt="">
                         </div>
                     </div>
-                    <div class="col-24 col-md-10 offset-md-1 rs-text">
+                    <div class="col-24 col-lg-10 offset-lg-1 rs-text">
                         <div class="header-title-1">
                             <h3 class="title">Enhance Marketing and Brand Awareness</h3>
                             <p>Loyal~n~Save takes your marketing campaigns to the next level. Advertising your loyalty program as your brand’s unique selling proposition (USP) is a proven strategy to increase brand awareness and acquire customers. LNS also has a campaign builder that lets you create, run, and manage promotional campaigns.</p>
@@ -273,16 +277,16 @@
                     </div>
 
                 </div>
-                <div class="row align-items-center rs-section mt-5">
+                <div class="row align-items-center rs-section mt-3">
 
-                    <div class="col-24 col-md-10 rs-text">
+                    <div class="col-24 col-lg-10 rs-text">
                         <div class="header-title-1">
                             <h3 class="title">Get a Competitive Edge with Umbrella Loyalty Program and Team Builder</h3>
                             <p>Loyal~n~Save improves your business’ bottom line and gives you a substantial advantage over your competitors. It helps you implement and manage customer-centric loyalty programs, which bolster customer engagement and retention. LNS also goes a long way in increasing customer acquisition and overall brand awareness.</p>
                             <p>Umbrella Loyalty Program and Team Builder offer customers attractive rewards and also ensure that they stay loyal to your brand.</p>
                         </div>                        
                     </div>
-                    <div class="col-24 col-md-12 offset-md-1 rs-img">
+                    <div class="col-24 col-lg-12 offset-lg-1 rs-img">
                         <div class="text-center">
                             <img src="http://placehold.it/500" alt="">
                         </div>
@@ -384,12 +388,12 @@
                                 </div>
                             </div>
                             <div class="card">
-                                <div class="card-header" id="headingThree">
-                                    <button class="collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <div class="card-header" id="headingFour">
+                                    <button class="collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                                         Can I cancel the plan if I’m not satisfied with the solution?
                                     </button>
                                 </div>
-                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
                                     <div class="card-body">
                                     Yes. We hate contracts, and therefore, we offer one-month subscription plans. If you are not satisfied with the solution, you can cancel your plan after a month. However, we promise you won’t need to do that.
                                     </div>
