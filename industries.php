@@ -242,7 +242,6 @@
             </div>
         </section>
 
-
         <section class="section-client">
             <div class="container">
                 <div class="row">

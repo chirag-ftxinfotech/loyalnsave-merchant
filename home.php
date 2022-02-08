@@ -204,19 +204,19 @@
                             <ul>
                                 <li><a href="index.php" target="_blank" class="active">Homepage</a></li>
                                 <li><a href="merchant-perks.php" target="_blank" class="active">Merchant Perks</a></li>
-                                <li><a href="#">Packages</a></li>
+                                <li><a href="pricing.php" target="_blank" class="active">Pricing</a></li>
                                 <li><a href="features.php" target="_blank" class="active">Features</a></li>
                                 <li><a href="industries.php" target="_blank" class="active">Industries</a></li>
                                 <li><a href="resources.php" target="_blank" class="active">Resources</a></li>
-                                <li><a href="#">About us</a></li>
-                                <li><a href="#">Download App</a></li>                       
+                                <li><a href="about-us.php" target="_blank" class="active">About us</a></li>
+                                <li><a href="download-app.php" target="_blank" class="active">Download App</a></li>
                             </ul>
                             
                             <h4>About Us</h4>
                             <ul>
-                                <li><a href="#">Why LNS</a></li>
-                                <li><a href="#">Contact us</a></li>
-                                <li><a href="#">FAQs</a></li>
+                                <li><a href="why-lns.php" target="_blank" class="active">Why LNS</a></li>
+                                <li><a href="contact-us.php" target="_blank" class="active">Contact us</a></li>
+                                <li><a href="faq.php" target="_blank" class="active">FAQs</a></li>
                             </ul>
                         </div>
                         <div class="col-md-8">
@@ -234,10 +234,10 @@
                             </ul>
                             <h4>Resources</h4>
                             <ul>
-                                <li><a href="#">Blog</a></li>
-                                <li><a href="#">Blog - Detail</a></li>
+                                <li><a href="blog.php" target="_blank" class="active">Blog</a></li>
+                                <li><a href="blog-details.php" target="_blank" class="active">Blog - Detail</a></li>
                                 <li><a href="whitepapers.php" target="_blank" class="active">White Papers</a></li>
-                                <li><a href="#">Videos</a></li>
+                                <li><a href="videos.php" target="_blank" class="active">Videos</a></li>
                                 <li><a href="#">Release notes</a></li>
                                 <li><a href="#">Release notes - Detail</a></li>
                             </ul> 
@@ -257,13 +257,13 @@
                             </ul>                                       
                             <h4>CMS Content</h4>
                             <ul>
-                                <li><a href="#">Privacy Policy</a></li>
-                                <li><a href="#">Terms and Condition</a></li>
+                                <li><a href="privacy-policy.php" target="_blank" class="active">Privacy Policy</a></li>
+                                <li><a href="terms.php" target="_blank" class="active">Terms and Condition</a></li>
                             </ul>
                             <h4>Modal Popup</h4>
                             <ul>
-                                <li><a href="#">Schedule a Demo</a></li>
-                                <li><a href="#">Watch Video</a></li>
+                                <li><a href="#!" class="active" data-toggle="modal" data-target="#requestQuote">Schedule a Demo</a></li>
+                                <li><a href="#!" class="active" data-toggle="modal" data-target="#whylnsVideo">Watch Video</a></li>
                             </ul>
                         </div>
                     </div>
@@ -725,6 +725,93 @@
     </main>
     <?php /*include('footer.php');*/ ?>
     <?php include('js.php'); ?>
+
+    <!-- Request a Quote Demo -->
+    <div class="modal fade" id="requestQuote" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">    
+        <div class="modal-dialog modal-fullscreen" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><svg class="svg svg-modal-close" aria-hidden="true" role="img"><use href="#svg-modal-close" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-modal-close"></use></svg></button>
+                <div class="modal-image">
+                    <div class="mi-inner">
+                        <div class="mb-3"><img src="assets/img/new/logo-black.png" alt="" /></div>
+                        <h3>Sed ut Perspiciatis Unde</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt sed do eiusmod Lorem ipsum dolor sit amet, consectetur</p>
+                        <p class="mt-3"><img src="http://placehold.it/500" alt="" /></p>
+                    </div>
+                </div>
+                <div class="modal-body">                
+                    <form class="form">
+                        <div class="row">
+                            <div class="col-24">
+                                <div class="form-title">
+                                    <h3>Get In Touch</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt sed do eiusmod</p>
+                                </div>
+                            </div>
+                            <div class="col-24">
+                                <div class="form-field">
+                                    <label>Name <small>*</small></label>
+                                    <input type="text" class="form-control" placeholder="" />
+                                </div>
+                            </div>
+                            <div class="col-24">
+                                <div class="form-field">
+                                    <label>Email <small>*</small></label>
+                                    <input type="email" class="form-control" placeholder="" />
+                                </div>
+                            </div>
+                            <div class="col-24">
+                                <div class="form-field">
+                                    <label>Phone <small>*</small></label>
+                                    <input type="tel" class="form-control" placeholder="" />
+                                </div>
+                            </div>
+                            <div class="col-24">
+                                <div class="form-field">
+                                    <label>Company <small>*</small></label>
+                                    <input type="text" class="form-control" placeholder="" />
+                                </div>
+                            </div>
+                            <div class="col-24">
+                                <div class="form-field">
+                                    <label>Message <small>*</small></label>
+                                    <textarea class="form-control" placeholder=""></textarea>
+                                </div>
+                            </div>
+                            <div class="col-24">
+                                <div class="form-field">
+                                    <p>By clicking the “Get Started” button below I agree to the <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>.</p>
+                                </div>
+                            </div>
+                            <div class="col-24">
+                                <div class="form-action text-center">
+                                    <button class="btn btn-secondary btn-block">Submit Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Request a Quote Demo -->
+
+    <!-- Video Demo -->
+    <div class="modal fade" id="whylnsVideo" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">    
+        <div class="modal-dialog modal-fullscreen" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><svg class="svg svg-modal-close" aria-hidden="true" role="img"><use href="#svg-modal-close" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-modal-close"></use></svg></button>                
+                <div class="modal-body row align-items-center">
+                    <div class="container">
+                        <iframe width="100%" height="640" src="https://www.youtube.com/embed/eTV1WT-Cjms?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Video Demo -->
+
     <script>
         $(document).ready(function() {
 

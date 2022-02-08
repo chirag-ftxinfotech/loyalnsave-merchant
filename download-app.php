@@ -172,8 +172,8 @@
                     <h3 class="title">Your Loyalty Program Is on Your Fingertips</h3>
                 </div>
 
-                <div class="row api-steps">
-                    <div class="col-24 col-xl-7 offset-xl-1">
+                <div class="row api-steps rect">
+                    <div class="col-24 col-xl-7 offset-xl-1 mb-3">
                         <div class="apis-items apis-items-1">
                             <span class="apisi-count"><img src="assets/img/new/api-step-1.jpg" alt="" /></span>
                             <div class="apisi-inner">
@@ -182,7 +182,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-24 col-xl-7 offset-xl-1">
+                    <div class="col-24 col-xl-7 offset-xl-1 mb-3">
                         <div class="apis-items apis-items-2">
                             <span class="apisi-count"><img src="assets/img/new/api-step-2.jpg" alt="" /></span>
                             <div class="apisi-inner">
@@ -191,7 +191,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-24 col-xl-7 offset-xl-1">
+                    <div class="col-24 col-xl-7 offset-xl-1 mb-3">
                         <div class="apis-items apis-items-3">
                             <span class="apisi-count"><img src="assets/img/new/api-step-3.jpg" alt="" /></span>
                             <div class="apisi-inner">

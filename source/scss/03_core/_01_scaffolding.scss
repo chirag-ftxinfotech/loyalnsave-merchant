@@ -99,7 +99,7 @@ button {
     &.inner-title {
         padding: 100px 20px 100px;
         @include media_min(md) {
-            padding: 150px 25px 75px;
+            padding: 150px 25px 120px;
             min-height: auto;
         }
         @include media_min(lg) {

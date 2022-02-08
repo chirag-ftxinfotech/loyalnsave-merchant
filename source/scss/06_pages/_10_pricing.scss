@@ -1,0 +1,88 @@
+.pricing-lists {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: stretch;
+    .pricing-item {
+        padding: 5px;
+        flex: 0 0 auto;
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .pricing-inner {
+        height: 100%;
+        padding: 30px 20px 20px;
+        -webkit-border-radius: 0 20px 0 20px;
+        border-radius: 0 20px 0 20px;
+        transition: background 0.3s ease-in-out;
+
+        .thumb, .price, .title, .desc {
+            padding: 0;
+            margin: 0;
+            padding-bottom: 15px;
+            color: #000;
+        }
+
+        .price {
+            font-size: 28px;
+            font-weight: bold;
+            span {
+                font-weight: 500;
+                color: #666666;
+            }
+        }
+        .title {
+            font-size: 20px;
+            font-weight: 600;
+        }
+        .desc {
+            font-size: 18px;
+            font-weight: 500;
+        }
+        .btn {
+            padding: 12px 40px;
+            background: #a179eb;
+            border-color: #a179eb;
+            color: #fff;
+            -webkit-border-radius: 30px;
+            border-radius: 30px;
+        }
+
+        &:hover {
+            background: #f5eaea;
+        }
+
+        &.pro {
+            background: #a179eb;
+            .thumb, .price, .title, .desc, .price span {
+                color: #ffffff;
+            }
+        }        
+    }
+
+    @include media_min(xl) {
+        flex-direction: row;
+        .pricing-item {
+            padding-top: 5px;
+            padding-bottom: 5px;
+            flex: 1 0 0%;
+        }
+        .pricing-inner {
+            padding: 50px;
+            -webkit-border-radius: 0 50px 0 50px;
+            border-radius: 0 50px 0 50px;
+
+            .price {
+                font-size: 50px;
+            }
+            .title {
+                font-size: 28px;
+            }
+            .desc {
+                font-size: 20px;
+            }
+        }
+    }
+}
