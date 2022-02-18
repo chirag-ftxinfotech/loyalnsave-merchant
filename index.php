@@ -569,6 +569,14 @@ $(document).ready(function() {
                 }
             },
             {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerPadding: '120px',
+                }
+            },
+            {
                 breakpoint: 992,
                 settings: {
                     slidesToShow: 1,

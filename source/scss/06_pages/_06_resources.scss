@@ -6,11 +6,12 @@
     align-items: stretch;
     .resources-item {
         margin: 0;
-        padding: 15px;
+        padding: 15px 0;
         flex: 1 0 100%;
         width: 100%;
         max-width: 100%;
         @include media_min(xxl) {
+            padding: 15px;
             flex: 0 0 auto;
             width: 50%;
             max-width: 100%;
@@ -53,7 +54,7 @@
     .resources-inner {
         position: relative;
         margin: 0;
-        padding: 45px;        
+        padding: 25px;
         height: 100%;
         -webkit-border-radius: 25px;
         border-radius: 25px;
@@ -61,6 +62,7 @@
         transition: all .3s ease-in-out;
 
         @include media_min(md) {
+            padding: 45px;
             padding-bottom: 110px;
             .btn {
                 position: absolute;
@@ -96,19 +98,28 @@
     align-items: stretch;
 
     .card-item {
-        padding-top: 20px;
-        padding-bottom: 20px;
+        @include media_min(md) {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }     
     }
 
     .card-inner {
         height: 100%;
         background: #fff;
-        padding: 50px 25px;
+        padding: 25px 0;
         -webkit-border-radius: 25px;
         border-radius: 25px;
 
         div + div {
             padding-top: 25px;
+        }
+
+        @include media_min(md) {
+            padding: 25px;
+        }
+        @include media_min(xl) {
+            padding: 50px 25px;
         }
     }
 
@@ -148,10 +159,12 @@
                 -webkit-transition: all 0.3s ease-in-out;
                 transition: all 0.3s ease-in-out;
             }
-            &:hover .card-inner {
-                transform: translateY(-15px);
-                -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
-                box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
+            @include media_min(md) {
+                &:hover .card-inner {
+                    transform: translateY(-15px);
+                    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
+                    box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
+                }
             }
         }
     }
@@ -164,9 +177,12 @@
     flex-wrap: wrap;
 
     .video-inner {
-        padding: 15px;
-        padding-top: 0;
+        padding: 10px 0;
         position: relative;
+        @include media_min(md) {
+            padding: 15px;
+            padding-top: 0;
+        }
     }
 
     .video-item {

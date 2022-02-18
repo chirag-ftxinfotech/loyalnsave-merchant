@@ -133,9 +133,9 @@
                         </div>
                     </div>
                     <div class="col-24 col-xl-6 offset-xl-1">
-                        <div class="blog-widget">
-                            <h5 class="bw-title">Category</h5>
-                            <div class="bw-content">
+                        <div class="sidebar-widget">
+                            <h5 class="sw-title">Category</h5>
+                            <div class="sw-content">
                                 <ul>
                                     <li><a href="#">Strategy <span class="counter">45</span></a></li>
                                     <li><a href="#">Loyalty<span class="counter">99</span></a></li>
@@ -146,7 +146,7 @@
                             </div>
                         </div>
 
-                        <div class="blog-widgetads">
+                        <div class="sidebar-widgetads">
                             <br />
                             <br />
                             <br />
@@ -167,9 +167,9 @@
                             </div>
                         </div>
 
-                        <div class="blog-widget">
-                            <h5 class="bw-title">Popular Posts</h5>
-                            <div class="bw-content">
+                        <div class="sidebar-widget">
+                            <h5 class="sw-title">Popular Posts</h5>
+                            <div class="sw-content">
                                 <ul>
                                     <li><a href="#">The Best Ways To Increase Loyalty Sign Ups For The New Year</a></li>
                                     <li><a href="#">Loyalty Updates For November 2021</a></li>

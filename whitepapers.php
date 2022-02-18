@@ -37,7 +37,7 @@
 
                 <div class="card-style card-style-1 text-center">
                     <?php for ($x = 1; $x <= 6; $x++) { ?>
-                    <div class="card-item col-24 col-md-8">
+                    <div class="card-item col-24 col-md-12 col-lg-8">
                         <div class="card-inner">
                             <div class="card-thumb">
                                 <img src="http://placehold.it/300x360" alt="" />
@@ -127,11 +127,57 @@ $(document).ready(function() {
         arrows: true,
         centerMode: true,
         centerPadding: '75px',
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 2000,
         prevArrow: $('.blog-prev'),
         nextArrow: $('.blog-next'),
-        /*infinite: false,*/
+        responsive: [
+            {
+                breakpoint: 1800,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 4,                    
+                }
+            },
+            {
+                breakpoint: 1400,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 4,                    
+                }
+            },
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    centerPadding: '20px',
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    centerPadding: '15px',
+                }
+            },
+            {
+                breakpoint: 376,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerPadding: '15px',
+                }
+            },
+        ]
     });
 
 })

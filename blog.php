@@ -92,7 +92,7 @@
                             <?php } ?>
                         </div>
 
-                        <div class="blog-pagination">
+                        <div class="paginations">
                             <ul class="pagination">                        
                                 <li class="page-item prev disabled"><span class="page-link">Prev</span></li>
                                 <li class="page-item active"><span class="page-link">1</span></li>

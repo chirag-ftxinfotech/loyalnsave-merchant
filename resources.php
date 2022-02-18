@@ -148,16 +148,6 @@
 <script>
 $(document).ready(function() {
 
-    $('.slick-client').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        dots: true,
-        arrows: true,
-        centerMode: true,
-        centerPadding: '250px',
-        /*infinite: false,*/
-    });
-
     $('.slick-blogs').slick({
         slidesToShow: 5,
         slidesToScroll: 5,
@@ -165,11 +155,57 @@ $(document).ready(function() {
         arrows: true,
         centerMode: true,
         centerPadding: '75px',
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 2000,
         prevArrow: $('.blog-prev'),
         nextArrow: $('.blog-next'),
-        /*infinite: false,*/
+        responsive: [
+            {
+                breakpoint: 1800,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 4,                    
+                }
+            },
+            {
+                breakpoint: 1400,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 4,                    
+                }
+            },
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    centerPadding: '20px',
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    centerPadding: '15px',
+                }
+            },
+            {
+                breakpoint: 376,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerPadding: '15px',
+                }
+            },
+        ]
     });
 
 })

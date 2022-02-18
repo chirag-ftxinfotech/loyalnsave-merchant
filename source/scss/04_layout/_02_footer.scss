@@ -406,10 +406,6 @@ footer {
   .footer-container {
     z-index: 2;
     position: relative;
-    padding: 0 15px;
-    @include media_min(lg) {
-      padding: 0;
-    }
   }
 
   .footer-before {    

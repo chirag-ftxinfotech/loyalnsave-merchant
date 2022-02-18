@@ -579,6 +579,17 @@ html{scroll-behavior:smooth}
       }
     }
   }
+  .slick-arrow {
+    &.slick-prev,
+    &.slick-next {
+      @include media_min(xl) {
+        top: 25%;
+      }
+      @include media_min(xxl) {
+        top: 50%;
+      }
+    }
+  }  
 }
 
 .section-p4 {
@@ -787,11 +798,22 @@ html{scroll-behavior:smooth}
       &:before {
         left: 22px;
       }
+      @include media(sm) {
+        right: 50px;
+        &:before {
+          left: 17px;
+        }
+      }
     }
     .blog-next {
       right: 0px;
       &:before {
         left: 18px;
+      }
+      @include media(sm) {
+        &:before {
+          left: 14px;
+        }
       }
     }
   }

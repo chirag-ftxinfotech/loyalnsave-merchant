@@ -153,31 +153,31 @@
             <div class="modal-body">                
                 <form class="form">
                     <div class="row">
-                        <div class="col-24">
+                        <div class="col-24 col-md-24">
                             <div class="form-title">
                                 <h3>Get In Touch</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt sed do eiusmod</p>
                             </div>
                         </div>
-                        <div class="col-24">
+                        <div class="col-24 col-md-12">
                             <div class="form-field">
                                 <label>Name <small>*</small></label>
                                 <input type="text" class="form-control" placeholder="" />
                             </div>
                         </div>
-                        <div class="col-24">
+                        <div class="col-24 col-md-12">
                             <div class="form-field">
                                 <label>Email <small>*</small></label>
                                 <input type="email" class="form-control" placeholder="" />
                             </div>
                         </div>
-                        <div class="col-24">
+                        <div class="col-24 col-md-12">
                             <div class="form-field">
                                 <label>Phone <small>*</small></label>
                                 <input type="tel" class="form-control" placeholder="" />
                             </div>
                         </div>
-                        <div class="col-24">
+                        <div class="col-24 col-md-12">
                             <div class="form-field">
                                 <label>Company <small>*</small></label>
                                 <input type="text" class="form-control" placeholder="" />

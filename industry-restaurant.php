@@ -245,7 +245,7 @@
         <section class="section-content">
             <div class="container">
                 <div class="row">
-                    <div class="col-24 col-md-18 offset-3">
+                    <div class="col-24 col-md-18 offset-md-3">
                         <div class="header-title-1 text-center">
                             <h3 class="title">Frequently Asked Questions</h3>
                             <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
@@ -303,7 +303,62 @@ $(document).ready(function() {
         arrows: true,
         centerMode: true,
         centerPadding: '250px',
+        autoplay: true,
+        autoplaySpeed: 2000,
         /*infinite: false,*/
+        responsive: [
+            {
+                breakpoint: 1600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerPadding: '100px',
+                }
+            },
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    centerMode: false,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerPadding: '100px',
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerPadding: '50px',
+                    arrows: false,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerPadding: '15px',
+                    arrows: false,
+                }
+            },
+            {
+                breakpoint: 376,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerPadding: '15px',
+                    arrows: false,
+                }
+            }
+        ]
     });
 
 })

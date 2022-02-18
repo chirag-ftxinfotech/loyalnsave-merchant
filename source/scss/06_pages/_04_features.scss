@@ -7,7 +7,7 @@
         flex-wrap: nowrap;        
     }
     .card-item {
-        padding: 0 15px;
+        padding: 0;
         counter-increment: feature-counter 1;
         &:nth-child(odd) {
             .card-inner {
@@ -74,6 +74,9 @@
         }
     }
     @include media_min(lg) {
+        .card-item {
+            padding: 0 15px;
+        }
         .card-inner {
             flex-direction: row;
             flex-wrap: nowrap;

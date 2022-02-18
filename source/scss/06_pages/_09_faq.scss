@@ -9,10 +9,10 @@
             line-height: 1.2;
             font-weight: 500;
             padding: 24px 50px;
-            background: url(../img/new/qa.svg) 5px 22px no-repeat;
+            background: url(../../../assets/img/new/qa.svg) 5px 22px no-repeat;
             background-size: 28px;
             &:not(.collapsed) {
-                background-image: url(../img/new/qa-active.svg);
+                background-image: url(../../../assets/img/new/qa-active.svg);
             }        
             &:not(.collapsed):before {
                 transform: rotate(360deg);

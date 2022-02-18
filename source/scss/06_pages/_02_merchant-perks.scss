@@ -10,7 +10,7 @@
       flex: 1 0 0%;
       width: 100%;
       max-width: 100%;
-      padding: 15px 10px;
+      padding: 15px 0;
       @include media_min(xl) {
         &:hover .card-inner {
           transform: translateY(-10px);
@@ -43,6 +43,7 @@
     }
     @include media_min(xl) {
       flex-direction: row;
+      padding: 15px 10px;
       .title {
         font-size: 28px;
       }
@@ -83,7 +84,7 @@
       flex: 1 0 0%;
       width: 100%;
       max-width: 100%;
-      padding: 20px;      
+      padding: 20px 0;
       text-align: center;
       list-style-type: none;
       counter-increment: step-counter 1;
@@ -135,6 +136,7 @@
       background: url(../../../assets/img/new/step-shape.svg) center 25px no-repeat;
       background-size: 550px;
       .step-item {
+        padding: 20px;
         max-width: 250px;
         &.step-1 {
           position: relative;

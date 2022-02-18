@@ -113,8 +113,10 @@
         p {
             margin-top: 15px;
         }
-        &:hover {
-            transform: translateY(-15px);
+        @include media_min(lg) {
+            &:hover {
+                transform: translateY(-15px);
+            }
         }
     }
 
@@ -150,7 +152,7 @@
         }
     }
     .number-card {
-      padding: 15px 25px;
+      padding: 15px 0px;
       counter-increment: number 1;
       &:nth-child(odd) {
           position: relative;
@@ -175,6 +177,9 @@
         .number-inner:after {
             background: #ef7423;
         }
+      }
+      @include media_min(md) {
+        padding: 15px 25px;
       }
     }
     .number-inner {
@@ -219,8 +224,10 @@
             font-size: 30px;
             font-weight: 600;
         }
-        &:hover {
-            transform: translateY(-15px);
+        @include media_min(lg) {
+            &:hover {
+                transform: translateY(-15px);
+            }
         }
     }
 }
@@ -234,11 +241,14 @@
     flex-wrap: wrap;
     align-items: stretch;
     .check-card {
-      padding: 15px 15px;
+      padding: 15px 0;
       counter-increment: number 1;
       &:nth-child(odd) .check-inner {
           position: relative;
           background: #fff;
+      }
+      @include media_min(md) {
+        padding: 15px 15px;
       }
     }
     .check-inner {
@@ -276,8 +286,10 @@
             font-weight: 600;
             color: #333333;
         }
-        &:hover {
-            transform: translateY(-15px);
+        @include media_min(lg) {
+            &:hover {
+                transform: translateY(-15px);
+            }
         }
     }
     @include media_min(xl) {
@@ -297,7 +309,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     .puzzle-card {
-        padding: 20px;
+        padding: 20px 0;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -378,6 +390,9 @@
                 }
             }
             h4 { color: #e70689; }
+        }
+        @include media_min(md) {
+            padding: 20px;
         }
     }    
     @include media_min(xl) {

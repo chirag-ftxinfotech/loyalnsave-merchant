@@ -718,6 +718,42 @@
                         Multiple Condition
                     <?php } ?>
                     <!-- End SECTION_NAME Section -->
+                    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+                    <link rel="stylesheet" href="/resources/demos/style.css">
+                    <style>
+                    #sortable { list-style-type: none; margin: 0; padding: 0; width: 100%; }
+                    #sortable li { background: #fff; border: none; outline: 2px dashed transparent; margin: 15px 25px 15px 0; padding: 0; float: left; width: 320px; height: 200px; border-radius: 8px; box-shadow: 0 3px 10px rgba(0,0,0,0.1);  overflow: hidden; }
+                    #sortable li.ui-sortable-placeholder { background: #fffad6; outline-style: dashed; outline-color: #dfbd0f; visibility: visible !important; }
+                    .ins .thumb { height: 120px; overflow: hidden; position: relative; }
+                    .ins .thumb img { width: 320px; position: absolute; top: 50%; transform: translateY(-50%); }
+                    .ins .info { padding: 20px; }
+                    .ins .info a { display: block; }
+                    .ins .info h4 { margin: 0; padding: 0; font-size: 18px; font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+                    .ins .info p { margin: 0; padding: 0; font-size: 14px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+                    </style>
+                    <!-- <script src="https://code.jquery.com/jquery-3.6.0.js"></script> -->
+                    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+                    <script>
+                        $(function() {
+                            $( "#sortable" ).sortable();
+                            $( "#sortable" ).disableSelection();
+                        } );
+                    </script>
+                    <ul id="sortable">
+                        <?php for ($x = 1; $x <= 12; $x++) { ?>
+                            <li class="ui-state-default">
+                                <div class="ins">
+                                    <div class="thumb">
+                                        <img src="https://via.placeholder.com/200" alt="" />
+                                    </div>
+                                    <div class="info">
+                                        <h4>Google Info <?php echo $x; ?></h4>
+                                        <p>www.google.com</p>
+                                    </div>
+                                </div>
+                            </li>
+                        <?php } ?>
+                    </ul>
                     <div style="height: 1000px;"></div>
                 </div>
             </div>

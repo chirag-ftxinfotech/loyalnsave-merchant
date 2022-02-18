@@ -5,20 +5,10 @@
     align-items: stretch;
     .industries-item {
         margin: 0;
-        padding: 15px;
+        padding: 15px 0;
         flex: 1 0 100%;
         width: 100%;
-        max-width: 100%;
-        @include media_min(md) {
-            flex: 0 0 auto;
-            width: 50%;
-            max-width: 100%;
-        }
-        @include media_min(xxl) {
-            flex: 0 0 auto;
-            width: 33.33%;
-            max-width: 100%;
-        }
+        max-width: 100%;        
         &:nth-child(8n + 1) .industries-inner {
             background: #091e42;
         }
@@ -43,14 +33,29 @@
         &:nth-child(8n + 8) .industries-inner {
             background: #ebecf0;
         }
+        @include media_min(md) {
+            padding: 15px;
+            flex: 0 0 auto;
+            width: 50%;
+            max-width: 100%;
+            .desc {
+                height: 0;
+                opacity: 0;
+                visibility: hidden;
+            }
+        }
+        @include media_min(xxl) {
+            flex: 0 0 auto;
+            width: 33.33%;
+            max-width: 100%;
+        }
     }
     .industries-inner {
         margin: 0;
         padding: 50px 50px;
         overflow: hidden;
         background: #000;
-        position: relative;
-        min-height: 400px;
+        position: relative;        
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -73,15 +78,18 @@
             z-index: 2;
             width: 100%;
         }
-        &:hover {
-            .image {
-                opacity: 0.1;
-            }
-            .desc {
-                height: auto;
-                max-height: 45rem;
-                opacity: 1;
-                visibility: visible;
+        @include media_min(md) {
+            min-height: 400px;
+            &:hover {
+                .image {
+                    opacity: 0.1;
+                }
+                .desc {
+                    height: auto;
+                    max-height: 45rem;
+                    opacity: 1;
+                    visibility: visible;
+                }
             }
         }
     }
@@ -107,10 +115,5 @@
             overflow: hidden;
             -webkit-line-clamp: 4;
         }
-    }
-    .desc {
-        height: 0;
-        opacity: 0;
-        visibility: hidden;
-    }
+    }    
 }

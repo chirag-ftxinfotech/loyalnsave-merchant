@@ -58,7 +58,6 @@
     left: 17px;
     transform: rotate(45deg);
   }
-
   &:focus {
     outline: none;
   }
@@ -74,5 +73,15 @@
   }
   &:hover {
     background: #8756e1;
+  }
+
+  @include media(sm) {
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    &:before {
+      top: 16px;
+      left: 17px;
+    }
   }
 }
