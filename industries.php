@@ -61,7 +61,7 @@
                                 <div class="icon"><img src="assets/img/new/icon-tobacco.png" alt="" /></div>
                                 <h4>Tobacco</h4>
                                 <div class="desc">
-                                    <p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                                    <p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
                                     <p><a href="#" class="btn btn-sm btn-outline-light">Read More</a></p>
                                 </div>
                             </div>
@@ -242,6 +242,85 @@
             </div>
         </section>
 
+        <section class="section-content">
+            <div class="container">
+
+                <div class="header-title-1 text-center">                    
+                    <h3 class="title">Other Industries</h3>
+                </div>
+
+                <div class="industries-others">
+                    <div class="io-item">
+                        <div class="ioi-inner">
+                            <span class="icon"><svg class="ins-shopping" aria-hidden="true" role="img"><use href="#ins-shopping" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ins-shopping"></use></svg></span>
+                            <h5>Shopping Malls</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                        </div>
+                    </div>
+
+                    <div class="io-item">
+                        <div class="ioi-inner">
+                            <span class="icon"><svg class="ins-finance" aria-hidden="true" role="img"><use href="#ins-finance" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ins-finance"></use></svg></span>
+                            <h5>Financial Services</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                        </div>
+                    </div>
+
+                    <div class="io-item">
+                        <div class="ioi-inner">
+                            <span class="icon"><svg class="ins-ecommerce" aria-hidden="true" role="img"><use href="#ins-ecommerce" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ins-ecommerce"></use></svg></span>
+                            <h5>eCommerce</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                        </div>
+                    </div>
+
+                    <div class="io-item">
+                        <div class="ioi-inner">
+                            <span class="icon"><svg class="ins-telecom" aria-hidden="true" role="img"><use href="#ins-telecom" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ins-telecom"></use></svg></span>
+                            <h5>Telecom</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                        </div>
+                    </div>
+
+                    <div class="io-item">
+                        <div class="ioi-inner">
+                            <span class="icon"><svg class="ins-fuel" aria-hidden="true" role="img"><use href="#ins-fuel" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ins-fuel"></use></svg></span>
+                            <h5>Fuel Retailers</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                        </div>
+                    </div>
+
+                    <div class="io-item">
+                        <div class="ioi-inner">
+                            <span class="icon"><svg class="ins-pharmacy" aria-hidden="true" role="img"><use href="#ins-pharmacy" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ins-pharmacy"></use></svg></span>
+                            <h5>Pharmacy Stores</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                        </div>
+                    </div>
+
+                    <div class="io-item">
+                        <div class="ioi-inner">
+                            <span class="icon"><svg class="ins-homerepair" aria-hidden="true" role="img"><use href="#ins-homerepair" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ins-homerepair"></use></svg></span>
+                            <h5>Home & Repair Stores</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                        </div>
+                    </div>
+
+                    <div class="io-item">
+                        <div class="ioi-inner">
+                            <span class="icon"><svg class="ins-professional" aria-hidden="true" role="img"><use href="#ins-professional" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ins-professional"></use></svg></span>
+                            <h5>Professional Services</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </section>
+
+
         <section class="section-client">
             <div class="container">
                 <div class="row">
@@ -302,6 +381,21 @@
                                 <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                                     <div class="card-body">
                                         Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                        <ul>
+                                            <li>Lorem Ipsum is simply dummy text of the printing</li>
+                                            <li>Lorem Ipsum is simply dummy text of the printing</li>
+                                            <li>Lorem Ipsum is simply dummy text of the printing</li>
+                                            <li>Lorem Ipsum is simply dummy text of the printing</li>
+                                            <li>Lorem Ipsum is simply dummy text of the printing</li>
+                                        </ul>
+
+                                        <ol>
+                                            <li>Lorem Ipsum is simply dummy text of the printing</li>
+                                            <li>Lorem Ipsum is simply dummy text of the printing</li>
+                                            <li>Lorem Ipsum is simply dummy text of the printing</li>
+                                            <li>Lorem Ipsum is simply dummy text of the printing</li>
+                                            <li>Lorem Ipsum is simply dummy text of the printing</li>
+                                        </ol>
                                     </div>
                                 </div>
                             </div>

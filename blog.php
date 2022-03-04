@@ -32,10 +32,10 @@
                 <div class="row">
                     <div class="col-24 col-lg-20 offset-lg-2">
                         <div class="shb-form-box">
-                            <form class="form shb-form-field">
+                            <!-- <form class="form shb-form-field">
                                 <input type="text" placeholder="Search" class="form-control" />
                                 <button class="btn"><svg aria-hidden="true" role="img"><use href="#search" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#search"></use></svg></button>
-                            </form>
+                            </form> -->
                             <div class="shb-categrory">
                                 <a href="#" class="active">All <span class="counter"> 6</span></a>
                                 <a href="#">Strategy</a>

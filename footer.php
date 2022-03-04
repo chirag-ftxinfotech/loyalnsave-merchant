@@ -137,6 +137,8 @@
 </footer>
 </div>
 
+<button id="theme-toggle" class="btn btn-secondary" style="position: fixed; left: 15px; bottom: 15px; z-index: 9999;">Toggle Dark Mode</button>
+
 <!-- Modal -->
 <div class="modal fade" id="requestQuote" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">    
     <div class="modal-dialog modal-fullscreen" role="document">
