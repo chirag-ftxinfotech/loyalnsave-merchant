@@ -39,9 +39,12 @@ html{scroll-behavior:smooth}
       font-weight: 500;
       color: #fff;
     }
-    @include media(xs) {
+    @media (min-width: 1200px) and (max-width: 1599px) {
+      top: 40%;
+    }
+    @include media(lg) {
       min-width: calc(100% - 30px); 
-      top: 45%;
+      top: 40%;
     }
   }
   .video-bg {
@@ -735,7 +738,7 @@ html{scroll-behavior:smooth}
     }
   }
   @include media_min(xl) {
-    padding: 100px 0 50px;
+    padding: 70px 0 50px;
   }
 }
 
@@ -816,13 +819,21 @@ html{scroll-behavior:smooth}
         }
       }
     }
+    @include media(xs) {
+      position: absolute;
+      top: 15px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 90px;
+      height: 40px;
+    }
   }
   @include media_min(md) {
     padding: 60px 0 60px;
   }
 }
 
-.slick-blogs {
+/* .slick-blogs {
   .blog-box {
     position: relative;
     padding: 10px;
@@ -876,7 +887,7 @@ html{scroll-behavior:smooth}
       padding: 20px;
     }
   }
-}
+} */
 
 .icons-cards {
   padding-top: 15px;
@@ -1014,7 +1025,7 @@ html{scroll-behavior:smooth}
       transition: all .3s ease-in-out;
       strong {
         display: block;
-        font-size: 24px;
+        font-size: 20px;
         font-weight: 600;
       }
       &:after {
@@ -1039,6 +1050,11 @@ html{scroll-behavior:smooth}
         }
         @include media_min(xl) {
           width: 280px;
+        }
+      }
+      @include media_min(lg) {
+        strong {
+          font-size: 24px;
         }
       }
       @include media_min(xl) {

@@ -3,7 +3,7 @@
 
 <body>
     <?php include('header.php'); ?>
-    <main id="content">
+    <main id="content" class="merchant-perks-page">
 
         <section class="header-style-1 inner-title animated-row">
             <div class="container">

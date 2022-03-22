@@ -10,7 +10,7 @@
       flex: 1 0 0%;
       width: 100%;
       max-width: 100%;
-      padding: 15px 0;
+      padding: 15px 15px;
       @include media_min(xl) {
         &:hover .card-inner {
           transform: translateY(-10px);
@@ -26,6 +26,8 @@
       border-radius: 35px;
       -webkit-transition: all .3s ease-in-out;
       transition: all .3s ease-in-out;
+      -webkit-box-shadow: 0px 5px 15px rgba(0,0,0,.05);
+      box-shadow: 0px 5px 15px rgba(0,0,0,.05);
       @include media_min(xl) {
         padding: 35px;
       }
@@ -109,7 +111,7 @@
           transform: translate3d(-50%, -50%, 0);
         }
         &:before {
-          content: "0" counter(step-counter);
+          content: counter(step-counter);
           width: 40px;
           height: 40px;
           line-height: 30px;

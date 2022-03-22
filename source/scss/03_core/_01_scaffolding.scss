@@ -124,12 +124,54 @@ button {
                 position: absolute;
                 right: 0;
             }
+            @media (min-width: 1200px) {
+                .merchant-perks-page & {
+                    right: 20px;
+                    top: -80px;
+                    width: 90%;
+                }
+                .features-page & {
+                    right: 40px;
+                    top: -80px;
+                }
+                .user-engagement-page & {
+                    right: 0;
+                    top: -80px;
+                }
+                .umbrella-loyalty-page & {
+                    right: 0;
+                    top: -80px;
+                }
+                .campaign-builder-page & {
+                    right: 0;
+                    width: 90%;
+                    top: -100px;
+                }
+                .team-builder-page & {
+                    right: 20px;
+                    top: -80px;
+                    width: 90%;
+                }
+                .swagshop-page & {
+                    right: 0px;
+                    top: -140px;
+                }
+                .resources-page & {
+                    right: 0;
+                    top: -80px;
+                    left: 10px;
+                }
+                .pricing-page & {
+                    right: 70px;
+                    top: -100px;
+                }
+            }
         }
     }
     @include media_min(md) {
         padding-left: 90px;
         padding-right: 90px;
-    }
+    }    
 }
 
 .header__img_bottom {

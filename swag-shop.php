@@ -3,7 +3,7 @@
 
 <body>
     <?php include('header.php'); ?>
-    <main id="content">
+    <main id="content" class="swagshop-page">
 
         <section class="header-style-1 inner-title animated-row">
             <div class="container">
@@ -35,22 +35,22 @@
             <div class="container">
 
                 <div class="row">
-                    <div class="col-24 col-md-20 offset-md-2">
+                    <div class="col-24 col-lg-20 offset-lg-2">
                         <div class="header-title-2 text-center">
                             <h3 class="title">Swag Shop Features</h3>
                             <p class="description">Loyal~n~Save helps you offer products on LNS swag stores to cultivate brand awareness and customer loyalty. Swag Shop is an essential feature for businesses that want to add a revenue stream while building a meaningful, emotional connection with their customers. Regardless of its size and popularity, any company can provide exclusive merchandise on LNS Swag Shop against reward points to customers, fans, and even employees for intelligent and effective word-to-mouth advertising.</p>
                         </div>
                     </div>
 
-                    <div class="col-24 col-lg-20 offset-lg-2">
+                    <div class="col-24 col-lg-24 col-xl-20 offset-xl-2">
 
                         <div class="icon-cards">
                             <div class="icon-card col-24 col-md-12">
                                 <div class="icon-inner">
-                                    <h4>Burn Reward Points on High-Profit<br />Merchandise</h4>
-                                    <span class="icon">
-                                        <img src="http://placehold.it/32" alt="" />
+                                    <span class="icon overlap">
+                                        <img src="https://via.placeholder.com/32" alt="" />
                                     </span>
+                                    <h4>Burn Reward Points on High-Profit<br />Merchandise</h4>                                    
                                     <p>
                                         Promote your high-profit products as exclusive branded items with your logo on them and encourage consumers to spend more reward points on them.
                                         Offer Special, Limited-Edition Items.
@@ -60,28 +60,32 @@
                             </div>
                             <div class="icon-card col-24 col-md-12">
                                 <div class="icon-inner">
-                                    <h4>Reward Consumers<br />Directly</h4>
-                                    <span class="icon">
-                                        <img src="http://placehold.it/32" alt="" />
+                                    <span class="icon overlap">
+                                        <img src="https://via.placeholder.com/32" alt="" />
                                     </span>
+                                    <h4>Reward Consumers<br />Directly</h4>                                    
                                     <p>Enable customers to get rewarded right from their LNS app and directly from you and get products delivered to their homes.</p>
                                 </div>
                             </div>
                         </div>
 
                     </div>
-                    <div class="col-24 col-md-20 offset-md-2">
+                    <div class="col-24 col-lg-24 col-xl-24">
                         <div class="ss-downloadapp">
                             <div class="row align-items-center">
-                                <div class="col-24 col-md-14">
-                                    <h4>Get <em>YOUR</em> swag on</h4>
-                                    <p>Download the Loyal~n~Save app today!</p>
-                                </div>
-                                <div class="col-12 col-md-5">
-                                    <a href="https://play.google.com/store/apps/details?id=com.loyalnsave.loyalnsave&hl=en" target="_blank"><img src="assets/img/new/ss-gplay.jpg" alt="" /></a>
-                                </div>
-                                <div class="col-12 col-md-5">
-                                    <a href="#"><img src="assets/img/new/ss-astore.jpg" alt="" /></a>
+                                <div class="col-24 col-md-16">
+                                    <h4>Download The App Now!</h4>
+                                    <p><strong>Monitor and create loyalty on the go!</strong></p>
+                                    <div class="row">                                        
+                                        <div class="col-12 col-md-10 col-lg-auto">
+                                            <a href="https://play.google.com/store/apps/details?id=com.loyalnsave.loyalnsave&hl=en" target="_blank"><img src="assets/img/new/ss-gplay.jpg" alt="" /></a>
+                                        </div>
+                                        <div class="col-12 col-md-10 col-lg-auto">
+                                            <a href="#"><img src="assets/img/new/ss-astore.jpg" alt="" /></a>
+                                        </div>
+                                    </div>
+                                    <!-- <h4>Get <em>YOUR</em> swag on</h4>
+                                    <p>Download the Loyal~n~Save app today!</p> -->
                                 </div>
                             </div>
                         </div>
@@ -96,7 +100,7 @@
                 <div class="row align-items-center rs-section">
                     <div class="col-24 col-lg-12 rs-img">
                         <div class="text-center">
-                            <img src="http://placehold.it/700x500" alt="" />
+                            <img src="https://via.placeholder.com/700x500" alt="" />
                         </div>
                     </div>
                     <div class="col-24 col-lg-10 offset-lg-1 rs-text">
@@ -128,7 +132,7 @@
                     </div>
                     <div class="col-24 col-lg-12 offset-lg-1 rs-img">
                         <div class="text-center">
-                            <img src="http://placehold.it/500" alt="">
+                            <img src="https://via.placeholder.com/500" alt="">
                         </div>
                     </div>
                 </div>
@@ -136,7 +140,7 @@
                 <div class="row align-items-center rs-section mt-4">
                     <div class="col-24 col-lg-12 rs-img">
                         <div class="text-center">
-                            <img src="http://placehold.it/500" alt="">
+                            <img src="https://via.placeholder.com/500" alt="">
                         </div>
                     </div>
                     <div class="col-24 col-lg-10 offset-lg-1 rs-text">
@@ -162,7 +166,7 @@
                     </div>
                     <div class="col-24 col-lg-12 offset-lg-1 rs-img">
                         <div class="text-center">
-                            <img src="http://placehold.it/500" alt="">
+                            <img src="https://via.placeholder.com/500" alt="">
                         </div>
                     </div>
                 </div>
@@ -170,7 +174,7 @@
                 <div class="row align-items-center rs-section mt-4">
                     <div class="col-24 col-lg-12 rs-img">
                         <div class="text-center">
-                            <img src="http://placehold.it/500" alt="">
+                            <img src="https://via.placeholder.com/500" alt="">
                         </div>
                     </div>
                     <div class="col-24 col-lg-10 offset-lg-1 rs-text">

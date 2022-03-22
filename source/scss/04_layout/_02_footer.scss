@@ -14,6 +14,12 @@
   .form-action {
     position: relative;
     margin-bottom: 20px;
+
+    @media (max-width: 399px){
+      .g-recaptcha {
+        transform: scale(.75) translateX(-38px);
+      }
+    }
   }
 
   textarea.form-control {
@@ -152,7 +158,7 @@ footer {
 }
 
 .f-block {
-  padding: 20px 0;
+  padding: 12px 0;
   @include media(md) {
     padding: 0;
     border-top: 1px solid rgba(255,255,255,.1);
@@ -195,7 +201,7 @@ footer {
 
   .f-title {
     position: relative;
-    padding: 15px 0;
+    padding: 15px 0 15px;
     &:before,
     &:after {
       content: '';
@@ -284,7 +290,7 @@ footer {
 .f-social {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  /* justify-content: center; */
   margin-bottom: 15px;
   a {
     width: 52px;
@@ -303,7 +309,7 @@ footer {
     height: 24px;
   }
   @include media_min(lg) {
-    justify-content: flex-end;
+    justify-content: flex-start;
     margin-bottom: 0;
     a {
       width: 32px;
@@ -320,15 +326,16 @@ footer {
 
 .f-copyright {
   @include media(md) {
+    margin-top: 15px;
     text-align: center;
-    &:before {
+    /* &:before {
       content: '';
       display: block;
       width: 40px;
       height: 2px;
       margin: 0 auto 25px;
       background: #fff;
-    }
+    } */
     span {
       display: block;
       height: 5px;
@@ -442,6 +449,19 @@ footer {
     padding: 25px 0 15px;
     font-size: 13px;
     color: rgba(255,255,255,.7);
+    .f-quicklinks {
+      color: rgba(255,255,255,.7);
+      span {
+        display: inline-block;
+        margin: 0 10px;
+      }
+      a {
+        color: rgba(255,255,255,.7);
+        &:hover {
+          color: #fff;
+        }
+      }
+    }
   }
 
   @keyframes bottomToTop {

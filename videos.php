@@ -32,7 +32,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-24 col-lg-20 offset-lg-2">
-                        <a href="#!" class="video-full" data-toggle="modal" data-target="#requestQuote"><img src="http://placehold.it/1100x600" alt="" /></a>
+                        <a href="#!" class="video-full" data-toggle="modal" data-target="#requestQuote"><img src="https://via.placeholder.com/1100x600" alt="" /></a>
                     </div>
                 </div>
             </div>
@@ -50,7 +50,7 @@
                             <div class="video-item">
                                 <div class="video-inner">
                                     <div class="thumb">
-                                        <img src="http://placehold.it/1100x600" alt="" />
+                                        <img src="https://via.placeholder.com/1100x600" alt="" />
                                     </div>
                                     <div class="info">
                                         <div class="tag">Videos</div>

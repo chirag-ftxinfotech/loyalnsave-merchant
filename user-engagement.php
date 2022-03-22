@@ -3,7 +3,7 @@
 
 <body>
     <?php include('header.php'); ?>
-    <main id="content">
+    <main id="content" class="user-engagement-page">
 
         <section class="header-style-1 inner-title animated-row">
             <div class="container">

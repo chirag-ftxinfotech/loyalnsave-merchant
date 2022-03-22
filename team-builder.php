@@ -3,7 +3,7 @@
 
 <body>
     <?php include('header.php'); ?>
-    <main id="content">
+    <main id="content" class="team-builder-page">
 
         <section class="header-style-1 inner-title animated-row">
             <div class="container">
@@ -69,10 +69,68 @@
                     <p class="description">Imagine if your consumers become your brand promoters and go out of their way to increase your sales. Isn't that a dream come true? Well, LNS Team Builder can make it happen. The team builder feature of LNS enables merchants to build a loyal consumer base through word-of-mouth marketing, referral campaigns, and employee incentive programs. You can allow your customers to create a team and add members. Every time a team member makes a purchase, the customer earns a percentage of their reward points. Customers can add an infinite number of customers to their team and get rewards for up to five levels.</p>
                 </div>
 
-                <div class="puzzle-cards">
+                <div class="htb-lists">
+                    <div class="htb-item">
+                        <div class="htb-inner htb-orange">
+                            <div class="htb-border">
+                                <div class="thumb">
+                                    <img src="assets/img/new/team-builder_register.svg" alt="" />
+                                </div>
+                            </div>
+                            <div class="info">
+                                <h4 class="title">Register Your Store</h4>
+                                <p class="desc">Register your store on Loyal~n~Save. All LNS users get full access to the team builder feature.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="htb-item">
+                        <div class="htb-inner htb-green">
+                            <div class="htb-border">
+                                <div class="thumb">
+                                    <img src="assets/img/new/team-builder_cashiers.svg" alt="" />
+                                </div>
+                            </div>
+                            <div class="info">
+                                <h4 class="title">Train Cashiers to Add Team Members</h4>
+                                <p class="desc">Encourage your cashiers to explain the benefits of Team Builder and add them to their team. Customers can create a team by referring your store and adding members to their team to earn extra reward points. Each customer can add team members under them, creating an extensive network and getting incentives when they or their team members (a percentage of their reward points) make a purchase.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="htb-item">
+                        <div class="htb-inner htb-blue">
+                            <div class="htb-border">
+                                <div class="thumb">
+                                    <img src="assets/img/new/team-builder_incentives.svg" alt="" />
+                                </div>
+                            </div>
+                            <div class="info">
+                                <h4 class="title">Set Incentives</h4>
+                                <p class="desc">Loyal~n~Save enables each customer to earn incentives for up to five levels. Whenever a member gets a sale, both the member and the person who added them will get an incentive.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="htb-item">
+                        <div class="htb-inner htb-pink">
+                            <div class="htb-border">
+                                <div class="thumb">
+                                    <img src="assets/img/new/team-builder_reward.svg" alt="" />
+                                </div>
+                            </div>
+                            <div class="info">
+                                <h4 class="title">Reward Your Employees and Reduce Iterations</h4>
+                                <p class="desc">When you use the Team Builder to add customers to their team and earn incentives when they make purchases, your employees can get attached and motivated to your store. This way, your employees will make an extra effort to execute the sale in the best way possible and try to get more consumers to sign in to team builder.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="puzzle-cards">
                     <div class="puzzle-card">
                         <div class="icon">
-                            <img src="http://placehold.it/300x400" alt="" />
+                            <img src="https://via.placeholder.com/300x400" alt="" />
                         </div>
                         <div class="info">
                             <h4>Register Your Store</h4>
@@ -81,7 +139,7 @@
                     </div>
                     <div class="puzzle-card">
                         <div class="icon">
-                            <img src="http://placehold.it/300x400" alt="" />
+                            <img src="https://via.placeholder.com/300x400" alt="" />
                         </div>
                         <div class="info">
                             <h4>Train Cashiers to Add Team Members</h4>
@@ -90,7 +148,7 @@
                     </div>
                     <div class="puzzle-card">
                         <div class="icon">
-                            <img src="http://placehold.it/300x400" alt="" />
+                            <img src="https://via.placeholder.com/300x400" alt="" />
                         </div>
                         <div class="info">
                             <h4>Set Incentives</h4>
@@ -99,14 +157,14 @@
                     </div>
                     <div class="puzzle-card">
                         <div class="icon">
-                            <img src="http://placehold.it/300x400" alt="" />
+                            <img src="https://via.placeholder.com/300x400" alt="" />
                         </div>
                         <div class="info">
                             <h4>Reward Your Employees and Reduce Iterations</h4>
                             <p>When you use the Team Builder to add customers to their team and earn incentives when they make purchases, your employees can get attached and motivated to your store. This way, your employees will make an extra effort to execute the sale in the best way possible and try to get more consumers to sign in to team builder.</p>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </section>
 
@@ -128,7 +186,7 @@
 
                     <div class="col-24 col-lg-12 offset-lg-1 rs-img">
                         <div class="text-center">
-                            <img src="http://placehold.it/500" alt="">
+                            <img src="https://via.placeholder.com/500" alt="">
                         </div>
                     </div>
                 </div>
@@ -136,7 +194,7 @@
                 <div class="row align-items-center rs-section mt-4">
                     <div class="col-24 col-lg-12 rs-img">
                         <div class="text-center">
-                            <img src="http://placehold.it/500" alt="">
+                            <img src="https://via.placeholder.com/500" alt="">
                         </div>
                     </div>
 
@@ -158,7 +216,7 @@
 
                     <div class="col-24 col-lg-12 offset-lg-1 rs-img">
                         <div class="text-center">
-                            <img src="http://placehold.it/500" alt="">
+                            <img src="https://via.placeholder.com/500" alt="">
                         </div>
                     </div>
                 </div>
@@ -166,7 +224,7 @@
                 <div class="row align-items-center rs-section mt-4">
                     <div class="col-24 col-lg-12 rs-img">
                         <div class="text-center">
-                            <img src="http://placehold.it/500" alt="">
+                            <img src="https://via.placeholder.com/500" alt="">
                         </div>
                     </div>
 
@@ -188,7 +246,7 @@
 
                     <div class="col-24 col-lg-12 offset-lg-1 rs-img">
                         <div class="text-center">
-                            <img src="http://placehold.it/500" alt="">
+                            <img src="https://via.placeholder.com/500" alt="">
                         </div>
                     </div>
                 </div>
@@ -213,7 +271,7 @@
 
                     <div class="col-24 col-lg-12 offset-lg-1 rs-img">
                         <div class="text-center">
-                            <img src="http://placehold.it/500" alt="">
+                            <img src="https://via.placeholder.com/500" alt="">
                         </div>
                     </div>
                 </div>
@@ -221,7 +279,7 @@
                 <div class="row align-items-center rs-section mt-4">
                     <div class="col-24 col-lg-12 rs-img">
                         <div class="text-center">
-                            <img src="http://placehold.it/500" alt="">
+                            <img src="https://via.placeholder.com/500" alt="">
                         </div>
                     </div>
 
@@ -243,7 +301,7 @@
 
                     <div class="col-24 col-lg-12 offset-lg-1 rs-img">
                         <div class="text-center">
-                            <img src="http://placehold.it/500" alt="">
+                            <img src="https://via.placeholder.com/500" alt="">
                         </div>
                     </div>
                 </div>
@@ -251,7 +309,7 @@
                 <div class="row align-items-center rs-section mt-4">
                     <div class="col-24 col-lg-12 rs-img">
                         <div class="text-center">
-                            <img src="http://placehold.it/500" alt="">
+                            <img src="https://via.placeholder.com/500" alt="">
                         </div>
                     </div>
 
@@ -273,7 +331,7 @@
 
                     <div class="col-24 col-lg-12 offset-lg-1 rs-img">
                         <div class="text-center">
-                            <img src="http://placehold.it/500" alt="">
+                            <img src="https://via.placeholder.com/500" alt="">
                         </div>
                     </div>
                 </div>
@@ -281,7 +339,7 @@
                 <div class="row align-items-center rs-section mt-4">
                     <div class="col-24 col-lg-12 rs-img">
                         <div class="text-center">
-                            <img src="http://placehold.it/500" alt="">
+                            <img src="https://via.placeholder.com/500" alt="">
                         </div>
                     </div>
 

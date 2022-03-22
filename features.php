@@ -3,7 +3,7 @@
 
 <body>
     <?php include('header.php'); ?>
-    <main id="content">
+    <main id="content" class="features-page">
 
         <section class="header-style-1 inner-title animated-row">
             <div class="container">
@@ -181,24 +181,32 @@
         </div>
     </section>
 
-        <section class="section-video">
-            <div class="container">
+    <section class="section-content">
+        <div class="container">
+            <div class="section-adsbanner">
+                <div class="row">
+                    <div class="col-24 col-lg-16 offset-lg-4 col-xl-12 offset-xl-6">
+                        <h3>Take Your Business to <span>The Next Level</span></h3>
+                        <p class="text">Leave your competitors behind by implementing practical and futuristic loyalty solutions to boost comsumer Engagement & retention and build a loyal customerbase.</p>
+                        <p class="action"><a href="#" class="btn btn-black">Let's Talk</a></p>
+                    </div>
+                </div>
                 <!-- Video -->
-                <video class="video-bg" autoplay muted loop>
+                <!-- <video class="video-bg" autoplay muted loop>
                     <source src="assets/img/new/BG_Fast_Video.mp4" type="video/mp4" />
                     <source src="http://www.georgewpark.com/video/blurred-street.webm" type="video/webm" />
-                </video>
+                </video> -->
                 <!-- Video -->
-
                 <!-- Content -->
-                <div class="overlay-text">
+                <!-- <div class="overlay-text">
                     <h3>Take Your Business to The Next Level</h3>
                     <p>At vero eos et accusamus et iusto odio dignissimos ducimus</p>
                     <p><a href="#" class="btn btn-secondary">Get In Touch</a></p>
-                </div>
+                </div> -->
                 <!-- Content -->
             </div>
-        </section>
+        </div>
+    </section>
 
     </main>
     <?php include('footer.php'); ?>

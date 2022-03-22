@@ -85,7 +85,7 @@
         .icon {
             position: relative;
             display: block;
-            margin: 15px auto 0;
+            margin: 0 auto 0;
             width: 60px;
             height: 60px;
             line-height: 60px;
@@ -105,10 +105,19 @@
                 position: relative;
                 z-index: 1;
             }
+            + h4 {
+                margin-top: 20px;
+            }
+            &.overlap {
+                margin-top: -60px;
+            }
         }
         h4 {
             font-size: 20px;
             font-weight: 600;
+            + .icon {
+                margin: 15px auto 0;
+            }
         }
         p {
             margin-top: 15px;
@@ -528,34 +537,77 @@
 
 /* Swag Shop Page */
 .ss-downloadapp {
+    position: relative;
     margin: 10px;
     margin-top: 20px;
     padding: 30px;
-    background: #fff;
-    -webkit-box-shadow: inset -5px 5px 15px rgba(0, 0, 0,.05);
-    box-shadow: inset -10px 10px 15px rgba(0, 0, 0,.05);
-    -webkit-border-radius: 25px;
-    border-radius: 25px;
+    padding-top: 50%;
+    background: url(../../../assets/img/new/download-app-bg.png) center -40px no-repeat #fff1c8;
+    background-size: 100%;
+    text-align: center;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    &:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background: -moz-linear-gradient(top,  rgba(255,241,200,0) 0%, rgba(255,241,200,0) 40%, rgba(255,241,200,0.8) 50%, rgba(255,241,200,1) 100%);
+        background: -webkit-linear-gradient(top,  rgba(255,241,200,0) 0%,rgba(255,241,200,0) 40%,rgba(255,241,200,0.8) 50%,rgba(255,241,200,1) 100%);
+        background: linear-gradient(to bottom,  rgba(255,241,200,0) 0%,rgba(255,241,200,0) 40%,rgba(255,241,200,0.8) 50%,rgba(255,241,200,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00fff1c8', endColorstr='#fff1c8',GradientType=0 );
+        -webkit-border-radius: 0 0 20px 20px;
+        border-radius: 0 0 20px 20px;
+    }
+    .row {
+        position: relative;
+        z-index: 1;
+    }
     h4 {
-        font-size: 24px;
+        font-size: 18px;
         font-weight: normal;
-        em {
-            font-weight: bold;
-        }
     }
     p {
         font-size: 20px;
-        padding-bottom: 10px;
+        padding-bottom: 20px;
+        strong {
+            font-weight: 600;
+        }
     }
-    @include media_min(xl) {
-        margin-top: 120px;
-        padding: 40px;
+    @include media_min(md) {
+        background-position: center right;
+        background-size: 320px;
+        padding-top: 30px;
+        text-align: left;
+        &:after {            
+            background: -moz-linear-gradient(left,  rgba(255,241,200,1) 0%, rgba(255,241,200,1) 70%, rgba(255,241,200,0) 85%, rgba(255,241,200,0) 100%);
+            background: -webkit-linear-gradient(left,  rgba(255,241,200,1) 0%,rgba(255,241,200,1) 70%,rgba(255,241,200,0) 85%,rgba(255,241,200,0) 100%);
+            background: linear-gradient(to right,  rgba(255,241,200,1) 0%,rgba(255,241,200,1) 70%,rgba(255,241,200,0) 85%,rgba(255,241,200,0) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff1c8', endColorstr='#00fff1c8',GradientType=1 );
+            -webkit-border-radius: 20px;
+            border-radius: 20px;
+        }
+    }
+    @include media_min(lg) {
         h4 {
-            font-size: 48px;
+            font-size: 24px;
         }
         p {
-            font-size: 24px;
-            padding-bottom: 0;
+            font-size: 30px;
+        }
+    }
+    @include media_min(xl) {
+        padding: 40px;
+        margin-top: 60px;
+        background-size: 420px;  
+
+        h4 {
+            font-size: 28px;
+        }
+        p {
+            font-size: 36px;
         }
     }
 }
@@ -630,6 +682,161 @@
         }
         .info h4 {
             color: #0075ff;
+        }
+    }
+}
+
+/* How Team Builder Item Lists */
+.htb-lists {
+    background: #fff;
+    padding: 25px 15px;    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: stretch;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+
+    .htb-item {        
+        padding: 15px 0;
+        flex: 0 0 auto;
+        width: 100%;
+        max-width: 100%;
+        &:nth-child(4n+2),
+        &:nth-child(4n+4) {
+            .htb-inner {
+                .htb-border {
+                    border-top-color: transparent;
+                }
+            }
+        }
+        &:nth-child(4n+1),
+        &:nth-child(4n+3) {
+            .htb-inner {
+                .htb-border {
+                    border-bottom-color: transparent;
+                }
+            }
+        }
+        &:nth-child(4n+1),
+        &:nth-child(4n+2),
+        &:nth-child(4n+3) {
+            .htb-inner {
+                .htb-border {
+                    border-right-color: transparent;
+                }
+            }
+        }        
+    }
+    .htb-inner {
+        text-align: center;
+        height: 100%;
+
+        &.htb-orange {
+            .thumb {
+                background: rgba(239, 116, 36,.13);
+            }
+        }
+        &.htb-green {
+            .thumb {
+                background: rgba(114, 188, 67,.13);
+            }
+        }
+        &.htb-blue {
+            .thumb {
+                background: rgba(40, 169, 226,.13);
+            }
+        }
+        &.htb-pink {
+            .thumb {
+                background: rgba(231, 6, 138,.13);
+            }
+        }
+        .htb-border {
+            border: 5px dotted #cccccc;
+            -webkit-border-radius: 15px;
+            border-radius: 15px;    
+            @include media(lg) {
+                border: none;
+            }        
+        }
+        .thumb {
+            margin: 0 auto;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            -webkit-border-radius: 15px;
+            border-radius: 15px;
+        }
+        .info {
+            padding: 20px;
+            padding-top: 30px;
+        }
+        .title {
+            font-size: 24px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            justify-content: center;            
+        }
+        .desc {
+            font-size: 18px;
+            font-weight: normal;
+            text-align: justify;
+            text-align-last: center;
+        }
+    }
+    @include media_min(md) {
+        flex-direction: row;
+        .htb-item {
+            max-width: 50%;            
+        }
+        .htb-inner {
+            .title {
+                min-height: 115px;
+            }
+        }
+    }
+    @include media_min(xl) {
+        flex-wrap: nowrap;
+        padding-left: 35px;
+        .htb-item {
+            max-width: 25%;
+            margin-left: -5px;
+            .htb-border {
+                position: relative;
+            }
+            &:nth-child(4n+1){
+                .htb-border:before {
+                    content: '';
+                    display: block;
+                    width: 20px;
+                    height: 20px;
+                    position: absolute;
+                    left: -13px;
+                    bottom: 0;
+                    background: #cccccc;
+                    -webkit-border-radius: 50%;
+                    border-radius: 50%;
+                }
+            }
+            &:nth-child(4n+4){
+                .htb-border:before {
+                    content: '';
+                    display: block;
+                    position: absolute;                    
+                    top: -5px;
+                    right: -13px;
+                    border-left: 11px solid transparent;
+                    border-right: 11px solid transparent;
+                    border-bottom: 13px solid #cccccc;
+                }
+            }
+        }
+        .htb-inner {
+            .thumb {
+                margin: 30px auto 30px;
+            }            
         }
     }
 }
