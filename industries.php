@@ -47,7 +47,7 @@
                                 <div class="icon"><img src="assets/img/new/icon-grocery.png" alt="" /></div>
                                 <h4>Grocery</h4>
                                 <div class="desc">
-                                    <p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                                    <p class="text">Is your industry not mentioned above? Not to worry, Loyal-n-Save is a fully-customizable loyalty rewards program that you can customize and fit the needs for any industry or business type. Our team understands your requirements and offers tailored solutions to help you achieve your long-term and short-term business objectives. Why wait? Get in touch with us and share your goals and requirements. Our team is dedicated to developing a personalized solution for you!</p>
                                     <p><a href="#" class="btn btn-sm btn-outline-light">Read More</a></p>
                                 </div>
                             </div>
@@ -133,7 +133,7 @@
                                 <div class="icon"><img src="assets/img/new/icon-restaurant.png" alt="" /></div>
                                 <h4>Restaurants</h4>
                                 <div class="desc">
-                                    <p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                                    <p class="text">Lorem Ipsum is simply dummy text of the printing</p>
                                     <p><a href="#" class="btn btn-sm btn-outline-light">Read More</a></p>
                                 </div>
                             </div>

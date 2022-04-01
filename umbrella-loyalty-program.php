@@ -9,7 +9,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-24 col-lg-10">
-                        <div class="header__title">
+                        <div class="header__title">                            
                             <h1>What is an Umbrella Loyalty Program?</h1>
                             <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias</p>
                             <p><a href="#" class="btn btn-secondary">Get In Touch</a></p>

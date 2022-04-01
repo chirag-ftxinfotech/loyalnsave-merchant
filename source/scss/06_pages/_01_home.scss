@@ -1088,11 +1088,6 @@ html{scroll-behavior:smooth}
     p {
       font-size: 20px;
     }
-    @include media_min(xxl) {
-      p {
-        font-size: 24px;
-      }
-    }
     @include media(sm) {
       padding: 15px;
       p {

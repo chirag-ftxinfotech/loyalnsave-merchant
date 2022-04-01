@@ -33,7 +33,7 @@
         &:nth-child(8n + 8) .industries-inner {
             background: #dd002f;
         }
-        @include media_min(md) {
+        @include media_min(xl) {
             padding: 15px;
             flex: 0 0 auto;
             width: 50%;
@@ -46,13 +46,13 @@
         }
         @include media_min(xxl) {
             flex: 0 0 auto;
-            width: 33.33%;
+            width: 50%;
             max-width: 100%;
         }
     }
     .industries-inner {
         margin: 0;
-        padding: 50px 50px;
+        padding: 15px;
         overflow: hidden;
         background: #000;
         position: relative;        
@@ -68,7 +68,7 @@
             position: absolute;
             left: 50%;
             top: 50%;
-            transform: translate3d(-50%, -50%, 0);
+            transform: translate3d(-50%, -50%, 0) scale(2);
             opacity: 0.3;
             z-index: 1;
             -webkit-transition: opacity .3s ease-in-out;
@@ -80,7 +80,14 @@
             width: 100%;
         }
         @include media_min(md) {
-            min-height: 400px;
+            padding: 50px 50px;
+            .image {
+                transform: translate3d(-50%, -50%, 0) scale(1);
+            }
+        }
+        @include media_min(xl) {
+            min-height: 500px;
+            height: 100%;
             &:hover {
                 .image {
                     opacity: 0.1;
@@ -109,13 +116,7 @@
         margin-bottom: 15px;
         padding: 0;        
         font-size: 16px;
-        color: #fff;
-        &.text {
-            -webkit-box-orient: vertical;
-            display: -webkit-box;
-            overflow: hidden;
-            -webkit-line-clamp: 4;
-        }
+        color: #fff;        
     }    
 }
 

@@ -39,18 +39,9 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-24 col-lg-18 offset-lg-3">
+                    <div class="col-24 col-lg-16 offset-lg-4">
 
-                        <div class="pricing-lists">
-                            <!-- <div class="pricing-item">
-                                <div class="pricing-inner">
-                                    <div class="thumb"><img src="assets/img/new/pricing-1.png" alt="" /></div>
-                                    <div class="price">$79<span>/mo</span></div>
-                                    <h4 class="title">Per POS System</h4>
-                                    <p class="desc">Our monthly subscription includes one POS. There is a monthly charge of $75 for each additional POS.</p>
-                                    
-                                </div>
-                            </div> -->
+                        <!-- <div class="pricing-lists">
 
                             <div class="pricing-item">
                                 <div class="pricing-inner pro">
@@ -71,6 +62,44 @@
                                     <div class="action"><a href="#" class="btn">Enterprise</a></div>
                                 </div>
                             </div>
+
+                        </div> -->
+
+                        <div class="pricing-lists">
+
+                            <div class="pricing-item">
+                                <div class="pricing-inner">
+                                    <!-- <div class="thumb"><img src="assets/img/new/pricing-2.png" alt="" /></div> -->
+                                    <div class="price">
+                                        <div class="price-inner">
+                                            <sup>$</sup>129<span>/month</span>
+                                            <h4 class="title">Per Location</h4>
+                                        </div>
+                                    </div>
+                                    <div class="info">                                        
+                                        <!-- <div class="label">One POS</div> -->
+                                        <p class="desc">Our monthly subscription covers the Loyal-n-Save API for one location and one POS device. <br /><br />There is monthly charge of <strong>$75</strong> for each additional POS.</p>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+
+                            <div class="pricing-item">
+                                <div class="pricing-inner pro">
+                                    <!-- <div class="thumb"><img src="assets/img/new/pricing-3.png" alt="" /></div> -->
+                                    <div class="price">
+                                        <div class="price-inner">
+                                            <sup>$</sup>69<span>/month</span>
+                                            <h4 class="title">Multi-Locations</h4>
+                                        </div>
+                                    </div>
+                                    <div class="info">                                        
+                                        <p class="desc">If you own or operate a chain business please contact us for pricing details.</p>
+                                        <div class="action"><a href="#" class="btn">Call for Quote</a></div>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
 
                     </div>

@@ -44,6 +44,21 @@
   margin-top: 5px;
 }
 
+.no-placeholder {    
+  &::-webkit-input-placeholder {
+    color: transparent;
+  }
+  &:-moz-placeholder {
+    color: transparent;
+  }
+  &::-moz-placeholder {
+    color: transparent;
+  }
+  &:-ms-input-placeholder {  
+    color: transparent;
+  }
+}
+
 /* Left/Right Structure Section with Responsive Image Top */
 .rs-section {
   position: relative;
@@ -494,18 +509,21 @@
     .author-date{
       align-items:center;
       flex-direction:row;
-    }    
+    }
   }
   @include media_min(xl) {
+    .image {
+      height: 420px;
+    }
     .text{
-      background:linear-gradient(180deg,rgba(34,34,34,0) 0,rgba(34,34,34,.9) 35%,rgba(34,34,34,.9));
-      border-radius:0 0 14px 14px;
-      bottom:0;
+      background:linear-gradient(180deg,rgba(34,34,34,0) 0,rgba(34,34,34,.9) 35%,rgba(34,34,34,.9));      
       filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#00222222",endColorstr="#e6222222",GradientType=0);
-      left:0;
       padding:50px 32px 32px;
       position:absolute;
+      left:0;
       right:0;
+      bottom:0;
+      border-radius:0 0 14px 14px;
     }
     .author-date,h4 {
       color:#fff;
@@ -1447,55 +1465,47 @@
 /* Sidebar Widget */
 .sidebar-widget {
   margin-bottom: 30px;
-  padding: 15px 0;
-  background: #fff;
-  -webkit-border-radius: 25px;
-  border-radius: 25px;
-  -webkit-box-shadow: 0px 15px 30px rgba(0, 0, 0, .07);
-  box-shadow: 0px 15px 30px rgba(0, 0, 0, .07);
+  padding: 0;
 
   .sw-title {
       margin: 0;
-      padding: 20px 30px;
+      margin-bottom: 10px;
+      padding: 10px 0;
+      /* padding: 20px 30px; */
       font-size: 24px;
       font-weight: 600;
+      border-bottom: 2px solid #363636;
   }
   ul {
       margin: 0;
       padding: 0;
       li {
           position: relative;
-          border-bottom: 1px solid #e6e6e6;
-          &:last-child {
-              border: none;
-          }
       }
       a {
           margin: 0;
-          padding: 10px 30px;
-          padding-right: 55px;
+          padding: 10px 0;
+          padding-left: 28px;
           display: block;
           font-size: 18px;
           font-weight: 500;
-          color: #000;            
-          .counter {
-              display: block;
-              width: 24px;
-              height: 24px;
-              text-align: center;
-              font-size: 11px;
-              line-height: 26px;
-              background: #5c14e3;
-              color: #fff;
-              position: absolute;
-              top: 50%;
-              right: 30px;
-              margin-top: -12px;
-              -webkit-border-radius: 50%;
-              border-radius: 50%;
+          color: #000;
+          position: relative;
+          &:before {
+            content: '';
+            display: block;
+            width: 12px;
+            height: 12px;
+            background: url(../../../assets/img/new/bullet-flower.svg) center center no-repeat;
+            position: absolute;
+            top: 16px;
+            left: 5px;
           }
           &:hover {
-              color: #ff0988;
+            color: #ff0988;
+            &:before {              
+              background-image: url(../../../assets/img/new/bullet-flower-hover.svg);
+            }
           }
       }
   }
@@ -1519,4 +1529,59 @@
       -webkit-border-radius: 5px;
       border-radius: 5px;
   }
+}
+
+.sidebar-widgetposts {
+
+  .swp-lists {
+    padding: 10px 0;
+    .swp-item {
+      margin: 15px 0;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-items: center;
+      position: relative;
+      &:hover {
+        .category, h5 {
+          color: #ff0988;
+        }
+      }
+    }
+    .swp-thumb, .swp-info {
+      flex-shrink: 0;
+      width: 100%;
+      max-width: 100%;
+    }
+    .swp-thumb {
+      flex: 0 0 auto;
+      max-width: 115px;
+      text-align: left;
+      padding-right: 15px;
+    }
+    .swp-info {
+      flex: 1 0 0%;
+    }
+    .category {
+      color: #ff0988;
+      text-transform: uppercase;
+      font-size: 16px;
+      font-weight: 500;
+    }
+    h5 {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.4;
+    }
+    .swp-link {
+      position: absolute;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      font-size: 0;
+      text-indent: -10000px;
+    }
+  }  
 }

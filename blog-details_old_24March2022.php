@@ -5,21 +5,29 @@
     <?php include('header.php'); ?>
     <main id="content">
 
-        <section class="header-style-1 inner-title"><!-- Empty Area --></section>
+        <section class="header-style-1 inner-title text-center animated-row">
+            <div class="container">
+                <div class="row">
+                    <div class="col-24 col-lg-12 offset-lg-6">
+                        <div class="mh-200"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-        <!-- Waves
+        <!-- Waves -->
         <section class="header-app inner">
             <div class="ocean">
                 <div class="wave"></div>
                 <div class="wave"></div>
             </div>            
-        </section> -->
+        </section>
         <!-- Waves -->
 
         <div class="section-content blog-detail">
             <div class="container">
                 <div class="row">
-                    <!-- <div class="col-24 col-xl-17">
+                    <div class="col-24 col-xl-17">
                         <div class="b-title-top">
                             <a href="#" class="b-back">Back to Blog</a>
                             <div class="b-social">
@@ -34,35 +42,11 @@
                             <p><a href="#">Strategy</a> June 8, 2021</p>
                         </div>
                     </div>
-                    <div class="col-24 col-xl-24"></div> -->
+                    <div class="col-24 col-xl-24"></div>
                     <div class="col-24 col-xl-17">
-                        <div class="blog-title">
-                            <div class="blog-thumb">
-                                <img src="https://merchant.loyalnsave.com/blog/105/image?v=1639489160" alt="" />                                
-                                <div class="blog-thumb-bottom">
-                                    <span>Loyalty</span>
-                                    <h1>Pet Industry Trends to Foster Customer Loyalty</h1>
-                                </div>
-                            </div>
-                            <div class="blog-info bf-top">
-                                <div class="blog-author-date">
-                                    <div class="author"><img src="https://via.placeholder.com/32" alt="" /> By Author</div>
-                                    <div class="date">March 13, 2022</div>
-                                </div>
-                                <div class="blog-social">
-                                    <span>Share on:</span>
-                                    <a href="#"><svg class="svg facebook" aria-hidden="true" role="img"><use href="#facebook" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use></svg></a><a href="#"><svg class="svg twitter" aria-hidden="true" role="img"><use href="#twitter" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a><a href="#"><svg class="svg linkedin" aria-hidden="true" role="img"><use href="#linkedin" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#linkedin"></use></svg></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="blog-content">                            
+                        <div class="blog-content">
                             <p><span><span><span><span style=""><span>The new year is almost upon us, and businesses are looking to the market to learn how they can potentially do better in 2022. Over the last year, the importance of establishing customer loyalty became recognized as a key to ongoing success, and now business owners across industries are looking to identify current customer trends that will help them get ahead in the year to come. For this reason, our team has compiled a list of the biggest trends that are currently affecting customer loyalty and are expected to continue to grow throughout 2022. </span></span></span></span></span></p>
                             <p class="blog-image"><img src="https://merchant.loyalnsave.com/blog/105/image?v=1639489160" alt="Loyalty Trends For 2022"></p>
-                            <ul>
-                                <li>Lorem Ipsum is simply dummy text of the printing</li>
-                                <li><a href="">It is a long established fact that a reader</a></li>
-                                <li><strong>Lorem Ipsum has been the industry's</strong></li>
-                            </ul>
                             <p><span><span><span><span style=""><span>The new year is almost upon us, and businesses are looking to the market to learn how they can potentially do better in 2022. Over the last year, the importance of establishing customer loyalty became recognized as a key to ongoing success, and now business owners across industries are looking to identify current customer trends that will help them get ahead in the year to come. For this reason, our team has compiled a list of the biggest trends that are currently affecting customer loyalty and are expected to continue to grow throughout 2022. </span></span></span></span></span></p>
                             <p><span><span><span><span style=""><span>Beginning with trend number one: mobile apps. </span></span></span></span></span></p>
 
@@ -124,31 +108,44 @@
                             <blockquote>
                             This article was written by <a href="https://merchant.loyalnsave.com/merchant">Loyal~n~Save</a>, an omni-channel customer loyalty solution for retailers looking to increase customer retention and new customer acquisition.
                             </blockquote>
-                        </div>
-                        <div class="blog-info">
-                            <div class="blog-author-date">
-                                <div class="author">Posted on March 13, 2022</div>
+
+                            <div class="b-subscriber">
+                                <h4>Subscribe for Newsletter</h4>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                                <form action="" method="post" class="form row">
+                                    <div class="form-field col-24 col-lg-16 col-xl-18">
+                                        <input type="email" placeholder="Enter your email" class="form-control" />
+                                    </div>
+                                    <div class="form-action col-24 col-lg-8 col-xl-6">
+                                        <button class="btn btn-primary btn-block">Subscribe Now</button>
+                                    </div>
+                                </form>
                             </div>
-                            <div class="blog-social">
-                                <span>Share on:</span>
-                                <a href="#"><svg class="svg facebook" aria-hidden="true" role="img"><use href="#facebook" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use></svg></a><a href="#"><svg class="svg twitter" aria-hidden="true" role="img"><use href="#twitter" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a><a href="#"><svg class="svg linkedin" aria-hidden="true" role="img"><use href="#linkedin" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#linkedin"></use></svg></a>
-                            </div>
-                        </div>
-                        <div class="blog-author-profile">
-                            <div class="author-thumb">
-                                <span><img src="https://via.placeholder.com/120x140" alt=""></span>
-                            </div>
-                            <div class="author-info">
-                                <h5 class="author-name">Written by <span>Thomas Monahan</span></h5>
-                                <div class="author-desc"><p>Thomas is a Content Writer at Loyal-n-Save. He specializes in writing about and implementing loyalty solutions proven to help a company grow.</p></div>
-                                <div class="author-social">
-                                    <span>Connect on</span>
-                                    <a href="#"><svg class="svg linkedin" aria-hidden="true" role="img"><use href="#linkedin" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#linkedin"></use></svg></a>
+
+                            <div class="author-profile">
+                                <div class="author-thumb">
+                                    <span><img src="http://placehold.it/250" alt=""></span>
                                 </div>
+                                <h5 class="author-name">Thomas Monahan</h5>
+                                <div class="author-desc"><p>Thomas is a Content Writer at Loyal-n-Save. He specializes in writing about and implementing loyalty solutions proven to help a company grow.</p></div>
                             </div>
+
                         </div>
                     </div>
                     <div class="col-24 col-xl-6 offset-xl-1">
+                        <div class="sidebar-widget">
+                            <h5 class="sw-title">Category</h5>
+                            <div class="sw-content">
+                                <ul>
+                                    <li><a href="#">Strategy <span class="counter">45</span></a></li>
+                                    <li><a href="#">Loyalty<span class="counter">99</span></a></li>
+                                    <li><a href="#">Gamification <span class="counter">1</span></a></li>
+                                    <li><a href="#">Trends <span class="counter">10</span></a></li>
+                                    <li><a href="#">Newsletter</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
                         <div class="sidebar-widgetads">
                             <br />
                             <br />
@@ -171,57 +168,15 @@
                         </div>
 
                         <div class="sidebar-widget">
-                            <h5 class="sw-title">Category</h5>
-                            <div class="sw-content">
-                                <ul>
-                                    <li><a href="#">Strategy <span class="counter">(45)</span></a></li>
-                                    <li><a href="#">Loyalty <span class="counter">(99)</span></a></li>
-                                    <li><a href="#">Gamification <span class="counter">(1)</span></a></li>
-                                    <li><a href="#">Trends <span class="counter">(10)</span></a></li>
-                                    <li><a href="#">Newsletter </a></li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="sidebar-widget sidebar-widgetposts">
                             <h5 class="sw-title">Popular Posts</h5>
                             <div class="sw-content">
-                                <div class="swp-lists">
-
-                                    <div class="swp-item">
-                                        <div class="swp-thumb">
-                                            <img src="https://via.placeholder.com/95" alt="" />
-                                        </div>
-                                        <div class="swp-info">
-                                            <span class="category">Category</span>
-                                            <h5>The best way to increase loyalty sign ups for the new year</h5>
-                                        </div>
-                                        <a href="#" class="swp-link"></a>
-                                    </div>
-
-                                    <div class="swp-item">
-                                        <div class="swp-thumb">
-                                            <img src="https://via.placeholder.com/95" alt="" />
-                                        </div>
-                                        <div class="swp-info">
-                                            <span class="category">Category</span>
-                                            <h5>The best way to increase loyalty sign ups for the new year</h5>
-                                        </div>
-                                        <a href="#" class="swp-link"></a>
-                                    </div>
-
-                                    <div class="swp-item">
-                                        <div class="swp-thumb">
-                                            <img src="https://via.placeholder.com/95" alt="" />
-                                        </div>
-                                        <div class="swp-info">
-                                            <span class="category">Category</span>
-                                            <h5>The best way to increase loyalty sign ups for the new year</h5>
-                                        </div>
-                                        <a href="#" class="swp-link"></a>
-                                    </div>
-
-                                </div>
+                                <ul>
+                                    <li><a href="#">The Best Ways To Increase Loyalty Sign Ups For The New Year</a></li>
+                                    <li><a href="#">Loyalty Updates For November 2021</a></li>
+                                    <li><a href="#">3 Employee Strategies To Recover Lost Sales</a></li>
+                                    <li><a href="#">4 Ways Mobile Apps Can Boost Customer Loyalty</a></li>
+                                    <li><a href="#">How To Create Customer Loyalty For The Holiday Season</a></li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -229,40 +184,12 @@
             </div>
         </div>
 
-        <section class="section-content section-blog-subscriber">
-            <div class="container">
-                <div class="blog-subscriber">
-                    <div class="row">
-                        <div class="col-24 col-xl-18">
-                            <h4>Subscribe to Our Loyalty Newsletters!</h4>
-                            <p>We'll keep you posted about our innovations, exclusive offers on our subscription plans, and latest updates, articles and blogs about the loyalty industry.</p>
-                        </div>
-                        <div class="col-24 col-xl-14">
-                            <form action="" method="post" class="form">
-                                <input type="email" placeholder="Enter your email" class="form-control" />
-                                <button class="btn btn-primary">Subscribe Now</button>
-                            </form>
-                            <!-- <form action="" method="post" class="form row">
-                                <div class="form-field col-24 col-lg-16 col-xl-18">
-                                    <input type="email" placeholder="Enter your email" class="form-control" />
-                                </div>
-                                <div class="form-action col-24 col-lg-8 col-xl-6">
-                                    <button class="btn btn-primary btn-block">Subscribe Now</button>
-                                </div>
-                            </form> -->
-                        </div>
-                    </div>                    
-                </div>
-            </div>
-        </section>
-
         <section class="container">
             <div class="seprator-dot full-width"></div>
         </section>
 
         <section class="section-blog">
             <div class="container">
-
                 <div class="header-title-1">
                     <h3 class="title">Blogs</h3>
                     <div class="slick-arrows">
@@ -270,35 +197,29 @@
                         <a href="#!" class="blog-next slick-next">Next</a>
                     </div>
                 </div>
-
-                <div class="slick-blogs">
-                    <?php for ($x = 0; $x <= 6; $x++) { ?>
-                    <div>
-                        <div class="blog-box">
-                            <div class="blog-inner">
-                                <div class="image">
-                                    <div class="category"><span>Strategy</span></div>
-                                    <img src="assets/img/new/blog-img.jpg" alt="" />
-                                </div>
-                                <div class="text">
-                                    <h4>How To Determine The Points Model For Loyalty Programs</h4>
-                                    <div class="author-date">
-                                        <div class="author"><img src="https://via.placeholder.com/32" alt="" /> By Author</div>
-                                        <div class="date">March 13, 2022</div>
-                                    </div>
-                                </div>
-                                <a href="#!" class="link-full"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <?php } ?>                
-                </div>
-
-                <div class="text-center mt-5">
-                    <a href="#" class="btn btn-primary">View All Blogs</a>
-                </div>
-
             </div>
+
+            <div class="slick-blogs">
+                <?php for ($x = 0; $x <= 6; $x++) { ?>
+                <div>
+                    <div class="blog-box">
+                        <div class="image">
+                            <img src="assets/img/new/blog-img.jpg" alt="" />
+                        </div>
+                        <div class="text">
+                            <p><span>Strategy</span> June 8, 2021</p>
+                            <h4>How To Determine The Points Model For Loyalty Programs</h4>
+                        </div>
+                        <a href="#!" class="link-full"></a>
+                    </div>
+                </div>
+                <?php } ?>                
+            </div>
+
+            <div class="text-center mt-5">
+                <a href="#" class="btn btn-primary">View All Blogs</a>
+            </div>
+
         </section>
 
     </main>
@@ -308,15 +229,38 @@
 $(document).ready(function() {
     
     $('.slick-blogs').slick({
-        slidesToShow: 2,
-        slidesToScroll: 2,
+        slidesToShow: 5,
+        slidesToScroll: 5,
         dots: true,
         arrows: true,
+        centerMode: true,
+        centerPadding: '75px',
         autoplay: false,
         autoplaySpeed: 2000,
         prevArrow: $('.blog-prev'),
         nextArrow: $('.blog-next'),
         responsive: [
+            {
+                breakpoint: 1800,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 4,                    
+                }
+            },
+            {
+                breakpoint: 1400,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 4,                    
+                }
+            },
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                }
+            },
             {
                 breakpoint: 992,
                 settings: {
@@ -326,10 +270,10 @@ $(document).ready(function() {
                 }
             },
             {
-                breakpoint: 768,
+                breakpoint: 576,
                 settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
                     centerPadding: '15px',
                 }
             },
