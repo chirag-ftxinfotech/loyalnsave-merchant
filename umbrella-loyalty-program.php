@@ -48,9 +48,11 @@
                             <div class="image">
                                 <img src="assets/img/new/register-icon-01.png" alt="">
                             </div>
-                            <h4 class="title">Register Your Store</h4>
-                            <div class="description">
-                                <p>All the merchants registered on LNS are eligible for the umbrella loyalty program. All you need to do is register your store to get started. Once done, you can head to the umbrella loyalty program section and use this functionality.</p>
+                            <div class="info">
+                                <h4 class="title">Register Your Store</h4>
+                                <div class="description">
+                                    <p>All the merchants registered on LNS are eligible for the umbrella loyalty program. All you need to do is register your store to get started. Once done, you can head to the umbrella loyalty program section and use this functionality.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -59,9 +61,11 @@
                             <div class="image">
                                 <img src="assets/img/new/configure-icon-02.png" alt="">
                             </div>
-                            <h4 class="title">Configure Your Umbrella Loyalty Program</h4>
-                            <div class="description">
-                                <p>The next step is to configure your umbrella loyalty program. This includes connecting all the stores you want to include under your umbrella. This step also includes setting rules and criteria for the loyalty program.</p>
+                            <div class="info">
+                                <h4 class="title">Configure Your Umbrella Loyalty Program</h4>
+                                <div class="description">
+                                    <p>The next step is to configure your umbrella loyalty program. This includes connecting all the stores you want to include under your umbrella. This step also includes setting rules and criteria for the loyalty program.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -70,9 +74,11 @@
                             <div class="image">
                                 <img src="assets/img/new/offer-icon-03.png" alt="">
                             </div>
-                            <h4 class="title">Offer Irresistible Benefits to Consumers</h4>
-                            <div class="description">
-                                <p>Once the configuration is done, take your umbrella loyalty program live. Your consumers can now leverage it to earn rewards and redeem them on all stores under the umbrella. Hence, you have the opportunity to offer top-notch consumer experience.</p>
+                            <div class="info">
+                                <h4 class="title">Offer Irresistible Benefits to Consumers</h4>
+                                <div class="description">
+                                    <p>Once the configuration is done, take your umbrella loyalty program live. Your consumers can now leverage it to earn rewards and redeem them on all stores under the umbrella. Hence, you have the opportunity to offer top-notch consumer experience.</p>
+                                </div>
                             </div>
                         </div>
                     </div>

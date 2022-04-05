@@ -1,6 +1,6 @@
 #whylnsVideo {
     iframe {    
-      height: 300px;
+      height: 200px;
       -webkit-border-radius: 15px;
       border-radius: 15px;
       -webkit-box-shadow: 0px 5px 15px rgba(0,0,0,.1);
@@ -17,7 +17,7 @@
       }
   
       @include media_min(lg) {
-        height: 600px;      
+        height: 600px;
       }
     }  
   }

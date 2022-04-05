@@ -162,16 +162,16 @@
 
         <section class="section-waves section-blue noa">
             <div class="container">
-                <div class="row">
-                    <div class="col-24 col-md-8">
+                <div class="row align-items-center">
+                    <div class="col-24 col-md-12 col-lg-8 offset-lg-2">
                         <div class="header-title-1 mt-5">
                             <h3 class="title">Loyal~n~Save API Integration?</h3>
                             <p class="description">Don't want to switch POS systems? Find out how Loyal~n~Save can be integrated into your already existing POS system.</p>
                             <p><a href="#" class="btn btn-secondary">Get In Touch</a></p>
                         </div>
                     </div>
-                    <div class="col-24 col-md-16 text-center">
-                        <img src="assets/img/new/lns-int-page.png" alt="" />
+                    <div class="col-24 col-md-12 col-lg-10 offset-lg-2 text-center">
+                        <img src="https://merchant.devgoftx.loyalnsave.com/assets/img/new/loyalnsave-api-integration.png" alt="" /> <!-- assets/img/new/lns-int-page.png -->
                     </div>
                 </div>
 

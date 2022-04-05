@@ -18,6 +18,94 @@
           box-shadow: 10px 10px 25px rgba(0,0,0,.1);
         }
       }
+      .umbrella-loyalty-page & {
+        &:nth-child(3n+1) {
+          .card-inner {
+            .image {
+              background: rgb(239,255,228);
+              background: -moz-linear-gradient(top,  rgba(239,255,228,1) 0%, rgba(206,241,178,1) 100%);
+              background: -webkit-linear-gradient(top,  rgba(239,255,228,1) 0%,rgba(206,241,178,1) 100%);
+              background: linear-gradient(to bottom,  rgba(239,255,228,1) 0%,rgba(206,241,178,1) 100%);
+              filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efffe4', endColorstr='#cef1b2',GradientType=0 );
+            }
+          }
+        }
+        &:nth-child(3n+2) {
+          .card-inner {
+            .image {
+              background: rgb(217,245,255);
+              background: -moz-linear-gradient(top,  rgba(217,245,255,1) 0%, rgba(219,183,255,1) 100%);
+              background: -webkit-linear-gradient(top,  rgba(217,245,255,1) 0%,rgba(219,183,255,1) 100%);
+              background: linear-gradient(to bottom,  rgba(217,245,255,1) 0%,rgba(219,183,255,1) 100%);
+              filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9f5ff', endColorstr='#dbb7ff',GradientType=0 );
+            }
+          }        
+        }
+        &:nth-child(3n+3) {
+          .card-inner {
+            .image {
+              background: rgb(255,233,245);
+              background: -moz-linear-gradient(top,  rgba(255,233,245,1) 0%, rgba(225,191,253,1) 100%);
+              background: -webkit-linear-gradient(top,  rgba(255,233,245,1) 0%,rgba(225,191,253,1) 100%);
+              background: linear-gradient(to bottom,  rgba(255,233,245,1) 0%,rgba(225,191,253,1) 100%);
+              filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe9f5', endColorstr='#e1bffd',GradientType=0 );
+            }
+          }
+        }
+        @include media(lg) {
+          padding: 15px 0;
+        }
+      }
+      &:hover {
+        .umbrella-loyalty-page & {
+          &:nth-child(3n+1) {
+            .card-inner {
+              .info {
+                border-color: rgba(206,241,178,1);
+              }          
+            }
+          }
+          &:nth-child(3n+2) {
+            .card-inner {
+              .info {
+                border-color: rgba(219,183,255,1);
+              }          
+            }        
+          }
+          &:nth-child(3n+3) {
+            .card-inner {
+              .info {
+                border-color: rgba(225,191,253,1);
+              }          
+            }
+          }
+        }
+      }
+      @include media(lg) {
+        .umbrella-loyalty-page & {
+          &:nth-child(3n+1) {
+            .card-inner {
+              .info {
+                border-color: rgba(206,241,178,1);
+              }          
+            }
+          }
+          &:nth-child(3n+2) {
+            .card-inner {
+              .info {
+                border-color: rgba(219,183,255,1);
+              }          
+            }        
+          }
+          &:nth-child(3n+3) {
+            .card-inner {
+              .info {
+                border-color: rgba(225,191,253,1);
+              }          
+            }
+          }
+        }
+      }
     }
     .card-inner {
       background: #fff;      
@@ -28,6 +116,30 @@
       transition: all .3s ease-in-out;
       -webkit-box-shadow: 0px 5px 15px rgba(0,0,0,.05);
       box-shadow: 0px 5px 15px rgba(0,0,0,.05);
+      .umbrella-loyalty-page & {
+        padding: 0;        
+        -webkit-border-radius: 0;
+        border-radius: 0;
+        display: flex;
+        flex-direction: column;        
+        .image {
+          margin: 0;
+          min-height: 210px;
+          line-height: 210px;
+        }
+        .info {
+          height: 100%;
+          padding: 30px;
+          border: 5px solid transparent;
+          border-top: none;
+          -webkit-transition: border .3s ease-in-out;
+          transition: border .3s ease-in-out;
+          @include media(lg) {
+            padding-left: 15px;
+            padding-right: 15px;
+          }
+        }
+      }
       @include media_min(xl) {
         padding: 35px;
       }

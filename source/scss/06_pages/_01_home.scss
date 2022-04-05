@@ -819,7 +819,7 @@ html{scroll-behavior:smooth}
         }
       }
     }
-    @include media(xs) {
+    @include media(md) {
       position: absolute;
       top: 15px;
       left: 50%;
