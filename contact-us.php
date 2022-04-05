@@ -64,7 +64,7 @@
                             <p>Our utmost priority is serving and solving business owners' problems. Contact us, and our loyal strategist and support teams are here to help and answer any questions you may have.</p>
                         </div>
                         <div class="contact-detail">
-                            <a href="#"><span class="icon"><svg aria-hidden="true" role="img"><use href="#c-email" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#c-email"></use></svg></span>info@loyalnsave.com</a>
+                            <a href="#"><span class="icon"><svg aria-hidden="true" role="img"><use href="#c-email" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#c-email"></use></svg></span>support@loyalnsave.com</a>
                             <a href="#"><span class="icon"><svg aria-hidden="true" role="img"><use href="#c-phone" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#c-phone"></use></svg></span>845-796-9944</a>
                         </div>
                         <div class="contact-location">

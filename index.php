@@ -14,8 +14,8 @@
             <!-- Video -->
 
             <div class="header__title text-center">
-                <h1>Make Customer Retention<br /> Your Intention </h1>
-                <p class="title_label">Lorem Ipsum</p>
+                <h1>Fully-Customizable API Loyalty Program to Drive Acquisition, Retention, and Business Growth</h1>
+                <!-- <p class="title_label">Lorem Ipsum</p> -->
                 <p><a href="#" class="btn btn-secondary">Get In Touch</a></p>
             </div>            
         </section>
@@ -519,29 +519,34 @@
                         <a href="#!" class="blog-next slick-next">Next</a>
                     </div>
                 </div>
-            </div>
 
-            <div class="slick-blogs">
-                <?php for ($x = 0; $x <= 6; $x++) { ?>
-                <div>
-                    <div class="blog-box">
-                        <div class="image">
-                            <img src="assets/img/new/blog-img.jpg" alt="" />
+                <div class="slick-blogs">
+                    <?php for ($x = 0; $x <= 6; $x++) { ?>
+                    <div>
+                        <div class="blog-box">
+                            <div class="blog-inner">
+                                <div class="image">
+                                    <div class="category"><a href="#asd">Strategy</a></div>
+                                    <img src="assets/img/new/blog-img.jpg" alt="" />
+                                </div>
+                                <div class="text">
+                                    <h4>How To Determine The Points Model For Loyalty Programs</h4>
+                                    <div class="author-date">
+                                        <div class="author"><img src="https://via.placeholder.com/32" alt="" /> By Author</div>
+                                        <div class="date">March 13, 2022</div>
+                                    </div>
+                                </div>
+                                <a href="#!" class="link-full"></a>
+                            </div>
                         </div>
-                        <div class="text">
-                            <p><span>Strategy</span> June 8, 2021</p>
-                            <h4>How To Determine The Points Model For Loyalty Programs</h4>
-                        </div>
-                        <a href="#!" class="link-full"></a>
                     </div>
+                    <?php } ?>                
                 </div>
-                <?php } ?>                
-            </div>
 
-            <div class="text-center mt-5">
-                <a href="#" class="btn btn-primary">View All Blogs</a>
+                <div class="text-center mt-5">
+                    <a href="#" class="btn btn-primary">View All Blogs</a>
+                </div>
             </div>
-
         </section>
 
     </main>
@@ -680,38 +685,17 @@ $(document).ready(function() {
     });
 
     $('.slick-blogs').slick({
-        slidesToShow: 5,
-        slidesToScroll: 5,
+        slidesToShow: 2,
+        slidesToScroll: 2,
         dots: true,
-        arrows: true,
+        arrows: true,/* 
         centerMode: true,
-        centerPadding: '75px',
+        centerPadding: '75px', */
         autoplay: false,
         autoplaySpeed: 2000,
         prevArrow: $('.blog-prev'),
         nextArrow: $('.blog-next'),
         responsive: [
-            {
-                breakpoint: 1800,
-                settings: {
-                    slidesToShow: 4,
-                    slidesToScroll: 4,                    
-                }
-            },
-            {
-                breakpoint: 1400,
-                settings: {
-                    slidesToShow: 4,
-                    slidesToScroll: 4,                    
-                }
-            },
-            {
-                breakpoint: 1200,
-                settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 3,
-                }
-            },
             {
                 breakpoint: 992,
                 settings: {
@@ -721,10 +705,10 @@ $(document).ready(function() {
                 }
             },
             {
-                breakpoint: 576,
+                breakpoint: 768,
                 settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
                     centerPadding: '15px',
                 }
             },

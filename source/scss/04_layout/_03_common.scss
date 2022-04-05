@@ -445,7 +445,9 @@
     left:20px;
     position:absolute;
     top:20px;
-    span{
+    z-index: 2;
+    span,
+    a {
       background:#ff0986;
       border-radius:25px;
       color:#fff;
@@ -453,6 +455,7 @@
       font-weight:600;
       padding:10px 20px;
       text-transform:uppercase;
+      text-decoration: none;
     }
   }
   .text{
@@ -1568,11 +1571,11 @@
       flex-wrap: nowrap;
       align-items: center;
       position: relative;
-      &:hover {
+      /* &:hover {
         .category, h5 {
           color: #ff0988;
         }
-      }
+      } */
     }
     .swp-thumb, .swp-info {
       flex-shrink: 0;
@@ -1590,16 +1593,22 @@
     }
     .category {
       color: #ff0988;
+      text-decoration: none;
       text-transform: uppercase;
-      font-size: 16px;
+      font-size: 15px;
       font-weight: 500;
     }
     h5 {
-      font-size: 16px;
+      font-size: 14px;
       font-weight: 500;
       line-height: 1.4;
+      color: #000;      
+      a {
+        color: #000;
+        text-decoration: none;
+      }
     }
-    .swp-link {
+    /* .swp-link {
       position: absolute;
       z-index: 1;
       left: 0;
@@ -1608,7 +1617,7 @@
       right: 0;
       font-size: 0;
       text-indent: -10000px;
-    }
+    } */
   }
 }
 

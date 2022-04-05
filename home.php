@@ -218,12 +218,14 @@
                                 <li><a href="contact-us.php" target="_blank" class="active">Contact us</a></li>
                                 <li><a href="faq.php" target="_blank" class="active">FAQs</a></li>
                             </ul>
-                        </div>
-                        <div class="col-md-8">
+
                             <h4>Merchant Perks</h4>
                             <ul>
                                 <li><a href="integration.php" target="_blank" class="active">API Integration</a></li>
+                                <li><a href="#" target="_blank" class="active">Scan Data Loyalty</a></li>
                             </ul>
+                        </div>
+                        <div class="col-md-8">                            
                             <h4>Features</h4>
                             <ul>
                                 <li><a href="umbrella-loyalty-program.php" target="_blank" class="active">Umbrella Loyalty Program</a></li>
@@ -259,6 +261,7 @@
                             <ul>
                                 <li><a href="privacy-policy.php" target="_blank" class="active">Privacy Policy</a></li>
                                 <li><a href="terms.php" target="_blank" class="active">Terms and Condition</a></li>
+                                <li><a href="sitemap.php" target="_blank" class="active">Sitemap</a></li>
                             </ul>
                             <h4>Modal Popup</h4>
                             <ul>

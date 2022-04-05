@@ -105,6 +105,15 @@
                                                 </ul>
                                             </div>
                                         </div>
+
+                                        <div class="f-block no-accordion">
+                                            <h5 class="f-title">Follow us on</h5>
+                                            <div class="f-content">
+                                                <div class="f-social">
+                                                    <a href="#"><svg class="svg facebook" aria-hidden="true" role="img"><use href="#facebook" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use></svg></a><a href="#"><svg class="svg twitter" aria-hidden="true" role="img"><use href="#twitter" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a><a href="#"><svg class="svg linkedin" aria-hidden="true" role="img"><use href="#linkedin" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#linkedin"></use></svg></a>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -136,6 +145,7 @@
                                         </div>
                                     </div>
                                 </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -144,9 +154,10 @@
                     <div class="footer-after">
                         <div class="row">
                             <div class="col-24 col-lg-12 order-lg-2 text-center text-lg-right">
-                                <div class="f-social">
+                                <div class="f-social d-none">
                                     <a href="#"><svg class="svg facebook" aria-hidden="true" role="img"><use href="#facebook" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use></svg></a><a href="#"><svg class="svg twitter" aria-hidden="true" role="img"><use href="#twitter" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a><a href="#"><svg class="svg linkedin" aria-hidden="true" role="img"><use href="#linkedin" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#linkedin"></use></svg></a>
                                 </div>
+                                <div class="f-quicklinks"><a href="#">Terms of use</a><span>|</span><a href="#">Privacy Policy</a></div>
                             </div>
                             <div class="col-24 col-lg-12 order-lg-1">
                                 <div class="f-copyright">© 2022 Loyal~N~Save <span>|</span> Website Design by <a href="#" target="_blank">FasTrax Infotech</a></div>
@@ -159,6 +170,8 @@
     </div>    
 </footer>
 </div>
+
+<button id="theme-toggle" style="position: fixed; left: 15px; bottom: 15px; z-index: 9999;">Toggle Dark Mode</button>
 
 <!-- Modal -->
 <div class="modal fade" id="requestQuote" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"

@@ -1,7 +1,7 @@
 <!-- Page Loader -->
-<div class="page-loader">
+<!-- <div class="page-loader">
     <span><img src="assets/img/new/loading.gif" alt="" /></span>
-</div>
+</div> -->
 <!-- Page Loader -->
 
 <!-- Page SVG -->

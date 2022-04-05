@@ -40,7 +40,7 @@
                             <div class="blog-thumb">
                                 <img src="https://merchant.loyalnsave.com/blog/105/image?v=1639489160" alt="" />                                
                                 <div class="blog-thumb-bottom">
-                                    <span>Loyalty</span>
+                                    <a href="#">Loyalty</a>
                                     <h1>Pet Industry Trends to Foster Customer Loyalty</h1>
                                 </div>
                             </div>
@@ -174,10 +174,10 @@
                             <h5 class="sw-title">Category</h5>
                             <div class="sw-content">
                                 <ul>
-                                    <li><a href="#">Strategy <span class="counter">(45)</span></a></li>
-                                    <li><a href="#">Loyalty <span class="counter">(99)</span></a></li>
-                                    <li><a href="#">Gamification <span class="counter">(1)</span></a></li>
-                                    <li><a href="#">Trends <span class="counter">(10)</span></a></li>
+                                    <li><a href="#">Strategy <span class="counter">45</span></a></li>
+                                    <li><a href="#">Loyalty <span class="counter">99</span></a></li>
+                                    <li><a href="#">Gamification <span class="counter">1</span></a></li>
+                                    <li><a href="#">Trends <span class="counter">10</span></a></li>
                                     <li><a href="#">Newsletter </a></li>
                                 </ul>
                             </div>
@@ -190,13 +190,13 @@
 
                                     <div class="swp-item">
                                         <div class="swp-thumb">
-                                            <img src="https://via.placeholder.com/95" alt="" />
+                                            <a href="#"><img src="https://via.placeholder.com/95" alt="" /></a>
                                         </div>
                                         <div class="swp-info">
-                                            <span class="category">Category</span>
-                                            <h5>The best way to increase loyalty sign ups for the new year</h5>
+                                            <a href="#" class="category">Category</a>
+                                            <h5><a href="#">The best way to increase loyalty sign ups for the new year</a></h5>
                                         </div>
-                                        <a href="#" class="swp-link"></a>
+                                        <!-- <a href="#" class="swp-link"></a> -->
                                     </div>
 
                                     <div class="swp-item">
