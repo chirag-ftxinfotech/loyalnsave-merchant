@@ -367,7 +367,11 @@
   .menu-item .icon-box:hover .icon, 
   .menu-item .icon-box:hover .title, 
   .menu-item .icon-box:hover .sub-text,
-  .menu-item .icon-box:hover .icon svg {    
+  .menu-item .icon-box:hover .icon svg,
+  .menu-item .icon-box.active .icon, 
+  .menu-item .icon-box.active .title, 
+  .menu-item .icon-box.active .sub-text,
+  .menu-item .icon-box.active .icon svg {
     color: $primary;
     fill: currentColor;
   }

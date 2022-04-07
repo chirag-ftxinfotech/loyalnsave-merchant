@@ -37,12 +37,12 @@
             <nav id="menu">  
                 <div class="menu-item menu-about-us highlight">
                     <div class="menu-text">
-                        <a href="#">About Us</a>
+                        <a href="#" class="active">About Us</a>
                         <span class="menu-click"></span>
                     </div>
                     <div class="sub-menu">
                         <div class="sub-menu-links">
-                            <div class="icon-box gb a">
+                            <div class="icon-box gb a active">
                                 <div class="icon"><svg class="svg nav-logo" aria-hidden="true" role="img"><use href="#nav-logo" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#nav-logo"></use></svg></div>
                                 <div class="text">
                                     <div class="title">Why Loyal~n~Save?</div>
