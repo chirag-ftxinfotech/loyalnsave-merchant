@@ -291,15 +291,15 @@
       &:before {
         content: '';
         position: absolute;
-        left: 22px;
-        top: 8px;
+        left: 15px;
+        top: 15px;
         font-size: 20px;
         font-weight: 600;
         background: url(../../../assets/img/new/logo-black.svg) left center no-repeat;
         display: block;
         background-size: cover;
-        width: 150px;
-        height: 57px;
+        width: 120px;
+        height: 45px;
       }
     }
 
@@ -344,6 +344,7 @@
           }
         }
       }
+
       &:nth-child(1) {
         border-top: 1px solid #e7e7e7;
       }
@@ -433,7 +434,7 @@
         a {
           color: #000;
         }
-      }
+      }      
 
       /* Menu Bottom Links Section */
       .sub-menu-bottom {
@@ -474,6 +475,14 @@
         -webkit-border-radius: 5px;
         border-radius: 5px;
       }
+    }
+
+    .menu-item .icon-box.active .icon, 
+    .menu-item .icon-box.active .title, 
+    .menu-item .icon-box.active .sub-text,
+    .menu-item .icon-box.active .icon svg {
+      color: $primary;
+      fill: currentColor;
     }
   }
 

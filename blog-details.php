@@ -127,7 +127,7 @@
                         </div>
                         <div class="blog-info">
                             <div class="blog-author-date">
-                                <div class="author">Posted on March 13, 2022</div>
+                                <div class="date">Posted on <br class="d-lg-none">March 13, 2022</div>
                             </div>
                             <div class="blog-social">
                                 <span>Share on:</span>
